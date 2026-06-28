@@ -1,0 +1,229 @@
+{
+  "title": "سير العمل",
+  "subtitle": "إنشاء ونشر تعريفات سير العمل لمستأجرك",
+  "newWorkflow": "سير عمل جديد",
+  "searchPlaceholder": "البحث في سير العمل…",
+  "list": {
+    "heading": "سير العمل الخاص بك",
+    "summary": "{{total}} الإجمالي · {{published}} منشور · {{draft}} مسودة",
+    "filterStatus": "الحالة",
+    "filterStatusAll": "الكل",
+    "search": "بحث…",
+    "activeRuns": "{{count}} تشغيلات نشطة",
+    "edit": "تحرير",
+    "continue": "متابعة",
+    "noMatches": "لا توجد سير عمل تطابق بحثك."
+  },
+  "table": {
+    "name": "الاسم",
+    "status": "الحالة",
+    "version": "الإصدار",
+    "lastModified": "آخر تعديل",
+    "activeRuns": "التشغيلات النشطة",
+    "actions": "الإجراءات"
+  },
+  "status": {
+    "draft": "مسودة",
+    "published": "منشور",
+    "archived": "مؤرشف"
+  },
+  "actions": {
+    "duplicate": "تكرار",
+    "archive": "أرشفة"
+  },
+  "empty": "لا توجد سير عمل. أنشئ واحدًا للبدء.",
+  "modal": {
+    "newTitle": "سير عمل جديد",
+    "namePlaceholder": "اسم سير العمل",
+    "nameLabel": "الاسم",
+    "create": "إنشاء",
+    "cancel": "إلغاء"
+  },
+  "version": {
+    "none": "—",
+    "label": "الإصدار {{number}}"
+  },
+  "loading": "جارٍ تحميل سير العمل…",
+  "error": "فشل تحميل سير العمل.",
+  "ai": {
+    "open": "مساعد الذكاء الاصطناعي",
+    "title": "مساعد سير العمل بالذكاء الاصطناعي",
+    "close": "إغلاق مساعد الذكاء الاصطناعي",
+    "intro": "صِف العملية التي تريد تصميمها — وسأرسم مخططًا على اللوحة لتراجعه.",
+    "describeLabel": "صِف سير عملك",
+    "describePlaceholder": "مثال: يقدّم موظف مبتدئ مستندًا، ويشرف عليه موظف أقدم، ثم يوقّعه المدير التقني، ثم يُوجَّه إلى العميل.",
+    "generate": "إنشاء مسودة",
+    "suggestionReady": "المسودة جاهزة",
+    "canvasLabel": "مُنشأ بالذكاء الاصطناعي · مسودة غير محفوظة",
+    "todosHeading": "راجِع قبل النشر",
+    "outstanding": "ما زالت هناك {{count}} مشكلة تحقّق تحتاج إلى مراجعة.",
+    "accept": "قبول",
+    "modify": "تعديل",
+    "discard": "تجاهل",
+    "modifyLabel": "ما الذي يجب تغييره؟",
+    "modifyPlaceholder": "مثال: أضِف موافقة مدير قبل الإشعار.",
+    "modifyRun": "تطبيق التغييرات",
+    "reviewCaution": "راجِع دائمًا مسودات الذكاء الاصطناعي قبل النشر.",
+    "explain": "اشرح سير العمل هذا",
+    "explanationHeading": "شرح بلغة بسيطة",
+    "dismissExplanation": "إخفاء الشرح",
+    "error": {
+      "generic": "تعذّر على المساعد إكمال هذا الطلب. يرجى المحاولة مرة أخرى.",
+      "notEntitled": "ميزات الذكاء الاصطناعي غير مُضمّنة في خطتك الحالية.",
+      "notConfigured": "لم يتم إعداد مزوّد ذكاء اصطناعي لمساحة العمل هذه بعد. أعدّ واحدًا من الإعدادات ← الذكاء الاصطناعي.",
+      "forbidden": "ليست لديك صلاحية لاستخدام مساعد الذكاء الاصطناعي."
+    }
+  },
+  "modeler": {
+    "loading": "جارٍ تحميل المصمّم…",
+    "loadError": "فشل تحميل مصمّم سير العمل.",
+    "save": "حفظ",
+    "saving": "جارٍ الحفظ…",
+    "saved": "تم الحفظ",
+    "saveError": "فشل الحفظ",
+    "saveStale": "تم تغيير المسودة في مكان آخر",
+    "zoomIn": "تكبير",
+    "zoomOut": "تصغير",
+    "zoomReset": "ملاءمة العرض",
+    "incompatibleWiring": "اتصال غير متوافق: {{reason}}",
+    "edit": "تحرير",
+    "revision": {
+      "badge": "الإصدار {{number}}",
+      "draft": "مسودة"
+    },
+    "publish": {
+      "button": "نشر",
+      "dialogTitle": "نشر سير العمل هذا؟",
+      "dialogBody": "يتحقّق النشر من المخطّط الحالي وينشره كإصدار غير قابل للتغيير. لا يمكن تعديل النسخة المنشورة لاحقًا — اختر «تحرير» لاحقًا لبدء الإصدار التالي.",
+      "confirm": "نشر",
+      "cancel": "إلغاء",
+      "publishing": "جارٍ النشر…",
+      "error": "فشل النشر — صحّح أخطاء التحقّق ثم أعد المحاولة."
+    },
+    "palette": {
+      "title": "الكتل",
+      "search": "البحث عن الكتل…",
+      "noResults": "لا توجد كتل مطابقة لبحثك.",
+      "subflowsEmpty": "لا توجد سير فرعية بعد",
+      "groups": {
+        "human": "بشري",
+        "gate": "بوابة",
+        "document": "مستند",
+        "subflows": "سير فرعية",
+        "control": "تحكم",
+        "other": "أخرى"
+      },
+      "control": {
+        "branch": "تفرّع",
+        "parallel": "متوازٍ",
+        "join": "دمج",
+        "wait": "انتظار (مؤقّت)",
+        "terminate": "إنهاء"
+      },
+      "certification": {
+        "certified": "معتمد",
+        "tenant": "مستأجر",
+        "community": "مجتمع"
+      }
+    },
+    "properties": {
+      "title": "الخصائص",
+      "tab": "الخصائص",
+      "runsTab": "التشغيلات",
+      "runsPlaceholder": "يظهر سجل التشغيل هنا بعد نشر هذا التعريف (E1.2).",
+      "empty": "اختر عنصرًا لتحرير خصائصه.",
+      "name": "الاسم",
+      "configuration": "الإعدادات",
+      "noConfig": "لا توجد إعدادات لهذه الكتلة.",
+      "selectPlaceholder": "اختر…",
+      "condition": "الشرط (FEEL)",
+      "mappings": "التعيينات (FEEL)",
+      "mappingDirection": "الاتجاه",
+      "mappingIn": "إدخال",
+      "mappingOut": "إخراج",
+      "mappingTarget": "المتغيّر",
+      "mappingSource": "تعبير FEEL",
+      "mappingRemove": "إزالة التعيين",
+      "mappingAdd": "إضافة تعيين",
+      "validation": {
+        "required": "هذا الحقل مطلوب.",
+        "invalidNumber": "يجب أن يكون رقمًا.",
+        "invalidFeel": "تعبير FEEL غير صالح.",
+        "invalidOption": "اختر إحدى القيم المسموح بها."
+      },
+      "checkpoint": {
+        "heading": "نقطة تحقق بالذكاء الاصطناعي",
+        "hint": "يتحقق الذكاء الاصطناعي من العمل وفق معاييرك، ثم توجّه البوابة الحكم.",
+        "criteria": {
+          "label": "المعايير",
+          "hint": "ما الذي يجب أن يتحقق منه الذكاء الاصطناعي قبل متابعة العمل.",
+          "idLabel": "المعرّف",
+          "idPlaceholder": "معرّف-المعيار",
+          "descriptionLabel": "الوصف",
+          "descriptionPlaceholder": "مثال: وجود مربع العنوان",
+          "add": "إضافة معيار",
+          "remove": "إزالة المعيار",
+          "required": "أضف معيارًا واحدًا على الأقل بمعرّف ووصف."
+        },
+        "minConfidence": {
+          "label": "الحد الأدنى للثقة",
+          "hint": "تحت هذا الحد، يُرسَل الحكم إلى إنسان (0–1).",
+          "invalid": "أدخل رقمًا بين 0 و1."
+        },
+        "autonomy": {
+          "label": "الاستقلالية",
+          "hint": "كيفية توجيه النجاح عالي الثقة. الإصدار الأول يُمرِّر تلقائيًا؛ وكل ما عداه يذهب إلى إنسان.",
+          "comingSoon": "بعد الإصدار الأول",
+          "modes": {
+            "advisory": "استشاري",
+            "auto_forward": "تمرير تلقائي",
+            "auto_return": "إرجاع تلقائي",
+            "autonomous": "مستقل"
+          }
+        },
+        "content": {
+          "label": "المحتوى المراد تقييمه",
+          "hint": "اختياري — عادةً ما يُربط من خطوة سابقة."
+        },
+        "instructions": {
+          "label": "تعليمات إضافية",
+          "hint": "إرشادات اختيارية تُضاف إلى موجّه نقطة التحقق."
+        }
+      }
+    },
+    "validation": {
+      "title": "التحقّق",
+      "validate": "تحقّق",
+      "validating": "جارٍ التحقّق…",
+      "clean": "لا توجد مشاكل.",
+      "runHint": "شغّل التحقّق لفحص هذا المخطّط قبل النشر.",
+      "summary": "{{errors}} خطأ، {{warnings}} تحذير",
+      "locate": "انتقل إلى العنصر",
+      "severity": {
+        "error": "خطأ",
+        "warning": "تحذير"
+      },
+      "class": {
+        "unreachable": "عنصر غير قابل للوصول",
+        "disconnected-port": "منفذ إدخال مطلوب غير موصول",
+        "missing-config": "إعداد مطلوب مفقود",
+        "version-incompatible": "إصدار الكتلة غير متوافق",
+        "invalid-feel": "تعبير FEEL غير صالح",
+        "invalid-assignee": "مُكلَّف غير صالح",
+        "uncontrolled-loop": "حلقة غير منضبطة",
+        "block-binding": "ربط الكتلة مفقود",
+        "engine": "خطأ في تحقّق المحرّك",
+        "policy": "السياسة غير قابلة للتحقّق",
+        "subflow-binding": "ربط السير الفرعي مفقود",
+        "subflow-unresolved": "إصدار سير فرعي غير محلول",
+        "subflow-unmapped-input": "منفذ إدخال سير فرعي غير معيَّن",
+        "subflow-unknown-port": "منفذ سير فرعي غير معروف",
+        "subflow-port-type": "عدم تطابق نوع منفذ السير الفرعي",
+        "subflow-floating-revision": "إصدار سير فرعي عائم",
+        "subflow-interface-unsatisfied": "منفذ الواجهة غير محقّق في الجسم",
+        "subflow-interface-type": "عدم تطابق نوع منفذ الواجهة",
+        "other": "مشكلة في التحقّق"
+      }
+    }
+  }
+}

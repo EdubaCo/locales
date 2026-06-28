@@ -1,0 +1,85 @@
+{
+  "error": "فشل تحميل هذا التشغيل.",
+  "unknownWorkflow": "سير عمل غير معروف",
+  "runStatus": {
+    "running": "قيد التشغيل",
+    "completed": "مكتمل",
+    "failed": "فشل",
+    "cancelled": "ملغى",
+    "suspended": "معلّق"
+  },
+  "terminal": {
+    "completed": "اكتمل هذا التشغيل بنجاح.",
+    "failed": "فشل هذا التشغيل.",
+    "cancelled": "تم إلغاء هذا التشغيل."
+  },
+  "standardsFlag": {
+    "banner": "يتوفّر إصدار أحدث لمعيار يشير إليه هذا التشغيل — يُرجى مراجعته. الأحدث:"
+  },
+  "header": {
+    "started": "بدأ {{when}}",
+    "duration": "المدة {{duration}}",
+    "steps": "{{completed}}/{{total}} خطوة"
+  },
+  "nodes": {
+    "title": "العقد",
+    "empty": "لا يوجد نشاط للعقد بعد."
+  },
+  "nodeStatus": {
+    "completed": "مكتملة",
+    "waiting": "بانتظار",
+    "failed": "فشلت",
+    "skipped": "متجاوزة",
+    "running": "قيد التنفيذ"
+  },
+  "drilldown": {
+    "title": "العقدة {{nodeId}}",
+    "clear": "مسح التحديد",
+    "input": "المدخلات",
+    "output": "المخرجات",
+    "error": "الخطأ",
+    "none": "لا توجد بيانات مسجلة."
+  },
+  "timeline": {
+    "title": "الخط الزمني",
+    "filteredTo": "العقدة: {{nodeId}}",
+    "empty": "لا توجد أحداث بعد.",
+    "emptyFiltered": "لا توجد أحداث للعقدة المحددة.",
+    "noPayload": "لا يحمل هذا الحدث أي حمولة.",
+    "loadMore": "تحميل المزيد"
+  },
+  "context": {
+    "title": "السياق",
+    "label": "{{kind}}: {{ref}}",
+    "none": "لا يوجد سياق أعمال.",
+    "documents": "المستندات المرتبطة",
+    "noDocuments": "لا توجد مستندات مرتبطة بهذا التشغيل."
+  },
+  "action": {
+    "title": "إجراؤك",
+    "submit": "إرسال",
+    "submitting": "جارٍ الإرسال…",
+    "conflict": "تم التصرف في هذه المهمة بالفعل — حدّث الصفحة لرؤية أحدث حالة.",
+    "rejected": "تم رفض القيم المرسلة — تحقق من الحقول وحاول مجددًا.",
+    "failed": "فشل إرسال إجرائك. حاول مرة أخرى.",
+    "jsonPlaceholder": "قيمة JSON",
+    "fields": {
+      "outcome": "القرار",
+      "comment": "تعليق"
+    },
+    "options": {
+      "approve": "موافقة",
+      "reject": "رفض"
+    },
+    "errors": {
+      "required": "هذا الحقل مطلوب.",
+      "invalidNumber": "أدخل رقمًا صالحًا.",
+      "invalidJson": "أدخل JSON صالحًا."
+    }
+  },
+  "designerTab": {
+    "intro": "افتح تشغيلًا لسير العمل هذا في مفتش التشغيل لرؤية خطه الزمني وحالة العقد والتفاصيل.",
+    "runIdLabel": "معرّف التشغيل",
+    "open": "فتح المفتش"
+  }
+}

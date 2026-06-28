@@ -1,0 +1,82 @@
+{
+  "title": "Articles",
+  "subtitle": "Author and publish your organization's own knowledge base for your members.",
+  "newButton": "New article",
+  "error": "Couldn't load articles. Please try again.",
+  "empty": "No articles yet.",
+  "selectPrompt": "Select an article to view it.",
+  "filter": {
+    "all": "All",
+    "published": "Published",
+    "draft": "Drafts"
+  },
+  "status": {
+    "draft": "Draft",
+    "published": "Published"
+  },
+  "locale": {
+    "en": "English",
+    "ar": "Arabic",
+    "fa": "Persian"
+  },
+  "visibility": {
+    "all": "All members",
+    "scoped": "Specific roles & groups"
+  },
+  "detail": {
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "edit": "Edit",
+    "delete": "Delete",
+    "noBody": "This article has no content yet.",
+    "updatedAt": "Last updated {{date}}"
+  },
+  "editor": {
+    "createTitle": "New article",
+    "editTitle": "Edit article",
+    "titleLabel": "Title",
+    "titlePlaceholder": "e.g. How we run a product launch",
+    "titleRequired": "A title is required.",
+    "slugLabel": "Slug",
+    "slugPlaceholder": "product-launch-guide",
+    "slugInvalid": "Use lower-case letters, numbers, and single dashes.",
+    "slugHint": "Lower-case letters, numbers, and dashes. Auto-filled from Latin titles — set it yourself for other languages.",
+    "bodyLabel": "Content (Markdown)",
+    "bodyPlaceholder": "Write your article in Markdown…",
+    "tabWrite": "Write",
+    "tabPreview": "Preview",
+    "previewEmpty": "Nothing to preview yet.",
+    "markdownHint": "Markdown is supported: headings, bold, lists, links, and code.",
+    "statusLabel": "Status",
+    "localeLabel": "Language",
+    "tagsLabel": "Tags",
+    "tagsPlaceholder": "Comma-separated",
+    "visibilityLabel": "Who can read this",
+    "scopeRoles": "Roles",
+    "scopeGroups": "Groups",
+    "scopeNone": "None available.",
+    "cancel": "Cancel",
+    "save": "Save",
+    "error": {
+      "slugExists": "An article with this slug already exists.",
+      "generic": "Couldn't save the article. Please try again."
+    }
+  },
+  "delete": {
+    "title": "Delete article",
+    "body": "Delete \"{{title}}\"? This can't be undone.",
+    "cancel": "Cancel",
+    "confirm": "Delete",
+    "error": {
+      "generic": "Couldn't delete the article. Please try again."
+    }
+  },
+  "toast": {
+    "created": "Created \"{{title}}\".",
+    "updated": "Saved \"{{title}}\".",
+    "published": "Published \"{{title}}\".",
+    "unpublished": "Moved \"{{title}}\" to draft.",
+    "deleted": "Deleted \"{{title}}\".",
+    "error": "Something went wrong. Please try again."
+  }
+}

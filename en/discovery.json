@@ -1,0 +1,75 @@
+{
+  "platformBadge": "platform",
+  "topbar": {
+    "status": "Status",
+    "docs": "Docs",
+    "language": "English"
+  },
+  "pitch": {
+    "badge": "Composable workflow ERP",
+    "title": "Find your workspace",
+    "body": "Each company has their own branded workspace at {{workspaceUrlPattern}}. Enter your company slug or work email and we'll route you there.",
+    "stats": {
+      "customers": "customers",
+      "workflows": "workflows live",
+      "uptime": "uptime, 90d"
+    },
+    "features": {
+      "designerTitle": "Visual designer",
+      "designerBody": "Wire reusable process blocks into a graph, no code.",
+      "isolatedTitle": "Tenant-isolated",
+      "isolatedBody": "Your data, your roles, your policy rules — never shared.",
+      "workTitle": "Task & ProductRun",
+      "workBody": "Bind work to a workflow at creation, track every step.",
+      "aiTitle": "AI-assisted",
+      "aiBody": "Generate workflow drafts from a process description."
+    }
+  },
+  "form": {
+    "heading": "Continue to your workspace",
+    "subheading": "We'll route you to your tenant's sign-in page.",
+    "headingMobile": "Find your workspace",
+    "subheadingMobile": "Enter your slug or work email to continue.",
+    "inputLabel": "Company slug or work email",
+    "inputPlaceholder": "acme   or   you@acme.eng",
+    "continue": "Continue",
+    "resolving": "Resolving…",
+    "continueTo": "Continue to {{name}}",
+    "or": "OR"
+  },
+  "error": {
+    "unknown": "We couldn't find a workspace for that slug or email domain.",
+    "tryAnother": "Try a different slug, or ",
+    "generic": "Something went wrong while looking up your workspace. Please try again."
+  },
+  "recent": {
+    "title": "Recent on this device",
+    "remove": "Remove {{name}} from recent workspaces"
+  },
+  "selfHosted": {
+    "cta": "Use a self-hosted instance",
+    "sectionTitle": "Self-hosted instances",
+    "open": "Open {{url}}",
+    "remove": "Remove {{url}}",
+    "modalTitle": "Self-hosted instance",
+    "modalBody": "Running Eduba on your own domain? Enter your instance's URL and we'll take you there.",
+    "inputLabel": "Instance URL",
+    "inputPlaceholder": "https://erp.acme.internal",
+    "invalid": "Enter a valid URL, for example https://erp.acme.internal",
+    "submit": "Continue",
+    "cancel": "Cancel",
+    "savedTitle": "Saved instances"
+  },
+  "requestAccess": {
+    "prompt": "Don't have an account?",
+    "link": "Request access"
+  },
+  "footer": {
+    "copyright": "© {{year}} Eduba Platform",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "status": "Status",
+    "contactSales": "Contact sales"
+  },
+  "pageLabel": "Tenant discovery"
+}

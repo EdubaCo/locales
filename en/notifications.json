@@ -1,0 +1,45 @@
+{
+  "bell": {
+    "label": "Notifications",
+    "ariaUnread": "{{count}} unread",
+    "markAllRead": "Mark all as read",
+    "markRead": "Mark as read",
+    "empty": "You're all caught up",
+    "loading": "Loading…",
+    "error": "Couldn't load notifications",
+    "settings": "Notification settings",
+    "unread": "Unread",
+    "viewAll": "View all notifications"
+  },
+  "feed": {
+    "title": "Notifications",
+    "subtitle": "Updates from your runs, tasks, and reviews.",
+    "filterAll": "All",
+    "filterUnread": "Unread ({{count}})",
+    "emptyUnread": "No unread notifications",
+    "emptySub": "You'll see updates here as they arrive."
+  },
+  "types": {
+    "token_assigned": "Task assigned",
+    "token_slaWarning": "Task due soon",
+    "check_requested": "Review requested",
+    "run_failed": "Workflow failed",
+    "run_completed": "Workflow completed",
+    "standards_newVersionDetected": "Standard new version"
+  },
+  "prefs": {
+    "title": "Notification preferences",
+    "description": "Choose how you're notified for each kind of event.",
+    "columnType": "Event",
+    "columnChannel": "Delivery",
+    "saved": "Saved",
+    "saveError": "Couldn't save preference",
+    "loading": "Loading preferences…",
+    "error": "Couldn't load preferences"
+  },
+  "channels": {
+    "in_app_only": "In-app only",
+    "also_email": "In-app and email",
+    "muted": "Muted"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "title": "روش‌ها و استانداردها",
+  "subtitle": "روش‌های اجرایی کنترل‌شده و استانداردهای پذیرفته‌شده. نسخهٔ پذیرفته‌شده در برابر آخرین نسخهٔ منتشرشده پایش می‌شود.",
+  "error": "بارگذاری کتابخانه ناموفق بود.",
+  "empty": "هیچ روش یا استانداردی با این نما مطابقت ندارد.",
+  "stats": {
+    "controlled": "اسناد کنترل‌شده",
+    "controlledSub": "در همهٔ انواع",
+    "outdated": "منسوخ",
+    "outdatedSub": "نسخهٔ جدیدتری در دسترس است",
+    "procedures": "روش‌ها",
+    "proceduresSub": "داخلی",
+    "standards": "استانداردها",
+    "standardsSub": "شرکتی / بیرونی"
+  },
+  "filters": {
+    "heading": "فیلترها",
+    "documentType": "نوع",
+    "allTypes": "همهٔ انواع",
+    "standardCode": "کد یا عنوان استاندارد",
+    "standardCodePlaceholder": "مثال: ISO 9001",
+    "searchPlaceholder": "جست‌وجو بر اساس کد یا عنوان…",
+    "count": "{{count}} سند",
+    "clear": "پاک کردن فیلترها"
+  },
+  "documentType": {
+    "procedure": "روش اجرایی",
+    "national_standard": "استاندارد ملی",
+    "international_standard": "استاندارد بین‌المللی"
+  },
+  "table": {
+    "title": "عنوان",
+    "type": "نوع",
+    "code": "کد",
+    "adopted": "پذیرفته‌شده",
+    "latest": "آخرین",
+    "actions": "تاریخچهٔ نسخه‌ها"
+  },
+  "restricted": "محدودشده",
+  "restrictedHint": "دسترسی خواندن به این مورد به یک نقش یا گروه محدود شده است.",
+  "noCode": "—",
+  "version": {
+    "current": "پذیرفته‌شده: {{version}}",
+    "none": "هیچ نسخه‌ای پذیرفته نشده",
+    "latest": "آخرین نسخهٔ شناخته‌شده: {{version}}",
+    "upToDate": "به‌روز",
+    "outdated": "به‌روزرسانی در دسترس است",
+    "update": "به‌روزرسانی",
+    "outdatedHint": "نسخهٔ جدیدتری ({{version}}) از نسخهٔ پذیرفته‌شده ({{current}}) شناخته شده است."
+  },
+  "actions": {
+    "history": "تاریخچه"
+  },
+  "pagination": {
+    "prev": "قبلی",
+    "next": "بعدی",
+    "page": "صفحهٔ {{page}}"
+  }
+}

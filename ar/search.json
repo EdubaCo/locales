@@ -1,0 +1,32 @@
+{
+  "open": "بحث",
+  "openHint": "اضغط {{shortcut}} للبحث",
+  "shortcut": "Ctrl K",
+  "placeholder": "ابحث في المهام والمستندات والتعريفات…",
+  "dialogLabel": "البحث الشامل",
+  "close": "إغلاق البحث",
+  "clear": "مسح البحث",
+  "loading": "جارٍ البحث…",
+  "error": "تعذّر البحث. حاول مرة أخرى.",
+  "empty": {
+    "noResults": "لا توجد نتائج لـ \"{{query}}\"",
+    "recentTitle": "عمليات البحث الأخيرة",
+    "recentEmpty": "ابدأ بالكتابة للبحث في المهام والمستندات وتعريفات سير العمل.",
+    "clearRecent": "مسح عمليات البحث الأخيرة"
+  },
+  "results": {
+    "label": "نتائج البحث",
+    "countOne": "نتيجة واحدة",
+    "countOther": "{{count}} نتيجة"
+  },
+  "groups": {
+    "task": "المهام",
+    "document": "المستندات",
+    "workflowDefinition": "تعريفات سير العمل"
+  },
+  "hint": {
+    "navigate": "تنقّل",
+    "select": "فتح",
+    "dismiss": "إغلاق"
+  }
+}

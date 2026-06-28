@@ -1,0 +1,59 @@
+{
+  "title": "Procedures & standards",
+  "subtitle": "Controlled procedures and adopted standards. The adopted version is tracked against the latest published revision.",
+  "error": "Failed to load the library.",
+  "empty": "No procedures or standards match this view.",
+  "stats": {
+    "controlled": "Controlled documents",
+    "controlledSub": "across all types",
+    "outdated": "Out of date",
+    "outdatedSub": "newer revision available",
+    "procedures": "Procedures",
+    "proceduresSub": "internal",
+    "standards": "Standards",
+    "standardsSub": "company / external"
+  },
+  "filters": {
+    "heading": "Filters",
+    "documentType": "Type",
+    "allTypes": "All types",
+    "standardCode": "Standard code or title",
+    "standardCodePlaceholder": "e.g. ISO 9001",
+    "searchPlaceholder": "Search by code or title…",
+    "count": "{{count}} documents",
+    "clear": "Clear filters"
+  },
+  "documentType": {
+    "procedure": "Procedure",
+    "national_standard": "National standard",
+    "international_standard": "International standard"
+  },
+  "table": {
+    "title": "Title",
+    "type": "Type",
+    "code": "Code",
+    "adopted": "Adopted",
+    "latest": "Latest",
+    "actions": "Revision history"
+  },
+  "restricted": "Restricted",
+  "restrictedHint": "Read access to this entry is narrowed to a role or group.",
+  "noCode": "—",
+  "version": {
+    "current": "Adopted: {{version}}",
+    "none": "None adopted",
+    "latest": "Latest known: {{version}}",
+    "upToDate": "Up to date",
+    "outdated": "Update available",
+    "update": "Update",
+    "outdatedHint": "A newer version ({{version}}) is known than the one adopted ({{current}})."
+  },
+  "actions": {
+    "history": "History"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {{page}}"
+  }
+}

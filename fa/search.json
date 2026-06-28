@@ -1,0 +1,32 @@
+{
+  "open": "جست‌وجو",
+  "openHint": "برای جست‌وجو {{shortcut}} را فشار دهید",
+  "shortcut": "Ctrl K",
+  "placeholder": "جست‌وجوی وظایف، اسناد، تعریف‌ها…",
+  "dialogLabel": "جست‌وجوی سراسری",
+  "close": "بستن جست‌وجو",
+  "clear": "پاک کردن جست‌وجو",
+  "loading": "در حال جست‌وجو…",
+  "error": "جست‌وجو ناموفق بود. دوباره تلاش کنید.",
+  "empty": {
+    "noResults": "نتیجه‌ای برای «{{query}}» یافت نشد",
+    "recentTitle": "جست‌وجوهای اخیر",
+    "recentEmpty": "برای جست‌وجو در وظایف، اسناد و تعریف‌های گردش‌کار شروع به تایپ کنید.",
+    "clearRecent": "پاک کردن جست‌وجوهای اخیر"
+  },
+  "results": {
+    "label": "نتایج جست‌وجو",
+    "countOne": "{{count}} نتیجه",
+    "countOther": "{{count}} نتیجه"
+  },
+  "groups": {
+    "task": "وظایف",
+    "document": "اسناد",
+    "workflowDefinition": "تعریف‌های گردش‌کار"
+  },
+  "hint": {
+    "navigate": "پیمایش",
+    "select": "باز کردن",
+    "dismiss": "بستن"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "title": "المقالات",
+  "subtitle": "أنشئ وانشر قاعدة معرفة مؤسستك الخاصة لأعضائك.",
+  "newButton": "مقالة جديدة",
+  "error": "تعذّر تحميل المقالات. يُرجى المحاولة مرة أخرى.",
+  "empty": "لا توجد مقالات بعد.",
+  "selectPrompt": "اختر مقالة لعرضها.",
+  "filter": {
+    "all": "الكل",
+    "published": "منشورة",
+    "draft": "مسودات"
+  },
+  "status": {
+    "draft": "مسودة",
+    "published": "منشورة"
+  },
+  "locale": {
+    "en": "الإنجليزية",
+    "ar": "العربية",
+    "fa": "الفارسية"
+  },
+  "visibility": {
+    "all": "جميع الأعضاء",
+    "scoped": "أدوار ومجموعات محددة"
+  },
+  "detail": {
+    "publish": "نشر",
+    "unpublish": "إلغاء النشر",
+    "edit": "تحرير",
+    "delete": "حذف",
+    "noBody": "لا يحتوي هذا المقال على محتوى بعد.",
+    "updatedAt": "آخر تحديث {{date}}"
+  },
+  "editor": {
+    "createTitle": "مقالة جديدة",
+    "editTitle": "تحرير المقالة",
+    "titleLabel": "العنوان",
+    "titlePlaceholder": "مثال: كيف ندير إطلاق منتج",
+    "titleRequired": "العنوان مطلوب.",
+    "slugLabel": "المُعرّف",
+    "slugPlaceholder": "product-launch-guide",
+    "slugInvalid": "استخدم أحرفًا صغيرة وأرقامًا وشرطات مفردة.",
+    "slugHint": "أحرف لاتينية صغيرة وأرقام وشرطات. يُولَّد تلقائيًا من العناوين اللاتينية — أدخله يدويًا للغات الأخرى.",
+    "bodyLabel": "المحتوى (Markdown)",
+    "bodyPlaceholder": "اكتب مقالتك بصيغة Markdown…",
+    "tabWrite": "كتابة",
+    "tabPreview": "معاينة",
+    "previewEmpty": "لا شيء للمعاينة بعد.",
+    "markdownHint": "تنسيق Markdown مدعوم: العناوين والخط العريض والقوائم والروابط والشيفرة.",
+    "statusLabel": "الحالة",
+    "localeLabel": "اللغة",
+    "tagsLabel": "الوسوم",
+    "tagsPlaceholder": "مفصولة بفواصل",
+    "visibilityLabel": "من يمكنه قراءة هذا",
+    "scopeRoles": "الأدوار",
+    "scopeGroups": "المجموعات",
+    "scopeNone": "لا يوجد متاح.",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "error": {
+      "slugExists": "توجد مقالة بهذا المُعرّف بالفعل.",
+      "generic": "تعذّر حفظ المقالة. يُرجى المحاولة مرة أخرى."
+    }
+  },
+  "delete": {
+    "title": "حذف المقالة",
+    "body": "حذف \"{{title}}\"؟ لا يمكن التراجع عن هذا الإجراء.",
+    "cancel": "إلغاء",
+    "confirm": "حذف",
+    "error": {
+      "generic": "تعذّر حذف المقالة. يُرجى المحاولة مرة أخرى."
+    }
+  },
+  "toast": {
+    "created": "تم إنشاء \"{{title}}\".",
+    "updated": "تم حفظ \"{{title}}\".",
+    "published": "تم نشر \"{{title}}\".",
+    "unpublished": "تم نقل \"{{title}}\" إلى المسودات.",
+    "deleted": "تم حذف \"{{title}}\".",
+    "error": "حدث خطأ ما. يُرجى المحاولة مرة أخرى."
+  }
+}

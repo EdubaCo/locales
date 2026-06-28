@@ -1,0 +1,66 @@
+{
+  "appName": "Eduba",
+  "appTagline": "Self-hosted modular ERP + workflow platform for manufacturing SMEs and EPC contractors.",
+  "phase": "Phase 0 — Skeleton",
+  "nav": {
+    "menu": "Open menu",
+    "myWork": "My Work",
+    "projects": "Projects",
+    "workflows": "Workflows",
+    "subflows": "Subflows",
+    "documents": "Documents",
+    "library": "Library",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "inboundEmail": "Parked inbound email",
+    "toggleTheme": "Toggle dark mode",
+    "build": "Build",
+    "content": "Content",
+    "admin": "Admin",
+    "pinnedProjects": "Pinned projects",
+    "noPinnedProjects": "No pinned projects yet",
+    "collapseGroup": "Collapse {{group}}",
+    "expandGroup": "Expand {{group}}"
+  },
+  "breadcrumbs": {
+    "label": "Breadcrumb",
+    "run": "Run",
+    "editor": "Editor",
+    "preferences": "Preferences",
+    "display": "Display",
+    "language": "Language & region"
+  },
+  "topbar": {
+    "home": "Home",
+    "workspaceSwitcher": "Switch workspace",
+    "workspaceCurrent": "Current workspace",
+    "help": "Help",
+    "userMenu": "Account menu",
+    "profile": "Profile",
+    "preferences": "Preferences",
+    "platformAdmin": "Platform admin",
+    "signOut": "Sign out"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. The issue has been reported. Try reloading the page.",
+    "reload": "Reload"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next"
+  },
+  "status": {
+    "loading": "Loading…",
+    "error": "An error occurred",
+    "empty": "No items found",
+    "success": "Success"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "appName": "Eduba",
+  "appTagline": "منصة ERP وسير العمل المستضافة ذاتياً للشركات الصناعية الصغيرة والمتوسطة ومقاولي EPC.",
+  "phase": "المرحلة 0 — الهيكل العظمي",
+  "nav": {
+    "menu": "فتح القائمة",
+    "myWork": "مهامي",
+    "projects": "المشاريع",
+    "workflows": "مسارات العمل",
+    "subflows": "المسارات الفرعية",
+    "documents": "المستندات",
+    "library": "المكتبة",
+    "settings": "الإعدادات",
+    "notifications": "الإشعارات",
+    "inboundEmail": "البريد الوارد المُعلَّق",
+    "toggleTheme": "تبديل الوضع الداكن",
+    "build": "الإنشاء",
+    "content": "المحتوى",
+    "admin": "الإدارة",
+    "pinnedProjects": "المشاريع المثبتة",
+    "noPinnedProjects": "لا توجد مشاريع مثبتة بعد",
+    "collapseGroup": "طيّ {{group}}",
+    "expandGroup": "توسيع {{group}}"
+  },
+  "breadcrumbs": {
+    "label": "مسار التنقل",
+    "run": "تشغيل",
+    "editor": "المحرر",
+    "preferences": "التفضيلات",
+    "display": "العرض",
+    "language": "اللغة والمنطقة"
+  },
+  "topbar": {
+    "home": "الرئيسية",
+    "workspaceSwitcher": "تبديل مساحة العمل",
+    "workspaceCurrent": "مساحة العمل الحالية",
+    "help": "المساعدة",
+    "userMenu": "قائمة الحساب",
+    "profile": "الملف الشخصي",
+    "preferences": "التفضيلات",
+    "platformAdmin": "إدارة المنصة",
+    "signOut": "تسجيل الخروج"
+  },
+  "errorBoundary": {
+    "title": "حدث خطأ ما",
+    "description": "حدث خطأ غير متوقع. تم الإبلاغ عن المشكلة. حاول إعادة تحميل الصفحة.",
+    "reload": "إعادة التحميل"
+  },
+  "actions": {
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "create": "إنشاء",
+    "submit": "إرسال",
+    "back": "رجوع",
+    "next": "التالي"
+  },
+  "status": {
+    "loading": "جارٍ التحميل…",
+    "error": "حدث خطأ",
+    "empty": "لا توجد عناصر",
+    "success": "تمّ بنجاح"
+  }
+}

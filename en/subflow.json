@@ -1,0 +1,171 @@
+{
+  "title": "Subflow library",
+  "subtitle": "Browse, create, and fork reusable subflows for your workflows.",
+  "loading": "Loading subflows…",
+  "error": "Failed to load the subflow library.",
+  "empty": "No subflows in this view yet.",
+  "searchPlaceholder": "Search subflows…",
+  "newSubflow": "New subflow",
+  "tabs": {
+    "certified": "Certified",
+    "tenant": "Tenant library",
+    "imported": "Imported"
+  },
+  "tabHint": {
+    "certified": "Vendor-signed subflows. Read-only — fork one to make a tenant-owned copy.",
+    "tenant": "Subflows your tenant owns and may edit, publish, and deprecate.",
+    "imported": "Forked or imported subflows not yet published into your tenant library."
+  },
+  "groupCaption": {
+    "certified": "Vendor-signed, read-only",
+    "tenant": "Owned by your tenant",
+    "imported": "Forked, not yet published"
+  },
+  "detail": {
+    "empty": "Select a subflow to see its details.",
+    "lastModified": "Last modified {{when}}",
+    "interfaceHint": "Public input and output ports the parent workflow connects to.",
+    "portsHint": "Ports are declared in the subflow editor.",
+    "lifecycle": "Lifecycle"
+  },
+  "ownership": {
+    "certified": "Certified",
+    "tenant": "Tenant"
+  },
+  "status": {
+    "draft": "Draft",
+    "published": "Published",
+    "archived": "Deprecated"
+  },
+  "table": {
+    "name": "Name",
+    "ownership": "Ownership",
+    "status": "Status",
+    "revision": "Revision",
+    "actions": "Actions"
+  },
+  "revision": {
+    "label": "rev {{number}}",
+    "none": "—"
+  },
+  "deprecatedHint": "Deprecated — hidden from the designer palette; kept here for history.",
+  "actions": {
+    "browse": "Browse",
+    "create": "New subflow",
+    "edit": "Edit draft",
+    "publish": "Publish",
+    "deprecate": "Deprecate",
+    "fork": "Fork to tenant"
+  },
+  "fork": {
+    "title": "Fork to tenant library",
+    "body": "This creates a tenant-owned, editable copy of \"{{name}}\" with a new subflow id. The copy no longer receives upstream pack updates.",
+    "confirm": "Fork",
+    "cancel": "Cancel",
+    "forking": "Forking…",
+    "error": "Could not fork this subflow.",
+    "success": "Forked to your tenant library as a new draft."
+  },
+  "create": {
+    "title": "New subflow",
+    "nameLabel": "Display name",
+    "namePlaceholder": "e.g. Internal engineering review",
+    "create": "Create",
+    "cancel": "Cancel"
+  },
+  "editor": {
+    "loading": "Loading subflow…",
+    "loadError": "Failed to load this subflow.",
+    "back": "Back to library",
+    "readOnly": "Read-only",
+    "draftBadge": "Draft",
+    "publishedBadge": "Published rev {{number}}",
+    "edit": "Edit draft"
+  },
+  "interface": {
+    "title": "Interface",
+    "subtitle": "Declare the public input and output ports of this subflow.",
+    "inputs": "Input ports",
+    "outputs": "Output ports",
+    "addInput": "Add input",
+    "addOutput": "Add output",
+    "namePlaceholder": "port name",
+    "typePlaceholder": "type (e.g. EntityRef<Task>)",
+    "cardinality": {
+      "one": "One",
+      "many": "Many",
+      "optional": "Optional"
+    },
+    "remove": "Remove port",
+    "emptyInputs": "No input ports declared.",
+    "emptyOutputs": "No output ports declared.",
+    "duplicateName": "Port names must be unique.",
+    "missingName": "Every port needs a name and type.",
+    "wiring": {
+      "hint": "Wire each declared port to a body node port to satisfy the interface contract.",
+      "inputLabel": "Wire input \"{{name}}\" to a body node port",
+      "outputLabel": "Wire output \"{{name}}\" from a body node port",
+      "targetPlaceholder": "consumed by (e.g. node1.in)",
+      "sourcePlaceholder": "produced by (e.g. node1.out)"
+    }
+  },
+  "palette": {
+    "groupTitle": "Subflows",
+    "empty": "No published subflows yet.",
+    "place": "Place subflow"
+  },
+  "mapping": {
+    "title": "Subflow ports",
+    "subtitle": "Map this subflow's inputs to upstream outputs.",
+    "subflowLabel": "Subflow",
+    "revisionLabel": "Revision",
+    "inputLabel": "Input: {{name}}",
+    "sourcePlaceholder": "nodeId.outputPort",
+    "outputs": "Exposes outputs",
+    "noInputs": "This subflow declares no input ports.",
+    "noOutputs": "This subflow declares no output ports.",
+    "save": "Save mapping",
+    "cancel": "Cancel"
+  },
+  "bump": {
+    "action": "Bump subflow reference",
+    "title": "Bump subflow reference",
+    "subtitle": "Rewire \"{{element}}\" ({{subflowId}}) to a newer subflow revision. A new workflow draft is created; already-running instances keep their pinned revision.",
+    "targetLabel": "Bump to revision",
+    "preview": "Preview change",
+    "previewError": "Could not compute the interface diff for this revision.",
+    "applyError": "Could not apply the bump. A breaking change needs every surface port remapped.",
+    "noTarget": "No newer published revision is available to bump to.",
+    "breaking": "Breaking interface change — remap the surface ports before saving.",
+    "nonBreaking": "Non-breaking change — the reference re-pins automatically.",
+    "diffHeading": "Interface changes",
+    "noChanges": "The interface is unchanged between these revisions.",
+    "side": {
+      "input": "input",
+      "output": "output"
+    },
+    "change": {
+      "added": "Port \"{{port}}\" was added ({{to}}).",
+      "removed": "Port \"{{port}}\" was removed (was {{from}}).",
+      "type-changed": "Port \"{{port}}\" type changed from {{from}} to {{to}}.",
+      "cardinality-changed": "Port \"{{port}}\" cardinality changed from {{from}} to {{to}}."
+    },
+    "blastHeading": "Workflows referencing this revision",
+    "blastEmpty": "No other published workflows pin this subflow revision.",
+    "blastEntry": "{{name}} (revision {{revision}})",
+    "remapHeading": "Remap surface ports",
+    "remapHint": "Map each input port of the target revision to an upstream output reference.",
+    "remapPortLabel": "{{name}} ({{type}})",
+    "remapPlaceholder": "nodeId.outputPort",
+    "apply": "Apply bump",
+    "cancel": "Cancel",
+    "done": "Done",
+    "success": "Rewired to revision {{revision}} in a new draft. Publish the workflow to make it live."
+  },
+  "bumpPicker": {
+    "title": "Choose a subflow to bump",
+    "subtitle": "This workflow embeds more than one subflow with a newer revision available. Pick which node to bump.",
+    "optionMeta": "{{subflowId}} · rev {{from}} → {{to}}",
+    "cancel": "Cancel"
+  }
+}

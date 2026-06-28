@@ -1,0 +1,31 @@
+{
+  "title": "Parked inbound email",
+  "subtitle": "Messages the email connector could not route are held here for follow-up.",
+  "error": "Failed to load parked messages.",
+  "empty": "No parked messages — every inbound message has been routed.",
+  "unknownSender": "Unknown sender",
+  "noSubject": "(no subject)",
+  "reasonUnknown": "Unknown",
+  "table": {
+    "mailbox": "Mailbox",
+    "from": "From",
+    "subject": "Subject",
+    "received": "Received",
+    "reason": "Park reason",
+    "actions": "Actions"
+  },
+  "actions": {
+    "retry": "Retry",
+    "dismiss": "Dismiss"
+  },
+  "actionError": {
+    "retry": "Could not retry the message. Please try again.",
+    "dismiss": "Could not dismiss the message. Please try again.",
+    "dismissError": "Dismiss the alert"
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {{page}}"
+  }
+}

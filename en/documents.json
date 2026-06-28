@@ -1,0 +1,108 @@
+{
+  "title": "Documents",
+  "subtitle": "Browse and download project documents.",
+  "error": "Failed to load documents.",
+  "empty": "No documents in this scope.",
+  "emptyFolder": "This folder is empty.",
+  "emptySearch": "No documents match this search.",
+  "fileCount": "{{count}} files",
+  "searchPlaceholder": "Search documents…",
+  "scope": {
+    "tenant": "Workspace documents",
+    "project": "Project {{projectId}}"
+  },
+  "folders": {
+    "heading": "Folders",
+    "all": "All folders",
+    "documents": "Documents",
+    "attachments": "Attachments",
+    "deliverables": "Deliverables",
+    "shared": "Shared"
+  },
+  "table": {
+    "name": "Name",
+    "version": "Version",
+    "size": "Size",
+    "modified": "Modified",
+    "source": "Source",
+    "actions": "Actions"
+  },
+  "version": "v{{number}}",
+  "noRevision": "No revisions yet",
+  "source": {
+    "upload": "Upload",
+    "email": "Email",
+    "attest": "Attested",
+    "generated": "Generated"
+  },
+  "actions": {
+    "download": "Download",
+    "upload": "Upload document",
+    "newRevision": "New revision",
+    "share": "Share",
+    "history": "History",
+    "historyPending": "Revision history opens here once the history viewer ships."
+  },
+  "upload": {
+    "titleNew": "Upload a document",
+    "titleRevision": "Upload a new revision",
+    "subtitleRevision": "Add a new revision to “{{name}}”. It becomes the latest version.",
+    "keyLabel": "Document path",
+    "keyPlaceholder": "e.g. deliverables/handover.pdf",
+    "fileLabel": "Choose a file to upload",
+    "dropHint": "Drag a file here, or click to choose one.",
+    "noFile": "No file selected",
+    "submit": "Upload",
+    "retry": "Retry",
+    "close": "Cancel",
+    "progressLabel": "Upload progress",
+    "phase": {
+      "requesting": "Preparing upload…",
+      "uploading": "Uploading… {{percent}}%",
+      "finalizing": "Finalizing revision…"
+    },
+    "denied": "You are not permitted to upload here.",
+    "error": "Upload failed. Nothing was saved — please try again."
+  },
+  "history": {
+    "title": "Revision history",
+    "subtitle": "Revisions of “{{name}}”, newest first.",
+    "latest": "Latest",
+    "systemAuthor": "System",
+    "empty": "This document has no finalized revisions yet.",
+    "error": "Failed to load revision history.",
+    "close": "Close",
+    "table": {
+      "revision": "Revision",
+      "author": "Author",
+      "date": "Date",
+      "size": "Size",
+      "source": "Source"
+    }
+  },
+  "share": {
+    "title": "Share document",
+    "subtitle": "Create a read-only link to “{{name}}” that expires automatically.",
+    "expiryLabel": "Link expires after",
+    "expiry": {
+      "1h": "1 hour",
+      "24h": "24 hours",
+      "7d": "7 days",
+      "30d": "30 days"
+    },
+    "create": "Create link",
+    "linkLabel": "Shareable link",
+    "copy": "Copy link",
+    "copied": "Link copied to clipboard.",
+    "revoke": "Revoke",
+    "revoked": "This link has been revoked and no longer works.",
+    "expiresAt": "Expires {{datetime}}",
+    "close": "Close",
+    "error": "Something went wrong. Please try again."
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page {{page}}"
+  }
+}

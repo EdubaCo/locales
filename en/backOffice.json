@@ -1,0 +1,510 @@
+{
+  "nav": {
+    "title": "Back office",
+    "back": "Back to app",
+    "groupBilling": "Billing",
+    "groupSupport": "Support",
+    "plans": "Plans",
+    "tenants": "Subscriptions",
+    "wallets": "Wallets",
+    "affiliates": "Affiliates",
+    "referralProgram": "Referral program",
+    "feedback": "Docs feedback",
+    "feedbackNewCount": "{{count}} new submission",
+    "feedbackNewCount_other": "{{count}} new submissions"
+  },
+  "plans": {
+    "title": "Plan catalog",
+    "subtitle": "Manage the plans tenants can subscribe to.",
+    "newPlan": "New plan",
+    "empty": "No plans yet. Create the first plan to get started.",
+    "error": "Could not load plans.",
+    "free": "Free",
+    "table": {
+      "plan": "Plan",
+      "tier": "Tier",
+      "price": "Price",
+      "interval": "Interval",
+      "visibility": "Visibility",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "tier": {
+      "trial": "Trial",
+      "starter": "Starter",
+      "professional": "Professional",
+      "enterprise": "Enterprise"
+    },
+    "interval": {
+      "monthly": "Monthly",
+      "annual": "Annual",
+      "custom": "Custom"
+    },
+    "visibility": {
+      "public": "Public",
+      "trial": "Trial",
+      "private": "Private"
+    },
+    "status": {
+      "draft": "Draft",
+      "active": "Active",
+      "retired": "Retired"
+    },
+    "actions": {
+      "edit": "Edit",
+      "retire": "Retire"
+    },
+    "caps": {
+      "unlimited": "Unlimited",
+      "publishedWorkflows": "Published workflows",
+      "runsPerMonth": "Runs / month",
+      "storageGb": "Storage (GB)",
+      "seats": "Seats"
+    },
+    "retire": {
+      "title": "Retire plan",
+      "body": "Retire “{{name}}”? It will no longer be purchasable. Existing subscriptions keep running on their snapshot.",
+      "confirm": "Retire plan",
+      "cancel": "Cancel"
+    },
+    "toast": {
+      "created": "Plan “{{name}}” created.",
+      "updated": "Plan “{{name}}” updated.",
+      "retired": "Plan “{{name}}” retired.",
+      "error": "Something went wrong. Please try again.",
+      "codeExists": "A plan with that code already exists."
+    }
+  },
+  "planForm": {
+    "createTitle": "New plan",
+    "editTitle": "Edit plan",
+    "code": "Code",
+    "codeHint": "Stable identifier — lowercase letters, digits, hyphens. Immutable once created.",
+    "codeInvalid": "Use lowercase letters, digits, hyphens or underscores.",
+    "name": "Name",
+    "description": "Description",
+    "optional": "Optional",
+    "tier": "Tier",
+    "interval": "Interval",
+    "price": "Price",
+    "priceHint": "Amount in the major currency unit (e.g. 49.00). 0 for a free / trial plan.",
+    "priceInvalid": "Enter a valid, non-negative amount.",
+    "currency": "Currency",
+    "visibility": "Visibility",
+    "status": "Status",
+    "sortOrder": "Sort order",
+    "limits": "Limits",
+    "limitsHint": "Leave a field blank for unlimited.",
+    "referralEligible": "Earns referral rewards",
+    "creditEligible": "Payable with account credit",
+    "cancel": "Cancel",
+    "create": "Create plan",
+    "save": "Save changes"
+  },
+  "tenants": {
+    "title": "Tenant subscriptions",
+    "subtitle": "Assign a plan and record manual payments for a tenant.",
+    "selectTenant": "Tenant",
+    "selectPlaceholder": "Select…",
+    "error": "Could not load tenants.",
+    "currentPlan": "Current subscription",
+    "noSubscription": "This tenant has no active subscription.",
+    "plan": "Plan",
+    "snapshotPrice": "Snapshot price",
+    "period": "Period",
+    "status": "Status",
+    "assign": "Assign / change plan",
+    "assignPlan": "Plan",
+    "assignStatus": "Initial status",
+    "assignSubmit": "Assign plan",
+    "noActivePlans": "No active plans to assign. Create or activate a plan first.",
+    "changeStatus": "Change status",
+    "statusSubmit": "Update status",
+    "recordPayment": "Record payment",
+    "subStatus": {
+      "trial": "Trial",
+      "active": "Active",
+      "past_due": "Past due",
+      "suspended": "Suspended",
+      "canceled": "Canceled"
+    },
+    "initialStatus": {
+      "active": "Active",
+      "trial": "Trial"
+    },
+    "toast": {
+      "assigned": "Plan assigned.",
+      "statusChanged": "Subscription status updated.",
+      "paymentRecorded": "Payment recorded.",
+      "paymentReversed": "Payment reversed.",
+      "error": "Something went wrong. Please try again.",
+      "notPurchasable": "That plan is not purchasable (it must be active).",
+      "illegalTransition": "That status change is not allowed."
+    }
+  },
+  "payments": {
+    "title": "Payments",
+    "empty": "No payments recorded for this tenant.",
+    "table": {
+      "date": "Date",
+      "amount": "Amount",
+      "period": "Period",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "recorded": "Recorded",
+      "reversed": "Reversed"
+    },
+    "reverse": "Reverse"
+  },
+  "paymentForm": {
+    "title": "Record manual payment",
+    "subtitle": "Records an offline payment and emits a payment.recorded event.",
+    "amount": "Amount",
+    "amountInvalid": "Enter an amount greater than zero.",
+    "currency": "Currency",
+    "periodStart": "Period start",
+    "periodEnd": "Period end",
+    "optional": "Optional",
+    "cancel": "Cancel",
+    "submit": "Record payment"
+  },
+  "wallet": {
+    "title": "Account credit wallets",
+    "subtitle": "View a tenant's credit balance and grant or deduct credit with a reason.",
+    "selectTenant": "Tenant",
+    "selectPlaceholder": "Select…",
+    "tenantsError": "Could not load tenants.",
+    "balance": "Wallet balance",
+    "balanceError": "Could not load the wallet balance.",
+    "spendable": "Spendable",
+    "pending": "Pending",
+    "adjust": "Adjust credit",
+    "history": "Ledger history",
+    "historyEmpty": "No ledger entries for this tenant yet.",
+    "table": {
+      "date": "Date",
+      "type": "Type",
+      "source": "Source",
+      "amount": "Amount",
+      "status": "Status",
+      "reason": "Reason"
+    },
+    "kind": {
+      "grant": "Grant",
+      "redemption": "Redemption",
+      "reversal": "Reversal"
+    },
+    "source": {
+      "referral": "Referral",
+      "promo": "Promo",
+      "goodwill": "Goodwill",
+      "refund": "Refund",
+      "adjustment": "Adjustment"
+    },
+    "grantStatus": {
+      "pending": "Pending",
+      "available": "Available",
+      "reversed": "Reversed"
+    },
+    "toast": {
+      "adjusted": "Credit adjusted.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "adjustForm": {
+    "title": "Adjust account credit",
+    "subtitle": "Grant or deduct credit. Every adjustment requires a reason and is audited.",
+    "direction": "Direction",
+    "grant": "Grant",
+    "deduct": "Deduct",
+    "amount": "Amount",
+    "amountInvalid": "Enter an amount greater than zero.",
+    "source": "Source",
+    "sourceOption": {
+      "adjustment": "Adjustment",
+      "goodwill": "Goodwill"
+    },
+    "reason": "Reason",
+    "required": "Required",
+    "reasonPlaceholder": "Why is this adjustment being made?",
+    "reasonRequired": "A reason is required for every adjustment.",
+    "cancel": "Cancel",
+    "submit": "Post adjustment"
+  },
+  "affiliates": {
+    "title": "Affiliates",
+    "subtitle": "Manage affiliates, their codes and commission rules, statements, attributions and fraud holds.",
+    "tabs": {
+      "affiliates": "Affiliates",
+      "attributions": "Attributions",
+      "fraud": "Fraud review"
+    },
+    "listTitle": "Affiliates",
+    "new": "New affiliate",
+    "empty": "No affiliates yet. Create the first affiliate to get started.",
+    "error": "Could not load affiliates.",
+    "table": {
+      "name": "Name",
+      "email": "Contact email",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "disabled": "Disabled"
+    },
+    "actions": {
+      "edit": "Edit"
+    },
+    "toast": {
+      "created": "Affiliate created.",
+      "updated": "Affiliate updated.",
+      "error": "Something went wrong. Please try again."
+    },
+    "form": {
+      "createTitle": "New affiliate",
+      "editTitle": "Edit affiliate",
+      "subtitle": "A marketer profile. Payout coordinates are a v1 placeholder (no rails).",
+      "name": "Name",
+      "nameRequired": "A name is required.",
+      "email": "Contact email",
+      "emailPlaceholder": "marketer@example.com",
+      "status": "Status",
+      "cancel": "Cancel",
+      "save": "Save"
+    }
+  },
+  "statement": {
+    "title": "Statement",
+    "owed": "Owed",
+    "pending": "Pending",
+    "paid": "Paid",
+    "reversed": "Reversed"
+  },
+  "codes": {
+    "title": "Referral codes",
+    "issue": "Issue code",
+    "empty": "No codes issued yet.",
+    "status": {
+      "active": "Active",
+      "disabled": "Disabled"
+    },
+    "toast": {
+      "issued": "Code issued."
+    }
+  },
+  "rules": {
+    "cardTitle": "Commission rules",
+    "add": "Add rule",
+    "empty": "No commission rules yet.",
+    "default": "Default",
+    "override": "Override",
+    "title": "New commission rule",
+    "subtitle": "How this affiliate earns on a referred tenant's qualifying payments.",
+    "type": "Type",
+    "types": {
+      "oneTime": "One-time",
+      "recurring": "Recurring",
+      "recurringLifetime": "Lifetime",
+      "stepwise": "Stepwise"
+    },
+    "ratePercent": "Rate (%)",
+    "fixedAmount": "Fixed amount",
+    "oneTimeHint": "Set a rate or a fixed amount.",
+    "recurringPeriods": "Periods",
+    "stepSchedule": "Step schedule",
+    "selectSchedule": "Select a schedule…",
+    "noSchedules": "No step schedules yet — create one in Referral program.",
+    "capPercent": "Cap (%)",
+    "create": "Create rule",
+    "errors": {
+      "oneTime": "Set a rate or a fixed amount.",
+      "recurring": "Recurring needs a rate and a positive number of periods.",
+      "rate": "Enter a rate.",
+      "stepwise": "Select a step schedule."
+    },
+    "toast": {
+      "created": "Commission rule created.",
+      "error": "Could not create the rule."
+    }
+  },
+  "ledger": {
+    "title": "Commission ledger",
+    "empty": "No commission entries yet.",
+    "table": {
+      "date": "Date",
+      "amount": "Amount",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "paid": "Paid",
+      "reversed": "Reversed"
+    },
+    "held": "Held",
+    "markPaid": "Mark paid",
+    "hold": "Hold",
+    "toast": {
+      "paid": "Commission marked paid."
+    }
+  },
+  "attributions": {
+    "title": "Attributions",
+    "subtitle": "First-touch referral attributions, newest first.",
+    "empty": "No attributions yet.",
+    "table": {
+      "tenant": "Referred tenant",
+      "referrer": "Referrer",
+      "date": "Attributed"
+    },
+    "referrerType": {
+      "affiliate": "Affiliate",
+      "tenant": "Tenant"
+    }
+  },
+  "fraud": {
+    "title": "Fraud review",
+    "subtitle": "Commission entries held for review — release after checking.",
+    "empty": "Nothing held for review.",
+    "table": {
+      "date": "Held",
+      "amount": "Amount",
+      "reason": "Reason",
+      "actions": "Actions"
+    },
+    "release": "Release",
+    "holdTitle": "Hold for review",
+    "holdSubtitle": "Freeze this pending commission for fraud review. A reason is required and audited.",
+    "reason": "Reason",
+    "reasonPlaceholder": "Why is this being held?",
+    "reasonRequired": "A reason is required.",
+    "holdConfirm": "Hold",
+    "toast": {
+      "held": "Commission held for review.",
+      "released": "Hold released."
+    }
+  },
+  "program": {
+    "title": "Referral program",
+    "subtitle": "Configure the customer reward model, default commission rule, controls and step schedules.",
+    "save": "Save",
+    "toast": {
+      "saved": "Program configuration saved.",
+      "error": "Something went wrong. Please try again."
+    },
+    "rewardModel": {
+      "title": "Customer reward model",
+      "sub": "How an existing tenant is rewarded for a successful referral.",
+      "flatCredit": "Flat credit",
+      "tieredDiscount": "Tiered discount"
+    },
+    "flatCredit": {
+      "amount": "Credit amount"
+    },
+    "tiered": {
+      "schedule": "Step schedule",
+      "selectSchedule": "Select a schedule…",
+      "cap": "Cap (%)",
+      "window": "Validity window",
+      "windowNone": "No window",
+      "windowRolling": "Rolling duration",
+      "windowCampaign": "Campaign end date"
+    },
+    "defaultRule": {
+      "title": "Default commission rule",
+      "sub": "Applied to a new affiliate that has no rule of its own.",
+      "type": "Type",
+      "none": "None"
+    },
+    "controls": {
+      "title": "Controls",
+      "holdWindow": "Hold window (days)",
+      "velocityWindow": "Velocity window (hours)",
+      "velocityAffiliate": "Max affiliate rewards / window",
+      "velocityTenant": "Max tenant rewards / window"
+    },
+    "eligiblePlans": {
+      "title": "Referral-eligible plans",
+      "sub": "Only payments on these plans trigger a reward.",
+      "empty": "No plans yet.",
+      "eligible": "Eligible",
+      "toast": "Plan updated."
+    },
+    "steps": {
+      "title": "Step schedules",
+      "sub": "Shared N → value tiers used by stepwise commission and tiered discount.",
+      "name": "Name",
+      "cap": "Cap (%)",
+      "tiers": "Tiers",
+      "tiersLabel": "tiers",
+      "capLabel": "Cap {{pct}}%",
+      "minReferrals": "Min referrals",
+      "percent": "Percent (%)",
+      "addTier": "Add tier",
+      "removeTier": "Remove tier",
+      "create": "Create schedule",
+      "invalid": "Add a name, a cap and at least one tier.",
+      "toast": "Step schedule created."
+    }
+  },
+  "adminAuth": {
+    "title": "Back office sign-in",
+    "subtitle": "Platform administrators only",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign in",
+    "signingIn": "Signing in…",
+    "mfaPrompt": "Enter the 6-digit code from your authenticator app.",
+    "enrollTitle": "Set up two-factor authentication",
+    "enrollBody": "Add this secret to your authenticator app, then enter the generated code.",
+    "code": "Authentication code",
+    "verify": "Verify",
+    "verifying": "Verifying…",
+    "error": {
+      "invalidCredentials": "Invalid email or password.",
+      "rateLimited": "Too many attempts. Try again shortly.",
+      "invalidCode": "Invalid or expired code."
+    }
+  },
+  "feedback": {
+    "title": "Docs feedback",
+    "subtitle": "Triage the change requests and corrections readers submit from the documentation.",
+    "filterByArticle": "Filter by article",
+    "articlePlaceholder": "Filter by article slug…",
+    "apply": "Apply",
+    "clear": "Clear",
+    "empty": "No feedback matches these filters.",
+    "error": "Could not load feedback.",
+    "anonymous": "Anonymous",
+    "tab": {
+      "all": "All",
+      "new": "New",
+      "triaged": "Triaged",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "status": {
+      "new": "New",
+      "triaged": "Triaged",
+      "resolved": "Resolved",
+      "dismissed": "Dismissed"
+    },
+    "action": {
+      "triage": "Triage",
+      "resolve": "Resolve",
+      "dismiss": "Dismiss",
+      "reopen": "Re-open"
+    },
+    "toast": {
+      "triaged": "Marked as triaged.",
+      "resolved": "Marked as resolved.",
+      "dismissed": "Dismissed.",
+      "error": "Could not update the submission."
+    }
+  }
+}

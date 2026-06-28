@@ -1,0 +1,59 @@
+{
+  "title": "الإجراءات والمعايير",
+  "subtitle": "الإجراءات المضبوطة والمعايير المُعتمدة. يُتابَع الإصدار المُعتمد مقابل أحدث مراجعة منشورة.",
+  "error": "فشل تحميل المكتبة.",
+  "empty": "لا توجد إجراءات أو معايير تطابق هذا العرض.",
+  "stats": {
+    "controlled": "المستندات المضبوطة",
+    "controlledSub": "عبر جميع الأنواع",
+    "outdated": "غير محدَّثة",
+    "outdatedSub": "تتوفر مراجعة أحدث",
+    "procedures": "الإجراءات",
+    "proceduresSub": "داخلية",
+    "standards": "المعايير",
+    "standardsSub": "للشركة / خارجية"
+  },
+  "filters": {
+    "heading": "عوامل التصفية",
+    "documentType": "النوع",
+    "allTypes": "كل الأنواع",
+    "standardCode": "رمز المعيار أو العنوان",
+    "standardCodePlaceholder": "مثال: ISO 9001",
+    "searchPlaceholder": "ابحث بالرمز أو العنوان…",
+    "count": "{{count}} مستند",
+    "clear": "مسح عوامل التصفية"
+  },
+  "documentType": {
+    "procedure": "إجراء",
+    "national_standard": "معيار وطني",
+    "international_standard": "معيار دولي"
+  },
+  "table": {
+    "title": "العنوان",
+    "type": "النوع",
+    "code": "الرمز",
+    "adopted": "المُعتمد",
+    "latest": "الأحدث",
+    "actions": "سجل الإصدارات"
+  },
+  "restricted": "مُقيَّد",
+  "restrictedHint": "وصول القراءة إلى هذا العنصر مقصور على دور أو مجموعة.",
+  "noCode": "—",
+  "version": {
+    "current": "المُعتمد: {{version}}",
+    "none": "لا يوجد إصدار مُعتمد",
+    "latest": "أحدث إصدار معروف: {{version}}",
+    "upToDate": "محدَّث",
+    "outdated": "يتوفر تحديث",
+    "update": "تحديث",
+    "outdatedHint": "يوجد إصدار أحدث ({{version}}) من الإصدار المُعتمد ({{current}})."
+  },
+  "actions": {
+    "history": "السجل"
+  },
+  "pagination": {
+    "prev": "السابق",
+    "next": "التالي",
+    "page": "صفحة {{page}}"
+  }
+}

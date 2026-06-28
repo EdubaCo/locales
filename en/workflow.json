@@ -1,0 +1,229 @@
+{
+  "title": "Workflows",
+  "subtitle": "Author and publish workflow definitions for your tenant",
+  "newWorkflow": "New Workflow",
+  "searchPlaceholder": "Search workflows…",
+  "list": {
+    "heading": "Your workflows",
+    "summary": "{{total}} total · {{published}} published · {{draft}} draft",
+    "filterStatus": "Status",
+    "filterStatusAll": "All",
+    "search": "Search…",
+    "activeRuns": "{{count}} active runs",
+    "edit": "Edit",
+    "continue": "Continue",
+    "noMatches": "No workflows match your search."
+  },
+  "table": {
+    "name": "Name",
+    "status": "Status",
+    "version": "Version",
+    "lastModified": "Last Modified",
+    "activeRuns": "Active Runs",
+    "actions": "Actions"
+  },
+  "status": {
+    "draft": "Draft",
+    "published": "Published",
+    "archived": "Archived"
+  },
+  "actions": {
+    "duplicate": "Duplicate",
+    "archive": "Archive"
+  },
+  "empty": "No workflows found. Create one to get started.",
+  "modal": {
+    "newTitle": "New Workflow",
+    "namePlaceholder": "Workflow name",
+    "nameLabel": "Name",
+    "create": "Create",
+    "cancel": "Cancel"
+  },
+  "version": {
+    "none": "—",
+    "label": "v{{number}}"
+  },
+  "loading": "Loading workflows…",
+  "error": "Failed to load workflows.",
+  "ai": {
+    "open": "AI assistant",
+    "title": "AI workflow assistant",
+    "close": "Close AI assistant",
+    "intro": "Describe the process you want to design — I'll draft a graph on the canvas for you to review.",
+    "describeLabel": "Describe your workflow",
+    "describePlaceholder": "e.g. A junior submits a document, a senior supervises, the CTO signs off, then it routes to the customer.",
+    "generate": "Generate draft",
+    "suggestionReady": "Draft ready",
+    "canvasLabel": "AI-generated · unsaved draft",
+    "todosHeading": "Review before publishing",
+    "outstanding": "{{count}} validation issue(s) still need attention.",
+    "accept": "Accept",
+    "modify": "Modify",
+    "discard": "Discard",
+    "modifyLabel": "What should change?",
+    "modifyPlaceholder": "e.g. Add a manager approval before the notification.",
+    "modifyRun": "Apply changes",
+    "reviewCaution": "Always review AI drafts before publishing.",
+    "explain": "Explain this workflow",
+    "explanationHeading": "Plain-language walkthrough",
+    "dismissExplanation": "Dismiss explanation",
+    "error": {
+      "generic": "The assistant couldn't complete that request. Please try again.",
+      "notEntitled": "AI features aren't included in your current plan.",
+      "notConfigured": "No AI provider is configured for this workspace yet. Set one up in Settings → AI.",
+      "forbidden": "You don't have permission to use the AI assistant."
+    }
+  },
+  "modeler": {
+    "loading": "Loading designer…",
+    "loadError": "Failed to load the workflow designer.",
+    "save": "Save",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "saveError": "Save failed",
+    "saveStale": "Draft changed elsewhere",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "zoomReset": "Fit to viewport",
+    "incompatibleWiring": "Incompatible connection: {{reason}}",
+    "edit": "Edit",
+    "revision": {
+      "badge": "v{{number}}",
+      "draft": "Draft"
+    },
+    "publish": {
+      "button": "Publish",
+      "dialogTitle": "Publish this workflow?",
+      "dialogBody": "Publishing validates and deploys the current diagram as a new immutable revision. The deployed version cannot be changed afterward — choose Edit later to start the next revision.",
+      "confirm": "Publish",
+      "cancel": "Cancel",
+      "publishing": "Publishing…",
+      "error": "Publish failed — fix the validation errors and try again."
+    },
+    "palette": {
+      "title": "Blocks",
+      "search": "Search blocks…",
+      "noResults": "No blocks match your search.",
+      "subflowsEmpty": "No subflows yet",
+      "groups": {
+        "human": "Human",
+        "gate": "Gate",
+        "document": "Document",
+        "subflows": "Subflows",
+        "control": "Control",
+        "other": "Other"
+      },
+      "control": {
+        "branch": "Branch",
+        "parallel": "Parallel",
+        "join": "Join",
+        "wait": "Wait (timer)",
+        "terminate": "Terminate"
+      },
+      "certification": {
+        "certified": "Certified",
+        "tenant": "Tenant",
+        "community": "Community"
+      }
+    },
+    "properties": {
+      "title": "Properties",
+      "tab": "Properties",
+      "runsTab": "Runs",
+      "runsPlaceholder": "Run history appears here once this definition is published (E1.2).",
+      "empty": "Select an element to edit its properties.",
+      "name": "Name",
+      "configuration": "Configuration",
+      "noConfig": "This block has no configuration.",
+      "selectPlaceholder": "Select…",
+      "condition": "Condition (FEEL)",
+      "mappings": "Mappings (FEEL)",
+      "mappingDirection": "Direction",
+      "mappingIn": "Input",
+      "mappingOut": "Output",
+      "mappingTarget": "Variable",
+      "mappingSource": "FEEL expression",
+      "mappingRemove": "Remove mapping",
+      "mappingAdd": "Add mapping",
+      "validation": {
+        "required": "This field is required.",
+        "invalidNumber": "Must be a number.",
+        "invalidFeel": "Invalid FEEL expression.",
+        "invalidOption": "Choose one of the allowed values."
+      },
+      "checkpoint": {
+        "heading": "AI checkpoint",
+        "hint": "The AI checks the work against your criteria, then a gateway routes the verdict.",
+        "criteria": {
+          "label": "Criteria",
+          "hint": "What the AI must check before the work moves on.",
+          "idLabel": "ID",
+          "idPlaceholder": "criterion-id",
+          "descriptionLabel": "Description",
+          "descriptionPlaceholder": "e.g. Title block is present",
+          "add": "Add criterion",
+          "remove": "Remove criterion",
+          "required": "Add at least one criterion with an id and a description."
+        },
+        "minConfidence": {
+          "label": "Minimum confidence",
+          "hint": "Below this, the verdict is sent to a human (0–1).",
+          "invalid": "Enter a number between 0 and 1."
+        },
+        "autonomy": {
+          "label": "Autonomy",
+          "hint": "How a confident pass is routed. v1 auto-forwards; everything else goes to a human.",
+          "comingSoon": "post-v1",
+          "modes": {
+            "advisory": "Advisory",
+            "auto_forward": "Auto-forward",
+            "auto_return": "Auto-return",
+            "autonomous": "Autonomous"
+          }
+        },
+        "content": {
+          "label": "Content to evaluate",
+          "hint": "Optional — usually mapped from an upstream step."
+        },
+        "instructions": {
+          "label": "Extra instructions",
+          "hint": "Optional guidance appended to the checkpoint prompt."
+        }
+      }
+    },
+    "validation": {
+      "title": "Validation",
+      "validate": "Validate",
+      "validating": "Validating…",
+      "clean": "No problems found.",
+      "runHint": "Run validation to check this diagram before publishing.",
+      "summary": "{{errors}} error(s), {{warnings}} warning(s)",
+      "locate": "Go to element",
+      "severity": {
+        "error": "Error",
+        "warning": "Warning"
+      },
+      "class": {
+        "unreachable": "Unreachable element",
+        "disconnected-port": "Disconnected required port",
+        "missing-config": "Missing required configuration",
+        "version-incompatible": "Block version incompatible",
+        "invalid-feel": "Invalid FEEL expression",
+        "invalid-assignee": "Invalid assignee",
+        "uncontrolled-loop": "Uncontrolled loop",
+        "block-binding": "Missing block binding",
+        "engine": "Engine validation error",
+        "policy": "Policy not satisfiable",
+        "subflow-binding": "Missing subflow binding",
+        "subflow-unresolved": "Unresolved subflow revision",
+        "subflow-unmapped-input": "Unmapped subflow input port",
+        "subflow-unknown-port": "Unknown subflow port",
+        "subflow-port-type": "Subflow port type mismatch",
+        "subflow-floating-revision": "Floating subflow revision",
+        "subflow-interface-unsatisfied": "Interface port not satisfied by body",
+        "subflow-interface-type": "Interface port type mismatch",
+        "other": "Validation issue"
+      }
+    }
+  }
+}

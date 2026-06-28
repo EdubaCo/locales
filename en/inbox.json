@@ -1,0 +1,78 @@
+{
+  "title": "My Work",
+  "subtitle": "Open tasks assigned to you.",
+  "newTask": "New task",
+  "loading": "Loading your inbox…",
+  "error": "Failed to load your inbox.",
+  "empty": "Your inbox is empty — no open tasks are assigned to you.",
+  "emptyFiltered": "No tasks match the current filters.",
+  "unknownWorkflow": "Unknown workflow",
+  "count_one": "{{count}} item",
+  "count_other": "{{count}} items",
+  "row": {
+    "runBadge": "Run"
+  },
+  "actions": {
+    "menu": "Actions",
+    "assign": "Assign…",
+    "reassign": "Reassign step…"
+  },
+  "table": {
+    "task": "Task",
+    "workflow": "Workflow",
+    "context": "Context",
+    "sla": "SLA",
+    "deadline": "Deadline"
+  },
+  "sla": {
+    "red": "Overdue",
+    "yellow": "Due soon",
+    "green": "On track",
+    "none": "No deadline"
+  },
+  "filters": {
+    "workflow": "Workflow",
+    "workflowAll": "All workflows",
+    "sla": "SLA status",
+    "slaAll": "All SLA",
+    "context": "Context type",
+    "contextAll": "All contexts",
+    "groupBy": "Group by",
+    "groupNone": "No grouping",
+    "clear": "Clear filters"
+  },
+  "groupBy": {
+    "project": "Project",
+    "workflow": "Workflow",
+    "deadlineWeek": "Deadline week"
+  },
+  "context": {
+    "label": "{{kind}}: {{ref}}",
+    "kindOnly": "{{kind}}",
+    "none": "No context"
+  },
+  "watchOnly": {
+    "badge": "Watch only",
+    "label": "You can watch this task but cannot act on it — it is claimed by someone else."
+  },
+  "standardsFlag": {
+    "badge": "Standard update",
+    "label": "A newer version of a standard this work references was detected — review the work."
+  },
+  "savedViews": {
+    "title": "Saved views",
+    "save": "Save current view",
+    "saveTitle": "Save view",
+    "nameLabel": "View name",
+    "namePlaceholder": "e.g. Overdue approvals",
+    "create": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete view",
+    "empty": "No saved views yet. Apply filters and save them for quick access."
+  },
+  "pagination": {
+    "prev": "Previous",
+    "next": "Next",
+    "summary": "Showing {{count}} of {{total}}"
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "nav": {
+    "back": "App",
+    "settingsTitle": "Settings",
+    "preferencesTitle": "Preferences",
+    "groupTenant": "Tenant",
+    "groupPeople": "People & access",
+    "groupWorkflows": "Workflows",
+    "groupData": "Data",
+    "groupSecurity": "Security",
+    "groupSubscription": "Subscription",
+    "groupConnectors": "Connectors",
+    "groupOperations": "Operations",
+    "groupFinance": "Finance",
+    "groupYou": "You",
+    "general": "General",
+    "branding": "Branding",
+    "notifications": "Notifications",
+    "inboundEmail": "Email & inbox",
+    "articles": "Articles",
+    "ai": "AI assistant",
+    "members": "Members",
+    "roles": "Roles",
+    "groups": "User groups",
+    "orgChart": "Org chart",
+    "designer": "Designer",
+    "subflows": "Subflow library",
+    "dataStorage": "Storage & backups",
+    "security": "Access & audit",
+    "audit": "Audit logs",
+    "securityEvents": "Security events",
+    "subscription": "Plan & usage",
+    "referralCredits": "Referral & credits",
+    "operations": "Operations",
+    "finance": "Finance",
+    "display": "Display",
+    "language": "Language & region"
+  },
+  "comingSoon": {
+    "title": "{{section}} coming soon",
+    "body": "This settings screen is in the build queue and will appear here in an upcoming release."
+  },
+  "members": {
+    "title": "Members",
+    "subtitle": "People with access to this workspace.",
+    "inviteButton": "Invite member",
+    "searchPlaceholder": "Search by name or email",
+    "empty": "No members yet.",
+    "noMatches": "No members match your search.",
+    "error": "Couldn't load members. Please try again.",
+    "you": "(you)",
+    "noRole": "No role",
+    "table": {
+      "member": "Member",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "invited": "Pending invite",
+      "suspended": "Deactivated"
+    },
+    "actions": {
+      "resend": "Resend invite",
+      "reactivate": "Reactivate",
+      "deactivate": "Deactivate"
+    },
+    "invite": {
+      "title": "Invite member",
+      "subtitle": "Send an invitation to join this workspace.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "name@company.com",
+      "emailInvalid": "Enter a valid email address.",
+      "nameLabel": "Name",
+      "namePlaceholder": "Full name",
+      "optional": "Optional",
+      "roleLabel": "Role",
+      "noRoles": "No roles available",
+      "cancel": "Cancel",
+      "submit": "Send invite",
+      "error": {
+        "emailExists": "A member with that email already exists.",
+        "generic": "Couldn't send the invite. Please try again."
+      }
+    },
+    "deactivate": {
+      "title": "Deactivate {{name}}?",
+      "body": "They will lose access to this workspace immediately.",
+      "sessionsNote": "All of their active sessions will be signed out right away.",
+      "cancel": "Cancel",
+      "confirm": "Deactivate"
+    },
+    "toast": {
+      "invited": "Invitation sent to {{email}}.",
+      "invitedNoEmail": "{{email}} was added. No email was sent — SMTP isn't configured.",
+      "roleChanged": "Updated {{name}}'s role.",
+      "deactivated_one": "{{name}} was deactivated. {{count}} session was revoked.",
+      "deactivated_other": "{{name}} was deactivated. {{count}} sessions were revoked.",
+      "reactivated": "{{name}} was reactivated.",
+      "resent": "Invitation resent to {{email}}.",
+      "resentNoEmail": "No email was sent — SMTP isn't configured.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "groups": {
+    "title": "User groups",
+    "subtitle": "Static pools curated by admins — distinct from roles, which are dynamic RBAC. A group can be assigned work directly.",
+    "newButton": "Add group",
+    "actions": "Group actions",
+    "empty": "No user groups yet.",
+    "error": "Couldn't load user groups. Please try again.",
+    "noDescription": "No description",
+    "memberCount_one": "{{count}} member",
+    "memberCount_other": "{{count}} members",
+    "menu": {
+      "edit": "Edit details",
+      "members": "Manage members",
+      "delete": "Delete group"
+    },
+    "create": {
+      "title": "Add user group",
+      "subtitle": "Group members for assignment and notification targeting.",
+      "nameLabel": "Group name",
+      "namePlaceholder": "Senior Reviewers",
+      "nameDuplicate": "A group with that name already exists.",
+      "descriptionLabel": "Description",
+      "descriptionPlaceholder": "What is this group for?",
+      "optional": "Optional",
+      "cancel": "Cancel",
+      "submit": "Save group",
+      "error": {
+        "nameExists": "A group with that name already exists.",
+        "generic": "Something went wrong. Please try again."
+      }
+    },
+    "edit": {
+      "title": "Edit user group"
+    },
+    "members": {
+      "title": "Members of {{name}}",
+      "subtitle": "Select the members of this group.",
+      "searchPlaceholder": "Search by name or email",
+      "noResults": "No members match your search.",
+      "cancel": "Cancel",
+      "save": "Save members"
+    },
+    "delete": {
+      "title": "Delete group?",
+      "body": "“{{name}}” will be removed and its membership cleared. This can't be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete group"
+    },
+    "toast": {
+      "created": "Group “{{name}}” created.",
+      "updated": "Group “{{name}}” updated.",
+      "deleted": "Group “{{name}}” deleted.",
+      "membersSaved": "Members of “{{name}}” updated.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "orgChart": {
+    "title": "Org chart",
+    "subtitle": "Reporting structure — referenced by delegation rules and notification escalations. The tree is validated to prevent cycles.",
+    "addRoot": "Add root unit",
+    "actions": "Unit actions",
+    "empty": "No org chart yet. Add the top-level unit to get started.",
+    "error": "Couldn't load the org chart. Please try again.",
+    "memberCount_one": "{{count}} member",
+    "memberCount_other": "{{count}} members",
+    "type": {
+      "department": "Department",
+      "team": "Team",
+      "reporting-line": "Reporting line"
+    },
+    "menu": {
+      "addChild": "Add sub-unit",
+      "edit": "Rename / move",
+      "members": "Manage members",
+      "delete": "Delete unit"
+    },
+    "unit": {
+      "createRootTitle": "Add root unit",
+      "createChildTitle": "Add a sub-unit of {{parent}}",
+      "editTitle": "Edit unit",
+      "nameLabel": "Unit name",
+      "namePlaceholder": "Engineering",
+      "typeLabel": "Type",
+      "parentLabel": "Reports to",
+      "parentRoot": "— Top level (root) —",
+      "cancel": "Cancel",
+      "submit": "Save unit",
+      "error": {
+        "cycle": "That move would create a cycle in the org chart.",
+        "multipleRoots": "The org chart already has a root unit.",
+        "generic": "Something went wrong. Please try again."
+      }
+    },
+    "members": {
+      "title": "Manage members of {{name}}",
+      "subtitle": "Members here report into this unit (their primary unit).",
+      "searchPlaceholder": "Search by name or email",
+      "noResults": "No members match your search.",
+      "selectedCount_one": "{{count}} selected",
+      "selectedCount_other": "{{count}} selected",
+      "auditNote": "Saved changes are recorded in the audit log.",
+      "cancel": "Cancel",
+      "save": "Save members"
+    },
+    "delete": {
+      "title": "Delete unit?",
+      "body": "“{{name}}” will be removed and its members unassigned. This can't be undone.",
+      "cancel": "Cancel",
+      "confirm": "Delete unit"
+    },
+    "toast": {
+      "created": "Unit “{{name}}” added.",
+      "updated": "Unit “{{name}}” updated.",
+      "deleted": "Unit “{{name}}” deleted.",
+      "membersSaved": "Members of “{{name}}” updated.",
+      "hasChildren": "Move or delete its sub-units first.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "roles": {
+    "title": "Roles",
+    "subtitle": "Roles drive dynamic RBAC. Workflow blocks assign work to roles; tenant policy decides who in a role may act.",
+    "newButton": "New role",
+    "error": "Couldn't load roles. Please try again.",
+    "empty": "Select a role to view its permissions.",
+    "builtin": "Built-in",
+    "memberCount_one": "{{count}} member",
+    "memberCount_other": "{{count}} members",
+    "toast": {
+      "created": "Role \"{{name}}\" created.",
+      "updated": "Role \"{{name}}\" updated.",
+      "deleted": "Role \"{{name}}\" deleted.",
+      "error": "Something went wrong. Please try again."
+    },
+    "create": {
+      "title": "New role",
+      "subtitle": "Create a custom role, then grant it capabilities in the permission matrix.",
+      "nameLabel": "Role identifier",
+      "namePlaceholder": "e.g. senior_engineer",
+      "nameInvalid": "Use letters, numbers, hyphens or underscores.",
+      "nameDuplicate": "A role with that name already exists.",
+      "descriptionLabel": "Description",
+      "optional": "Optional",
+      "descriptionPlaceholder": "What is this role for?",
+      "cancel": "Cancel",
+      "submit": "Create role",
+      "error": {
+        "nameExists": "A role with that name already exists.",
+        "generic": "Couldn't create the role. Please try again."
+      }
+    },
+    "delete": {
+      "title": "Delete {{name}}?",
+      "body_one": "{{count}} member will lose this role.",
+      "body_other": "{{count}} members will lose this role.",
+      "cancel": "Cancel",
+      "confirm": "Delete role",
+      "error": {
+        "inUse": "This role is in use by active policy rules — reassign members first.",
+        "generic": "Couldn't delete the role. Please try again."
+      }
+    },
+    "detail": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "noDescription": "No description."
+    },
+    "matrix": {
+      "heading": "Permissions",
+      "capability": "Capability",
+      "effect": "Effect",
+      "allow": "Allow",
+      "deny": "Deny",
+      "none": "—",
+      "locked": "Built-in rule (locked)",
+      "save": "Save changes",
+      "pending_one": "{{count}} pending change",
+      "pending_other": "{{count}} pending changes",
+      "saved": "Permission changes saved.",
+      "saveError": "Couldn't save some changes. Please try again.",
+      "confirmTitle": "Remove access?",
+      "confirmBody_one": "Removing this allow rule may lock members out of {{count}} capability. Continue?",
+      "confirmBody_other": "Removing these allow rules may lock members out of {{count}} capabilities. Continue?",
+      "confirmCancel": "Cancel",
+      "confirmProceed": "Remove access"
+    },
+    "domains": {
+      "workflows": "Workflows",
+      "projects": "Projects",
+      "tasks": "Tasks",
+      "library": "Library",
+      "users": "Users",
+      "settings": "Settings"
+    },
+    "capabilities": {
+      "designWorkflow": "Design workflows",
+      "publishDefinition": "Publish definitions",
+      "startRun": "Start runs",
+      "attachPlugin": "Attach plugins",
+      "createProject": "Create projects",
+      "createTask": "Create tasks",
+      "importPack": "Import packs",
+      "attachStandard": "Attach standards",
+      "manageStandards": "Manage standards library",
+      "manageUsers": "Manage users & access",
+      "manageDelegations": "Manage delegations",
+      "manageEmailIngest": "Manage email ingest"
+    },
+    "audit": {
+      "heading": "Recent activity",
+      "empty": "No recent policy changes for this role.",
+      "viewAll": "View all",
+      "viewAllSoon": "Full audit log is coming soon.",
+      "kind": {
+        "roleCreated": "Role created",
+        "roleUpdated": "Role updated",
+        "roleDeleted": "Role deleted",
+        "ruleAdded": "Rule added",
+        "ruleRemoved": "Rule removed",
+        "other": "Policy change"
+      }
+    }
+  },
+  "security": {
+    "title": "Security",
+    "sub": "Sign-in policy, sessions, and single sign-on for this workspace.",
+    "save": "Save changes",
+    "saved": "Security settings saved.",
+    "saveError": "Couldn't save your changes. Please try again.",
+    "password": {
+      "title": "Password policy",
+      "sub": "Rules enforced when members set or reset a password.",
+      "minLength": "Minimum length",
+      "requireUppercase": "Require an uppercase letter",
+      "requireNumber": "Require a number",
+      "requireSymbol": "Require a symbol"
+    },
+    "sessions": {
+      "title": "Sessions & MFA",
+      "sub": "How long a sign-in lasts and whether multi-factor is required.",
+      "lifetime": "Session lifetime (hours)",
+      "lifetimeHint": "Members re-authenticate after this many hours.",
+      "mfaRequired": "Require multi-factor authentication",
+      "mfaRequiredHint": "Every member must enrol an authenticator app."
+    },
+    "sso": {
+      "title": "Single sign-on (SSO)",
+      "sub": "Delegate sign-in to your identity provider (OIDC or SAML).",
+      "enable": "Enable SSO",
+      "enableHint": "Members sign in through your identity provider.",
+      "protocol": "Protocol",
+      "protocols": {
+        "oidc": "OpenID Connect (OIDC)",
+        "saml": "SAML 2.0"
+      },
+      "providerName": "Provider name",
+      "providerPlaceholder": "e.g. Okta, Azure AD",
+      "providerRequired": "A provider name is required to save SSO.",
+      "issuerUrl": "Issuer / discovery URL",
+      "clientId": "Client ID",
+      "clientSecret": "Client secret",
+      "secretPlaceholder": "Enter the client secret",
+      "secretSaved": "•••••••• (saved — leave blank to keep)",
+      "metadataUrl": "IdP metadata URL",
+      "entityId": "Service-provider entity ID",
+      "enforce": "Enforce SSO for all members",
+      "enforceHint": "Disable password sign-in except for admin break-glass.",
+      "allowAdminFallback": "Allow admin password fallback",
+      "allowAdminFallbackHint": "Admins can still sign in with a password if SSO is down."
+    }
+  },
+  "eventLog": {
+    "export": "Export CSV",
+    "kindFilter": "Event",
+    "allKinds": "All events",
+    "time": "Time",
+    "event": "Event",
+    "actor": "Actor",
+    "detail": "Detail",
+    "system": "System",
+    "empty": "No events recorded yet.",
+    "error": "Couldn't load events. Please try again.",
+    "totalCount_one": "{{count}} event",
+    "totalCount_other": "{{count}} events",
+    "pageOf": "Page {{page}} of {{total}}",
+    "prev": "Previous page",
+    "next": "Next page"
+  },
+  "audit": {
+    "title": "Audit logs",
+    "sub": "Tamper-evident record of every privileged action in this workspace.",
+    "exportDone": "Audit log exported.",
+    "exportError": "Couldn't export the audit log. Please try again."
+  },
+  "securityEvents": {
+    "title": "Security events",
+    "sub": "Sign-in, session, and authorization events for this workspace.",
+    "exportDone": "Security events exported.",
+    "exportError": "Couldn't export the security events. Please try again."
+  },
+  "ai": {
+    "title": "AI assistant",
+    "sub": "Configure how AI helps your team. Disabled by default; admins opt in.",
+    "save": "Save changes",
+    "saved": "AI settings saved.",
+    "saveError": "Couldn't save your changes. Please try again.",
+    "enable": "Enable AI assistant",
+    "enableHint": "Workflow designer, document summarization, and chat assistant become available.",
+    "provider": {
+      "title": "Provider & model",
+      "sub": "Choose a hosted model and provide its key, or point at a self-hosted Ollama endpoint.",
+      "model": "Model",
+      "modelUnset": "Select a model",
+      "modelRequired": "Select a model to enable AI.",
+      "apiKey": "Provider API key",
+      "keyPlaceholder": "Enter the provider API key",
+      "keySaved": "•••••••• (saved — leave blank to keep)",
+      "keyHint": "Encrypted at rest and never shown again. Used server-side only.",
+      "ollamaBaseUrl": "Ollama base URL",
+      "ollamaHint": "Self-hosted Ollama endpoint — no key required; data stays in your network.",
+      "ollamaRequired": "A base URL is required for a self-hosted model."
+    }
+  },
+  "storage": {
+    "title": "Storage access",
+    "sub": "Where this workspace's documents are stored.",
+    "save": "Save changes",
+    "saved": "Storage settings saved.",
+    "saveError": "Couldn't save your changes. Please try again.",
+    "currentTitle": "Current storage",
+    "managedDescription": "Documents are stored on the platform-managed object store. Switch to your own S3-compatible bucket below.",
+    "byoDescription": "Documents are stored on your own S3-compatible bucket.",
+    "mode": {
+      "managed": "Platform-managed",
+      "byo": "Bring your own"
+    },
+    "status": {
+      "pending": "Pending validation",
+      "validating": "Validating",
+      "active": "Active",
+      "error": "Error",
+      "suspended": "Suspended"
+    },
+    "byoTitle": "Bring-your-own storage (S3-compatible)",
+    "byoSub": "Point this workspace at your own MinIO, AWS S3, or S3-compatible endpoint.",
+    "endpoint": "Endpoint URL",
+    "bucket": "Bucket",
+    "region": "Region",
+    "accessKey": "Access key",
+    "accessKeyPlaceholder": "Access key ID",
+    "secretKey": "Secret key",
+    "secretKeyPlaceholder": "Secret access key",
+    "keySaved": "•••••••• (saved — leave blank to keep)",
+    "forcePathStyle": "Force path-style addressing",
+    "forcePathStyleHint": "Required for MinIO and most S3-compatible servers.",
+    "credentialNote": "Credentials are encrypted at rest and never shown again. The connection is validated before it goes active."
+  },
+  "subscription": {
+    "title": "Plan & usage",
+    "sub": "Your subscription tier, seat usage, and license.",
+    "error": "Couldn't load subscription details. Please try again.",
+    "planTitle": "Current plan",
+    "seats": "Active seats",
+    "expires": "Expires",
+    "noExpiry": "No expiry",
+    "tier": {
+      "starter": "Starter",
+      "professional": "Professional",
+      "enterprise": "Enterprise"
+    },
+    "caps": {
+      "title": "Plan limits",
+      "sub": "The caps included with your current plan.",
+      "publishedWorkflows": "Published workflows",
+      "runsPerMonth": "Runs per month",
+      "storage": "Storage",
+      "seats": "Seats",
+      "unlimited": "Unlimited",
+      "gb": "{{count}} GB"
+    },
+    "interval": {
+      "monthly": "Billed monthly",
+      "annual": "Billed annually",
+      "custom": "Custom billing"
+    },
+    "license": {
+      "title": "License",
+      "valid": "Active",
+      "none": "Unlicensed",
+      "activated": "License activated.",
+      "invalid": "That license key is not valid.",
+      "uploadError": "Couldn't verify the license key. Please try again."
+    },
+    "features": {
+      "title": "Features",
+      "sub": "Modules available on your plan. Gated modules unlock on higher tiers.",
+      "note": "Governance, workflows, documents, and the library are included in every tier."
+    },
+    "module": {
+      "myWork": "My work",
+      "projects": "Projects",
+      "workflows": "Workflows",
+      "documents": "Documents",
+      "library": "Library",
+      "designer": "Designer",
+      "settings": "Settings",
+      "operations": "Operations",
+      "finance": "Finance",
+      "cad": "CAD",
+      "bi": "Analytics",
+      "chat": "Chat"
+    },
+    "upload": {
+      "title": "Activate a license key",
+      "sub": "Self-hosted installations paste their signed license key here to verify and activate it.",
+      "label": "License key",
+      "placeholder": "Paste your license key",
+      "button": "Verify & activate"
+    }
+  },
+  "referralCredits": {
+    "title": "Referral & credits",
+    "sub": "Your referral rewards and account credit.",
+    "referral": {
+      "title": "Refer & earn",
+      "sub": "Share your link — when someone you refer subscribes, you're rewarded.",
+      "summaryError": "Couldn't load your referral details. Please try again.",
+      "codeLabel": "Your referral code",
+      "linkLabel": "Share link",
+      "copy": "Copy",
+      "copied": "Copied",
+      "copyCode": "Copy referral code",
+      "copyLink": "Copy share link",
+      "activeReferrals": "Active referrals",
+      "activeReferralsHint": "Counts referrals who subscribed and are still active.",
+      "discount": {
+        "title": "Your subscription discount",
+        "sub": "Earned from your active referrals and applied to your own subscription.",
+        "current": "Current discount",
+        "nextTier": "Refer {{remaining}} more to reach {{percent}}.",
+        "topTier": "You've reached the top discount tier.",
+        "lapsed": "Your discount window has closed.",
+        "expires": "Expires",
+        "noExpiry": "No expiry",
+        "progressLabel": "Progress to the next tier"
+      },
+      "list": {
+        "title": "Referrals",
+        "sub": "Everyone you've referred and their current reward state.",
+        "error": "Couldn't load your referrals. Please try again.",
+        "empty": "No referrals yet. Share your link to get started.",
+        "anon": "Referred workspace",
+        "table": {
+          "referral": "Referral",
+          "date": "Referred",
+          "status": "Status"
+        },
+        "status": {
+          "active": "Active",
+          "churned": "Lapsed",
+          "pending": "Pending"
+        }
+      }
+    },
+    "credit": {
+      "balance": "Credit balance",
+      "balanceSub": "Spendable credit and grants still in their hold window.",
+      "balanceError": "Couldn't load your credit balance. Please try again.",
+      "spendable": "Spendable",
+      "pending": "Pending",
+      "note": "Credit is applied automatically to platform charges. It's discount-only — it never expires and can't be cashed out.",
+      "history": "Credit history",
+      "historySub": "Every grant, applied credit, and adjustment on your account.",
+      "historyError": "Couldn't load your credit history. Please try again.",
+      "historyEmpty": "No credit activity yet.",
+      "table": {
+        "date": "Date",
+        "type": "Type",
+        "source": "Source",
+        "amount": "Amount",
+        "status": "Status",
+        "note": "Note"
+      },
+      "kind": {
+        "grant": "Grant",
+        "redemption": "Applied",
+        "reversal": "Reversal"
+      },
+      "source": {
+        "referral": "Referral",
+        "promo": "Promo",
+        "goodwill": "Goodwill",
+        "refund": "Refund",
+        "adjustment": "Adjustment"
+      },
+      "grantStatus": {
+        "pending": "Pending",
+        "available": "Available",
+        "reversed": "Reversed"
+      }
+    }
+  },
+  "landing": {
+    "title": "Settings",
+    "sub": "Tenant configuration and your personal preferences.",
+    "openCta": "Open"
+  },
+  "links": {
+    "notificationsDesc": "Tenant notification routing and per-type channel defaults.",
+    "inboundEmailDesc": "Operate the parked inbound-email queue — release, reassign, or discard messages.",
+    "designerDesc": "Open the workflow designer to model and publish process definitions.",
+    "subflowsDesc": "Browse and manage reusable subflow building blocks."
+  },
+  "general": {
+    "title": "General",
+    "sub": "Tenant-wide settings.",
+    "save": "Save",
+    "saved": "General settings saved.",
+    "saveError": "Couldn't save your changes. Please try again.",
+    "sectionTitle": "Workspace",
+    "sectionSub": "Your tenant's name, region, and address.",
+    "nameLabel": "Tenant name",
+    "namePlaceholder": "Acme Engineering Corp",
+    "nameHint": "Shown across the app and on your sign-in page.",
+    "regionLabel": "Data region",
+    "regionUnset": "Not set",
+    "regionHint": "Where your workspace is hosted. Contact your administrator to migrate regions.",
+    "region": {
+      "us": "United States",
+      "eu": "European Union",
+      "mena": "Middle East & North Africa",
+      "apac": "Asia–Pacific"
+    },
+    "workspaceLabel": "Workspace URL",
+    "workspaceHint": "Your subdomain address. Only an administrator can change it."
+  },
+  "branding": {
+    "title": "Branding",
+    "sub": "Customize how your tenant looks to users — sign-in page, top bar, and primary action color.",
+    "save": "Save changes",
+    "saved": "Branding saved.",
+    "saveError": "Couldn't save your changes. Please try again.",
+    "logoLabel": "Logo",
+    "logoChange": "Change logo",
+    "logoRemove": "Remove",
+    "logoRemoved": "Logo removed.",
+    "logoHint": "SVG, PNG, or WebP · max 2 MB.",
+    "logoPreviewAlt": "Current tenant logo",
+    "colorLabel": "Primary color",
+    "colorPicker": "Pick a custom color",
+    "colorHex": "Hex color value",
+    "colorInvalid": "Enter a 6-digit hex color, e.g. #1d4ed8.",
+    "taglineLabel": "Tagline",
+    "taglinePlaceholder": "Engineering excellence, delivered.",
+    "taglineHint": "Shown on the sign-in page.",
+    "faviconLabel": "Favicon",
+    "faviconUpload": "Upload favicon",
+    "faviconHint": "ICO or PNG · max 50 KB.",
+    "faviconPreviewAlt": "Current favicon",
+    "footerLabel": "Email footer",
+    "footerPlaceholder": "<p>Acme Engineering Corp · Confidential</p>",
+    "footerHint": "Appended to notification emails. Basic HTML is allowed.",
+    "footerPreview": "Email footer preview",
+    "assetUploaded": "Image uploaded.",
+    "assetUploadError": "Couldn't upload the image. Please try again.",
+    "assetTypeError": "Unsupported file type.",
+    "assetSizeError": "That file is too large.",
+    "loginPreview": "Login preview",
+    "shellPreview": "App preview",
+    "previewSignIn": "Sign in",
+    "previewFallbackName": "Your workspace",
+    "previewFallbackTagline": "Welcome back."
+  },
+  "preferences": {
+    "title": "Preferences",
+    "sub": "Personal settings that apply only to you on this device."
+  },
+  "display": {
+    "title": "Display",
+    "sub": "Theme and density. These apply only to you and don't affect other users in your tenant.",
+    "themeTitle": "Theme",
+    "themeSub": "Choose light, dark, or follow your operating system.",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System",
+    "themeSystemHint": "Follows your OS appearance setting and updates automatically when it changes.",
+    "densityTitle": "Density",
+    "densitySub": "Reduces table and card padding for dense work surfaces.",
+    "densityComfortable": "Comfortable",
+    "densityComfortableSub": "Default · roomy spacing",
+    "densityCompact": "Compact",
+    "densityCompactSub": "Tight · for long lists",
+    "primaryTitle": "Accent color",
+    "primarySub": "Used for buttons, active nav, and primary actions.",
+    "primaryDefault": "Default",
+    "preset": {
+      "blue": "Blue",
+      "teal": "Teal",
+      "amber": "Amber",
+      "violet": "Violet",
+      "sky": "Sky",
+      "red": "Red",
+      "ink": "Ink"
+    },
+    "fontTitle": "Font",
+    "fontSub": "The typeface used across the app. Defaults to your workspace's font.",
+    "fontDefaultLabel": "Workspace default",
+    "fontDefault": "Follow the workspace default",
+    "fontScript": {
+      "latin": "Latin",
+      "arabic": "Arabic / Persian",
+      "both": "All scripts"
+    }
+  },
+  "appearance": {
+    "title": "Default typography",
+    "sub": "The default UI font for this workspace. Members can override it in their display preferences.",
+    "ltrLabel": "Left-to-right locales",
+    "rtlLabel": "Right-to-left locales (Arabic, Persian, …)",
+    "hint": "Right-to-left locales default to Vazirmatn for clear Arabic and Persian text.",
+    "save": "Save typography",
+    "saved": "Default typography saved.",
+    "saveError": "Couldn't save typography. Please try again.",
+    "systemFont": "System default"
+  },
+  "language": {
+    "title": "Language & region",
+    "sub": "Interface language and reading direction.",
+    "localeTitle": "Language",
+    "localeSub": "The interface language. Text direction follows the language automatically.",
+    "directionTitle": "Reading direction",
+    "directionLtr": "Left to right (LTR)",
+    "directionRtl": "Right to left (RTL)",
+    "locale": {
+      "en": "English",
+      "ar": "العربية",
+      "fa": "فارسی"
+    }
+  }
+}

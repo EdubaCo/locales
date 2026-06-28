@@ -1,0 +1,79 @@
+{
+  "pageLabel": "طلب الوصول",
+  "platformBadge": "المنصة",
+  "header": {
+    "signIn": "العودة إلى تسجيل الدخول"
+  },
+  "hero": {
+    "title": "طلب الوصول",
+    "subtitle": "أخبرنا كيف تودّ تشغيل Eduba وسنجهّز كل شيء لك."
+  },
+  "steps": {
+    "interest": "اختر التجربة",
+    "details": "بياناتك"
+  },
+  "interest": {
+    "legend": "كيف تودّ تشغيل Eduba؟",
+    "hosted": {
+      "title": "تجربة مستضافة",
+      "subtitle": "نُشغّلها نيابةً عنك، وجاهزة للعمل خلال دقائق."
+    },
+    "selfHosted": {
+      "title": "استضافة ذاتية",
+      "subtitle": "انشرها على بنيتك التحتية الخاصة."
+    },
+    "continue": "متابعة",
+    "chosen": "التجربة:",
+    "change": "تغيير"
+  },
+  "form": {
+    "name": "الاسم الكامل",
+    "namePlaceholder": "جين دو",
+    "email": "بريد العمل",
+    "emailPlaceholder": "you@company.com",
+    "company": "الشركة",
+    "companyPlaceholder": "Acme Engineering",
+    "teamSize": "حجم الفريق",
+    "teamSizePlaceholder": "اختر حجم الفريق",
+    "message": "ما الذي تودّ بناءه؟",
+    "messagePlaceholder": "أخبرنا عن العمليات التي تريد تشغيلها…",
+    "messageFallback": "طلب الوصول",
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "back": "رجوع",
+    "submit": "إرسال الطلب",
+    "submitting": "جارٍ الإرسال…"
+  },
+  "teamSizes": {
+    "1-10": "1–10",
+    "11-50": "11–50",
+    "51-200": "51–200",
+    "200+": "200+"
+  },
+  "consent": {
+    "prefix": "أوافق على",
+    "privacy": "سياسة الخصوصية",
+    "separator": "و",
+    "terms": "شروط الخدمة",
+    "suffix": "."
+  },
+  "validation": {
+    "nameRequired": "يُرجى إدخال اسمك الكامل.",
+    "emailRequired": "يُرجى إدخال بريد العمل.",
+    "emailInvalid": "يُرجى إدخال عنوان بريد إلكتروني صالح."
+  },
+  "errors": {
+    "already": "لقد أرسلت طلباً بالفعل. سنتواصل معك قريباً.",
+    "generic": "حدث خطأ ما. يُرجى المحاولة مرة أخرى أو مراسلتنا على {{email}}."
+  },
+  "success": {
+    "title": "تم استلام الطلب",
+    "body": "سنتواصل معك خلال يوم عمل واحد.",
+    "cta": "بينما تنتظر، استكشف التوثيق"
+  },
+  "footer": {
+    "copyright": "© {{year}} منصة Eduba",
+    "privacy": "الخصوصية",
+    "terms": "الشروط"
+  }
+}

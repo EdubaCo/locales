@@ -1,0 +1,58 @@
+{
+  "title": "Set up your workspace",
+  "subtitle": "A few quick steps to get your team working — no manual required.",
+  "progress": "{{done}} of {{total}} done",
+  "allDoneTitle": "You're ready to create work",
+  "allDoneBody": "Your workspace is set up. Start a project or open your work inbox.",
+  "startWorkCta": "Start creating work",
+  "skipForNow": "I'll do this later",
+  "stepLabel": "Step {{current}} of {{total}}",
+  "status": {
+    "done": "Done",
+    "todo": "To do"
+  },
+  "nav": {
+    "backToChecklist": "Back to checklist",
+    "next": "Next",
+    "back": "Back",
+    "finish": "Finish setup"
+  },
+  "steps": {
+    "branding": {
+      "title": "Make it yours",
+      "short": "Branding",
+      "description": "Add your logo and brand colour so the workspace looks like your company.",
+      "cta": "Set up branding",
+      "doneHint": "Branding configured"
+    },
+    "people": {
+      "title": "Invite your team",
+      "short": "People & org chart",
+      "description": "Invite your first teammates and sketch your reporting structure.",
+      "cta": "Invite people",
+      "doneHint_one": "{{count}} person in your workspace",
+      "doneHint_other": "{{count}} people in your workspace",
+      "orgChartTitle": "Org chart",
+      "orgChartBody": "Group people into departments and reporting lines — this drives task routing, delegation and approvals.",
+      "orgChartCta": "Open org chart"
+    },
+    "workflow": {
+      "title": "Add your first workflow",
+      "short": "First workflow",
+      "description": "Start from a certified workflow pack or design your own, then publish it so your team can create work.",
+      "cta": "Add a workflow",
+      "doneHint_one": "{{count}} workflow created",
+      "doneHint_other": "{{count}} workflows created",
+      "designerTitle": "Design your own",
+      "designerBody": "Open the workflow designer to build a workflow from blocks and subflows.",
+      "designerCta": "Open the designer",
+      "packsTitle": "Start from a pack",
+      "packsBody": "Certified packs ship ready-made workflows you can import and adapt.",
+      "packsEmpty": "No certified packs are available to browse yet.",
+      "packsLink": "Browse the subflow library",
+      "packInstalled": "Installed",
+      "packCertified": "Certified",
+      "packDraft": "Draft"
+    }
+  }
+}

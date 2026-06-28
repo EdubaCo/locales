@@ -1,0 +1,85 @@
+{
+  "error": "Failed to load this run.",
+  "unknownWorkflow": "Unknown workflow",
+  "runStatus": {
+    "running": "Running",
+    "completed": "Completed",
+    "failed": "Failed",
+    "cancelled": "Canceled",
+    "suspended": "Suspended"
+  },
+  "terminal": {
+    "completed": "This run completed successfully.",
+    "failed": "This run failed.",
+    "cancelled": "This run was canceled."
+  },
+  "standardsFlag": {
+    "banner": "A referenced standard has a newer version available — review this run. Latest:"
+  },
+  "header": {
+    "started": "Started {{when}}",
+    "duration": "Duration {{duration}}",
+    "steps": "{{completed}}/{{total}} steps"
+  },
+  "nodes": {
+    "title": "Nodes",
+    "empty": "No node activity yet."
+  },
+  "nodeStatus": {
+    "completed": "Completed",
+    "waiting": "Waiting",
+    "failed": "Failed",
+    "skipped": "Skipped",
+    "running": "Running"
+  },
+  "drilldown": {
+    "title": "Node {{nodeId}}",
+    "clear": "Clear selection",
+    "input": "Input",
+    "output": "Output",
+    "error": "Error",
+    "none": "No data recorded."
+  },
+  "timeline": {
+    "title": "Timeline",
+    "filteredTo": "Node: {{nodeId}}",
+    "empty": "No events yet.",
+    "emptyFiltered": "No events for the selected node.",
+    "noPayload": "This event carries no payload.",
+    "loadMore": "Load more"
+  },
+  "context": {
+    "title": "Context",
+    "label": "{{kind}}: {{ref}}",
+    "none": "No business context.",
+    "documents": "Linked documents",
+    "noDocuments": "No documents linked to this run."
+  },
+  "action": {
+    "title": "Your action",
+    "submit": "Submit",
+    "submitting": "Submitting…",
+    "conflict": "This task was already acted on — refresh to see the latest state.",
+    "rejected": "The submitted values were rejected — check the fields and try again.",
+    "failed": "Submitting your action failed. Try again.",
+    "jsonPlaceholder": "JSON value",
+    "fields": {
+      "outcome": "Decision",
+      "comment": "Comment"
+    },
+    "options": {
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "errors": {
+      "required": "This field is required.",
+      "invalidNumber": "Enter a valid number.",
+      "invalidJson": "Enter valid JSON."
+    }
+  },
+  "designerTab": {
+    "intro": "Open a run of this workflow in the run inspector to see its timeline, node status, and drill-down.",
+    "runIdLabel": "Run ID",
+    "open": "Open inspector"
+  }
+}

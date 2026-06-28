@@ -1,0 +1,71 @@
+{
+  "controls": {
+    "next": "Next",
+    "back": "Back",
+    "done": "Done",
+    "skip": "Skip tour",
+    "close": "Close tour",
+    "progress": "Step {{current}} of {{total}}"
+  },
+  "demo": {
+    "pageTitle": "Guided tour (demo)",
+    "pageSub": "A placeholder tour that exercises the tour engine — start, step through, skip, and resume.",
+    "controlsTitle": "Try the tour",
+    "controlsSub": "Start the demo tour, skip it at any step, or replay it from the beginning.",
+    "start": "Start tour",
+    "startAgain": "Start tour again",
+    "replay": "Replay from start",
+    "statusIdle": "Not started",
+    "statusActive": "Running — step {{current}} of {{total}}",
+    "statusDismissed": "Completed or skipped (won't show again)",
+    "targets": {
+      "profile": "Your account and preferences live here.",
+      "nav": "Move between areas of the app from here.",
+      "work": "Your tasks and active work show up here."
+    },
+    "welcome": {
+      "title": "Welcome to the tour",
+      "body": "This short walkthrough points at parts of the screen and explains what they do. You can skip any time."
+    },
+    "profile": {
+      "title": "Profile & account",
+      "body": "Open your profile to manage your account, preferences, and language."
+    },
+    "nav": {
+      "title": "Navigation",
+      "body": "Use the navigation to move between your work, projects, and settings."
+    },
+    "work": {
+      "title": "My work",
+      "body": "Your assigned tasks and in-flight work appear here. That's the end of the demo — thanks for trying it!"
+    }
+  },
+  "product": {
+    "launch": "Take a tour",
+    "launchAria": "Take a product tour",
+    "welcome": {
+      "title": "Welcome to Eduba",
+      "body": "Here's a quick tour of the essentials — your profile, navigation, work, settings, and how to create new work. You can skip any time."
+    },
+    "profile": {
+      "title": "Profile & account",
+      "body": "Open the account menu to manage your profile, switch preferences, and sign out."
+    },
+    "navigation": {
+      "title": "Navigation",
+      "body": "Move between My Work, projects, workflows, and the rest of the app from the sidebar."
+    },
+    "myWork": {
+      "title": "My Work",
+      "body": "Your assigned tasks and active work live here. Filter, group, and open them to get started."
+    },
+    "settings": {
+      "title": "Settings & configuration",
+      "body": "Tune Eduba to suit you — try switching the theme right here, and find every setting in the menus."
+    },
+    "creatingWork": {
+      "title": "Creating work",
+      "body": "Ready to start something? Use New Task to launch a workflow, fill in the details, and assign it."
+    }
+  }
+}

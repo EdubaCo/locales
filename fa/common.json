@@ -1,0 +1,66 @@
+{
+  "appName": "Eduba",
+  "appTagline": "پلتفرم خوداِستقرار و ماژولار ERP و گردش کار برای شرکت‌های کوچک و متوسط تولیدی و پیمانکاران EPC.",
+  "phase": "فاز ۰ — اسکلت",
+  "nav": {
+    "menu": "باز کردن منو",
+    "myWork": "کارهای من",
+    "projects": "پروژه‌ها",
+    "workflows": "گردش‌های کار",
+    "subflows": "زیرگردش‌ها",
+    "documents": "اسناد",
+    "library": "کتابخانه",
+    "settings": "تنظیمات",
+    "notifications": "اعلان‌ها",
+    "inboundEmail": "ایمیل ورودی معلّق",
+    "toggleTheme": "تغییر حالت تیره",
+    "build": "ساخت",
+    "content": "محتوا",
+    "admin": "مدیریت",
+    "pinnedProjects": "پروژه‌های سنجاق‌شده",
+    "noPinnedProjects": "هنوز پروژه‌ای سنجاق نشده است",
+    "collapseGroup": "جمع کردن {{group}}",
+    "expandGroup": "باز کردن {{group}}"
+  },
+  "breadcrumbs": {
+    "label": "مسیر راهبری",
+    "run": "اجرا",
+    "editor": "ویرایشگر",
+    "preferences": "ترجیحات",
+    "display": "نمایش",
+    "language": "زبان و منطقه"
+  },
+  "topbar": {
+    "home": "خانه",
+    "workspaceSwitcher": "تغییر فضای کاری",
+    "workspaceCurrent": "فضای کاری فعلی",
+    "help": "راهنما",
+    "userMenu": "منوی حساب",
+    "profile": "نمایه",
+    "preferences": "ترجیحات",
+    "platformAdmin": "مدیریت پلتفرم",
+    "signOut": "خروج"
+  },
+  "errorBoundary": {
+    "title": "مشکلی پیش آمد",
+    "description": "خطای غیرمنتظره‌ای رخ داد. این مشکل گزارش شده است. صفحه را دوباره بارگذاری کنید.",
+    "reload": "بارگذاری مجدد"
+  },
+  "actions": {
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "confirm": "تأیید",
+    "delete": "حذف",
+    "edit": "ویرایش",
+    "create": "ایجاد",
+    "submit": "ارسال",
+    "back": "بازگشت",
+    "next": "بعدی"
+  },
+  "status": {
+    "loading": "در حال بارگذاری…",
+    "error": "خطایی رخ داد",
+    "empty": "موردی یافت نشد",
+    "success": "موفق"
+  }
+}

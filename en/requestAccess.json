@@ -1,0 +1,79 @@
+{
+  "pageLabel": "Request access",
+  "platformBadge": "platform",
+  "header": {
+    "signIn": "Back to sign-in"
+  },
+  "hero": {
+    "title": "Request access",
+    "subtitle": "Tell us how you'd like to run Eduba and we'll get you set up."
+  },
+  "steps": {
+    "interest": "Choose a trial",
+    "details": "Your details"
+  },
+  "interest": {
+    "legend": "How would you like to run Eduba?",
+    "hosted": {
+      "title": "Hosted trial",
+      "subtitle": "We run it for you, up and running in minutes."
+    },
+    "selfHosted": {
+      "title": "Self-hosted",
+      "subtitle": "Deploy on your own infrastructure."
+    },
+    "continue": "Continue",
+    "chosen": "Trial:",
+    "change": "Change"
+  },
+  "form": {
+    "name": "Full name",
+    "namePlaceholder": "Jane Doe",
+    "email": "Work email",
+    "emailPlaceholder": "you@company.com",
+    "company": "Company",
+    "companyPlaceholder": "Acme Engineering",
+    "teamSize": "Team size",
+    "teamSizePlaceholder": "Select team size",
+    "message": "What would you like to build?",
+    "messagePlaceholder": "Tell us about the processes you want to run…",
+    "messageFallback": "Request access",
+    "required": "required",
+    "optional": "optional",
+    "back": "Back",
+    "submit": "Submit request",
+    "submitting": "Submitting…"
+  },
+  "teamSizes": {
+    "1-10": "1–10",
+    "11-50": "11–50",
+    "51-200": "51–200",
+    "200+": "200+"
+  },
+  "consent": {
+    "prefix": "I agree to the",
+    "privacy": "Privacy Policy",
+    "separator": "and",
+    "terms": "Terms of Service",
+    "suffix": "."
+  },
+  "validation": {
+    "nameRequired": "Please enter your full name.",
+    "emailRequired": "Please enter your work email.",
+    "emailInvalid": "Please enter a valid email address."
+  },
+  "errors": {
+    "already": "You've already submitted a request. We'll be in touch soon.",
+    "generic": "Something went wrong. Please try again or email us at {{email}}."
+  },
+  "success": {
+    "title": "Request received",
+    "body": "We'll be in touch within one business day.",
+    "cta": "While you wait, explore the docs"
+  },
+  "footer": {
+    "copyright": "© {{year}} Eduba Platform",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}

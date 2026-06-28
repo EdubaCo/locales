@@ -1,0 +1,18 @@
+{
+  "panel": {
+    "title": "Help",
+    "close": "Close help panel",
+    "loading": "Loading help…",
+    "linksHeading": "Related documentation",
+    "emptyBody": "Browse the documentation to learn more.",
+    "errorTitle": "Couldn't load help",
+    "errorBody": "Please try again, or open the documentation directly.",
+    "retry": "Try again",
+    "externalLink": "opens in new tab"
+  },
+  "menu": {
+    "openPanel": "Contextual help",
+    "fullDocs": "Full documentation",
+    "replayTour": "Replay product tour"
+  }
+}

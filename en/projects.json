@@ -1,0 +1,115 @@
+{
+  "title": "Projects",
+  "subtitle": "Containers grouping tasks and product runs.",
+  "newProject": "New project",
+  "search": "Search projects…",
+  "error": "Failed to load projects.",
+  "stats": {
+    "activeProjects": "Active projects",
+    "activeProjectsSub": "not archived",
+    "openTasks": "Open tasks",
+    "openTasksSub": "across all projects",
+    "runningRuns": "Running runs",
+    "runningRunsSub": "engine-backed",
+    "slaBreaches": "SLA breaches",
+    "slaBreachesSub": "needs attention"
+  },
+  "filters": {
+    "heading": "Filters",
+    "status": "Status",
+    "allStatuses": "All statuses",
+    "customer": "Customer",
+    "allCustomers": "All customers",
+    "from": "From",
+    "to": "To",
+    "count": "{{count}} projects",
+    "clear": "Clear filters"
+  },
+  "status": {
+    "active": "Active",
+    "archived": "Archived"
+  },
+  "card": {
+    "tasks": "Tasks",
+    "runs": "Runs",
+    "breaches": "Breaches",
+    "started": "Started {{date}}",
+    "noCustomer": "No customer"
+  },
+  "empty": {
+    "title": "No projects yet",
+    "body": "Create a project to group related tasks and product runs.",
+    "cta": "New project"
+  },
+  "noMatch": {
+    "title": "No matching projects",
+    "body": "No projects match the current filters. Try widening or clearing them."
+  },
+  "newProjectCard": {
+    "title": "New project",
+    "sub": "Add a portfolio container"
+  },
+  "create": {
+    "title": "New project",
+    "subtitle": "Create a portfolio container to group related tasks and product runs.",
+    "nameLabel": "Project name",
+    "namePlaceholder": "e.g. Acme onboarding",
+    "typeLabel": "Project type",
+    "typePlaceholder": "e.g. Customer, Internal",
+    "customerLabel": "Customer",
+    "customerPlaceholder": "e.g. Acme Corp",
+    "optional": "optional",
+    "cancel": "Cancel",
+    "submit": "Create project",
+    "error": "Could not create the project. Please try again."
+  },
+  "detail": {
+    "breadcrumb": "Breadcrumb",
+    "tablistLabel": "Project sections",
+    "edit": "Edit",
+    "editComingSoon": "Project editing lands in a later update.",
+    "started": "Started {{date}}",
+    "loadError": "Failed to load this project.",
+    "notFound": "Project not found",
+    "notFoundBody": "This project may have been removed, or you may not have access to it.",
+    "tabs": {
+      "tasks": "Tasks",
+      "runs": "Product runs",
+      "documents": "Documents",
+      "history": "History"
+    },
+    "taskStatus": {
+      "active": "Active",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "tasks": {
+      "heading": "{{count}} tasks",
+      "colTask": "Task",
+      "colStatus": "Status",
+      "colAssignees": "Assignees",
+      "colUpdated": "Updated",
+      "assignees": "{{count}} assigned",
+      "emptyTitle": "No tasks yet",
+      "emptyBody": "Create a task to start tracking work on this project.",
+      "add": "Add task",
+      "addComingSoon": "Creating tasks lands in a later update."
+    },
+    "runs": {
+      "heading": "{{count}} product runs",
+      "emptyTitle": "No product runs yet",
+      "emptyBody": "Product runs appear here once a task starts its governing engine run."
+    },
+    "history": {
+      "heading": "Activity",
+      "emptyTitle": "No history yet",
+      "emptyBody": "Project activity will appear here as tasks are created and progress.",
+      "action": {
+        "created": "created task",
+        "updated": "updated task",
+        "completed": "completed task",
+        "cancelled": "cancelled task"
+      }
+    }
+  }
+}
