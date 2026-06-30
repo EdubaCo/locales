@@ -329,6 +329,16 @@
       }
     }
   },
+  "fieldHints": {
+    "passwordMinLength": {
+      "tooltip": "Minimum number of characters required for member passwords.",
+      "description": "Enforced when members set or reset a password. Allowed range is 8–128 characters."
+    },
+    "sessionLifetimeHours": {
+      "tooltip": "How long a sign-in stays valid before re-authentication.",
+      "description": "Members must sign in again after this many hours. Allowed range is 1–720 hours."
+    }
+  },
   "security": {
     "title": "Security",
     "sub": "Sign-in policy, sessions, and single sign-on for this workspace.",
@@ -347,7 +357,6 @@
       "title": "Sessions & MFA",
       "sub": "How long a sign-in lasts and whether multi-factor is required.",
       "lifetime": "Session lifetime (hours)",
-      "lifetimeHint": "Members re-authenticate after this many hours.",
       "mfaRequired": "Require multi-factor authentication",
       "mfaRequiredHint": "Every member must enrol an authenticator app."
     },

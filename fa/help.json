@@ -15,6 +15,9 @@
     "fullDocs": "مستندات کامل",
     "replayTour": "پخش مجدد تور محصول"
   },
+  "fieldHint": {
+    "tooltipTrigger": "راهنما برای {{label}}"
+  },
   "feedback": {
     "prompt": "اشتباهی یافتید؟ درخواست تغییر بدهید.",
     "trigger": "درخواست تغییر",

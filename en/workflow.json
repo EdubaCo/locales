@@ -225,5 +225,13 @@
         "other": "Validation issue"
       }
     }
+  },
+  "fieldHints": {
+    "approve": {
+      "title": {
+        "tooltip": "Short label for this approval step.",
+        "description": "Shown on the task card and in notifications."
+      }
+    }
   }
 }
