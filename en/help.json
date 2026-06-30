@@ -15,6 +15,9 @@
     "fullDocs": "Full documentation",
     "replayTour": "Replay product tour"
   },
+  "fieldHint": {
+    "tooltipTrigger": "Help for {{label}}"
+  },
   "feedback": {
     "prompt": "Found a mistake? Request a change.",
     "trigger": "Request a change",
