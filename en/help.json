@@ -4,6 +4,7 @@
     "close": "Close help panel",
     "loading": "Loading help…",
     "linksHeading": "Related documentation",
+    "tenantArticlesHeading": "From your organization",
     "emptyBody": "Browse the documentation to learn more.",
     "errorTitle": "Couldn't load help",
     "errorBody": "Please try again, or open the documentation directly.",
