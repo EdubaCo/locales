@@ -31,6 +31,15 @@
     "duplicate": "Duplicate",
     "archive": "Archive"
   },
+  "archiveDialog": {
+    "title": "Archive this workflow?",
+    "body": "“{{name}}” has no active runs. An archived workflow can no longer start new runs; you can still duplicate it.",
+    "bodyBlocked": "“{{name}}” has {{count}} active runs. It cannot be archived until they finish — let the runs drain, then try again.",
+    "confirm": "Archive",
+    "cancel": "Cancel",
+    "blockedAlert": "Couldn't archive — {{count}} runs are still active. Let them finish and try again.",
+    "errorAlert": "Couldn't archive the workflow. Please try again."
+  },
   "empty": "No workflows found. Create one to get started.",
   "modal": {
     "newTitle": "New Workflow",
