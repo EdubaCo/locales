@@ -39,7 +39,8 @@
     "profile": "Profile",
     "preferences": "Preferences",
     "platformAdmin": "Platform admin",
-    "signOut": "Sign out"
+    "signOut": "Sign out",
+    "signOutFailed": "Sign out failed — you are still signed in. Please try again."
   },
   "errorBoundary": {
     "title": "Something went wrong",

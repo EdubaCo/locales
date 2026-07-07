@@ -39,7 +39,8 @@
     "profile": "الملف الشخصي",
     "preferences": "التفضيلات",
     "platformAdmin": "إدارة المنصة",
-    "signOut": "تسجيل الخروج"
+    "signOut": "تسجيل الخروج",
+    "signOutFailed": "فشل تسجيل الخروج — ما زلت مسجّل الدخول. يرجى المحاولة مرة أخرى."
   },
   "errorBoundary": {
     "title": "حدث خطأ ما",

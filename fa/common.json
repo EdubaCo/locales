@@ -39,7 +39,8 @@
     "profile": "نمایه",
     "preferences": "ترجیحات",
     "platformAdmin": "مدیریت پلتفرم",
-    "signOut": "خروج"
+    "signOut": "خروج",
+    "signOutFailed": "خروج ناموفق بود — همچنان وارد سیستم هستید. لطفاً دوباره تلاش کنید."
   },
   "errorBoundary": {
     "title": "مشکلی پیش آمد",
