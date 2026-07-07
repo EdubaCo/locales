@@ -93,7 +93,12 @@
       "emptyTitle": "No tasks yet",
       "emptyBody": "Create a task to start tracking work on this project.",
       "add": "Add task",
-      "addComingSoon": "Creating tasks lands in a later update."
+      "addComingSoon": "Creating tasks lands in a later update.",
+      "pagination": {
+        "prev": "Previous",
+        "next": "Next",
+        "summary": "Showing {{count}} of {{total}}"
+      }
     },
     "runs": {
       "heading": "{{count}} product runs",
