@@ -2,7 +2,7 @@
   "open": "Search",
   "openHint": "Press {{shortcut}} to search",
   "shortcut": "Ctrl K",
-  "placeholder": "Search tasks, documents, definitions…",
+  "placeholder": "Search tasks, projects, documents, definitions…",
   "dialogLabel": "Global search",
   "close": "Close search",
   "clear": "Clear search",
@@ -11,7 +11,7 @@
   "empty": {
     "noResults": "No results for \"{{query}}\"",
     "recentTitle": "Recent searches",
-    "recentEmpty": "Start typing to search across tasks, documents and workflow definitions.",
+    "recentEmpty": "Start typing to search across tasks, projects, documents and workflow definitions.",
     "clearRecent": "Clear recent searches"
   },
   "results": {
@@ -21,6 +21,7 @@
   },
   "groups": {
     "task": "Tasks",
+    "project": "Projects",
     "document": "Documents",
     "workflowDefinition": "Workflow definitions"
   },
