@@ -16,6 +16,10 @@
   "standardsFlag": {
     "banner": "A referenced standard has a newer version available — review this run. Latest:"
   },
+  "attention": {
+    "banner_one": "{{count}} step failed — an operator needs to look at this.",
+    "banner_other": "{{count}} steps failed — an operator needs to look at this."
+  },
   "header": {
     "started": "Started {{when}}",
     "duration": "Duration {{duration}}",
