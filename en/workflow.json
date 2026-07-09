@@ -54,6 +54,10 @@
   },
   "loading": "Loading workflows…",
   "error": "Failed to load workflows.",
+  "noAccess": {
+    "title": "You don't have access to Workflows",
+    "body": "Designing workflows requires the designWorkflow permission. Ask a workspace admin if you need access."
+  },
   "ai": {
     "open": "AI assistant",
     "title": "AI workflow assistant",
