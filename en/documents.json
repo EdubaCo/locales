@@ -62,7 +62,11 @@
       "finalizing": "Finalizing revision…"
     },
     "denied": "You are not permitted to upload here.",
-    "error": "Upload failed. Nothing was saved — please try again."
+    "error": "Upload failed. Nothing was saved — please try again.",
+    "disabledReason": {
+      "noFile": "Choose a file to continue.",
+      "noKey": "Enter a document path to continue."
+    }
   },
   "history": {
     "title": "Revision history",
