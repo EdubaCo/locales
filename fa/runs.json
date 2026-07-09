@@ -23,7 +23,8 @@
   "header": {
     "started": "آغاز {{when}}",
     "duration": "مدت {{duration}}",
-    "steps": "{{completed}}/{{total}} گام"
+    "steps": "{{completed}}/{{total}} گام",
+    "stepsDone": "{{completed}} گام انجام شد"
   },
   "nodes": {
     "title": "گره‌ها",

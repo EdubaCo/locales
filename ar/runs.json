@@ -27,7 +27,8 @@
   "header": {
     "started": "بدأ {{when}}",
     "duration": "المدة {{duration}}",
-    "steps": "{{completed}}/{{total}} خطوة"
+    "steps": "{{completed}}/{{total}} خطوة",
+    "stepsDone": "أُنجزت {{completed}} خطوة"
   },
   "nodes": {
     "title": "العقد",
