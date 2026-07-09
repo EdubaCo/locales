@@ -23,7 +23,8 @@
   "header": {
     "started": "Started {{when}}",
     "duration": "Duration {{duration}}",
-    "steps": "{{completed}}/{{total}} steps"
+    "steps": "{{completed}}/{{total}} steps",
+    "stepsDone": "{{completed}} steps done"
   },
   "nodes": {
     "title": "Nodes",
