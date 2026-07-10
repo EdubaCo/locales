@@ -88,7 +88,9 @@
       "revision": "v{{number}}",
       "noMatch": "No workflows match your search.",
       "emptyTitle": "No published workflows",
-      "emptyHint": "Publish one from Settings → Workflows to create tasks from it."
+      "emptyHint": "Publish one from Settings → Workflows to create tasks from it.",
+      "noStartRunTitle": "You don't have permission to start workflow runs",
+      "noStartRunHint": "Ask a workspace admin to grant you the Start Run permission."
     },
     "step2": {
       "nameLabel": "Task name",
