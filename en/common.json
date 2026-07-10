@@ -32,6 +32,7 @@
   },
   "topbar": {
     "home": "Home",
+    "language": "Switch language",
     "workspaceSwitcher": "Switch workspace",
     "workspaceCurrent": "Current workspace",
     "help": "Help",

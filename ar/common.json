@@ -32,6 +32,7 @@
   },
   "topbar": {
     "home": "الرئيسية",
+    "language": "تبديل اللغة",
     "workspaceSwitcher": "تبديل مساحة العمل",
     "workspaceCurrent": "مساحة العمل الحالية",
     "help": "المساعدة",

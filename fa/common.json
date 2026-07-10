@@ -32,6 +32,7 @@
   },
   "topbar": {
     "home": "خانه",
+    "language": "تغییر زبان",
     "workspaceSwitcher": "تغییر فضای کاری",
     "workspaceCurrent": "فضای کاری فعلی",
     "help": "راهنما",
