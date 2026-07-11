@@ -162,7 +162,32 @@
         "required": "هذا الحقل مطلوب.",
         "invalidNumber": "يجب أن يكون رقمًا.",
         "invalidFeel": "تعبير FEEL غير صالح.",
-        "invalidOption": "اختر إحدى القيم المسموح بها."
+        "invalidOption": "اختر إحدى القيم المسموح بها.",
+        "invalidAssignee": "المكلَّف غير صالح — اختر دورًا أو مستخدمًا أو مجموعة، أو صحّح JSON الخام في المتقدم."
+      },
+      "assignee": {
+        "tabs": {
+          "role": "دور",
+          "user": "مستخدم",
+          "group": "مجموعة",
+          "dynamic": "ديناميكي",
+          "rule": "قاعدة",
+          "advanced": "متقدم"
+        },
+        "searchPlaceholder": "بحث…",
+        "noResults": "لا توجد نتائج مطابقة.",
+        "clear": "مسح",
+        "dynamic": {
+          "hint": "مسار متغيّر FEEL يُحلّ إلى مكلَّف وقت التشغيل، مثل variables.reviewerId.",
+          "placeholder": "variables.reviewerId"
+        },
+        "rule": {
+          "hint": "معرّف قاعدة محلِّل تحسب المكلَّف وقت التشغيل.",
+          "placeholder": "معرّف القاعدة (UUID)"
+        },
+        "advanced": {
+          "hint": "JSON خام لمواصفة المكلَّف — للمواصفات المركّبة (any/all) أو لتصحيح قيمة غير صالحة."
+        }
       },
       "checkpoint": {
         "heading": "نقطة تحقق بالذكاء الاصطناعي",

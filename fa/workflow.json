@@ -162,7 +162,32 @@
         "required": "این فیلد الزامی است.",
         "invalidNumber": "باید یک عدد باشد.",
         "invalidFeel": "عبارت FEEL نامعتبر است.",
-        "invalidOption": "یکی از مقادیر مجاز را انتخاب کنید."
+        "invalidOption": "یکی از مقادیر مجاز را انتخاب کنید.",
+        "invalidAssignee": "واگذارشوندهٔ نامعتبر — یک نقش، کاربر یا گروه انتخاب کنید یا JSON خام را در پیشرفته اصلاح کنید."
+      },
+      "assignee": {
+        "tabs": {
+          "role": "نقش",
+          "user": "کاربر",
+          "group": "گروه",
+          "dynamic": "پویا",
+          "rule": "قاعده",
+          "advanced": "پیشرفته"
+        },
+        "searchPlaceholder": "جست‌وجو…",
+        "noResults": "موردی یافت نشد.",
+        "clear": "پاک‌کردن",
+        "dynamic": {
+          "hint": "مسیر متغیر FEEL که در زمان اجرا به یک واگذارشونده تبدیل می‌شود، مثل variables.reviewerId.",
+          "placeholder": "variables.reviewerId"
+        },
+        "rule": {
+          "hint": "شناسهٔ قاعدهٔ حل‌کننده‌ای که واگذارشونده را در زمان اجرا محاسبه می‌کند.",
+          "placeholder": "شناسهٔ قاعده (UUID)"
+        },
+        "advanced": {
+          "hint": "JSON خام AssigneeSpec — برای مشخصات ترکیبی (any/all) یا اصلاح مقدار نامعتبر."
+        }
       },
       "checkpoint": {
         "heading": "ایست بازرسی هوش مصنوعی",
