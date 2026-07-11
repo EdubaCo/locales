@@ -20,7 +20,9 @@
     "pinnedProjects": "المشاريع المثبتة",
     "noPinnedProjects": "لا توجد مشاريع مثبتة بعد",
     "collapseGroup": "طيّ {{group}}",
-    "expandGroup": "توسيع {{group}}"
+    "expandGroup": "توسيع {{group}}",
+    "collapseSidebar": "طيّ الشريط الجانبي",
+    "expandSidebar": "توسيع الشريط الجانبي"
   },
   "breadcrumbs": {
     "label": "مسار التنقل",

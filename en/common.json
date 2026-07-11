@@ -20,7 +20,9 @@
     "pinnedProjects": "Pinned projects",
     "noPinnedProjects": "No pinned projects yet",
     "collapseGroup": "Collapse {{group}}",
-    "expandGroup": "Expand {{group}}"
+    "expandGroup": "Expand {{group}}",
+    "collapseSidebar": "Collapse sidebar",
+    "expandSidebar": "Expand sidebar"
   },
   "breadcrumbs": {
     "label": "Breadcrumb",
