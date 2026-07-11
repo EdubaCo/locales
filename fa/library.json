@@ -49,11 +49,36 @@
     "outdatedHint": "نسخهٔ جدیدتری ({{version}}) از نسخهٔ پذیرفته‌شده ({{current}}) شناخته شده است."
   },
   "actions": {
-    "history": "تاریخچه"
+    "history": "تاریخچه",
+    "register": "افزودن استاندارد"
   },
   "pagination": {
     "prev": "قبلی",
     "next": "بعدی",
     "page": "صفحهٔ {{page}}"
+  },
+  "registerModal": {
+    "title": "ثبت روش اجرایی یا استاندارد",
+    "subtitle": "یک مورد کنترل‌شدهٔ جدید به کتابخانه می‌افزاید.",
+    "typeLabel": "نوع",
+    "titleLabel": "عنوان",
+    "titlePlaceholder": "مثال: روش اجرایی جوشکاری",
+    "titleRequired": "عنوان الزامی است.",
+    "keyLabel": "مسیر سند",
+    "keyPlaceholder": "standards/welding-procedure",
+    "keyRequired": "مسیر سند الزامی است.",
+    "codeLabel": "کد استاندارد",
+    "codePlaceholder": "مثال: ISO 9001",
+    "versionLabel": "نسخهٔ پذیرفته‌شده",
+    "versionPlaceholder": "مثال: Rev C",
+    "optional": "اختیاری",
+    "restrictedLabel": "محدود کردن دسترسی خواندن به یک نقش یا گروه",
+    "cancel": "لغو",
+    "submit": "ثبت",
+    "error": {
+      "denied": "شما اجازهٔ ثبت استاندارد را ندارید.",
+      "codeExists": "استانداردی با این کد از قبل وجود دارد.",
+      "generic": "ثبت استاندارد ناموفق بود. دوباره تلاش کنید."
+    }
   }
 }

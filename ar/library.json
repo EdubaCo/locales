@@ -49,11 +49,36 @@
     "outdatedHint": "يوجد إصدار أحدث ({{version}}) من الإصدار المُعتمد ({{current}})."
   },
   "actions": {
-    "history": "السجل"
+    "history": "السجل",
+    "register": "إضافة معيار"
   },
   "pagination": {
     "prev": "السابق",
     "next": "التالي",
     "page": "صفحة {{page}}"
+  },
+  "registerModal": {
+    "title": "تسجيل إجراء أو معيار",
+    "subtitle": "يضيف عنصرًا مضبوطًا جديدًا إلى المكتبة.",
+    "typeLabel": "النوع",
+    "titleLabel": "العنوان",
+    "titlePlaceholder": "مثال: إجراء اللحام",
+    "titleRequired": "العنوان مطلوب.",
+    "keyLabel": "مسار المستند",
+    "keyPlaceholder": "standards/welding-procedure",
+    "keyRequired": "مسار المستند مطلوب.",
+    "codeLabel": "رمز المعيار",
+    "codePlaceholder": "مثال: ISO 9001",
+    "versionLabel": "الإصدار المُعتمد",
+    "versionPlaceholder": "مثال: Rev C",
+    "optional": "اختياري",
+    "restrictedLabel": "تقييد وصول القراءة إلى دور أو مجموعة",
+    "cancel": "إلغاء",
+    "submit": "تسجيل",
+    "error": {
+      "denied": "ليس لديك إذن لتسجيل معيار.",
+      "codeExists": "يوجد بالفعل معيار بهذا الرمز.",
+      "generic": "فشل تسجيل المعيار. حاول مرة أخرى."
+    }
   }
 }
