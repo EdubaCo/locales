@@ -162,7 +162,32 @@
         "required": "This field is required.",
         "invalidNumber": "Must be a number.",
         "invalidFeel": "Invalid FEEL expression.",
-        "invalidOption": "Choose one of the allowed values."
+        "invalidOption": "Choose one of the allowed values.",
+        "invalidAssignee": "Not a valid assignee — pick a role, user, or group, or fix the raw JSON in Advanced."
+      },
+      "assignee": {
+        "tabs": {
+          "role": "Role",
+          "user": "User",
+          "group": "Group",
+          "dynamic": "Dynamic",
+          "rule": "Rule",
+          "advanced": "Advanced"
+        },
+        "searchPlaceholder": "Search…",
+        "noResults": "No matches.",
+        "clear": "Clear",
+        "dynamic": {
+          "hint": "A FEEL variable path resolved to an assignee at runtime, e.g. variables.reviewerId.",
+          "placeholder": "variables.reviewerId"
+        },
+        "rule": {
+          "hint": "The id of a resolver rule that computes the assignee at runtime.",
+          "placeholder": "Rule id (UUID)"
+        },
+        "advanced": {
+          "hint": "Raw AssigneeSpec JSON — for combined (any/all) specs or fixing a malformed value."
+        }
       },
       "checkpoint": {
         "heading": "AI checkpoint",
