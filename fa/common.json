@@ -20,7 +20,9 @@
     "pinnedProjects": "پروژه‌های سنجاق‌شده",
     "noPinnedProjects": "هنوز پروژه‌ای سنجاق نشده است",
     "collapseGroup": "جمع کردن {{group}}",
-    "expandGroup": "باز کردن {{group}}"
+    "expandGroup": "باز کردن {{group}}",
+    "collapseSidebar": "جمع کردن نوار کناری",
+    "expandSidebar": "باز کردن نوار کناری"
   },
   "breadcrumbs": {
     "label": "مسیر راهبری",
