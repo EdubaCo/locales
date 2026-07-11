@@ -261,8 +261,18 @@
         "subflow-interface-unsatisfied": "منفذ الواجهة غير محقّق في الجسم",
         "subflow-interface-type": "عدم تطابق نوع منفذ الواجهة",
         "other": "مشكلة في التحقّق"
-      }
-    }
+      },
+      "barTitle": "التحقّق",
+      "show": "إظهار نتائج التحقّق",
+      "hide": "إخفاء نتائج التحقّق",
+      "notRun": "لم يتم التحقّق بعد",
+      "ready": "جاهز للنشر",
+      "errorsBadge": "{{count}} خطأ",
+      "warningsBadge": "{{count}} تحذير"
+    },
+    "collapse": "طيّ",
+    "expand": "توسيع",
+    "interfaceRail": "الواجهة"
   },
   "fieldHints": {
     "approve": {

@@ -261,8 +261,18 @@
         "subflow-interface-unsatisfied": "پورت رابط توسط بدنه تأمین نشده است",
         "subflow-interface-type": "عدم تطابق نوع پورت رابط",
         "other": "مشکل اعتبارسنجی"
-      }
-    }
+      },
+      "barTitle": "اعتبارسنجی",
+      "show": "نمایش نتایج اعتبارسنجی",
+      "hide": "پنهان‌کردن نتایج اعتبارسنجی",
+      "notRun": "هنوز اعتبارسنجی نشده",
+      "ready": "آمادهٔ انتشار",
+      "errorsBadge": "{{count}} خطا",
+      "warningsBadge": "{{count}} هشدار"
+    },
+    "collapse": "جمع‌کردن",
+    "expand": "بازکردن",
+    "interfaceRail": "رابط"
   },
   "fieldHints": {
     "approve": {

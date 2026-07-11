@@ -261,8 +261,18 @@
         "subflow-interface-unsatisfied": "Interface port not satisfied by body",
         "subflow-interface-type": "Interface port type mismatch",
         "other": "Validation issue"
-      }
-    }
+      },
+      "barTitle": "Validation",
+      "show": "Show validation results",
+      "hide": "Hide validation results",
+      "notRun": "Not validated yet",
+      "ready": "Ready to publish",
+      "errorsBadge": "{{count}} error(s)",
+      "warningsBadge": "{{count}} warning(s)"
+    },
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "interfaceRail": "Interface"
   },
   "fieldHints": {
     "approve": {
