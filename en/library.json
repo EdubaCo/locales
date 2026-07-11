@@ -49,11 +49,36 @@
     "outdatedHint": "A newer version ({{version}}) is known than the one adopted ({{current}})."
   },
   "actions": {
-    "history": "History"
+    "history": "History",
+    "register": "Add standard"
   },
   "pagination": {
     "prev": "Previous",
     "next": "Next",
     "page": "Page {{page}}"
+  },
+  "registerModal": {
+    "title": "Register a procedure or standard",
+    "subtitle": "Adds a new controlled entry to the library.",
+    "typeLabel": "Type",
+    "titleLabel": "Title",
+    "titlePlaceholder": "e.g. Welding procedure",
+    "titleRequired": "Title is required.",
+    "keyLabel": "Document path",
+    "keyPlaceholder": "standards/welding-procedure",
+    "keyRequired": "Document path is required.",
+    "codeLabel": "Standard code",
+    "codePlaceholder": "e.g. ISO 9001",
+    "versionLabel": "Adopted version",
+    "versionPlaceholder": "e.g. Rev C",
+    "optional": "Optional",
+    "restrictedLabel": "Restrict read access to a role or group",
+    "cancel": "Cancel",
+    "submit": "Register",
+    "error": {
+      "denied": "You do not have permission to register a standard.",
+      "codeExists": "A standard with this code already exists.",
+      "generic": "Failed to register the standard. Try again."
+    }
   }
 }
