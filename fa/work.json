@@ -60,11 +60,15 @@
     "outcome": {
       "approved": "تأییدشده",
       "approved_minor": "تأیید با ملاحظات",
+      "commented": "دارای نظر",
       "rejected": "ردشده — نیازمند بازنگری",
       "skipped": "رد شد"
     },
     "comment": "نظر",
     "commentPlaceholder": "یادداشتی برای بازبین بعدی بنویسید…",
+    "attachment": "پیوست",
+    "attachmentUploading": "در حال بارگذاری…",
+    "attachmentError": "بارگذاری این فایل ممکن نشد. دوباره تلاش کنید.",
     "submit": "ثبت",
     "submitting": "در حال ثبت…",
     "submitError": "ثبت تصمیم شما ممکن نشد. دوباره تلاش کنید.",

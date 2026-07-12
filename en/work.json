@@ -60,11 +60,15 @@
     "outcome": {
       "approved": "Approved",
       "approved_minor": "Approved with comments",
+      "commented": "Commented",
       "rejected": "Rejected — needs revision",
       "skipped": "Skipped"
     },
     "comment": "Comment",
     "commentPlaceholder": "Add a note for the next reviewer…",
+    "attachment": "Attachment",
+    "attachmentUploading": "Uploading…",
+    "attachmentError": "Couldn't upload that file. Please try again.",
     "submit": "Submit",
     "submitting": "Submitting…",
     "submitError": "Couldn't submit your decision. Please try again.",
