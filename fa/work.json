@@ -24,12 +24,16 @@
     "context": "زمینه",
     "collapse": "جمع‌کردن پنل",
     "project": "پروژه",
-    "projectStatus": { "active": "فعال", "completed": "تکمیل‌شده", "archived": "بایگانی‌شده" },
+    "projectStatus": {
+      "active": "فعال",
+      "completed": "تکمیل‌شده",
+      "archived": "بایگانی‌شده"
+    },
     "noCustomer": "بدون مشتری",
     "noProject": "به پروژه‌ای متصل نیست.",
     "started": "آغاز در {{date}}",
     "documents": "اسناد",
-    "noDocuments": "هنوز سندی به این پروژه پیوست نشده است.",
+    "noDocuments": "هنوز سندی در این وظیفه نیست.",
     "runTimeline": "گاه‌شمار اجرا",
     "yourScope": "دامنهٔ شما",
     "noTimeline": "هنوز فعالیتی نیست.",
@@ -37,7 +41,11 @@
     "priorReviews": "بازبینی‌های پیشین",
     "noPriorReviews": "هیچ بازنگری پیشینی برای این وظیفه وجود ندارد.",
     "stepCounter": "گام {{current}} از {{total}}",
-    "taskStatus": { "active": "فعال", "completed": "تکمیل‌شده", "cancelled": "لغوشده" },
+    "taskStatus": {
+      "active": "فعال",
+      "completed": "تکمیل‌شده",
+      "cancelled": "لغوشده"
+    },
     "copyLink": "کپی پیوند",
     "openRun": "گشودن بازرس اجرا",
     "readOnly": "فقط‌خواندنی.",
@@ -72,7 +80,15 @@
       "node.waitStarted": "در انتظار اقدام",
       "node.waitEnded": "گام تکمیل شد",
       "task.comment.created": "نظری افزوده شد"
-    }
+    },
+    "description": "توضیحات",
+    "noDescription": "هنوز توضیحی افزوده نشده است.",
+    "documentsError": "بارگذاری اسناد این وظیفه ممکن نشد.",
+    "documentsUpload": "بارگذاری",
+    "documentsUploadRevision": "بازنگری جدید",
+    "documentsDownload": "دریافت",
+    "documentsLineage": "از پروژه",
+    "documentsLineageTitle": "هنگام ایجاد این وظیفه از اسناد پروژه کپی شده است."
   },
   "createTask": {
     "title": "وظیفهٔ جدید",
@@ -104,7 +120,12 @@
       "priorityLabel": "اولویت",
       "descriptionLabel": "توضیحات",
       "descriptionPlaceholder": "این وظیفه دربارهٔ چیست؟",
-      "optional": "اختیاری"
+      "optional": "اختیاری",
+      "notesLabel": "یادداشت‌ها",
+      "notesPlaceholder": "زمینهٔ اضافی که همراه گردش‌کار ارسال می‌شود (اختیاری)",
+      "handOffLabel": "واگذاری اسناد پروژه",
+      "handOffEmpty": "این پروژه هنوز سندی برای واگذاری ندارد.",
+      "handOffCount_other": "{{count}} سند انتخاب شد"
     },
     "priority": {
       "low": "کم",
