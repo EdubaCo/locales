@@ -52,11 +52,15 @@
     "outcome": {
       "approved": "موافَق عليه",
       "approved_minor": "موافَق عليه مع ملاحظات",
+      "commented": "مع تعليق",
       "rejected": "مرفوض — يحتاج إلى مراجعة",
       "skipped": "تم تخطّيه"
     },
     "comment": "تعليق",
     "commentPlaceholder": "أضف ملاحظة للمراجع التالي…",
+    "attachment": "مرفق",
+    "attachmentUploading": "جارٍ الرفع…",
+    "attachmentError": "تعذّر رفع هذا الملف. حاول مرة أخرى.",
     "submit": "إرسال",
     "submitting": "جارٍ الإرسال…",
     "submitError": "تعذّر إرسال قرارك. حاول مرة أخرى.",
