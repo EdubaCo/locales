@@ -26,7 +26,7 @@
     "steps": "{{completed}}/{{total}} steps",
     "stepsDone": "{{completed}} steps done",
     "roundProgress": "{{completed}} of {{enrolled}} tasks done",
-    "roundProgressHint": "Enrolled tasks completed in the current round (ADR-0074 §5)"
+    "roundProgressHint": "Enrolled tasks completed in the current round"
   },
   "nodes": {
     "title": "Nodes",

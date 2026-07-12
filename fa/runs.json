@@ -26,7 +26,7 @@
     "steps": "{{completed}}/{{total}} گام",
     "stepsDone": "{{completed}} گام انجام شد",
     "roundProgress": "{{completed}} از {{enrolled}} وظیفه انجام شد",
-    "roundProgressHint": "وظایف ثبت‌شده تکمیل‌شده در دور جاری (ADR-0074 §5)"
+    "roundProgressHint": "وظایف ثبت‌شده تکمیل‌شده در دور جاری"
   },
   "nodes": {
     "title": "گره‌ها",

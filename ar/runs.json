@@ -30,7 +30,7 @@
     "steps": "{{completed}}/{{total}} خطوة",
     "stepsDone": "أُنجزت {{completed}} خطوة",
     "roundProgress": "اكتملت {{completed}} من {{enrolled}} مهام",
-    "roundProgressHint": "المهام المسجَّلة المكتملة في الجولة الحالية (ADR-0074 §5)"
+    "roundProgressHint": "المهام المسجَّلة المكتملة في الجولة الحالية"
   },
   "nodes": {
     "title": "العقد",
