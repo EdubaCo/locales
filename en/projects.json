@@ -61,6 +61,12 @@
     "customerLabel": "Customer",
     "customerPlaceholder": "e.g. Acme Corp",
     "optional": "optional",
+    "workflowLabel": "Workflow",
+    "workflowNone": "No workflow",
+    "workflowOption": "{{name}} (v{{number}})",
+    "workflowNoStartRun": "You don't have permission to start workflow runs, so this project will be created without a pinned workflow.",
+    "revisionSeriesLabel": "Revision series",
+    "revisionSeriesDefaultOption": "{{name}} (tenant default)",
     "cancel": "Cancel",
     "submit": "Create project",
     "error": "Could not create the project. Please try again."
@@ -127,6 +133,22 @@
     "save": "Save",
     "saving": "Saving…",
     "cancel": "Cancel",
-    "editError": "Couldn't save the description. Please try again."
+    "editError": "Couldn't save the description. Please try again.",
+    "roundProgress": {
+      "label": "{{completed}} of {{enrolled}} done this round",
+      "hint": "Enrolled tasks completed in the current round"
+    },
+    "reopen": {
+      "selectColumn": "Select for reopening",
+      "selectTask": "Select {{name}} to reopen",
+      "selected": "Reopen selected ({{count}})",
+      "title_one": "Reopen {{count}} task?",
+      "title_other": "Reopen {{count}} tasks?",
+      "body": "Each reopened task keeps its identity and documents and starts a fresh run under a new round.",
+      "confirm": "Reopen",
+      "error": "Couldn't reopen the selected tasks. Please try again.",
+      "success_one": "Reopened {{count}} task.",
+      "success_other": "Reopened {{count}} tasks."
+    }
   }
 }
