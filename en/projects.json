@@ -71,7 +71,7 @@
     "pin": "Pin",
     "unpin": "Unpin",
     "edit": "Edit",
-    "editComingSoon": "Project editing lands in a later update.",
+    "editHint": "Edit the project description",
     "started": "Started {{date}}",
     "loadError": "Failed to load this project.",
     "notFound": "Project not found",
@@ -119,6 +119,14 @@
         "completed": "completed task",
         "cancelled": "cancelled task"
       }
-    }
+    },
+    "description": "Description",
+    "noDescription": "No description yet.",
+    "editDescription": "Edit description",
+    "descriptionPlaceholder": "Add a short project brief…",
+    "save": "Save",
+    "saving": "Saving…",
+    "cancel": "Cancel",
+    "editError": "Couldn't save the description. Please try again."
   }
 }

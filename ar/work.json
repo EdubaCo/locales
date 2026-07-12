@@ -24,12 +24,16 @@
     "context": "السياق",
     "collapse": "طيّ اللوحة",
     "project": "المشروع",
-    "projectStatus": { "active": "نشط", "completed": "مكتمل", "archived": "مؤرشف" },
+    "projectStatus": {
+      "active": "نشط",
+      "completed": "مكتمل",
+      "archived": "مؤرشف"
+    },
     "noCustomer": "لا يوجد عميل",
     "noProject": "غير مرتبطة بمشروع.",
     "started": "بدأ في {{date}}",
     "documents": "المستندات",
-    "noDocuments": "لا توجد مستندات مرتبطة بهذا المشروع بعد.",
+    "noDocuments": "لا توجد مستندات في هذه المهمة بعد.",
     "runTimeline": "الجدول الزمني للتشغيل",
     "yourScope": "نطاقك",
     "noTimeline": "لا يوجد نشاط بعد.",
@@ -37,7 +41,11 @@
     "priorReviews": "المراجعات السابقة",
     "noPriorReviews": "لا توجد مراجعات سابقة لهذه المهمة.",
     "stepCounter": "الخطوة {{current}} من {{total}}",
-    "taskStatus": { "active": "نشطة", "completed": "مكتملة", "cancelled": "ملغاة" },
+    "taskStatus": {
+      "active": "نشطة",
+      "completed": "مكتملة",
+      "cancelled": "ملغاة"
+    },
     "copyLink": "نسخ الرابط",
     "openRun": "فتح مفتّش التشغيل",
     "readOnly": "للقراءة فقط.",
@@ -52,11 +60,15 @@
     "outcome": {
       "approved": "موافَق عليه",
       "approved_minor": "موافَق عليه مع ملاحظات",
+      "commented": "مع تعليق",
       "rejected": "مرفوض — يحتاج إلى مراجعة",
       "skipped": "تم تخطّيه"
     },
     "comment": "تعليق",
     "commentPlaceholder": "أضف ملاحظة للمراجع التالي…",
+    "attachment": "مرفق",
+    "attachmentUploading": "جارٍ الرفع…",
+    "attachmentError": "تعذّر رفع هذا الملف. حاول مرة أخرى.",
     "submit": "إرسال",
     "submitting": "جارٍ الإرسال…",
     "submitError": "تعذّر إرسال قرارك. حاول مرة أخرى.",
@@ -72,7 +84,15 @@
       "node.waitStarted": "بانتظار إجراء",
       "node.waitEnded": "اكتملت الخطوة",
       "task.comment.created": "أُضيف تعليق"
-    }
+    },
+    "description": "الوصف",
+    "noDescription": "لم تتم إضافة وصف بعد.",
+    "documentsError": "تعذّر تحميل مستندات هذه المهمة.",
+    "documentsUpload": "رفع",
+    "documentsUploadRevision": "مراجعة جديدة",
+    "documentsDownload": "تنزيل",
+    "documentsLineage": "من المشروع",
+    "documentsLineageTitle": "نُسخ من مستندات المشروع عند إنشاء هذه المهمة."
   },
   "createTask": {
     "title": "مهمة جديدة",
@@ -104,7 +124,16 @@
       "priorityLabel": "الأولوية",
       "descriptionLabel": "الوصف",
       "descriptionPlaceholder": "ما موضوع هذه المهمة؟",
-      "optional": "اختياري"
+      "optional": "اختياري",
+      "notesLabel": "ملاحظات",
+      "notesPlaceholder": "سياق إضافي يُمرَّر مع سير العمل (اختياري)",
+      "handOffLabel": "تسليم مستندات المشروع",
+      "handOffEmpty": "لا توجد مستندات في هذا المشروع لتسليمها بعد.",
+      "handOffCount_one": "تم اختيار مستند واحد",
+      "handOffCount_two": "تم اختيار مستندين",
+      "handOffCount_few": "تم اختيار {{count}} مستندات",
+      "handOffCount_many": "تم اختيار {{count}} مستندًا",
+      "handOffCount_other": "تم اختيار {{count}} مستند"
     },
     "priority": {
       "low": "منخفضة",

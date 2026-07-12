@@ -24,12 +24,16 @@
     "context": "Context",
     "collapse": "Collapse panel",
     "project": "Project",
-    "projectStatus": { "active": "Active", "completed": "Completed", "archived": "Archived" },
+    "projectStatus": {
+      "active": "Active",
+      "completed": "Completed",
+      "archived": "Archived"
+    },
     "noCustomer": "No customer",
     "noProject": "Not linked to a project.",
     "started": "Started {{date}}",
     "documents": "Documents",
-    "noDocuments": "No documents linked to this project yet.",
+    "noDocuments": "No documents in this task yet.",
     "runTimeline": "Run timeline",
     "yourScope": "Your scope",
     "noTimeline": "No activity yet.",
@@ -37,7 +41,11 @@
     "priorReviews": "Prior reviews",
     "noPriorReviews": "No prior revisions on this task.",
     "stepCounter": "Step {{current}} of {{total}}",
-    "taskStatus": { "active": "Active", "completed": "Completed", "cancelled": "Cancelled" },
+    "taskStatus": {
+      "active": "Active",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
     "copyLink": "Copy link",
     "openRun": "Open run inspector",
     "readOnly": "Read-only.",
@@ -52,11 +60,15 @@
     "outcome": {
       "approved": "Approved",
       "approved_minor": "Approved with comments",
+      "commented": "Commented",
       "rejected": "Rejected — needs revision",
       "skipped": "Skipped"
     },
     "comment": "Comment",
     "commentPlaceholder": "Add a note for the next reviewer…",
+    "attachment": "Attachment",
+    "attachmentUploading": "Uploading…",
+    "attachmentError": "Couldn't upload that file. Please try again.",
     "submit": "Submit",
     "submitting": "Submitting…",
     "submitError": "Couldn't submit your decision. Please try again.",
@@ -72,7 +84,15 @@
       "node.waitStarted": "Awaiting action",
       "node.waitEnded": "Step completed",
       "task.comment.created": "Comment added"
-    }
+    },
+    "description": "Description",
+    "noDescription": "No description added yet.",
+    "documentsError": "Couldn't load this task's documents.",
+    "documentsUpload": "Upload",
+    "documentsUploadRevision": "New revision",
+    "documentsDownload": "Download",
+    "documentsLineage": "From project",
+    "documentsLineageTitle": "Copied from the project's documents when this task was created."
   },
   "createTask": {
     "title": "New task",
@@ -104,7 +124,13 @@
       "priorityLabel": "Priority",
       "descriptionLabel": "Description",
       "descriptionPlaceholder": "What is this task about?",
-      "optional": "Optional"
+      "optional": "Optional",
+      "notesLabel": "Notes",
+      "notesPlaceholder": "Extra context passed along with the workflow (optional)",
+      "handOffLabel": "Hand off project documents",
+      "handOffEmpty": "This project has no documents to hand off yet.",
+      "handOffCount_one": "{{count}} document selected",
+      "handOffCount_other": "{{count}} documents selected"
     },
     "priority": {
       "low": "Low",
