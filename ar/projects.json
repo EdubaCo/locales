@@ -61,6 +61,12 @@
     "customerLabel": "العميل",
     "customerPlaceholder": "مثال: شركة Acme",
     "optional": "اختياري",
+    "workflowLabel": "سير العمل",
+    "workflowNone": "بدون سير عمل",
+    "workflowOption": "{{name}} (الإصدار {{number}})",
+    "workflowNoStartRun": "ليس لديك إذن لبدء تشغيلات سير العمل، لذا سيُنشأ هذا المشروع دون ربط سير عمل.",
+    "revisionSeriesLabel": "سلسلة المراجعات",
+    "revisionSeriesDefaultOption": "{{name}} (الافتراضي للمستأجر)",
     "cancel": "إلغاء",
     "submit": "إنشاء المشروع",
     "error": "تعذّر إنشاء المشروع. يرجى المحاولة مرة أخرى."
@@ -127,6 +133,28 @@
     "save": "حفظ",
     "saving": "جارٍ الحفظ…",
     "cancel": "إلغاء",
-    "editError": "تعذّر حفظ الوصف. يرجى المحاولة مجددًا."
+    "editError": "تعذّر حفظ الوصف. يرجى المحاولة مجددًا.",
+    "roundProgress": {
+      "label": "اكتمل {{completed}} من {{enrolled}} في هذه الجولة",
+      "hint": "المهام المسجَّلة المكتملة في الجولة الحالية"
+    },
+    "reopen": {
+      "selectColumn": "تحديد لإعادة الفتح",
+      "selectTask": "تحديد {{name}} لإعادة الفتح",
+      "selected": "إعادة فتح المحدد ({{count}})",
+      "title_one": "إعادة فتح مهمة واحدة؟",
+      "title_two": "إعادة فتح مهمتين؟",
+      "title_few": "إعادة فتح {{count}} مهام؟",
+      "title_many": "إعادة فتح {{count}} مهمة؟",
+      "title_other": "إعادة فتح {{count}} مهمة؟",
+      "body": "تحتفظ كل مهمة مُعاد فتحها بهويتها ومستنداتها وتبدأ عملية تشغيل جديدة ضمن جولة جديدة.",
+      "confirm": "إعادة الفتح",
+      "error": "تعذّرت إعادة فتح المهام المحددة. يرجى المحاولة مرة أخرى.",
+      "success_one": "أُعيد فتح مهمة واحدة.",
+      "success_two": "أُعيد فتح مهمتين.",
+      "success_few": "أُعيد فتح {{count}} مهام.",
+      "success_many": "أُعيد فتح {{count}} مهمة.",
+      "success_other": "أُعيد فتح {{count}} مهمة."
+    }
   }
 }
