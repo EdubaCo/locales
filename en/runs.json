@@ -10,6 +10,7 @@
   },
   "terminal": {
     "completed": "This run completed successfully.",
+    "completedWithOutcomes": "This run completed — one or more stages recorded a reject or return outcome.",
     "failed": "This run failed.",
     "cancelled": "This run was canceled."
   },
@@ -61,6 +62,10 @@
     "none": "No business context.",
     "documents": "Linked documents",
     "noDocuments": "No documents linked to this run."
+  },
+  "stageComment": {
+    "title": "Latest stage comment",
+    "byline": "— {{actor}}"
   },
   "action": {
     "title": "Your action",
