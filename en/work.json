@@ -110,7 +110,9 @@
       "emptyTitle": "No published workflows",
       "emptyHint": "Publish one from Settings → Workflows to create tasks from it.",
       "noStartRunTitle": "You don't have permission to start workflow runs",
-      "noStartRunHint": "Ask a workspace admin to grant you the Start Run permission."
+      "noStartRunHint": "Ask a workspace admin to grant you the Start Run permission.",
+      "noPermissionTitle": "You don't have permission to create tasks",
+      "noPermissionHint": "Ask a workspace admin to grant you the Create Task permission."
     },
     "step2": {
       "nameLabel": "Task name",
