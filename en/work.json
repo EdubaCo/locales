@@ -72,6 +72,7 @@
     "submit": "Submit",
     "submitting": "Submitting…",
     "submitError": "Couldn't submit your decision. Please try again.",
+    "submitErrorEngine": "This step calls a subflow the engine cannot run yet — contact your workflow admin.",
     "submittedTitle": "Submitted",
     "submittedBody": "Your decision has been recorded and the task has advanced.",
     "workflowPosition": "Workflow position",

@@ -74,6 +74,7 @@
     "conflict": "This task was already acted on — refresh to see the latest state.",
     "rejected": "The submitted values were rejected — check the fields and try again.",
     "failed": "Submitting your action failed. Try again.",
+    "engineUnavailable": "This step calls a subflow the engine cannot run yet — contact your workflow admin.",
     "jsonPlaceholder": "JSON value",
     "fields": {
       "outcome": "Decision",
