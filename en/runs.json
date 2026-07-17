@@ -1,6 +1,10 @@
 {
   "error": "Failed to load this run.",
   "unknownWorkflow": "Unknown workflow",
+  "noAccess": {
+    "title": "You don't have access to this run",
+    "body": "You don't have access to this run's details. Ask its owner or a workspace admin if you need to see it."
+  },
   "runStatus": {
     "running": "Running",
     "completed": "Completed",

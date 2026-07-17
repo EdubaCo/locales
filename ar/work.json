@@ -89,6 +89,7 @@
     "description": "الوصف",
     "noDescription": "لم تتم إضافة وصف بعد.",
     "documentsError": "تعذّر تحميل مستندات هذه المهمة.",
+    "documentsNoAccess": "ليس لديك صلاحية الوصول إلى مستندات هذه المهمة.",
     "documentsUpload": "رفع",
     "documentsUploadRevision": "مراجعة جديدة",
     "documentsDownload": "تنزيل",
