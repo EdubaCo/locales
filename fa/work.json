@@ -89,6 +89,7 @@
     "description": "توضیحات",
     "noDescription": "هنوز توضیحی افزوده نشده است.",
     "documentsError": "بارگذاری اسناد این وظیفه ممکن نشد.",
+    "documentsNoAccess": "شما به اسناد این وظیفه دسترسی ندارید.",
     "documentsUpload": "بارگذاری",
     "documentsUploadRevision": "بازنگری جدید",
     "documentsDownload": "دریافت",

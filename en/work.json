@@ -89,6 +89,7 @@
     "description": "Description",
     "noDescription": "No description added yet.",
     "documentsError": "Couldn't load this task's documents.",
+    "documentsNoAccess": "You don't have access to this task's documents.",
     "documentsUpload": "Upload",
     "documentsUploadRevision": "New revision",
     "documentsDownload": "Download",
