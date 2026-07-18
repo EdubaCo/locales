@@ -34,7 +34,7 @@
     "duration": "المدة {{duration}}",
     "steps": "{{completed}}/{{total}} خطوة",
     "stepsDone": "أُنجزت {{completed}} خطوة",
-    "roundProgress": "اكتملت {{completed}} من {{enrolled}} مهام",
+    "roundProgress": "الجولة {{round}} — اكتملت {{completed}} من {{enrolled}} مهام",
     "roundProgressHint": "المهام المسجَّلة المكتملة في الجولة الحالية"
   },
   "nodes": {

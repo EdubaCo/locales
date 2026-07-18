@@ -30,7 +30,7 @@
     "duration": "مدت {{duration}}",
     "steps": "{{completed}}/{{total}} گام",
     "stepsDone": "{{completed}} گام انجام شد",
-    "roundProgress": "{{completed}} از {{enrolled}} وظیفه انجام شد",
+    "roundProgress": "دور {{round}} — {{completed}} از {{enrolled}} وظیفه انجام شد",
     "roundProgressHint": "وظایف ثبت‌شده تکمیل‌شده در دور جاری"
   },
   "nodes": {
