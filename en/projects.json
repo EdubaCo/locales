@@ -135,7 +135,7 @@
     "cancel": "Cancel",
     "editError": "Couldn't save the description. Please try again.",
     "roundProgress": {
-      "label": "{{completed}} of {{enrolled}} done this round",
+      "label": "Round {{round}} — {{completed}} of {{enrolled}} done",
       "hint": "Enrolled tasks completed in the current round"
     },
     "reopen": {
@@ -145,6 +145,7 @@
       "title_one": "Reopen {{count}} task?",
       "title_other": "Reopen {{count}} tasks?",
       "body": "Each reopened task keeps its identity and documents and starts a fresh run under a new round.",
+      "blockedHint": "This task's current round is still running — it must finish before it can be reopened.",
       "confirm": "Reopen",
       "error": "Couldn't reopen the selected tasks. Please try again.",
       "success_one": "Reopened {{count}} task.",

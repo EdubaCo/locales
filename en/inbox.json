@@ -59,6 +59,10 @@
     "badge": "Standard update",
     "label": "A newer version of a standard this work references was detected — review the work."
   },
+  "round": {
+    "badge": "Round {{round}}",
+    "hint": "This task was re-enrolled — Round {{round}} is its current, live round."
+  },
   "savedViews": {
     "title": "Saved views",
     "save": "Save current view",
