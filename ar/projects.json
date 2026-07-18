@@ -123,8 +123,12 @@
         "created": "أنشأ المهمة",
         "updated": "حدّث المهمة",
         "completed": "أكمل المهمة",
-        "cancelled": "ألغى المهمة"
-      }
+        "cancelled": "ألغى المهمة",
+        "reopened": "أعاد فتح المهمة",
+        "roundStarted": "بدأت"
+      },
+      "roundLabel": "الجولة {{round}}",
+      "byActor": "— {{actor}}"
     },
     "description": "الوصف",
     "noDescription": "لا يوجد وصف بعد.",

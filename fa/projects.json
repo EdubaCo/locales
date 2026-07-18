@@ -123,8 +123,12 @@
         "created": "وظیفه را ساخت",
         "updated": "وظیفه را به‌روزرسانی کرد",
         "completed": "وظیفه را تکمیل کرد",
-        "cancelled": "وظیفه را لغو کرد"
-      }
+        "cancelled": "وظیفه را لغو کرد",
+        "reopened": "وظیفه را دوباره باز کرد",
+        "roundStarted": "آغاز شد"
+      },
+      "roundLabel": "دور {{round}}",
+      "byActor": "— {{actor}}"
     },
     "description": "توضیحات",
     "noDescription": "هنوز توضیحی افزوده نشده است.",
