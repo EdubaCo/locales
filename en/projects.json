@@ -123,8 +123,12 @@
         "created": "created task",
         "updated": "updated task",
         "completed": "completed task",
-        "cancelled": "cancelled task"
-      }
+        "cancelled": "cancelled task",
+        "reopened": "reopened task",
+        "roundStarted": "started"
+      },
+      "roundLabel": "Round {{round}}",
+      "byActor": "— {{actor}}"
     },
     "description": "Description",
     "noDescription": "No description yet.",
