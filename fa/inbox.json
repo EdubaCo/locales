@@ -22,7 +22,9 @@
     "workflow": "گردش کار",
     "context": "زمینه",
     "sla": "توافق‌نامهٔ سطح خدمت",
-    "deadline": "مهلت"
+    "deadline": "مهلت",
+    "step": "مرحلهٔ فعلی",
+    "assignees": "مسئولان"
   },
   "sla": {
     "red": "گذشته از مهلت",
@@ -78,5 +80,26 @@
     "prev": "قبلی",
     "next": "بعدی",
     "summary": "نمایش {{count}} از {{total}}"
+  },
+  "step": {
+    "counter": "{{current}}/{{total}}",
+    "progressLabel": "مرحلهٔ {{current}} از {{total}}"
+  },
+  "assignees": {
+    "label": "واگذارشده به {{names}}"
+  },
+  "peek": {
+    "open": "نگاه سریع",
+    "title": "نگاه سریع",
+    "close": "بستن",
+    "yourTurn": "نوبت شماست",
+    "yourTurnStep": "«{{step}}» منتظر اقدام شماست.",
+    "progress": "پیشرفت",
+    "summary": "خلاصه",
+    "round": "دور",
+    "lastActivity": "آخرین فعالیت",
+    "activityUnavailable": "فعالیت برای این وظیفه در دسترس نیست.",
+    "noActivity": "هنوز فعالیتی ثبت نشده است.",
+    "openFull": "باز کردن کامل وظیفه"
   }
 }

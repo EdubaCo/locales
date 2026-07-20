@@ -84,7 +84,8 @@
       "node.completed": "اكتملت الخطوة",
       "node.waitStarted": "بانتظار إجراء",
       "node.waitEnded": "اكتملت الخطوة",
-      "task.comment.created": "أُضيف تعليق"
+      "task.comment.created": "أُضيف تعليق",
+      "node.waiting": "بانتظار إجراء"
     },
     "description": "الوصف",
     "noDescription": "لم تتم إضافة وصف بعد.",

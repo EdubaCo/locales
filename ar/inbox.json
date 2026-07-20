@@ -26,7 +26,9 @@
     "workflow": "سير العمل",
     "context": "السياق",
     "sla": "اتفاقية مستوى الخدمة",
-    "deadline": "الموعد النهائي"
+    "deadline": "الموعد النهائي",
+    "step": "الخطوة الحالية",
+    "assignees": "المكلّفون"
   },
   "sla": {
     "red": "متأخرة",
@@ -82,5 +84,26 @@
     "prev": "السابق",
     "next": "التالي",
     "summary": "عرض {{count}} من {{total}}"
+  },
+  "step": {
+    "counter": "{{current}}/{{total}}",
+    "progressLabel": "الخطوة {{current}} من {{total}}"
+  },
+  "assignees": {
+    "label": "مُسند إلى {{names}}"
+  },
+  "peek": {
+    "open": "نظرة سريعة",
+    "title": "نظرة سريعة",
+    "close": "إغلاق",
+    "yourTurn": "دورك الآن",
+    "yourTurnStep": "\"{{step}}\" بانتظار إجرائك.",
+    "progress": "التقدّم",
+    "summary": "الملخّص",
+    "round": "الجولة",
+    "lastActivity": "آخر نشاط",
+    "activityUnavailable": "النشاط غير متاح لهذه المهمة.",
+    "noActivity": "لا يوجد نشاط بعد.",
+    "openFull": "فتح المهمة كاملة"
   }
 }
