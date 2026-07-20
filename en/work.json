@@ -5,6 +5,8 @@
     "routeSubtitle": "Discussion for this task. This panel mounts in the Task Detail right rail.",
     "loading": "Loading comments…",
     "error": "Couldn't load comments",
+    "postError": "Couldn't post your comment. Please try again.",
+    "postForbidden": "You don't have permission to comment on this task.",
     "emptyTitle": "No comments yet",
     "emptySub": "Start the discussion for this task.",
     "composeLabel": "Add a comment",
