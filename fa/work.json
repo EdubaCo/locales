@@ -46,6 +46,33 @@
       "completed": "تکمیل‌شده",
       "cancelled": "لغوشده"
     },
+    "tabs": {
+      "overview": "نمای کلی",
+      "activity": "فعالیت",
+      "files": "فایل‌ها",
+      "comments": "نظرها"
+    },
+    "you": "شما",
+    "assignedTo": "واگذارشده به",
+    "detailsTitle": "جزئیات",
+    "customer": "مشتری",
+    "status": "وضعیت",
+    "startedLabel": "آغاز‌شده",
+    "filesCount": "فایل‌ها · {{count}}",
+    "whatHappenedLast": "آخرین رویداد",
+    "viewFullActivity": "مشاهدهٔ فعالیت کامل ←",
+    "viewAllSteps": "مشاهدهٔ همهٔ گام‌ها",
+    "hideSteps": "پنهان‌کردن گام‌ها",
+    "stepUpcoming": "پیش‌رو",
+    "yourTurn": "نوبت شما",
+    "yourTurnCallout": "نوبت شماست — اکنون چه باید کرد",
+    "deferred": {
+      "loading": "در حال بارگذاری…",
+      "activityTitle": "خوراک فعالیت",
+      "activityBody": "خوراک کامل فعالیت اجرا به‌زودی این‌جا می‌آید — تاکنون {{count}} رویداد.",
+      "filesTitle": "فایل‌های وظیفه",
+      "filesBody": "مدیریت کامل فایل‌ها به‌زودی این‌جا می‌آید — {{count}} فایل در این وظیفه."
+    },
     "copyLink": "کپی پیوند",
     "openRun": "گشودن بازرس اجرا",
     "readOnly": "فقط‌خواندنی.",

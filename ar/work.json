@@ -46,6 +46,33 @@
       "completed": "مكتملة",
       "cancelled": "ملغاة"
     },
+    "tabs": {
+      "overview": "نظرة عامة",
+      "activity": "النشاط",
+      "files": "الملفات",
+      "comments": "التعليقات"
+    },
+    "you": "أنت",
+    "assignedTo": "مُسنَدة إلى",
+    "detailsTitle": "التفاصيل",
+    "customer": "العميل",
+    "status": "الحالة",
+    "startedLabel": "بدأت",
+    "filesCount": "الملفات · {{count}}",
+    "whatHappenedLast": "آخر ما حدث",
+    "viewFullActivity": "عرض النشاط كاملاً ←",
+    "viewAllSteps": "عرض كل الخطوات",
+    "hideSteps": "إخفاء الخطوات",
+    "stepUpcoming": "قادمة",
+    "yourTurn": "دورك",
+    "yourTurnCallout": "دورك — ما الذي يجب فعله الآن",
+    "deferred": {
+      "loading": "جارٍ التحميل…",
+      "activityTitle": "سجل النشاط",
+      "activityBody": "سيظهر سجل نشاط التشغيل الكامل هنا قريباً — {{count}} حدثاً حتى الآن.",
+      "filesTitle": "ملفات المهمة",
+      "filesBody": "ستظهر إدارة الملفات الكاملة هنا قريباً — {{count}} ملفاً في هذه المهمة."
+    },
     "copyLink": "نسخ الرابط",
     "openRun": "فتح مفتّش التشغيل",
     "readOnly": "للقراءة فقط.",
