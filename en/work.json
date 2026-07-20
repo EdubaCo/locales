@@ -84,7 +84,8 @@
       "node.completed": "Step completed",
       "node.waitStarted": "Awaiting action",
       "node.waitEnded": "Step completed",
-      "task.comment.created": "Comment added"
+      "task.comment.created": "Comment added",
+      "node.waiting": "Awaiting action"
     },
     "description": "Description",
     "noDescription": "No description added yet.",

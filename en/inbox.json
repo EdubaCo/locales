@@ -22,7 +22,9 @@
     "workflow": "Workflow",
     "context": "Context",
     "sla": "SLA",
-    "deadline": "Deadline"
+    "deadline": "Deadline",
+    "step": "Current step",
+    "assignees": "Assignees"
   },
   "sla": {
     "red": "Overdue",
@@ -78,5 +80,26 @@
     "prev": "Previous",
     "next": "Next",
     "summary": "Showing {{count}} of {{total}}"
+  },
+  "step": {
+    "counter": "{{current}}/{{total}}",
+    "progressLabel": "Step {{current}} of {{total}}"
+  },
+  "assignees": {
+    "label": "Assigned to {{names}}"
+  },
+  "peek": {
+    "open": "Quick peek",
+    "title": "Quick peek",
+    "close": "Close",
+    "yourTurn": "Your turn",
+    "yourTurnStep": "\"{{step}}\" is waiting on you.",
+    "progress": "Progress",
+    "summary": "Summary",
+    "round": "Round",
+    "lastActivity": "Last activity",
+    "activityUnavailable": "Activity is not available for this task.",
+    "noActivity": "No activity yet.",
+    "openFull": "Open full task"
   }
 }

@@ -84,7 +84,8 @@
       "node.completed": "گام تکمیل شد",
       "node.waitStarted": "در انتظار اقدام",
       "node.waitEnded": "گام تکمیل شد",
-      "task.comment.created": "نظری افزوده شد"
+      "task.comment.created": "نظری افزوده شد",
+      "node.waiting": "در انتظار اقدام"
     },
     "description": "توضیحات",
     "noDescription": "هنوز توضیحی افزوده نشده است.",
