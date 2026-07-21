@@ -73,6 +73,26 @@
       "filesTitle": "فایل‌های وظیفه",
       "filesBody": "مدیریت کامل فایل‌ها به‌زودی این‌جا می‌آید — {{count}} فایل در این وظیفه."
     },
+    "files": {
+      "historyTitle": "تاریخچهٔ نسخه‌ها",
+      "historyEmpty": "هنوز نسخه‌ای وجود ندارد.",
+      "historyError": "بارگیری تاریخچهٔ نسخه‌های این سند ممکن نشد.",
+      "revisionLabel": "نسخهٔ {{number}}",
+      "revisionCount_one": "{{count}} نسخه",
+      "revisionCount_other": "{{count}} نسخه",
+      "current": "نسخهٔ فعلی",
+      "modified": "ویرایش‌شده",
+      "modifiedTitle": "این سند بیش از یک نسخه دارد — در جریان وظیفه بازبینی شده است.",
+      "unknownUploader": "بارگذارندهٔ نامشخص",
+      "sizeKb": "{{size}} کیلوبایت",
+      "downloadRevision": "دانلود این نسخه",
+      "source": {
+        "upload": "بارگذاری‌شده",
+        "email": "ایمیل",
+        "attest": "گواهی‌شده",
+        "generated": "تولیدشده"
+      }
+    },
     "activity": {
       "filters": {
         "all": "همه",

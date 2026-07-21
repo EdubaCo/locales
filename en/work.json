@@ -73,6 +73,26 @@
       "filesTitle": "Task files",
       "filesBody": "Full file management lands here soon — {{count}} files on this task."
     },
+    "files": {
+      "historyTitle": "Version history",
+      "historyEmpty": "No revisions yet.",
+      "historyError": "Couldn't load this document's version history.",
+      "revisionLabel": "v{{number}}",
+      "revisionCount_one": "{{count}} version",
+      "revisionCount_other": "{{count}} versions",
+      "current": "Current",
+      "modified": "Modified",
+      "modifiedTitle": "This document has more than one version — it was revised on the task.",
+      "unknownUploader": "Unknown uploader",
+      "sizeKb": "{{size}} KB",
+      "downloadRevision": "Download this version",
+      "source": {
+        "upload": "Uploaded",
+        "email": "Email",
+        "attest": "Attested",
+        "generated": "Generated"
+      }
+    },
     "activity": {
       "filters": {
         "all": "All",
