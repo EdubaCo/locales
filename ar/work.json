@@ -73,6 +73,30 @@
       "filesTitle": "ملفات المهمة",
       "filesBody": "ستظهر إدارة الملفات الكاملة هنا قريباً — {{count}} ملفاً في هذه المهمة."
     },
+    "files": {
+      "historyTitle": "سجل الإصدارات",
+      "historyEmpty": "لا توجد إصدارات بعد.",
+      "historyError": "تعذّر تحميل سجل إصدارات هذا المستند.",
+      "revisionLabel": "الإصدار {{number}}",
+      "revisionCount_zero": "لا إصدارات",
+      "revisionCount_one": "إصدار واحد",
+      "revisionCount_two": "إصداران",
+      "revisionCount_few": "{{count}} إصدارات",
+      "revisionCount_many": "{{count}} إصداراً",
+      "revisionCount_other": "{{count}} إصدار",
+      "current": "الحالي",
+      "modified": "مُعدَّل",
+      "modifiedTitle": "لهذا المستند أكثر من إصدار — فقد جرى تنقيحه ضمن المهمة.",
+      "unknownUploader": "رافع غير معروف",
+      "sizeKb": "{{size}} كيلوبايت",
+      "downloadRevision": "تنزيل هذا الإصدار",
+      "source": {
+        "upload": "رُفع",
+        "email": "بريد إلكتروني",
+        "attest": "مُوثَّق",
+        "generated": "مُولَّد"
+      }
+    },
     "activity": {
       "filters": {
         "all": "الكل",
