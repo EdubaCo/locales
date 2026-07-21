@@ -73,6 +73,39 @@
       "filesTitle": "Task files",
       "filesBody": "Full file management lands here soon — {{count}} files on this task."
     },
+    "activity": {
+      "filters": {
+        "all": "All",
+        "step": "Steps",
+        "comment": "Comments",
+        "file": "Files"
+      },
+      "op": {
+        "added": "Added",
+        "modified": "Modified"
+      },
+      "completed": "completed",
+      "commented": "commented",
+      "fileAdded": "added a file",
+      "fileModified": "updated a file",
+      "systemActor": "System",
+      "unknownActor": "A teammate",
+      "empty": "No activity on this task yet.",
+      "emptyFilter": "Nothing matches this filter.",
+      "system": {
+        "run.started": "started the workflow",
+        "run.completed": "completed the workflow",
+        "run.failed": "ended the workflow with an error",
+        "run.cancelled": "cancelled the workflow",
+        "run.suspended": "paused the workflow",
+        "run.resumed": "resumed the workflow",
+        "node.failed": "hit an error on a step",
+        "task.created": "created this task",
+        "task.reopened": "reopened this task",
+        "round.started": "started a new round",
+        "standards.runFlagged": "flagged a standards update"
+      }
+    },
     "copyLink": "Copy link",
     "openRun": "Open run inspector",
     "readOnly": "Read-only.",
