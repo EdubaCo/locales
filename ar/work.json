@@ -73,6 +73,39 @@
       "filesTitle": "ملفات المهمة",
       "filesBody": "ستظهر إدارة الملفات الكاملة هنا قريباً — {{count}} ملفاً في هذه المهمة."
     },
+    "activity": {
+      "filters": {
+        "all": "الكل",
+        "step": "الخطوات",
+        "comment": "التعليقات",
+        "file": "الملفات"
+      },
+      "op": {
+        "added": "أُضيف",
+        "modified": "عُدّل"
+      },
+      "completed": "أكمل",
+      "commented": "علّق",
+      "fileAdded": "أضاف ملفاً",
+      "fileModified": "حدّث ملفاً",
+      "systemActor": "النظام",
+      "unknownActor": "أحد الزملاء",
+      "empty": "لا يوجد نشاط على هذه المهمة بعد.",
+      "emptyFilter": "لا شيء يطابق هذا المرشّح.",
+      "system": {
+        "run.started": "بدأ سير العمل",
+        "run.completed": "أكمل سير العمل",
+        "run.failed": "أنهى سير العمل بخطأ",
+        "run.cancelled": "ألغى سير العمل",
+        "run.suspended": "أوقف سير العمل مؤقتاً",
+        "run.resumed": "استأنف سير العمل",
+        "node.failed": "واجه خطأ في إحدى الخطوات",
+        "task.created": "أنشأ هذه المهمة",
+        "task.reopened": "أعاد فتح هذه المهمة",
+        "round.started": "بدأ جولة جديدة",
+        "standards.runFlagged": "أشار إلى تحديث في المعايير"
+      }
+    },
     "copyLink": "نسخ الرابط",
     "openRun": "فتح مفتّش التشغيل",
     "readOnly": "للقراءة فقط.",
