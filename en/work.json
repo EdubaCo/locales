@@ -46,6 +46,33 @@
       "completed": "Completed",
       "cancelled": "Cancelled"
     },
+    "tabs": {
+      "overview": "Overview",
+      "activity": "Activity",
+      "files": "Files",
+      "comments": "Comments"
+    },
+    "you": "you",
+    "assignedTo": "Assigned to",
+    "detailsTitle": "Details",
+    "customer": "Customer",
+    "status": "Status",
+    "startedLabel": "Started",
+    "filesCount": "Files · {{count}}",
+    "whatHappenedLast": "What happened last",
+    "viewFullActivity": "View full activity →",
+    "viewAllSteps": "View all steps",
+    "hideSteps": "Hide steps",
+    "stepUpcoming": "Upcoming",
+    "yourTurn": "Your turn",
+    "yourTurnCallout": "Your turn — what to do now",
+    "deferred": {
+      "loading": "Loading…",
+      "activityTitle": "Activity feed",
+      "activityBody": "The full run activity feed lands here soon — {{count}} events so far.",
+      "filesTitle": "Task files",
+      "filesBody": "Full file management lands here soon — {{count}} files on this task."
+    },
     "copyLink": "Copy link",
     "openRun": "Open run inspector",
     "readOnly": "Read-only.",
