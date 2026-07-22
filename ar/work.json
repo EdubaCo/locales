@@ -106,7 +106,8 @@
       },
       "op": {
         "added": "أُضيف",
-        "modified": "عُدّل"
+        "modified": "عُدّل",
+        "removed": "أُزيل"
       },
       "completed": "أكمل",
       "commented": "علّق",
