@@ -46,6 +46,15 @@
       "completed": "Completed",
       "cancelled": "Cancelled"
     },
+    "completion": {
+      "title": {
+        "completed": "Task complete",
+        "cancelled": "Task cancelled"
+      },
+      "completed": "This task is complete — no further action is needed.",
+      "completedWithOutcomes": "This task completed — one or more stages recorded a reject or return outcome.",
+      "cancelled": "This task was cancelled."
+    },
     "tabs": {
       "overview": "Overview",
       "activity": "Activity",

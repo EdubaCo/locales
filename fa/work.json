@@ -46,6 +46,15 @@
       "completed": "تکمیل‌شده",
       "cancelled": "لغوشده"
     },
+    "completion": {
+      "title": {
+        "completed": "کار تکمیل شد",
+        "cancelled": "کار لغو شد"
+      },
+      "completed": "این کار تکمیل شده است — اقدام دیگری لازم نیست.",
+      "completedWithOutcomes": "این کار تکمیل شد — یک یا چند مرحله نتیجهٔ رد یا بازگشت را ثبت کرده‌اند.",
+      "cancelled": "این کار لغو شد."
+    },
     "tabs": {
       "overview": "نمای کلی",
       "activity": "فعالیت",
