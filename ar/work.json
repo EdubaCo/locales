@@ -46,6 +46,15 @@
       "completed": "مكتملة",
       "cancelled": "ملغاة"
     },
+    "completion": {
+      "title": {
+        "completed": "اكتملت المهمة",
+        "cancelled": "أُلغيت المهمة"
+      },
+      "completed": "اكتملت هذه المهمة — لا يلزم اتخاذ أي إجراء إضافي.",
+      "completedWithOutcomes": "اكتملت هذه المهمة — سجّلت مرحلة واحدة أو أكثر نتيجة رفض أو إعادة.",
+      "cancelled": "أُلغيت هذه المهمة."
+    },
     "tabs": {
       "overview": "نظرة عامة",
       "activity": "النشاط",
