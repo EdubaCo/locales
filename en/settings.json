@@ -649,7 +649,11 @@
       "apac": "Asia–Pacific"
     },
     "workspaceLabel": "Workspace URL",
-    "workspaceHint": "Your subdomain address. Only an administrator can change it."
+    "workspaceHint": "Your subdomain address. Only an administrator can change it.",
+    "readOnly": {
+      "title": "View-only access",
+      "body": "These settings are managed by a tenant admin. You can view them but not make changes."
+    }
   },
   "branding": {
     "title": "Branding",
@@ -686,7 +690,11 @@
     "shellPreview": "App preview",
     "previewSignIn": "Sign in",
     "previewFallbackName": "Your workspace",
-    "previewFallbackTagline": "Welcome back."
+    "previewFallbackTagline": "Welcome back.",
+    "readOnly": {
+      "title": "View-only access",
+      "body": "Branding is managed by a tenant admin. You can view it but not make changes."
+    }
   },
   "preferences": {
     "title": "Preferences",
