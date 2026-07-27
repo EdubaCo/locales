@@ -189,7 +189,11 @@
     "documentsUploadRevision": "مراجعة جديدة",
     "documentsDownload": "تنزيل",
     "documentsLineage": "من المشروع",
-    "documentsLineageTitle": "نُسخ من مستندات المشروع عند إنشاء هذه المهمة."
+    "documentsLineageTitle": "نُسخ من مستندات المشروع عند إنشاء هذه المهمة.",
+    "unassignable": {
+      "title": "لا أحد مُسنَد إلى خطوة لاحقة",
+      "message": "الخطوة «{{step}}» مُسنَدة إلى {{target}}، وهو لا يطابق حاليًا أي مستخدم نشط — لذا لا يمكن لهذه المهمة أن تتقدّم حتى يُصلِح المسؤول الإسناد."
+    }
   },
   "createTask": {
     "title": "مهمة جديدة",

@@ -98,5 +98,19 @@
     "intro": "Open a run of this workflow in the run inspector to see its timeline, node status, and drill-down.",
     "runIdLabel": "Run ID",
     "open": "Open inspector"
+  },
+  "unassignable": {
+    "banner_one": "1 step has no one assigned — nobody can act, and this run cannot continue until the assignment is fixed.",
+    "banner_other": "{{count}} steps have no one assigned — nobody can act, and this run cannot continue until the assignments are fixed.",
+    "detail": "“{{step}}” is assigned to {{target}}, which currently matches no active user.",
+    "specType": {
+      "role": "a role",
+      "group": "a group",
+      "user": "a user",
+      "dynamic": "a dynamic assignment rule",
+      "ruleRef": "a decision rule",
+      "any": "a combined assignment rule",
+      "all": "a combined assignment rule"
+    }
   }
 }

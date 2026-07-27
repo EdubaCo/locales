@@ -185,7 +185,11 @@
     "documentsUploadRevision": "New revision",
     "documentsDownload": "Download",
     "documentsLineage": "From project",
-    "documentsLineageTitle": "Copied from the project's documents when this task was created."
+    "documentsLineageTitle": "Copied from the project's documents when this task was created.",
+    "unassignable": {
+      "title": "No one is assigned to a later step",
+      "message": "“{{step}}” is assigned to {{target}}, which currently matches no active user — so this task cannot move on until an admin fixes the assignment."
+    }
   },
   "createTask": {
     "title": "New task",
