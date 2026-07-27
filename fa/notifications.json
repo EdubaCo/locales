@@ -25,7 +25,8 @@
     "check_requested": "درخواست بازبینی",
     "run_failed": "گردش کار ناموفق بود",
     "run_completed": "گردش کار تکمیل شد",
-    "standards_newVersionDetected": "نسخهٔ جدید استاندارد"
+    "standards_newVersionDetected": "نسخهٔ جدید استاندارد",
+    "node_assignmentFailed": "گام بدون فرد واگذارشده"
   },
   "prefs": {
     "title": "ترجیحات اعلان‌ها",

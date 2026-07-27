@@ -25,7 +25,8 @@
     "check_requested": "طلب مراجعة",
     "run_failed": "فشل سير العمل",
     "run_completed": "اكتمل سير العمل",
-    "standards_newVersionDetected": "إصدار جديد لمعيار"
+    "standards_newVersionDetected": "إصدار جديد لمعيار",
+    "node_assignmentFailed": "خطوة بلا مُسنَد إليه"
   },
   "prefs": {
     "title": "تفضيلات الإشعارات",

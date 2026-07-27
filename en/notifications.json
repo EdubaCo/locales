@@ -25,7 +25,8 @@
     "check_requested": "Review requested",
     "run_failed": "Workflow failed",
     "run_completed": "Workflow completed",
-    "standards_newVersionDetected": "Standard new version"
+    "standards_newVersionDetected": "Standard new version",
+    "node_assignmentFailed": "Step has no assignee"
   },
   "prefs": {
     "title": "Notification preferences",
