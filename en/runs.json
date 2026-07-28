@@ -24,7 +24,12 @@
   },
   "attention": {
     "banner_one": "{{count}} step failed — an operator needs to look at this.",
-    "banner_other": "{{count}} steps failed — an operator needs to look at this."
+    "banner_other": "{{count}} steps failed — an operator needs to look at this.",
+    "notified": "An administrator has been notified."
+  },
+  "nodeFailure": {
+    "short": "Could not run",
+    "cause": "This step could not run. An administrator has been notified and will look into it."
   },
   "header": {
     "started": "Started {{when}}",
