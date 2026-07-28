@@ -15,6 +15,7 @@
   "terminal": {
     "completed": "This run completed successfully.",
     "completedWithOutcomes": "This run completed — one or more stages recorded a reject or return outcome.",
+    "completedWithFailedStep": "This run is marked completed, but a step ended in failure — review the failed step below.",
     "failed": "This run failed.",
     "cancelled": "This run was canceled."
   },
