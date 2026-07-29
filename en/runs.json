@@ -31,6 +31,21 @@
     "short": "Could not run",
     "cause": "This step could not run. An administrator has been notified and will look into it."
   },
+  "escalate": {
+    "heading": "Blocked by this step?",
+    "intro": "Your administrators were notified automatically. If this is holding up your work, tell them — they'll see it with your name on it.",
+    "action": "Ask an administrator to look at this",
+    "alsoBlocked": "I'm blocked by this too",
+    "noteLabel": "Add context (optional)",
+    "notePlaceholder": "What is this holding up, and how urgent is it? Please don't include personal data.",
+    "submit": "Send to an administrator",
+    "sending": "Sending…",
+    "cancel": "Cancel",
+    "recorded": "Reported to your administrators {{when}}.",
+    "recordedBy": "Reported to your administrators by {{name}} {{when}}.",
+    "alreadyRecorded": "You already reported this step — nothing further was sent.",
+    "failed": "That could not be sent. Please try again."
+  },
   "header": {
     "started": "Started {{when}}",
     "duration": "Duration {{duration}}",

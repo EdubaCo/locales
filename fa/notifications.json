@@ -27,7 +27,8 @@
     "run_completed": "گردش کار تکمیل شد",
     "standards_newVersionDetected": "نسخهٔ جدید استاندارد",
     "node_assignmentFailed": "گام بدون فرد واگذارشده",
-    "node_failed": "اجرای گام ممکن نشد"
+    "node_failed": "اجرای گام ممکن نشد",
+    "node_escalated": "کسی یک گام ناموفق را ارجاع داد"
   },
   "prefs": {
     "title": "ترجیحات اعلان‌ها",
