@@ -26,7 +26,8 @@
     "run_failed": "Workflow failed",
     "run_completed": "Workflow completed",
     "standards_newVersionDetected": "Standard new version",
-    "node_assignmentFailed": "Step has no assignee"
+    "node_assignmentFailed": "Step has no assignee",
+    "node_failed": "Step could not run"
   },
   "prefs": {
     "title": "Notification preferences",
