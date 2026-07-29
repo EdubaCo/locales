@@ -29,7 +29,9 @@
   },
   "nodeFailure": {
     "short": "Could not run",
-    "cause": "This step could not run. An administrator has been notified and will look into it."
+    "cause": "This step could not run. An administrator has been notified and will look into it.",
+    "referenceLabel": "Reference",
+    "referenceNote": "— recorded {{when}}. Quote it if you follow up."
   },
   "escalate": {
     "heading": "Blocked by this step?",
