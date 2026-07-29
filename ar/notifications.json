@@ -27,7 +27,8 @@
     "run_completed": "اكتمل سير العمل",
     "standards_newVersionDetected": "إصدار جديد لمعيار",
     "node_assignmentFailed": "خطوة بلا مُسنَد إليه",
-    "node_failed": "تعذّر تنفيذ خطوة"
+    "node_failed": "تعذّر تنفيذ خطوة",
+    "node_escalated": "صعّد أحدهم خطوة فاشلة"
   },
   "prefs": {
     "title": "تفضيلات الإشعارات",
