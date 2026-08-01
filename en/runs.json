@@ -98,6 +98,8 @@
     "title": "Your action",
     "submit": "Submit",
     "submitting": "Submitting…",
+    "confirmOnly": "This step has no fields to fill in — submit to complete it.",
+    "formUnavailable": "Couldn't load this step's form, so there's nothing safe to submit yet. Refresh to try again.",
     "conflict": "This task was already acted on — refresh to see the latest state.",
     "rejected": "The submitted values were rejected — check the fields and try again.",
     "failed": "Submitting your action failed. Try again.",
@@ -105,11 +107,15 @@
     "jsonPlaceholder": "JSON value",
     "fields": {
       "outcome": "Decision",
-      "comment": "Comment"
+      "comment": "Comment",
+      "resolvedBy": "Resolved by",
+      "attachments": "Attachments",
+      "checkRef": "Check"
     },
     "options": {
-      "approve": "Approve",
-      "reject": "Reject"
+      "approved": "Approve",
+      "rejected": "Reject",
+      "skipped": "Skip"
     },
     "errors": {
       "required": "This field is required.",
