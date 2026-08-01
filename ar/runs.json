@@ -58,11 +58,19 @@
     "steps": "{{completed}}/{{total}} خطوة",
     "stepsDone": "أُنجزت {{completed}} خطوة",
     "roundProgress": "الجولة {{round}} — اكتملت {{completed}} من {{enrolled}} مهام",
-    "roundProgressHint": "المهام المسجَّلة المكتملة في الجولة الحالية"
+    "roundProgressHint": "المهام المسجَّلة المكتملة في الجولة الحالية",
+    "definitionVersion": "إصدار {{version}}",
+    "definitionRefLabel": "مرجع التعريف",
+    "definitionRefCopy": "نسخ",
+    "definitionRefCopied": "تم النسخ"
   },
   "nodes": {
     "title": "العقد",
-    "empty": "لا يوجد نشاط للعقد بعد."
+    "empty": "لا يوجد نشاط للعقد بعد.",
+    "gateHalf": {
+      "enter": "{{step}} (البدء)",
+      "resume": "{{step}} (الإنهاء)"
+    }
   },
   "nodeStatus": {
     "completed": "مكتملة",
@@ -92,7 +100,9 @@
     "label": "{{kind}}: {{ref}}",
     "none": "لا يوجد سياق أعمال.",
     "documents": "المستندات المرتبطة",
-    "noDocuments": "لا توجد مستندات مرتبطة بهذا التشغيل."
+    "noDocuments": "لا توجد مستندات مرتبطة بهذا التشغيل.",
+    "documentRevision": "المراجعة {{revision}}",
+    "documentPending": "لا توجد مراجعة نهائية بعد"
   },
   "stageComment": {
     "title": "أحدث تعليق على مرحلة",

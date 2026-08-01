@@ -54,11 +54,19 @@
     "steps": "{{completed}}/{{total}} گام",
     "stepsDone": "{{completed}} گام انجام شد",
     "roundProgress": "دور {{round}} — {{completed}} از {{enrolled}} وظیفه انجام شد",
-    "roundProgressHint": "وظایف ثبت‌شده تکمیل‌شده در دور جاری"
+    "roundProgressHint": "وظایف ثبت‌شده تکمیل‌شده در دور جاری",
+    "definitionVersion": "نسخهٔ {{version}}",
+    "definitionRefLabel": "مرجع تعریف",
+    "definitionRefCopy": "رونوشت",
+    "definitionRefCopied": "رونوشت شد"
   },
   "nodes": {
     "title": "گره‌ها",
-    "empty": "هنوز فعالیتی برای گره‌ها وجود ندارد."
+    "empty": "هنوز فعالیتی برای گره‌ها وجود ندارد.",
+    "gateHalf": {
+      "enter": "{{step}} (آغاز)",
+      "resume": "{{step}} (تکمیل)"
+    }
   },
   "nodeStatus": {
     "completed": "تکمیل‌شده",
@@ -88,7 +96,9 @@
     "label": "{{kind}}: {{ref}}",
     "none": "بدون زمینهٔ کسب‌وکار.",
     "documents": "اسناد پیوندشده",
-    "noDocuments": "هیچ سندی به این اجرا پیوند نشده است."
+    "noDocuments": "هیچ سندی به این اجرا پیوند نشده است.",
+    "documentRevision": "بازنگری {{revision}}",
+    "documentPending": "هنوز بازنگری نهایی‌شده‌ای ندارد"
   },
   "stageComment": {
     "title": "آخرین نظر مرحله",

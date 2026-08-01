@@ -54,11 +54,19 @@
     "steps": "{{completed}}/{{total}} steps",
     "stepsDone": "{{completed}} steps done",
     "roundProgress": "Round {{round}} — {{completed}} of {{enrolled}} tasks done",
-    "roundProgressHint": "Enrolled tasks completed in the current round"
+    "roundProgressHint": "Enrolled tasks completed in the current round",
+    "definitionVersion": "v{{version}}",
+    "definitionRefLabel": "Definition reference",
+    "definitionRefCopy": "Copy",
+    "definitionRefCopied": "Copied"
   },
   "nodes": {
     "title": "Nodes",
-    "empty": "No node activity yet."
+    "empty": "No node activity yet.",
+    "gateHalf": {
+      "enter": "{{step}} (opening)",
+      "resume": "{{step}} (completing)"
+    }
   },
   "nodeStatus": {
     "completed": "Completed",
@@ -88,7 +96,9 @@
     "label": "{{kind}}: {{ref}}",
     "none": "No business context.",
     "documents": "Linked documents",
-    "noDocuments": "No documents linked to this run."
+    "noDocuments": "No documents linked to this run.",
+    "documentRevision": "Revision {{revision}}",
+    "documentPending": "No finalized revision yet"
   },
   "stageComment": {
     "title": "Latest stage comment",
