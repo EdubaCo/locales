@@ -2,8 +2,7 @@
   "platformBadge": "platform",
   "topbar": {
     "status": "Status",
-    "docs": "Docs",
-    "language": "English"
+    "docs": "Docs"
   },
   "pitch": {
     "badge": "Composable workflow ERP",
