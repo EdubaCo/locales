@@ -152,6 +152,7 @@
       "blockedHint": "This task's current round is still running — it must finish before it can be reopened.",
       "confirm": "Reopen",
       "error": "Couldn't reopen the selected tasks. Please try again.",
+      "errorForbidden": "You don't have permission to reopen these tasks.",
       "success_one": "Reopened {{count}} task.",
       "success_other": "Reopened {{count}} tasks."
     }
