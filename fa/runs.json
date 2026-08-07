@@ -124,13 +124,19 @@
     },
     "options": {
       "approved": "تأیید",
+      "commented": "نظر",
       "rejected": "رد",
       "skipped": "رد شدن"
     },
     "errors": {
       "required": "این فیلد الزامی است.",
       "invalidNumber": "یک عدد معتبر وارد کنید.",
-      "invalidJson": "JSON معتبر وارد کنید."
+      "invalidJson": "برای «{{field}}» یک JSON معتبر وارد کنید."
+    },
+    "attachment": {
+      "uploading": "در حال بارگذاری…",
+      "error": "بارگذاری این فایل ممکن نشد. دوباره تلاش کنید.",
+      "unavailable": "پیوست فایل در این اجرا در دسترس نیست."
     }
   },
   "designerTab": {
