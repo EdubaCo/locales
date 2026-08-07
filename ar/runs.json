@@ -128,13 +128,19 @@
     },
     "options": {
       "approved": "موافقة",
+      "commented": "تعليق",
       "rejected": "رفض",
       "skipped": "تخطٍّ"
     },
     "errors": {
       "required": "هذا الحقل مطلوب.",
       "invalidNumber": "أدخل رقمًا صالحًا.",
-      "invalidJson": "أدخل JSON صالحًا."
+      "invalidJson": "أدخل JSON صالحًا لحقل «{{field}}»."
+    },
+    "attachment": {
+      "uploading": "جارٍ الرفع…",
+      "error": "تعذّر رفع هذا الملف. حاول مرة أخرى.",
+      "unavailable": "المرفقات غير متاحة في هذا التشغيل."
     }
   },
   "designerTab": {

@@ -124,13 +124,19 @@
     },
     "options": {
       "approved": "Approve",
+      "commented": "Comment",
       "rejected": "Reject",
       "skipped": "Skip"
     },
     "errors": {
       "required": "This field is required.",
       "invalidNumber": "Enter a valid number.",
-      "invalidJson": "Enter valid JSON."
+      "invalidJson": "Enter valid JSON for “{{field}}”."
+    },
+    "attachment": {
+      "uploading": "Uploading…",
+      "error": "Couldn't upload that file. Please try again.",
+      "unavailable": "File attachments aren't available on this run."
     }
   },
   "designerTab": {
