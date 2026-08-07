@@ -99,6 +99,8 @@
       "unknownUploader": "رافع غير معروف",
       "sizeKb": "{{size}} كيلوبايت",
       "downloadRevision": "تنزيل هذا الإصدار",
+      "downloadDenied": "ليست لديك صلاحية تنزيل هذا الإصدار.",
+      "downloadError": "تعذّر تنزيل هذا الإصدار. يُرجى المحاولة مرة أخرى.",
       "source": {
         "upload": "رُفع",
         "email": "بريد إلكتروني",
