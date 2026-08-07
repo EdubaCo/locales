@@ -95,6 +95,8 @@
       "unknownUploader": "بارگذارندهٔ نامشخص",
       "sizeKb": "{{size}} کیلوبایت",
       "downloadRevision": "دانلود این نسخه",
+      "downloadDenied": "شما اجازهٔ دانلود این نسخه را ندارید.",
+      "downloadError": "دانلود این نسخه ممکن نشد. لطفاً دوباره تلاش کنید.",
       "source": {
         "upload": "بارگذاری‌شده",
         "email": "ایمیل",

@@ -151,5 +151,13 @@
       "any": "a combined assignment rule",
       "all": "a combined assignment rule"
     }
+  },
+  "stalledRound": {
+    "banner_one": "1 task in this round can no longer finish, so this project cannot continue until it is reopened:",
+    "banner_other": "{{count}} tasks in this round can no longer finish, so this project cannot continue until they are reopened:",
+    "reason": {
+      "runFailed": "its run ended without completing",
+      "nodeFailed": "a step of it failed"
+    }
   }
 }

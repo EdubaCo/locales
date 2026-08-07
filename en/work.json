@@ -95,6 +95,8 @@
       "unknownUploader": "Unknown uploader",
       "sizeKb": "{{size}} KB",
       "downloadRevision": "Download this version",
+      "downloadDenied": "You don't have permission to download this version.",
+      "downloadError": "Couldn't download this version. Please try again.",
       "source": {
         "upload": "Uploaded",
         "email": "Email",
