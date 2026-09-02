@@ -345,6 +345,83 @@
     "memberCount_many": "{{count}} عضوًا",
     "memberCount_other": "{{count}} عضو"
   },
+  "packs": {
+    "importCta": "استيراد حزمة",
+    "finishSetup": "إكمال الإعداد",
+    "toast": {
+      "imported": "تم استيراد «{{name}}».",
+      "activated": "تم تفعيل الحزمة."
+    },
+    "upload": {
+      "title": "استيراد حزمة سير عمل",
+      "subtitle": "ارفع ملف pack.json موقّعًا من ناشر معتمد، ثم راجع ما ستضيفه قبل استيرادها إلى مستأجرك.",
+      "fileLabel": "ملف الحزمة (.json)",
+      "parseError": "هذا الملف ليس بصيغة JSON صالحة.",
+      "modeLabel": "وضع الاستيراد",
+      "modeCertified": "استخدام النسخة المعتمدة",
+      "modeCertifiedHint": "الإشارة إلى تعريفات الناشر مباشرةً. تصل تحديثات الحزمة تلقائيًا مع الإصدارات القادمة.",
+      "modeFork": "تفريع إلى مكتبة المستأجر",
+      "modeForkHint": "نسخ كل التدفقات الفرعية إلى مكتبة مستأجرك كمسودّات قابلة للتحرير تديرها بنفسك.",
+      "cancel": "إلغاء",
+      "submit": "معاينة"
+    },
+    "preview": {
+      "title": "المراجعة قبل الاستيراد",
+      "publisher": "الناشر",
+      "version": "الحزمة",
+      "rulesHeading": "قواعد السياسة الافتراضية",
+      "rulesToAdd_zero": "لن تُضاف أي قاعدة",
+      "rulesToAdd_one": "ستُضاف قاعدة واحدة",
+      "rulesToAdd_two": "ستُضاف قاعدتان",
+      "rulesToAdd_few": "ستُضاف {{count}} قواعد",
+      "rulesToAdd_many": "ستُضاف {{count}} قاعدة",
+      "rulesToAdd_other": "ستُضاف {{count}} قاعدة",
+      "rulesSkipped_zero": "لم تُتجاوَز أي قاعدة",
+      "rulesSkipped_one": "تم تجاوز قاعدة واحدة (توجد قاعدة بنفس الاسم لدى المستأجر)",
+      "rulesSkipped_two": "تم تجاوز قاعدتين (توجد قواعد بنفس الاسمين لدى المستأجر)",
+      "rulesSkipped_few": "تم تجاوز {{count}} قواعد (توجد قواعد بنفس الأسماء لدى المستأجر)",
+      "rulesSkipped_many": "تم تجاوز {{count}} قاعدة (توجد قواعد بنفس الأسماء لدى المستأجر)",
+      "rulesSkipped_other": "تم تجاوز {{count}} قاعدة (توجد قواعد بنفس الأسماء لدى المستأجر)",
+      "rulesInvalid_zero": "لا توجد قواعد يتعذّر تطبيقها",
+      "rulesInvalid_one": "يتعذّر تطبيق قاعدة واحدة",
+      "rulesInvalid_two": "يتعذّر تطبيق قاعدتين",
+      "rulesInvalid_few": "يتعذّر تطبيق {{count}} قواعد",
+      "rulesInvalid_many": "يتعذّر تطبيق {{count}} قاعدة",
+      "rulesInvalid_other": "يتعذّر تطبيق {{count}} قاعدة",
+      "rolesHeading": "الأدوار التي تتضمّنها هذه الحزمة",
+      "noRoles": "لا تتضمّن هذه الحزمة أي أدوار.",
+      "roleRequired": "مطلوب",
+      "roleOptional": "اختياري",
+      "back": "رجوع",
+      "submit": "استيراد"
+    },
+    "activation": {
+      "title": "إكمال إعداد {{packId}}",
+      "readyBody": "تم ربط كل الأدوار المطلوبة ولا توجد أي تعارضات تعيق هذه الحزمة.",
+      "rolesHeading": "ربط الأدوار",
+      "rolesBody": "اربط كل دور مطلوب بدور أو مجموعة موجودة لدى المستأجر قبل أن يمكن تفعيل هذه الحزمة.",
+      "roleTarget": "الربط بـ…",
+      "roleTargetRoles": "الأدوار",
+      "roleTargetGroups": "المجموعات",
+      "roleMapButton": "ربط",
+      "roleMappedTo": "مرتبط بـ {{name}}",
+      "conflictsHeading": "حل التعارضات",
+      "conflictsBody": "تتضمّن حزمة أخرى مثبَّتة نفس الكتلة بناشر أو إصدار مختلف. اختر التعريف الذي سيحتفظ به هذا المستأجر.",
+      "conflictDifferentPublisher": "ناشرون مختلفون",
+      "conflictIncompatibleVersion": "إصدارات غير متوافقة",
+      "keepThisVersion": "الاحتفاظ بهذا الإصدار",
+      "activateButton": "تفعيل",
+      "activateBlockedRoles": "اربط كل دور مطلوب قبل التفعيل.",
+      "activateBlockedConflicts": "حل كل تعارض قبل التفعيل.",
+      "close": "إغلاق",
+      "doneTitle": "تم تفعيل الحزمة",
+      "doneBody": "أصبحت {{packId}} متاحة الآن في لوحة مصمّم سير العمل."
+    },
+    "error": {
+      "verify": "تعذّر التحقّق من هذه الحزمة: {{detail}}",
+      "generic": "حدث خطأ ما. يُرجى المحاولة مرة أخرى."
+    }
+  },
   "fieldHints": {
     "passwordMinLength": {
       "tooltip": "الحد الأدنى لعدد الأحرف المطلوبة لكلمات مرور الأعضاء.",

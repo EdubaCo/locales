@@ -329,6 +329,71 @@
       }
     }
   },
+  "packs": {
+    "importCta": "Import pack",
+    "finishSetup": "Finish setup",
+    "toast": {
+      "imported": "“{{name}}” imported.",
+      "activated": "Pack activated."
+    },
+    "upload": {
+      "title": "Import a workflow pack",
+      "subtitle": "Upload a signed pack.json file from a certified publisher, then review what it would add before importing it into your tenant.",
+      "fileLabel": "Pack file (.json)",
+      "parseError": "That file isn't valid JSON.",
+      "modeLabel": "Import mode",
+      "modeCertified": "Use certified",
+      "modeCertifiedHint": "Reference the publisher's definitions directly. Future pack versions bring updates automatically.",
+      "modeFork": "Fork to tenant library",
+      "modeForkHint": "Copy every subflow into your tenant library as editable drafts you manage yourself.",
+      "cancel": "Cancel",
+      "submit": "Preview"
+    },
+    "preview": {
+      "title": "Review before importing",
+      "publisher": "Publisher",
+      "version": "Pack",
+      "rulesHeading": "Default policy rules",
+      "rulesToAdd_one": "{{count}} rule would be added",
+      "rulesToAdd_other": "{{count}} rules would be added",
+      "rulesSkipped_one": "{{count}} rule skipped (a tenant rule with the same name already exists)",
+      "rulesSkipped_other": "{{count}} rules skipped (tenant rules with the same names already exist)",
+      "rulesInvalid_one": "{{count}} rule can't be applied",
+      "rulesInvalid_other": "{{count}} rules can't be applied",
+      "rolesHeading": "Roles this pack ships",
+      "noRoles": "This pack ships no roles.",
+      "roleRequired": "Required",
+      "roleOptional": "Optional",
+      "back": "Back",
+      "submit": "Import"
+    },
+    "activation": {
+      "title": "Finish setting up {{packId}}",
+      "readyBody": "Every required role is mapped and no conflicts block this pack.",
+      "rolesHeading": "Map roles",
+      "rolesBody": "Map each required role to an existing tenant role or group before this pack can be activated.",
+      "roleTarget": "Map to…",
+      "roleTargetRoles": "Roles",
+      "roleTargetGroups": "Groups",
+      "roleMapButton": "Map",
+      "roleMappedTo": "Mapped to {{name}}",
+      "conflictsHeading": "Resolve conflicts",
+      "conflictsBody": "Another installed pack ships the same block under a different publisher or version. Choose which definition this tenant keeps.",
+      "conflictDifferentPublisher": "Different publishers",
+      "conflictIncompatibleVersion": "Incompatible versions",
+      "keepThisVersion": "Keep this version",
+      "activateButton": "Activate",
+      "activateBlockedRoles": "Map every required role before activating.",
+      "activateBlockedConflicts": "Resolve every conflict before activating.",
+      "close": "Close",
+      "doneTitle": "Pack activated",
+      "doneBody": "{{packId}} is now available in the workflow designer palette."
+    },
+    "error": {
+      "verify": "This pack couldn't be verified: {{detail}}",
+      "generic": "Something went wrong. Please try again."
+    }
+  },
   "fieldHints": {
     "passwordMinLength": {
       "tooltip": "Minimum number of characters required for member passwords.",
