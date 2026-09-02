@@ -142,6 +142,7 @@
       "notPurchasable": "That plan is not purchasable (it must be active).",
       "illegalTransition": "That status change is not allowed.",
       "created": "Tenant “{{name}}” created.",
+      "provisionFailed": "Tenant “{{name}}” was created but provisioning failed. It won't be usable until provisioning is retried.",
       "slugExists": "That slug is already in use.",
       "slugReserved": "That slug is reserved.",
       "licenseLimit": "Your license's tenant limit has been reached."
