@@ -44,6 +44,7 @@
     "title": "الأعضاء",
     "subtitle": "الأشخاص الذين لديهم وصول إلى مساحة العمل هذه.",
     "inviteButton": "دعوة عضو",
+    "bulkImportButton": "استيراد جماعي",
     "searchPlaceholder": "ابحث بالاسم أو البريد الإلكتروني",
     "empty": "لا يوجد أعضاء بعد.",
     "noMatches": "لا يوجد أعضاء يطابقون بحثك.",
@@ -92,6 +93,74 @@
       "cancel": "إلغاء",
       "confirm": "تعطيل"
     },
+    "bulkImport": {
+      "title": "استيراد الأعضاء بالجملة",
+      "subtitle": "قم بتحميل ملف CSV أو الصق نصه بالأشخاص المطلوب إضافتهم. عايِن النتيجة قبل إنشاء أي شيء.",
+      "fileLabel": "ملف CSV",
+      "noFile": "لم يتم اختيار ملف",
+      "pasteLabel": "أو الصق نص CSV",
+      "pastePlaceholder": "email,name,role,orgUnit\njane@acme.eng,Jane Doe,task_worker,Acme/Engineering",
+      "formatHint": "الأعمدة: email (مطلوب)، name، role، orgUnit (مسار تسلسل هرمي مفصول بـ \"/\").",
+      "previewButton": "معاينة الاستيراد",
+      "backButton": "تعديل CSV",
+      "confirmButton": "تأكيد الاستيراد",
+      "cancel": "إلغاء",
+      "denied": "ليس لديك إذن لاستيراد الأعضاء.",
+      "requestError": "تعذّر التحقق من صحة الملف. يُرجى المحاولة مرة أخرى.",
+      "noAppliableRows": "لا يمكن استيراد أي صف. صحّح الأخطاء أعلاه وحاول مرة أخرى.",
+      "dryRunNote": "هذه معاينة فقط — لم يتم إنشاء أي شيء بعد.",
+      "summary": {
+        "willCreate_zero": "لا أعضاء جدد",
+        "willCreate_one": "عضو جديد واحد",
+        "willCreate_two": "عضوان جديدان",
+        "willCreate_few": "{{count}} أعضاء جدد",
+        "willCreate_many": "{{count}} عضوًا جديدًا",
+        "willCreate_other": "{{count}} عضو جديد",
+        "willMatch_zero": "لا أعضاء حاليون مطابَقون",
+        "willMatch_one": "عضو حالي مطابَق واحد",
+        "willMatch_two": "عضوان حاليان مطابَقان",
+        "willMatch_few": "{{count}} أعضاء حاليون مطابَقون",
+        "willMatch_many": "{{count}} عضوًا حاليًا مطابَقًا",
+        "willMatch_other": "{{count}} عضو حالي مطابَق",
+        "willPlace_zero": "لم يوضع أي عضو في الهيكل التنظيمي",
+        "willPlace_one": "تم وضع عضو واحد في الهيكل التنظيمي",
+        "willPlace_two": "تم وضع عضوين في الهيكل التنظيمي",
+        "willPlace_few": "تم وضع {{count}} أعضاء في الهيكل التنظيمي",
+        "willPlace_many": "تم وضع {{count}} عضوًا في الهيكل التنظيمي",
+        "willPlace_other": "تم وضع {{count}} عضو في الهيكل التنظيمي",
+        "willSkip_zero": "لا صفوف تم تخطّيها",
+        "willSkip_one": "تم تخطّي صف واحد",
+        "willSkip_two": "تم تخطّي صفّين",
+        "willSkip_few": "تم تخطّي {{count}} صفوف",
+        "willSkip_many": "تم تخطّي {{count}} صفًا",
+        "willSkip_other": "تم تخطّي {{count}} صف"
+      },
+      "table": {
+        "line": "السطر",
+        "email": "البريد الإلكتروني",
+        "role": "الدور",
+        "orgUnit": "الوحدة التنظيمية",
+        "status": "الحالة"
+      },
+      "status": {
+        "ok": "جاهز"
+      },
+      "fileError": {
+        "empty_file": "الملف لا يحتوي على صفوف.",
+        "missing_email_column": "يجب أن يحتوي ملف CSV على عمود \"email\"."
+      },
+      "errorCode": {
+        "missing_email": "البريد الإلكتروني مطلوب.",
+        "invalid_email": "هذا ليس عنوان بريد إلكتروني صالحًا.",
+        "duplicate_email": "يظهر هذا البريد الإلكتروني سابقًا في الملف.",
+        "name_too_long": "الاسم طويل جدًا.",
+        "role_too_long": "اسم الدور طويل جدًا.",
+        "empty_unit_segment": "يحتوي مسار الوحدة التنظيمية على جزء فارغ.",
+        "unit_name_too_long": "اسم إحدى الوحدات التنظيمية طويل جدًا.",
+        "unknown_role": "الدور \"{{role}}\" غير موجود في مساحة العمل هذه.",
+        "root_conflict": "جذر الهيكل التنظيمي \"{{root}}\" يتعارض مع الجذر الحالي."
+      }
+    },
     "toast": {
       "invited": "تم إرسال الدعوة إلى {{email}}.",
       "invitedNoEmail": "تمت إضافة {{email}}. لم يُرسَل بريد إلكتروني — لم تُهيَّأ SMTP.",
@@ -101,6 +170,8 @@
       "reactivated": "تمت إعادة تفعيل {{name}}.",
       "resent": "أُعيد إرسال الدعوة إلى {{email}}.",
       "resentNoEmail": "لم يُرسَل بريد إلكتروني — لم تُهيَّأ SMTP.",
+      "bulkImported_one": "تم استيراد {{count}} عضو.",
+      "bulkImported_other": "تم استيراد {{count}} أعضاء.",
       "error": "حدث خطأ ما. يُرجى المحاولة مرة أخرى."
     }
   },

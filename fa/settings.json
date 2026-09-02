@@ -703,6 +703,7 @@
     "title": "اعضا",
     "subtitle": "افرادی که به این فضای کاری دسترسی دارند.",
     "inviteButton": "دعوت عضو",
+    "bulkImportButton": "ورود گروهی",
     "searchPlaceholder": "جست‌وجو بر اساس نام یا ایمیل",
     "empty": "هنوز عضوی وجود ندارد.",
     "noMatches": "هیچ عضوی با جست‌وجوی شما مطابقت ندارد.",
@@ -751,6 +752,58 @@
       "cancel": "انصراف",
       "confirm": "غیرفعال‌سازی"
     },
+    "bulkImport": {
+      "title": "ورود گروهی اعضا",
+      "subtitle": "فایل CSV افراد را بارگذاری یا متن آن را جای‌گذاری کنید. پیش از ایجاد هر چیزی، نتیجه را پیش‌نمایش کنید.",
+      "fileLabel": "فایل CSV",
+      "noFile": "فایلی انتخاب نشده است",
+      "pasteLabel": "یا متن CSV را جای‌گذاری کنید",
+      "pastePlaceholder": "email,name,role,orgUnit\njane@acme.eng,Jane Doe,task_worker,Acme/Engineering",
+      "formatHint": "ستون‌ها: email (الزامی)، name، role، orgUnit (مسیر گزارش‌دهی جداشده با «/»).",
+      "previewButton": "پیش‌نمایش ورود",
+      "backButton": "ویرایش CSV",
+      "confirmButton": "تأیید ورود",
+      "cancel": "انصراف",
+      "denied": "شما مجوز ورود گروهی اعضا را ندارید.",
+      "requestError": "اعتبارسنجی فایل ممکن نشد. لطفاً دوباره تلاش کنید.",
+      "noAppliableRows": "هیچ ردیفی قابل ورود نیست. خطاهای بالا را برطرف کرده و دوباره تلاش کنید.",
+      "dryRunNote": "این فقط یک پیش‌نمایش است — هنوز چیزی ایجاد نشده است.",
+      "summary": {
+        "willCreate_one": "{{count}} عضو جدید",
+        "willCreate_other": "{{count}} عضو جدید",
+        "willMatch_one": "{{count}} عضو موجود منطبق‌شده",
+        "willMatch_other": "{{count}} عضو موجود منطبق‌شده",
+        "willPlace_one": "{{count}} در چارت سازمانی جای گرفت",
+        "willPlace_other": "{{count}} در چارت سازمانی جای گرفتند",
+        "willSkip_one": "{{count}} ردیف نادیده گرفته شد",
+        "willSkip_other": "{{count}} ردیف نادیده گرفته شد"
+      },
+      "table": {
+        "line": "خط",
+        "email": "ایمیل",
+        "role": "نقش",
+        "orgUnit": "واحد سازمانی",
+        "status": "وضعیت"
+      },
+      "status": {
+        "ok": "آماده"
+      },
+      "fileError": {
+        "empty_file": "فایل هیچ ردیفی ندارد.",
+        "missing_email_column": "فایل CSV باید ستون «email» داشته باشد."
+      },
+      "errorCode": {
+        "missing_email": "ایمیل الزامی است.",
+        "invalid_email": "این یک نشانی ایمیل معتبر نیست.",
+        "duplicate_email": "این ایمیل پیش‌تر در فایل ظاهر شده است.",
+        "name_too_long": "نام بیش از حد طولانی است.",
+        "role_too_long": "نام نقش بیش از حد طولانی است.",
+        "empty_unit_segment": "مسیر واحد سازمانی دارای بخشی خالی است.",
+        "unit_name_too_long": "نام یکی از واحدهای سازمانی بیش از حد طولانی است.",
+        "unknown_role": "نقش «{{role}}» در این فضای کاری وجود ندارد.",
+        "root_conflict": "ریشه چارت سازمانی «{{root}}» با ریشه موجود تناقض دارد."
+      }
+    },
     "toast": {
       "invited": "دعوت‌نامه به {{email}} ارسال شد.",
       "invitedNoEmail": "{{email}} افزوده شد. ایمیلی ارسال نشد — SMTP پیکربندی نشده است.",
@@ -760,6 +813,8 @@
       "reactivated": "{{name}} دوباره فعال شد.",
       "resent": "دعوت‌نامه دوباره به {{email}} ارسال شد.",
       "resentNoEmail": "ایمیلی ارسال نشد — SMTP پیکربندی نشده است.",
+      "bulkImported_one": "{{count}} عضو وارد شد.",
+      "bulkImported_other": "{{count}} عضو وارد شدند.",
       "error": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید."
     }
   }
