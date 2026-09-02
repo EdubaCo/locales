@@ -104,6 +104,7 @@
   "tenants": {
     "title": "Tenant subscriptions",
     "subtitle": "Assign a plan and record manual payments for a tenant.",
+    "newTenant": "New tenant",
     "selectTenant": "Tenant",
     "selectPlaceholder": "Select…",
     "error": "Could not load tenants.",
@@ -139,8 +140,23 @@
       "paymentReversed": "Payment reversed.",
       "error": "Something went wrong. Please try again.",
       "notPurchasable": "That plan is not purchasable (it must be active).",
-      "illegalTransition": "That status change is not allowed."
+      "illegalTransition": "That status change is not allowed.",
+      "created": "Tenant “{{name}}” created.",
+      "provisionFailed": "Tenant “{{name}}” was created but provisioning failed. It won't be usable until provisioning is retried.",
+      "slugExists": "That slug is already in use.",
+      "slugReserved": "That slug is reserved.",
+      "licenseLimit": "Your license's tenant limit has been reached."
     }
+  },
+  "tenantForm": {
+    "createTitle": "New tenant",
+    "slug": "Slug",
+    "slugHint": "Subdomain identifier — lowercase letters, digits, hyphens.",
+    "slugInvalid": "Use lowercase letters, digits or hyphens; don't start or end with a hyphen.",
+    "name": "Name",
+    "tier": "Tier",
+    "cancel": "Cancel",
+    "create": "Create tenant"
   },
   "payments": {
     "title": "Payments",
