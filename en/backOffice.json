@@ -189,6 +189,12 @@
       "confirm": "Suspend tenant",
       "cancel": "Cancel"
     },
+    "reprovisionConfirm": {
+      "title": "Re-run provisioning",
+      "body": "Re-run managed provisioning for “{{name}}”? If any step fails partway through, its database is rolled back and dropped — this can affect a tenant that's already in use. Only do this to finish setting up a tenant that failed provisioning.",
+      "confirm": "Re-run provisioning",
+      "cancel": "Cancel"
+    },
     "toast": {
       "assigned": "Plan assigned.",
       "statusChanged": "Subscription status updated.",
