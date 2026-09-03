@@ -11,7 +11,9 @@
     "referralProgram": "Referral program",
     "feedback": "Docs feedback",
     "feedbackNewCount": "{{count}} new submission",
-    "feedbackNewCount_other": "{{count}} new submissions"
+    "feedbackNewCount_other": "{{count}} new submissions",
+    "licenses": "Licenses",
+    "invoices": "Invoices"
   },
   "plans": {
     "title": "Plan catalog",
@@ -584,5 +586,115 @@
       "dismissed": "Dismissed.",
       "error": "Could not update the submission."
     }
+  },
+  "licenses": {
+    "title": "License keys",
+    "subtitle": "Issue and revoke self-hosted license keys.",
+    "newLicense": "New license",
+    "empty": "No licenses issued yet.",
+    "error": "Could not load licenses.",
+    "table": {
+      "id": "ID",
+      "tier": "Tier",
+      "maxTenants": "Max tenants",
+      "issued": "Issued",
+      "expires": "Expires",
+      "status": "Status",
+      "invoiceRef": "Invoice ref.",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "expired": "Expired",
+      "revoked": "Revoked"
+    },
+    "actions": {
+      "revoke": "Revoke"
+    },
+    "revoke": {
+      "title": "Revoke license",
+      "body": "Revoke license {{id}}…? It will never validate again. This cannot be undone.",
+      "confirm": "Revoke license",
+      "cancel": "Cancel"
+    },
+    "reveal": {
+      "title": "License key generated",
+      "warning": "This key is shown once and is not stored anywhere. Copy it now — it cannot be retrieved again.",
+      "keyLabel": "License key",
+      "copy": "Copy to clipboard",
+      "copied": "Copied to clipboard.",
+      "done": "Done"
+    },
+    "toast": {
+      "revoked": "License revoked.",
+      "error": "Something went wrong. Please try again.",
+      "unconfigured": "This install isn't configured to issue that kind of key."
+    }
+  },
+  "licenseForm": {
+    "title": "Issue license key",
+    "subtitle": "Mints an entitlement key. The key itself is shown once and never stored.",
+    "keyType": "Key type",
+    "plain": "Plain key",
+    "plainHint": "A raw key hashed and stored locally — activates only on this install.",
+    "signed": "Signed key",
+    "signedHint": "A self-contained key signed with the platform private key — activates offline on any install, no shared database row.",
+    "tier": "Tier",
+    "maxTenants": "Max tenants",
+    "unlimited": "Unlimited",
+    "maxTenantsInvalid": "Enter a positive whole number, or leave blank for unlimited.",
+    "expiresAt": "Expires",
+    "perpetual": "Perpetual",
+    "invoiceRef": "Invoice reference",
+    "optional": "Optional",
+    "cancel": "Cancel",
+    "generate": "Generate key"
+  },
+  "invoices": {
+    "title": "Invoices",
+    "subtitle": "Record and track manual invoices for tenants or the platform.",
+    "newInvoice": "New invoice",
+    "filterByTenant": "Filter by tenant",
+    "allTenants": "All tenants",
+    "platformWide": "Platform-wide",
+    "empty": "No invoices recorded yet.",
+    "error": "Could not load invoices.",
+    "table": {
+      "id": "ID",
+      "tenant": "Tenant",
+      "amount": "Amount",
+      "dueDate": "Due date",
+      "status": "Status",
+      "notes": "Notes",
+      "actions": "Actions"
+    },
+    "status": {
+      "paid": "Paid",
+      "overdue": "Overdue",
+      "unpaid": "Unpaid"
+    },
+    "actions": {
+      "edit": "Edit"
+    },
+    "toast": {
+      "created": "Invoice recorded.",
+      "updated": "Invoice updated.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "invoiceForm": {
+    "createTitle": "New invoice",
+    "editTitle": "Edit invoice",
+    "tenant": "Tenant",
+    "amount": "Amount",
+    "amountInvalid": "Enter an amount greater than zero.",
+    "currency": "Currency",
+    "markPaid": "Mark as paid",
+    "dueDate": "Due date",
+    "optional": "Optional",
+    "notes": "Notes",
+    "cancel": "Cancel",
+    "create": "Record invoice",
+    "save": "Save changes"
   }
 }
