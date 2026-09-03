@@ -65,7 +65,8 @@
     "actions": {
       "resend": "Resend invite",
       "reactivate": "Reactivate",
-      "deactivate": "Deactivate"
+      "deactivate": "Deactivate",
+      "erase": "Erase user (GDPR)"
     },
     "invite": {
       "title": "Invite member",
@@ -92,6 +93,16 @@
       "cancel": "Cancel",
       "confirm": "Deactivate"
     },
+    "erase": {
+      "title": "Permanently erase {{name}}?",
+      "body": "This permanently deletes their name, email address and login credentials to fulfil a GDPR right-to-erasure request. Unlike deactivating, this cannot be undone.",
+      "sessionsNote": "Their sessions, access tokens and delegations are revoked immediately. A placeholder record is kept only so existing tasks, documents and audit history stay valid — it can no longer be linked back to this person.",
+      "confirmLabel": "Type {{email}} to confirm",
+      "confirmPlaceholder": "Type the email address to confirm",
+      "confirmMismatch": "Doesn't match {{email}}.",
+      "cancel": "Cancel",
+      "confirm": "Permanently erase"
+    },
     "toast": {
       "invited": "Invitation sent to {{email}}.",
       "invitedNoEmail": "{{email}} was added. No email was sent — SMTP isn't configured.",
@@ -101,6 +112,7 @@
       "reactivated": "{{name}} was reactivated.",
       "resent": "Invitation resent to {{email}}.",
       "resentNoEmail": "No email was sent — SMTP isn't configured.",
+      "erased": "{{name}}'s personal data was permanently erased.",
       "error": "Something went wrong. Please try again."
     }
   },
