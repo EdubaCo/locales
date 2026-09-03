@@ -63,14 +63,14 @@
     },
     "retire": {
       "title": "Retire plan",
-      "body": "Retire “{{name}}”? It will no longer be purchasable. Existing subscriptions keep running on their snapshot.",
+      "body": "Retire \"{{name}}\"? It will no longer be purchasable. Existing subscriptions keep running on their snapshot.",
       "confirm": "Retire plan",
       "cancel": "Cancel"
     },
     "toast": {
-      "created": "Plan “{{name}}” created.",
-      "updated": "Plan “{{name}}” updated.",
-      "retired": "Plan “{{name}}” retired.",
+      "created": "Plan \"{{name}}\" created.",
+      "updated": "Plan \"{{name}}\" updated.",
+      "retired": "Plan \"{{name}}\" retired.",
       "error": "Something went wrong. Please try again.",
       "codeExists": "A plan with that code already exists."
     }
@@ -141,8 +141,8 @@
       "error": "Something went wrong. Please try again.",
       "notPurchasable": "That plan is not purchasable (it must be active).",
       "illegalTransition": "That status change is not allowed.",
-      "created": "Tenant “{{name}}” created.",
-      "provisionFailed": "Tenant “{{name}}” was created but provisioning failed. It won't be usable until provisioning is retried.",
+      "created": "Tenant \"{{name}}\" created.",
+      "provisionFailed": "Tenant \"{{name}}\" was created but provisioning failed. It won't be usable until provisioning is retried.",
       "slugExists": "That slug is already in use.",
       "slugReserved": "That slug is reserved.",
       "licenseLimit": "Your license's tenant limit has been reached.",
@@ -156,13 +156,13 @@
     "unsuspend": "Unsuspend",
     "suspendConfirm": {
       "title": "Suspend tenant?",
-      "body": ""{{name}}" will lose access immediately.",
+      "body": "\"{{name}}\" will lose access immediately.",
       "cancel": "Cancel",
       "confirm": "Suspend"
     },
     "reprovisionConfirm": {
       "title": "Re-run provisioning?",
-      "body": "This re-runs database setup and seeding for "{{name}}". Existing data may be overwritten.",
+      "body": "This re-runs database setup and seeding for \"{{name}}\". Existing data may be overwritten.",
       "cancel": "Cancel",
       "confirm": "Re-run"
     },
