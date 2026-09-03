@@ -122,6 +122,11 @@
     "changeStatus": "Change status",
     "statusSubmit": "Update status",
     "recordPayment": "Record payment",
+    "details": "Tenant details",
+    "edit": "Edit",
+    "reprovision": "Re-run provisioning",
+    "suspend": "Suspend",
+    "unsuspend": "Unsuspend",
     "subStatus": {
       "trial": "Trial",
       "active": "Active",
@@ -132,6 +137,55 @@
     "initialStatus": {
       "active": "Active",
       "trial": "Trial"
+    },
+    "tenantStatus": {
+      "pending": "Pending",
+      "active": "Active",
+      "suspended": "Suspended",
+      "offboarding": "Offboarding"
+    },
+    "connector": {
+      "title": "Database connector",
+      "byoHint": "Point this tenant at your own Postgres instance instead of the managed database.",
+      "mode": "Mode",
+      "modeValue": {
+        "managed": "Managed",
+        "byo": "Bring your own"
+      },
+      "status": "Status",
+      "statusValue": {
+        "pending": "Pending",
+        "validating": "Validating",
+        "active": "Active",
+        "error": "Error",
+        "suspended": "Suspended"
+      },
+      "provider": "Provider",
+      "validatedAt": "Last validated",
+      "never": "Never",
+      "none": "No connector configured yet.",
+      "form": {
+        "host": "Host",
+        "port": "Port",
+        "database": "Database",
+        "user": "User",
+        "password": "Password",
+        "sslmode": "SSL mode",
+        "sslmodeValue": {
+          "disable": "Disable",
+          "require": "Require",
+          "verify-ca": "Verify CA",
+          "verify-full": "Verify full"
+        },
+        "submit": "Save connector",
+        "invalid": "Fill in host, port, database, user and password."
+      }
+    },
+    "suspendConfirm": {
+      "title": "Suspend tenant",
+      "body": "Suspend “{{name}}”? Its users will immediately lose access until it's unsuspended.",
+      "confirm": "Suspend tenant",
+      "cancel": "Cancel"
     },
     "toast": {
       "assigned": "Plan assigned.",
@@ -145,18 +199,26 @@
       "provisionFailed": "Tenant “{{name}}” was created but provisioning failed. It won't be usable until provisioning is retried.",
       "slugExists": "That slug is already in use.",
       "slugReserved": "That slug is reserved.",
-      "licenseLimit": "Your license's tenant limit has been reached."
+      "licenseLimit": "Your license's tenant limit has been reached.",
+      "updated": "Tenant “{{name}}” updated.",
+      "suspended": "Tenant “{{name}}” suspended.",
+      "unsuspended": "Tenant “{{name}}” unsuspended.",
+      "provisioned": "Provisioning re-run for “{{name}}”.",
+      "connectorConfigured": "Database connector updated.",
+      "connectorFailed": "Connector validation failed — see the status above for details."
     }
   },
   "tenantForm": {
     "createTitle": "New tenant",
+    "editTitle": "Edit tenant",
     "slug": "Slug",
     "slugHint": "Subdomain identifier — lowercase letters, digits, hyphens.",
     "slugInvalid": "Use lowercase letters, digits or hyphens; don't start or end with a hyphen.",
     "name": "Name",
     "tier": "Tier",
     "cancel": "Cancel",
-    "create": "Create tenant"
+    "create": "Create tenant",
+    "save": "Save changes"
   },
   "payments": {
     "title": "Payments",
