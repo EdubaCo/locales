@@ -26,6 +26,7 @@
     "designer": "المصمّم",
     "subflows": "مكتبة التدفقات الفرعية",
     "dataStorage": "التخزين والنسخ الاحتياطي",
+    "dbConnector": "موصّل قاعدة البيانات",
     "security": "الوصول والتدقيق",
     "audit": "سجلّات التدقيق",
     "securityEvents": "أحداث الأمان",
@@ -486,6 +487,48 @@
     "keySaved": "•••••••• (محفوظ — اتركه فارغًا للإبقاء عليه)",
     "forcePathStyle": "فرض العنونة بنمط المسار",
     "forcePathStyleHint": "مطلوب لـ MinIO ومعظم خوادم S3 المتوافقة.",
+    "credentialNote": "تُشفَّر بيانات الاعتماد أثناء التخزين ولا تُعرَض مرة أخرى. يُتحقَّق من الاتصال قبل تفعيله."
+  },
+  "dbConnector": {
+    "title": "موصّل قاعدة البيانات",
+    "sub": "أين تُخزَّن بيانات مساحة العمل هذه.",
+    "save": "حفظ التغييرات",
+    "saved": "تم حفظ إعدادات موصّل قاعدة البيانات.",
+    "saveError": "تعذّر حفظ التغييرات. يُرجى المحاولة مرة أخرى.",
+    "currentTitle": "الموصّل الحالي",
+    "managedDescription": "تُخزَّن البيانات على قاعدة البيانات المُدارة من المنصة. قم بالتبديل إلى خادم PostgreSQL الخاص بك أدناه.",
+    "byoDescription": "تُخزَّن البيانات على خادم PostgreSQL الخاص بك.",
+    "mode": {
+      "managed": "مُدار من المنصة",
+      "byo": "خاص بك"
+    },
+    "status": {
+      "pending": "بانتظار التحقق",
+      "validating": "جارٍ التحقق",
+      "active": "نشط",
+      "error": "خطأ",
+      "suspended": "معلّق"
+    },
+    "byoTitle": "قاعدة بيانات خاصة (PostgreSQL)",
+    "byoSub": "وجّه مساحة العمل هذه إلى خادم PostgreSQL الخاص بك.",
+    "host": "المضيف",
+    "hostPlaceholder": "db.example.com",
+    "port": "المنفذ",
+    "database": "قاعدة البيانات",
+    "databasePlaceholder": "eduba_tenant",
+    "user": "المستخدم",
+    "userPlaceholder": "eduba",
+    "sslmode": "وضع SSL",
+    "sslmodeOptions": {
+      "disable": "تعطيل",
+      "require": "مطلوب",
+      "verify-ca": "التحقق من CA",
+      "verify-full": "تحقق كامل"
+    },
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة مرور قاعدة البيانات",
+    "keySaved": "•••••••• (محفوظ — اتركه فارغًا للإبقاء)",
+    "backupWarning": "التبديل إلى قاعدة بيانات خاصة سينقل بياناتك. أنشئ نسخة احتياطية أولاً.",
     "credentialNote": "تُشفَّر بيانات الاعتماد أثناء التخزين ولا تُعرَض مرة أخرى. يُتحقَّق من الاتصال قبل تفعيله."
   },
   "subscription": {

@@ -26,6 +26,7 @@
     "designer": "Designer",
     "subflows": "Subflow library",
     "dataStorage": "Storage & backups",
+    "dbConnector": "Database connector",
     "security": "Access & audit",
     "audit": "Audit logs",
     "securityEvents": "Security events",
@@ -470,6 +471,48 @@
     "keySaved": "•••••••• (saved — leave blank to keep)",
     "forcePathStyle": "Force path-style addressing",
     "forcePathStyleHint": "Required for MinIO and most S3-compatible servers.",
+    "credentialNote": "Credentials are encrypted at rest and never shown again. The connection is validated before it goes active."
+  },
+  "dbConnector": {
+    "title": "Database connector",
+    "sub": "Where this workspace's data is stored.",
+    "save": "Save changes",
+    "saved": "Database connector settings saved.",
+    "saveError": "Couldn't save your changes. Please try again.",
+    "currentTitle": "Current connector",
+    "managedDescription": "Data is stored on the platform-managed database. Switch to your own PostgreSQL server below.",
+    "byoDescription": "Data is stored on your own PostgreSQL server.",
+    "mode": {
+      "managed": "Platform-managed",
+      "byo": "Bring your own"
+    },
+    "status": {
+      "pending": "Pending validation",
+      "validating": "Validating",
+      "active": "Active",
+      "error": "Error",
+      "suspended": "Suspended"
+    },
+    "byoTitle": "Bring-your-own database (PostgreSQL)",
+    "byoSub": "Point this workspace at your own PostgreSQL server.",
+    "host": "Host",
+    "hostPlaceholder": "db.example.com",
+    "port": "Port",
+    "database": "Database",
+    "databasePlaceholder": "eduba_tenant",
+    "user": "User",
+    "userPlaceholder": "eduba",
+    "sslmode": "SSL mode",
+    "sslmodeOptions": {
+      "disable": "Disable",
+      "require": "Require",
+      "verify-ca": "Verify CA",
+      "verify-full": "Verify full"
+    },
+    "password": "Password",
+    "passwordPlaceholder": "Enter the database password",
+    "keySaved": "•••••••• (saved — leave blank to keep)",
+    "backupWarning": "Switching to a bring-your-own database will migrate your data. Back up first.",
     "credentialNote": "Credentials are encrypted at rest and never shown again. The connection is validated before it goes active."
   },
   "subscription": {
