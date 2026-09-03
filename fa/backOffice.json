@@ -145,7 +145,40 @@
       "provisionFailed": "مستأجر «{{name}}» ایجاد شد اما آماده‌سازی ناموفق بود. تا تلاش مجدد قابل استفاده نخواهد بود.",
       "slugExists": "این شناسه قبلاً استفاده شده است.",
       "slugReserved": "این شناسه رزرو شده است.",
-      "licenseLimit": "به سقف مجاز تعداد مستأجرها در مجوز رسیده‌اید."
+      "licenseLimit": "به سقف مجاز تعداد مستأجرها در مجوز رسیده‌اید.",
+      "userCreated": "کاربر {{email}} ایجاد شد."
+    },
+    "addUser": "افزودن کاربر",
+    "details": "جزئیات مستأجر",
+    "edit": "ویرایش",
+    "reprovision": "اجرای مجدد تهیه",
+    "suspend": "تعلیق",
+    "unsuspend": "رفع تعلیق",
+    "suspendConfirm": {
+      "title": "تعلیق مستأجر؟",
+      "body": "«{{name}}» فوراً دسترسی خود را از دست خواهد داد.",
+      "cancel": "انصراف",
+      "confirm": "تعلیق"
+    },
+    "reprovisionConfirm": {
+      "title": "اجرای مجدد تهیه؟",
+      "body": "راه‌اندازی پایگاه داده و بذرگذاری برای «{{name}}» مجدداً اجرا می‌شود. داده‌های موجود ممکن است بازنویسی شوند.",
+      "cancel": "انصراف",
+      "confirm": "اجرای مجدد"
+    },
+    "userForm": {
+      "title": "افزودن کاربر",
+      "sub": "ایجاد یک کاربر در پایگاه داده این مستأجر.",
+      "name": "نام نمایشی",
+      "namePlaceholder": "نام کامل",
+      "email": "ایمیل",
+      "emailPlaceholder": "name@company.com",
+      "password": "رمز عبور",
+      "passwordPlaceholder": "حداقل ۱۲ کاراکتر",
+      "role": "نقش (اختیاری)",
+      "rolePlaceholder": "مثلاً workflow_admin",
+      "cancel": "انصراف",
+      "submit": "ایجاد کاربر"
     }
   },
   "tenantForm": {

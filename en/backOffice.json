@@ -145,7 +145,40 @@
       "provisionFailed": "Tenant “{{name}}” was created but provisioning failed. It won't be usable until provisioning is retried.",
       "slugExists": "That slug is already in use.",
       "slugReserved": "That slug is reserved.",
-      "licenseLimit": "Your license's tenant limit has been reached."
+      "licenseLimit": "Your license's tenant limit has been reached.",
+      "userCreated": "User {{email}} created."
+    },
+    "addUser": "Add user",
+    "details": "Tenant details",
+    "edit": "Edit",
+    "reprovision": "Re-run provisioning",
+    "suspend": "Suspend",
+    "unsuspend": "Unsuspend",
+    "suspendConfirm": {
+      "title": "Suspend tenant?",
+      "body": ""{{name}}" will lose access immediately.",
+      "cancel": "Cancel",
+      "confirm": "Suspend"
+    },
+    "reprovisionConfirm": {
+      "title": "Re-run provisioning?",
+      "body": "This re-runs database setup and seeding for "{{name}}". Existing data may be overwritten.",
+      "cancel": "Cancel",
+      "confirm": "Re-run"
+    },
+    "userForm": {
+      "title": "Add user",
+      "sub": "Create a user in this tenant's database.",
+      "name": "Display name",
+      "namePlaceholder": "Full name",
+      "email": "Email",
+      "emailPlaceholder": "name@company.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 12 characters",
+      "role": "Role (optional)",
+      "rolePlaceholder": "e.g. workflow_admin",
+      "cancel": "Cancel",
+      "submit": "Create user"
     }
   },
   "tenantForm": {
