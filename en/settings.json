@@ -45,6 +45,7 @@
     "title": "Members",
     "subtitle": "People with access to this workspace.",
     "inviteButton": "Invite member",
+    "bulkImportButton": "Bulk import",
     "searchPlaceholder": "Search by name or email",
     "empty": "No members yet.",
     "noMatches": "No members match your search.",
@@ -66,7 +67,8 @@
     "actions": {
       "resend": "Resend invite",
       "reactivate": "Reactivate",
-      "deactivate": "Deactivate"
+      "deactivate": "Deactivate",
+      "erase": "Erase user (GDPR)"
     },
     "invite": {
       "title": "Invite member",
@@ -93,6 +95,68 @@
       "cancel": "Cancel",
       "confirm": "Deactivate"
     },
+    "erase": {
+      "title": "Permanently erase {{name}}?",
+      "body": "This permanently deletes their name, email address and login credentials to fulfil a GDPR right-to-erasure request. Unlike deactivating, this cannot be undone.",
+      "sessionsNote": "Their sessions, access tokens and delegations are revoked immediately. A placeholder record is kept only so existing tasks, documents and audit history stay valid — it can no longer be linked back to this person.",
+      "confirmLabel": "Type {{email}} to confirm",
+      "confirmPlaceholder": "Type the email address to confirm",
+      "confirmMismatch": "Doesn't match {{email}}.",
+      "cancel": "Cancel",
+      "confirm": "Permanently erase"
+    },
+    "bulkImport": {
+      "title": "Bulk import members",
+      "subtitle": "Upload or paste a CSV of people to add. Preview the result before anything is created.",
+      "fileLabel": "CSV file",
+      "noFile": "No file selected",
+      "pasteLabel": "Or paste CSV text",
+      "pastePlaceholder": "email,name,role,orgUnit\njane@acme.eng,Jane Doe,task_worker,Acme/Engineering",
+      "formatHint": "Columns: email (required), name, role, orgUnit (a \"/\"-separated reporting path).",
+      "previewButton": "Preview import",
+      "backButton": "Edit CSV",
+      "confirmButton": "Confirm import",
+      "cancel": "Cancel",
+      "denied": "You don't have permission to import members.",
+      "requestError": "Couldn't validate the file. Please try again.",
+      "noAppliableRows": "No rows can be imported. Fix the errors above and try again.",
+      "dryRunNote": "This is a preview — nothing has been created yet.",
+      "summary": {
+        "willCreate_one": "{{count}} new member",
+        "willCreate_other": "{{count}} new members",
+        "willMatch_one": "{{count}} existing member matched",
+        "willMatch_other": "{{count}} existing members matched",
+        "willPlace_one": "{{count}} placed in the org chart",
+        "willPlace_other": "{{count}} placed in the org chart",
+        "willSkip_one": "{{count}} row skipped",
+        "willSkip_other": "{{count}} rows skipped"
+      },
+      "table": {
+        "line": "Line",
+        "email": "Email",
+        "role": "Role",
+        "orgUnit": "Org unit",
+        "status": "Status"
+      },
+      "status": {
+        "ok": "Ready"
+      },
+      "fileError": {
+        "empty_file": "The file has no rows.",
+        "missing_email_column": "The CSV must have an \"email\" column."
+      },
+      "errorCode": {
+        "missing_email": "Email is required.",
+        "invalid_email": "This is not a valid email address.",
+        "duplicate_email": "This email already appears earlier in the file.",
+        "name_too_long": "The name is too long.",
+        "role_too_long": "The role name is too long.",
+        "empty_unit_segment": "The org-unit path has an empty segment.",
+        "unit_name_too_long": "An org-unit name is too long.",
+        "unknown_role": "Role \"{{role}}\" does not exist in this workspace.",
+        "root_conflict": "Org-chart root \"{{root}}\" conflicts with the existing root."
+      }
+    },
     "toast": {
       "invited": "Invitation sent to {{email}}.",
       "invitedNoEmail": "{{email}} was added. No email was sent — SMTP isn't configured.",
@@ -102,6 +166,9 @@
       "reactivated": "{{name}} was reactivated.",
       "resent": "Invitation resent to {{email}}.",
       "resentNoEmail": "No email was sent — SMTP isn't configured.",
+      "erased": "{{name}}'s personal data was permanently erased.",
+      "bulkImported_one": "Imported {{count}} member.",
+      "bulkImported_other": "Imported {{count}} members.",
       "error": "Something went wrong. Please try again."
     }
   },
@@ -328,6 +395,73 @@
         "ruleRemoved": "Rule removed",
         "other": "Policy change"
       }
+    }
+  },
+  "packs": {
+    "importCta": "Import pack",
+    "finishSetup": "Finish setup",
+    "toast": {
+      "imported": "“{{name}}” imported.",
+      "activated": "Pack activated."
+    },
+    "upload": {
+      "title": "Import a workflow pack",
+      "subtitle": "Upload a signed pack.json file from a certified publisher, then review what it would add before importing it into your tenant.",
+      "fileLabel": "Pack file (.json)",
+      "parseError": "That file isn't valid JSON.",
+      "modeLabel": "Import mode",
+      "modeCertified": "Use certified",
+      "modeCertifiedHint": "Reference the publisher's definitions directly. Future pack versions bring updates automatically.",
+      "modeFork": "Fork to tenant library",
+      "modeForkHint": "Copy every subflow into your tenant library as editable drafts you manage yourself.",
+      "cancel": "Cancel",
+      "submit": "Preview"
+    },
+    "preview": {
+      "title": "Review before importing",
+      "publisher": "Publisher",
+      "version": "Pack",
+      "rulesHeading": "Default policy rules",
+      "rulesToAdd_one": "{{count}} rule would be added",
+      "rulesToAdd_other": "{{count}} rules would be added",
+      "rulesSkipped_one": "{{count}} rule skipped (a tenant rule with the same name already exists)",
+      "rulesSkipped_other": "{{count}} rules skipped (tenant rules with the same names already exist)",
+      "rulesInvalid_one": "{{count}} rule can't be applied",
+      "rulesInvalid_other": "{{count}} rules can't be applied",
+      "rolesHeading": "Roles this pack ships",
+      "noRoles": "This pack ships no roles.",
+      "roleRequired": "Required",
+      "roleOptional": "Optional",
+      "back": "Back",
+      "submit": "Import"
+    },
+    "activation": {
+      "title": "Finish setting up {{packId}}",
+      "readyBody": "Every required role is mapped and no conflicts block this pack.",
+      "rolesHeading": "Map roles",
+      "rolesBody": "Map each required role to an existing tenant role or group before this pack can be activated.",
+      "roleTarget": "Map to…",
+      "roleTargetRoles": "Roles",
+      "roleTargetGroups": "Groups",
+      "roleMapButton": "Map",
+      "roleMappedTo": "Mapped to {{name}}",
+      "mapError": "Couldn't save this mapping. Please try again.",
+      "conflictsHeading": "Resolve conflicts",
+      "conflictsBody": "Another installed pack ships the same block under a different publisher or version. Choose which definition this tenant keeps.",
+      "conflictDifferentPublisher": "Different publishers",
+      "conflictIncompatibleVersion": "Incompatible versions",
+      "keepThisVersion": "Keep this version",
+      "conflictError": "Couldn't resolve this conflict. Please try again.",
+      "activateButton": "Activate",
+      "activateBlockedRoles": "Map every required role before activating.",
+      "activateBlockedConflicts": "Resolve every conflict before activating.",
+      "close": "Close",
+      "doneTitle": "Pack activated",
+      "doneBody": "{{packId}} is now available in the workflow designer palette."
+    },
+    "error": {
+      "verify": "This pack couldn't be verified: {{detail}}",
+      "generic": "Something went wrong. Please try again."
     }
   },
   "fieldHints": {

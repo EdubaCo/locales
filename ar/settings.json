@@ -45,6 +45,7 @@
     "title": "الأعضاء",
     "subtitle": "الأشخاص الذين لديهم وصول إلى مساحة العمل هذه.",
     "inviteButton": "دعوة عضو",
+    "bulkImportButton": "استيراد جماعي",
     "searchPlaceholder": "ابحث بالاسم أو البريد الإلكتروني",
     "empty": "لا يوجد أعضاء بعد.",
     "noMatches": "لا يوجد أعضاء يطابقون بحثك.",
@@ -66,7 +67,8 @@
     "actions": {
       "resend": "إعادة إرسال الدعوة",
       "reactivate": "إعادة التفعيل",
-      "deactivate": "تعطيل"
+      "deactivate": "تعطيل",
+      "erase": "محو بيانات المستخدم (GDPR)"
     },
     "invite": {
       "title": "دعوة عضو",
@@ -93,6 +95,84 @@
       "cancel": "إلغاء",
       "confirm": "تعطيل"
     },
+    "erase": {
+      "title": "محو بيانات {{name}} نهائيًا؟",
+      "body": "سيؤدي هذا إلى حذف اسمه وبريده الإلكتروني وبيانات اعتماد الدخول نهائيًا لتلبية طلب حق المحو بموجب اللائحة العامة لحماية البيانات (GDPR). وخلافًا للتعطيل، لا يمكن التراجع عن ذلك.",
+      "sessionsNote": "سيتم إلغاء جلساته ورموز الوصول وتفويضاته فورًا. يُحتفظ بسجل نائب فقط لإبقاء المهام والمستندات وسجل التدقيق الحالية صالحة — ولن يعود بالإمكان ربطها بهذا الشخص.",
+      "confirmLabel": "اكتب {{email}} للتأكيد",
+      "confirmPlaceholder": "اكتب البريد الإلكتروني للتأكيد",
+      "confirmMismatch": "لا يطابق {{email}}.",
+      "cancel": "إلغاء",
+      "confirm": "محو نهائي"
+    },
+    "bulkImport": {
+      "title": "استيراد الأعضاء بالجملة",
+      "subtitle": "قم بتحميل ملف CSV أو الصق نصه بالأشخاص المطلوب إضافتهم. عايِن النتيجة قبل إنشاء أي شيء.",
+      "fileLabel": "ملف CSV",
+      "noFile": "لم يتم اختيار ملف",
+      "pasteLabel": "أو الصق نص CSV",
+      "pastePlaceholder": "email,name,role,orgUnit\njane@acme.eng,Jane Doe,task_worker,Acme/Engineering",
+      "formatHint": "الأعمدة: email (مطلوب)، name، role، orgUnit (مسار تسلسل هرمي مفصول بـ \"/\").",
+      "previewButton": "معاينة الاستيراد",
+      "backButton": "تعديل CSV",
+      "confirmButton": "تأكيد الاستيراد",
+      "cancel": "إلغاء",
+      "denied": "ليس لديك إذن لاستيراد الأعضاء.",
+      "requestError": "تعذّر التحقق من صحة الملف. يُرجى المحاولة مرة أخرى.",
+      "noAppliableRows": "لا يمكن استيراد أي صف. صحّح الأخطاء أعلاه وحاول مرة أخرى.",
+      "dryRunNote": "هذه معاينة فقط — لم يتم إنشاء أي شيء بعد.",
+      "summary": {
+        "willCreate_zero": "لا أعضاء جدد",
+        "willCreate_one": "عضو جديد واحد",
+        "willCreate_two": "عضوان جديدان",
+        "willCreate_few": "{{count}} أعضاء جدد",
+        "willCreate_many": "{{count}} عضوًا جديدًا",
+        "willCreate_other": "{{count}} عضو جديد",
+        "willMatch_zero": "لا أعضاء حاليون مطابَقون",
+        "willMatch_one": "عضو حالي مطابَق واحد",
+        "willMatch_two": "عضوان حاليان مطابَقان",
+        "willMatch_few": "{{count}} أعضاء حاليون مطابَقون",
+        "willMatch_many": "{{count}} عضوًا حاليًا مطابَقًا",
+        "willMatch_other": "{{count}} عضو حالي مطابَق",
+        "willPlace_zero": "لم يوضع أي عضو في الهيكل التنظيمي",
+        "willPlace_one": "تم وضع عضو واحد في الهيكل التنظيمي",
+        "willPlace_two": "تم وضع عضوين في الهيكل التنظيمي",
+        "willPlace_few": "تم وضع {{count}} أعضاء في الهيكل التنظيمي",
+        "willPlace_many": "تم وضع {{count}} عضوًا في الهيكل التنظيمي",
+        "willPlace_other": "تم وضع {{count}} عضو في الهيكل التنظيمي",
+        "willSkip_zero": "لا صفوف تم تخطّيها",
+        "willSkip_one": "تم تخطّي صف واحد",
+        "willSkip_two": "تم تخطّي صفّين",
+        "willSkip_few": "تم تخطّي {{count}} صفوف",
+        "willSkip_many": "تم تخطّي {{count}} صفًا",
+        "willSkip_other": "تم تخطّي {{count}} صف"
+      },
+      "table": {
+        "line": "السطر",
+        "email": "البريد الإلكتروني",
+        "role": "الدور",
+        "orgUnit": "الوحدة التنظيمية",
+        "status": "الحالة"
+      },
+      "status": {
+        "ok": "جاهز"
+      },
+      "fileError": {
+        "empty_file": "الملف لا يحتوي على صفوف.",
+        "missing_email_column": "يجب أن يحتوي ملف CSV على عمود \"email\"."
+      },
+      "errorCode": {
+        "missing_email": "البريد الإلكتروني مطلوب.",
+        "invalid_email": "هذا ليس عنوان بريد إلكتروني صالحًا.",
+        "duplicate_email": "يظهر هذا البريد الإلكتروني سابقًا في الملف.",
+        "name_too_long": "الاسم طويل جدًا.",
+        "role_too_long": "اسم الدور طويل جدًا.",
+        "empty_unit_segment": "يحتوي مسار الوحدة التنظيمية على جزء فارغ.",
+        "unit_name_too_long": "اسم إحدى الوحدات التنظيمية طويل جدًا.",
+        "unknown_role": "الدور \"{{role}}\" غير موجود في مساحة العمل هذه.",
+        "root_conflict": "جذر الهيكل التنظيمي \"{{root}}\" يتعارض مع الجذر الحالي."
+      }
+    },
     "toast": {
       "invited": "تم إرسال الدعوة إلى {{email}}.",
       "invitedNoEmail": "تمت إضافة {{email}}. لم يُرسَل بريد إلكتروني — لم تُهيَّأ SMTP.",
@@ -102,6 +182,9 @@
       "reactivated": "تمت إعادة تفعيل {{name}}.",
       "resent": "أُعيد إرسال الدعوة إلى {{email}}.",
       "resentNoEmail": "لم يُرسَل بريد إلكتروني — لم تُهيَّأ SMTP.",
+      "erased": "تم محو بيانات {{name}} الشخصية نهائيًا.",
+      "bulkImported_one": "تم استيراد {{count}} عضو.",
+      "bulkImported_other": "تم استيراد {{count}} أعضاء.",
       "error": "حدث خطأ ما. يُرجى المحاولة مرة أخرى."
     }
   },
@@ -345,6 +428,85 @@
     "memberCount_few": "{{count}} أعضاء",
     "memberCount_many": "{{count}} عضوًا",
     "memberCount_other": "{{count}} عضو"
+  },
+  "packs": {
+    "importCta": "استيراد حزمة",
+    "finishSetup": "إكمال الإعداد",
+    "toast": {
+      "imported": "تم استيراد «{{name}}».",
+      "activated": "تم تفعيل الحزمة."
+    },
+    "upload": {
+      "title": "استيراد حزمة سير عمل",
+      "subtitle": "ارفع ملف pack.json موقّعًا من ناشر معتمد، ثم راجع ما ستضيفه قبل استيرادها إلى مستأجرك.",
+      "fileLabel": "ملف الحزمة (.json)",
+      "parseError": "هذا الملف ليس بصيغة JSON صالحة.",
+      "modeLabel": "وضع الاستيراد",
+      "modeCertified": "استخدام النسخة المعتمدة",
+      "modeCertifiedHint": "الإشارة إلى تعريفات الناشر مباشرةً. تصل تحديثات الحزمة تلقائيًا مع الإصدارات القادمة.",
+      "modeFork": "تفريع إلى مكتبة المستأجر",
+      "modeForkHint": "نسخ كل التدفقات الفرعية إلى مكتبة مستأجرك كمسودّات قابلة للتحرير تديرها بنفسك.",
+      "cancel": "إلغاء",
+      "submit": "معاينة"
+    },
+    "preview": {
+      "title": "المراجعة قبل الاستيراد",
+      "publisher": "الناشر",
+      "version": "الحزمة",
+      "rulesHeading": "قواعد السياسة الافتراضية",
+      "rulesToAdd_zero": "لن تُضاف أي قاعدة",
+      "rulesToAdd_one": "ستُضاف قاعدة واحدة",
+      "rulesToAdd_two": "ستُضاف قاعدتان",
+      "rulesToAdd_few": "ستُضاف {{count}} قواعد",
+      "rulesToAdd_many": "ستُضاف {{count}} قاعدة",
+      "rulesToAdd_other": "ستُضاف {{count}} قاعدة",
+      "rulesSkipped_zero": "لم تُتجاوَز أي قاعدة",
+      "rulesSkipped_one": "تم تجاوز قاعدة واحدة (توجد قاعدة بنفس الاسم لدى المستأجر)",
+      "rulesSkipped_two": "تم تجاوز قاعدتين (توجد قواعد بنفس الاسمين لدى المستأجر)",
+      "rulesSkipped_few": "تم تجاوز {{count}} قواعد (توجد قواعد بنفس الأسماء لدى المستأجر)",
+      "rulesSkipped_many": "تم تجاوز {{count}} قاعدة (توجد قواعد بنفس الأسماء لدى المستأجر)",
+      "rulesSkipped_other": "تم تجاوز {{count}} قاعدة (توجد قواعد بنفس الأسماء لدى المستأجر)",
+      "rulesInvalid_zero": "لا توجد قواعد يتعذّر تطبيقها",
+      "rulesInvalid_one": "يتعذّر تطبيق قاعدة واحدة",
+      "rulesInvalid_two": "يتعذّر تطبيق قاعدتين",
+      "rulesInvalid_few": "يتعذّر تطبيق {{count}} قواعد",
+      "rulesInvalid_many": "يتعذّر تطبيق {{count}} قاعدة",
+      "rulesInvalid_other": "يتعذّر تطبيق {{count}} قاعدة",
+      "rolesHeading": "الأدوار التي تتضمّنها هذه الحزمة",
+      "noRoles": "لا تتضمّن هذه الحزمة أي أدوار.",
+      "roleRequired": "مطلوب",
+      "roleOptional": "اختياري",
+      "back": "رجوع",
+      "submit": "استيراد"
+    },
+    "activation": {
+      "title": "إكمال إعداد {{packId}}",
+      "readyBody": "تم ربط كل الأدوار المطلوبة ولا توجد أي تعارضات تعيق هذه الحزمة.",
+      "rolesHeading": "ربط الأدوار",
+      "rolesBody": "اربط كل دور مطلوب بدور أو مجموعة موجودة لدى المستأجر قبل أن يمكن تفعيل هذه الحزمة.",
+      "roleTarget": "الربط بـ…",
+      "roleTargetRoles": "الأدوار",
+      "roleTargetGroups": "المجموعات",
+      "roleMapButton": "ربط",
+      "roleMappedTo": "مرتبط بـ {{name}}",
+      "mapError": "تعذّر حفظ هذا الربط. يُرجى المحاولة مرة أخرى.",
+      "conflictsHeading": "حل التعارضات",
+      "conflictsBody": "تتضمّن حزمة أخرى مثبَّتة نفس الكتلة بناشر أو إصدار مختلف. اختر التعريف الذي سيحتفظ به هذا المستأجر.",
+      "conflictDifferentPublisher": "ناشرون مختلفون",
+      "conflictIncompatibleVersion": "إصدارات غير متوافقة",
+      "keepThisVersion": "الاحتفاظ بهذا الإصدار",
+      "conflictError": "تعذّر حل هذا التعارض. يُرجى المحاولة مرة أخرى.",
+      "activateButton": "تفعيل",
+      "activateBlockedRoles": "اربط كل دور مطلوب قبل التفعيل.",
+      "activateBlockedConflicts": "حل كل تعارض قبل التفعيل.",
+      "close": "إغلاق",
+      "doneTitle": "تم تفعيل الحزمة",
+      "doneBody": "أصبحت {{packId}} متاحة الآن في لوحة مصمّم سير العمل."
+    },
+    "error": {
+      "verify": "تعذّر التحقّق من هذه الحزمة: {{detail}}",
+      "generic": "حدث خطأ ما. يُرجى المحاولة مرة أخرى."
+    }
   },
   "fieldHints": {
     "passwordMinLength": {

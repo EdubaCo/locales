@@ -41,7 +41,8 @@
     "newRevision": "New revision",
     "share": "Share",
     "history": "History",
-    "historyPending": "Revision history opens here once the history viewer ships."
+    "historyPending": "Revision history opens here once the history viewer ships.",
+    "attest": "Attest"
   },
   "upload": {
     "titleNew": "Upload a document",
@@ -83,6 +84,13 @@
       "size": "Size",
       "source": "Source"
     }
+  },
+  "attest": {
+    "title": "Attest “{{name}}”",
+    "body": "This records a new revision confirming the current file is still accurate, with you as the attester. No new file is uploaded.",
+    "confirm": "Attest",
+    "cancel": "Cancel",
+    "error": "Something went wrong. Please try again."
   },
   "share": {
     "title": "Share document",
