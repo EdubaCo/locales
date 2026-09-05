@@ -824,8 +824,14 @@
       "member": "عضو",
       "email": "ایمیل",
       "role": "نقش",
+      "roles": "نقش‌ها",
       "status": "وضعیت",
       "actions": "اقدامات"
+    },
+    "rolesPicker": {
+      "label": "نقش‌ها",
+      "placeholder": "نقش‌ها را انتخاب کنید",
+      "empty": "هیچ نقشی در دسترس نیست"
     },
     "status": {
       "active": "فعال",
@@ -848,6 +854,8 @@
       "namePlaceholder": "نام کامل",
       "optional": "اختیاری",
       "roleLabel": "نقش",
+      "rolesLabel": "نقش‌ها",
+      "rolesRequired": "حداقل یک نقش انتخاب کنید.",
       "noRoles": "هیچ نقشی در دسترس نیست",
       "cancel": "انصراف",
       "submit": "ارسال دعوت",
@@ -929,6 +937,7 @@
       "invited": "دعوت‌نامه به {{email}} ارسال شد.",
       "invitedNoEmail": "{{email}} افزوده شد. ایمیلی ارسال نشد — SMTP پیکربندی نشده است.",
       "roleChanged": "نقش {{name}} به‌روزرسانی شد.",
+      "rolesChanged": "نقش‌های {{name}} به‌روزرسانی شد.",
       "deactivated_one": "{{name}} غیرفعال شد. {{count}} نشست لغو شد.",
       "deactivated_other": "{{name}} غیرفعال شد. {{count}} نشست لغو شد.",
       "reactivated": "{{name}} دوباره فعال شد.",

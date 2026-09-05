@@ -56,8 +56,14 @@
       "member": "Member",
       "email": "Email",
       "role": "Role",
+      "roles": "Roles",
       "status": "Status",
       "actions": "Actions"
+    },
+    "rolesPicker": {
+      "label": "Roles",
+      "placeholder": "Select roles",
+      "empty": "No roles available"
     },
     "status": {
       "active": "Active",
@@ -80,6 +86,8 @@
       "namePlaceholder": "Full name",
       "optional": "Optional",
       "roleLabel": "Role",
+      "rolesLabel": "Roles",
+      "rolesRequired": "Select at least one role.",
       "noRoles": "No roles available",
       "cancel": "Cancel",
       "submit": "Send invite",
@@ -161,6 +169,7 @@
       "invited": "Invitation sent to {{email}}.",
       "invitedNoEmail": "{{email}} was added. No email was sent — SMTP isn't configured.",
       "roleChanged": "Updated {{name}}'s role.",
+      "rolesChanged": "Updated {{name}}'s roles.",
       "deactivated_one": "{{name}} was deactivated. {{count}} session was revoked.",
       "deactivated_other": "{{name}} was deactivated. {{count}} sessions were revoked.",
       "reactivated": "{{name}} was reactivated.",

@@ -56,8 +56,14 @@
       "member": "العضو",
       "email": "البريد الإلكتروني",
       "role": "الدور",
+      "roles": "الأدوار",
       "status": "الحالة",
       "actions": "الإجراءات"
+    },
+    "rolesPicker": {
+      "label": "الأدوار",
+      "placeholder": "اختر الأدوار",
+      "empty": "لا توجد أدوار متاحة"
     },
     "status": {
       "active": "نشط",
@@ -80,6 +86,8 @@
       "namePlaceholder": "الاسم الكامل",
       "optional": "اختياري",
       "roleLabel": "الدور",
+      "rolesLabel": "الأدوار",
+      "rolesRequired": "اختر دورًا واحدًا على الأقل.",
       "noRoles": "لا توجد أدوار متاحة",
       "cancel": "إلغاء",
       "submit": "إرسال الدعوة",
@@ -177,6 +185,7 @@
       "invited": "تم إرسال الدعوة إلى {{email}}.",
       "invitedNoEmail": "تمت إضافة {{email}}. لم يُرسَل بريد إلكتروني — لم تُهيَّأ SMTP.",
       "roleChanged": "تم تحديث دور {{name}}.",
+      "rolesChanged": "تم تحديث أدوار {{name}}.",
       "deactivated_one": "تم تعطيل {{name}}. تم إلغاء {{count}} جلسة.",
       "deactivated_other": "تم تعطيل {{name}}. تم إلغاء {{count}} جلسة.",
       "reactivated": "تمت إعادة تفعيل {{name}}.",
