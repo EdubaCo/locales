@@ -227,6 +227,13 @@
           "label": "Extra instructions",
           "hint": "Optional guidance appended to the checkpoint prompt."
         }
+      },
+      "waitTimer": {
+        "heading": "Wait timer",
+        "hint": "How long this step pauses before continuing — required before publishing.",
+        "hoursLabel": "Duration (hours)",
+        "unconfigured": "Set a duration — an unconfigured Wait fails to deploy.",
+        "invalid": "Enter a positive number of hours."
       }
     },
     "validation": {
