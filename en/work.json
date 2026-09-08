@@ -161,6 +161,12 @@
     "attachment": "Attachment",
     "attachmentUploading": "Uploading…",
     "attachmentError": "Couldn't upload that file. Please try again.",
+    "jsonPlaceholder": "JSON value",
+    "errors": {
+      "required": "This field is required.",
+      "invalidNumber": "Enter a valid number.",
+      "invalidJson": "Enter valid JSON for “{{field}}”."
+    },
     "submit": "Submit",
     "submitting": "Submitting…",
     "submitError": "Couldn't submit your decision. Please try again.",
