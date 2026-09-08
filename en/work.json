@@ -77,6 +77,8 @@
     "stepUpcoming": "Upcoming",
     "yourTurn": "Your turn",
     "yourTurnCallout": "Your turn — what to do now",
+    "extraStepsHeading_one": "You have {{count}} more open step on this run",
+    "extraStepsHeading_other": "You have {{count}} more open steps on this run",
     "deferred": {
       "loading": "Loading…",
       "activityTitle": "Activity feed",

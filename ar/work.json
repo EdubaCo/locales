@@ -77,6 +77,8 @@
     "stepUpcoming": "قادمة",
     "yourTurn": "دورك",
     "yourTurnCallout": "دورك — ما الذي يجب فعله الآن",
+    "extraStepsHeading_one": "لديك خطوة مفتوحة أخرى في هذا التشغيل",
+    "extraStepsHeading_other": "لديك {{count}} خطوات مفتوحة أخرى في هذا التشغيل",
     "deferred": {
       "loading": "جارٍ التحميل…",
       "activityTitle": "سجل النشاط",
