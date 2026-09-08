@@ -77,6 +77,8 @@
     "stepUpcoming": "پیش‌رو",
     "yourTurn": "نوبت شما",
     "yourTurnCallout": "نوبت شماست — اکنون چه باید کرد",
+    "extraStepsHeading_one": "{{count}} گام باز دیگر در این اجرا دارید",
+    "extraStepsHeading_other": "{{count}} گام باز دیگر در این اجرا دارید",
     "deferred": {
       "loading": "در حال بارگذاری…",
       "activityTitle": "خوراک فعالیت",
