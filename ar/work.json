@@ -157,6 +157,10 @@
     "actionIntro": "راجع المهمة وأرسل قرارك. يوجّه قرارك المهمة إلى الأمام.",
     "youBadge": "أنت",
     "decision": "القرار",
+    "fields": {
+      "outcome": "القرار",
+      "comment": "تعليق"
+    },
     "outcome": {
       "approved": "موافَق عليه",
       "approved_minor": "موافَق عليه مع ملاحظات",
