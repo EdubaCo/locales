@@ -165,6 +165,12 @@
     "attachment": "مرفق",
     "attachmentUploading": "جارٍ الرفع…",
     "attachmentError": "تعذّر رفع هذا الملف. حاول مرة أخرى.",
+    "jsonPlaceholder": "قيمة JSON",
+    "errors": {
+      "required": "هذا الحقل مطلوب.",
+      "invalidNumber": "أدخل رقمًا صالحًا.",
+      "invalidJson": "أدخل JSON صالحًا لحقل «{{field}}»."
+    },
     "submit": "إرسال",
     "submitting": "جارٍ الإرسال…",
     "submitError": "تعذّر إرسال قرارك. حاول مرة أخرى.",

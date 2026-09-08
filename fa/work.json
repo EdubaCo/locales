@@ -161,6 +161,12 @@
     "attachment": "پیوست",
     "attachmentUploading": "در حال بارگذاری…",
     "attachmentError": "بارگذاری این فایل ممکن نشد. دوباره تلاش کنید.",
+    "jsonPlaceholder": "مقدار JSON",
+    "errors": {
+      "required": "این فیلد الزامی است.",
+      "invalidNumber": "یک عدد معتبر وارد کنید.",
+      "invalidJson": "برای «{{field}}» یک JSON معتبر وارد کنید."
+    },
     "submit": "ثبت",
     "submitting": "در حال ثبت…",
     "submitError": "ثبت تصمیم شما ممکن نشد. دوباره تلاش کنید.",
