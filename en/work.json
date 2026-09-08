@@ -153,6 +153,10 @@
     "actionIntro": "Review the task and submit your decision. Your decision routes the task forward.",
     "youBadge": "You",
     "decision": "Decision",
+    "fields": {
+      "outcome": "Decision",
+      "comment": "Comment"
+    },
     "outcome": {
       "approved": "Approved",
       "approved_minor": "Approved with comments",
