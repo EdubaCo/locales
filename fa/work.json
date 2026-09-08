@@ -18,6 +18,8 @@
   "detail": {
     "loadError": "بارگذاری این وظیفه ممکن نشد",
     "notFound": "وظیفه یافت نشد",
+    "noAccessTitle": "شما به این وظیفه دسترسی ندارید",
+    "noAccessBody": "از مسئول این وظیفه یا مدیر فضای کاری درخواست دسترسی کنید، یا از درست بودن پیوند مطمئن شوید.",
     "backToWork": "بازگشت به کارهای من",
     "breadcrumb": "موقعیت وظیفه",
     "myWork": "کارهای من",
@@ -161,6 +163,7 @@
     "attachment": "پیوست",
     "attachmentUploading": "در حال بارگذاری…",
     "attachmentError": "بارگذاری این فایل ممکن نشد. دوباره تلاش کنید.",
+    "attachmentUnavailable": "پیوست فایل در این وظیفه در دسترس نیست.",
     "jsonPlaceholder": "مقدار JSON",
     "errors": {
       "required": "این فیلد الزامی است.",

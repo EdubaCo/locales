@@ -18,6 +18,8 @@
   "detail": {
     "loadError": "تعذّر تحميل هذه المهمة",
     "notFound": "المهمة غير موجودة",
+    "noAccessTitle": "ليس لديك صلاحية الوصول إلى هذه المهمة",
+    "noAccessBody": "اطلب الوصول من المكلّف بالمهمة أو من مسؤول مساحة العمل، أو تحقق من أن الرابط صحيح.",
     "backToWork": "العودة إلى مهامي",
     "breadcrumb": "موقع المهمة",
     "myWork": "مهامي",
@@ -165,6 +167,7 @@
     "attachment": "مرفق",
     "attachmentUploading": "جارٍ الرفع…",
     "attachmentError": "تعذّر رفع هذا الملف. حاول مرة أخرى.",
+    "attachmentUnavailable": "مرفقات الملفات غير متاحة في هذه المهمة.",
     "jsonPlaceholder": "قيمة JSON",
     "errors": {
       "required": "هذا الحقل مطلوب.",
