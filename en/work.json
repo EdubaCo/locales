@@ -18,6 +18,8 @@
   "detail": {
     "loadError": "Couldn't load this task",
     "notFound": "Task not found",
+    "noAccessTitle": "You don't have access to this task",
+    "noAccessBody": "Ask the task's assignee or a workspace admin for access, or check that you have the right link.",
     "backToWork": "Back to My Work",
     "breadcrumb": "Task location",
     "myWork": "My Work",
@@ -161,6 +163,7 @@
     "attachment": "Attachment",
     "attachmentUploading": "Uploading…",
     "attachmentError": "Couldn't upload that file. Please try again.",
+    "attachmentUnavailable": "File attachments aren't available on this task.",
     "jsonPlaceholder": "JSON value",
     "errors": {
       "required": "This field is required.",

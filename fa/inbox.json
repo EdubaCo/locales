@@ -10,7 +10,8 @@
   "count_one": "{{count}} مورد",
   "count_other": "{{count}} مورد",
   "row": {
-    "runBadge": "اجرا"
+    "runBadge": "اجرا",
+    "pending": "جزئیات این ردیف هنوز در حال بارگذاری است…"
   },
   "actions": {
     "menu": "کنش‌ها",

@@ -10,7 +10,8 @@
   "count_one": "{{count}} item",
   "count_other": "{{count}} items",
   "row": {
-    "runBadge": "Run"
+    "runBadge": "Run",
+    "pending": "Still loading this row's details…"
   },
   "actions": {
     "menu": "Actions",

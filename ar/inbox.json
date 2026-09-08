@@ -14,7 +14,8 @@
   "count_many": "{{count}} عنصرًا",
   "count_other": "{{count}} عنصر",
   "row": {
-    "runBadge": "تشغيل"
+    "runBadge": "تشغيل",
+    "pending": "لا تزال تفاصيل هذا الصف قيد التحميل…"
   },
   "actions": {
     "menu": "إجراءات",
