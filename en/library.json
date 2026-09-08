@@ -50,7 +50,14 @@
   },
   "actions": {
     "history": "History",
-    "register": "Add standard"
+    "register": "Add standard",
+    "more": "More actions",
+    "edit": "Edit",
+    "adoptVersion": "Adopt new version"
+  },
+  "toast": {
+    "updated": "“{{title}}” updated.",
+    "versionAdopted": "Adopted version {{version}} for “{{title}}”."
   },
   "pagination": {
     "prev": "Previous",
@@ -79,6 +86,26 @@
       "denied": "You do not have permission to register a standard.",
       "codeExists": "A standard with this code already exists.",
       "generic": "Failed to register the standard. Try again."
+    }
+  },
+  "editModal": {
+    "title": "Edit standard",
+    "subtitle": "Update this entry's metadata.",
+    "watchSourceLabel": "Watch source",
+    "watchSourcePlaceholder": "e.g. iso.org",
+    "watchSourceHint": "Where to check for a newer published version, if this entry is watched.",
+    "submit": "Save changes"
+  },
+  "adoptModal": {
+    "title": "Adopt a new version",
+    "currentVersion": "Currently adopted: {{version}}",
+    "noCurrentVersion": "No version adopted yet.",
+    "versionLabel": "New version",
+    "versionRequired": "Version is required.",
+    "submit": "Adopt version",
+    "error": {
+      "denied": "You do not have permission to adopt a new version.",
+      "generic": "Failed to adopt the new version. Try again."
     }
   }
 }

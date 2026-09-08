@@ -291,7 +291,9 @@
   "actions": {
     "menu": "Actions",
     "assign": "Assign…",
-    "reassign": "Reassign step…"
+    "reassign": "Reassign step…",
+    "claim": "Claim",
+    "release": "Release"
   },
   "assign": {
     "title": "Assign task",
@@ -332,5 +334,13 @@
     "auditNote": "This action is recorded in the audit log.",
     "error": "Couldn't reassign the step. Please try again.",
     "success": "Step reassigned."
+  },
+  "claim": {
+    "error": "Couldn't claim this step. Please try again.",
+    "success": "Step claimed — it's yours now."
+  },
+  "release": {
+    "error": "Couldn't release this step. Please try again.",
+    "success": "Step released back to the pool."
   }
 }

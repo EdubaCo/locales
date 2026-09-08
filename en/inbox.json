@@ -15,7 +15,9 @@
   "actions": {
     "menu": "Actions",
     "assign": "Assign…",
-    "reassign": "Reassign step…"
+    "reassign": "Reassign step…",
+    "claim": "Claim",
+    "release": "Release"
   },
   "table": {
     "task": "Task",

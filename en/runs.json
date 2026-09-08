@@ -22,6 +22,19 @@
   "standardsFlag": {
     "banner": "A referenced standard has a newer version available — review this run. Latest:"
   },
+  "standardRefs": {
+    "title": "Referenced standards",
+    "pickerLabel": "Standard to attach",
+    "pickerPlaceholder": "Select a standard…",
+    "noneAvailable": "All available standards are already attached",
+    "attach": "Attach",
+    "detach": "Detach",
+    "empty": "No standards referenced on this run yet.",
+    "loadError": "Failed to load referenced standards.",
+    "attachError": "Failed to attach the standard. Try again.",
+    "detachError": "Failed to detach the standard. Try again.",
+    "closedHint": "This run is closed — standards can no longer be attached or detached."
+  },
   "attention": {
     "banner_one": "{{count}} step failed — an operator needs to look at this.",
     "banner_other": "{{count}} steps failed — an operator needs to look at this.",

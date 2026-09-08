@@ -11,7 +11,9 @@
     "referralProgram": "Referral program",
     "feedback": "Docs feedback",
     "feedbackNewCount": "{{count}} new submission",
-    "feedbackNewCount_other": "{{count}} new submissions"
+    "feedbackNewCount_other": "{{count}} new submissions",
+    "licenses": "Licenses",
+    "invoices": "Invoices"
   },
   "plans": {
     "title": "Plan catalog",
@@ -63,14 +65,14 @@
     },
     "retire": {
       "title": "Retire plan",
-      "body": "Retire \"{{name}}\"? It will no longer be purchasable. Existing subscriptions keep running on their snapshot.",
+      "body": "Retire “{{name}}”? It will no longer be purchasable. Existing subscriptions keep running on their snapshot.",
       "confirm": "Retire plan",
       "cancel": "Cancel"
     },
     "toast": {
-      "created": "Plan \"{{name}}\" created.",
-      "updated": "Plan \"{{name}}\" updated.",
-      "retired": "Plan \"{{name}}\" retired.",
+      "created": "Plan “{{name}}” created.",
+      "updated": "Plan “{{name}}” updated.",
+      "retired": "Plan “{{name}}” retired.",
       "error": "Something went wrong. Please try again.",
       "codeExists": "A plan with that code already exists."
     }
@@ -122,6 +124,11 @@
     "changeStatus": "Change status",
     "statusSubmit": "Update status",
     "recordPayment": "Record payment",
+    "details": "Tenant details",
+    "edit": "Edit",
+    "reprovision": "Re-run provisioning",
+    "suspend": "Suspend",
+    "unsuspend": "Unsuspend",
     "subStatus": {
       "trial": "Trial",
       "active": "Active",
@@ -133,6 +140,61 @@
       "active": "Active",
       "trial": "Trial"
     },
+    "tenantStatus": {
+      "pending": "Pending",
+      "active": "Active",
+      "suspended": "Suspended",
+      "offboarding": "Offboarding"
+    },
+    "connector": {
+      "title": "Database connector",
+      "byoHint": "Point this tenant at your own Postgres instance instead of the managed database.",
+      "mode": "Mode",
+      "modeValue": {
+        "managed": "Managed",
+        "byo": "Bring your own"
+      },
+      "status": "Status",
+      "statusValue": {
+        "pending": "Pending",
+        "validating": "Validating",
+        "active": "Active",
+        "error": "Error",
+        "suspended": "Suspended"
+      },
+      "provider": "Provider",
+      "validatedAt": "Last validated",
+      "never": "Never",
+      "none": "No connector configured yet.",
+      "form": {
+        "host": "Host",
+        "port": "Port",
+        "database": "Database",
+        "user": "User",
+        "password": "Password",
+        "sslmode": "SSL mode",
+        "sslmodeValue": {
+          "disable": "Disable",
+          "require": "Require",
+          "verify-ca": "Verify CA",
+          "verify-full": "Verify full"
+        },
+        "submit": "Save connector",
+        "invalid": "Fill in host, port, database, user and password."
+      }
+    },
+    "suspendConfirm": {
+      "title": "Suspend tenant",
+      "body": "Suspend “{{name}}”? Its users will immediately lose access until it's unsuspended.",
+      "confirm": "Suspend tenant",
+      "cancel": "Cancel"
+    },
+    "reprovisionConfirm": {
+      "title": "Re-run provisioning",
+      "body": "Re-run managed provisioning for “{{name}}”? If any step fails partway through, its database is rolled back and dropped — this can affect a tenant that's already in use. Only do this to finish setting up a tenant that failed provisioning.",
+      "confirm": "Re-run provisioning",
+      "cancel": "Cancel"
+    },
     "toast": {
       "assigned": "Plan assigned.",
       "statusChanged": "Subscription status updated.",
@@ -141,31 +203,20 @@
       "error": "Something went wrong. Please try again.",
       "notPurchasable": "That plan is not purchasable (it must be active).",
       "illegalTransition": "That status change is not allowed.",
-      "created": "Tenant \"{{name}}\" created.",
-      "provisionFailed": "Tenant \"{{name}}\" was created but provisioning failed. It won't be usable until provisioning is retried.",
+      "created": "Tenant “{{name}}” created.",
+      "provisionFailed": "Tenant “{{name}}” was created but provisioning failed. It won't be usable until provisioning is retried.",
       "slugExists": "That slug is already in use.",
       "slugReserved": "That slug is reserved.",
       "licenseLimit": "Your license's tenant limit has been reached.",
+      "updated": "Tenant “{{name}}” updated.",
+      "suspended": "Tenant “{{name}}” suspended.",
+      "unsuspended": "Tenant “{{name}}” unsuspended.",
+      "provisioned": "Provisioning re-run for “{{name}}”.",
+      "connectorConfigured": "Database connector updated.",
+      "connectorFailed": "Connector validation failed — see the status above for details.",
       "userCreated": "User {{email}} created."
     },
     "addUser": "Add user",
-    "details": "Tenant details",
-    "edit": "Edit",
-    "reprovision": "Re-run provisioning",
-    "suspend": "Suspend",
-    "unsuspend": "Unsuspend",
-    "suspendConfirm": {
-      "title": "Suspend tenant?",
-      "body": "\"{{name}}\" will lose access immediately.",
-      "cancel": "Cancel",
-      "confirm": "Suspend"
-    },
-    "reprovisionConfirm": {
-      "title": "Re-run provisioning?",
-      "body": "This re-runs database setup and seeding for \"{{name}}\". Existing data may be overwritten.",
-      "cancel": "Cancel",
-      "confirm": "Re-run"
-    },
     "userForm": {
       "title": "Add user",
       "sub": "Create a user in this tenant's database.",
@@ -183,13 +234,15 @@
   },
   "tenantForm": {
     "createTitle": "New tenant",
+    "editTitle": "Edit tenant",
     "slug": "Slug",
     "slugHint": "Subdomain identifier — lowercase letters, digits, hyphens.",
     "slugInvalid": "Use lowercase letters, digits or hyphens; don't start or end with a hyphen.",
     "name": "Name",
     "tier": "Tier",
     "cancel": "Cancel",
-    "create": "Create tenant"
+    "create": "Create tenant",
+    "save": "Save changes"
   },
   "payments": {
     "title": "Payments",
@@ -555,5 +608,115 @@
       "dismissed": "Dismissed.",
       "error": "Could not update the submission."
     }
+  },
+  "licenses": {
+    "title": "License keys",
+    "subtitle": "Issue and revoke self-hosted license keys.",
+    "newLicense": "New license",
+    "empty": "No licenses issued yet.",
+    "error": "Could not load licenses.",
+    "table": {
+      "id": "ID",
+      "tier": "Tier",
+      "maxTenants": "Max tenants",
+      "issued": "Issued",
+      "expires": "Expires",
+      "status": "Status",
+      "invoiceRef": "Invoice ref.",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "expired": "Expired",
+      "revoked": "Revoked"
+    },
+    "actions": {
+      "revoke": "Revoke"
+    },
+    "revoke": {
+      "title": "Revoke license",
+      "body": "Revoke license {{id}}…? It will never validate again. This cannot be undone.",
+      "confirm": "Revoke license",
+      "cancel": "Cancel"
+    },
+    "reveal": {
+      "title": "License key generated",
+      "warning": "This key is shown once and is not stored anywhere. Copy it now — it cannot be retrieved again.",
+      "keyLabel": "License key",
+      "copy": "Copy to clipboard",
+      "copied": "Copied to clipboard.",
+      "done": "Done"
+    },
+    "toast": {
+      "revoked": "License revoked.",
+      "error": "Something went wrong. Please try again.",
+      "unconfigured": "This install isn't configured to issue that kind of key."
+    }
+  },
+  "licenseForm": {
+    "title": "Issue license key",
+    "subtitle": "Mints an entitlement key. The key itself is shown once and never stored.",
+    "keyType": "Key type",
+    "plain": "Plain key",
+    "plainHint": "A raw key hashed and stored locally — activates only on this install.",
+    "signed": "Signed key",
+    "signedHint": "A self-contained key signed with the platform private key — activates offline on any install, no shared database row.",
+    "tier": "Tier",
+    "maxTenants": "Max tenants",
+    "unlimited": "Unlimited",
+    "maxTenantsInvalid": "Enter a positive whole number, or leave blank for unlimited.",
+    "expiresAt": "Expires",
+    "perpetual": "Perpetual",
+    "invoiceRef": "Invoice reference",
+    "optional": "Optional",
+    "cancel": "Cancel",
+    "generate": "Generate key"
+  },
+  "invoices": {
+    "title": "Invoices",
+    "subtitle": "Record and track manual invoices for tenants or the platform.",
+    "newInvoice": "New invoice",
+    "filterByTenant": "Filter by tenant",
+    "allTenants": "All tenants",
+    "platformWide": "Platform-wide",
+    "empty": "No invoices recorded yet.",
+    "error": "Could not load invoices.",
+    "table": {
+      "id": "ID",
+      "tenant": "Tenant",
+      "amount": "Amount",
+      "dueDate": "Due date",
+      "status": "Status",
+      "notes": "Notes",
+      "actions": "Actions"
+    },
+    "status": {
+      "paid": "Paid",
+      "overdue": "Overdue",
+      "unpaid": "Unpaid"
+    },
+    "actions": {
+      "edit": "Edit"
+    },
+    "toast": {
+      "created": "Invoice recorded.",
+      "updated": "Invoice updated.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "invoiceForm": {
+    "createTitle": "New invoice",
+    "editTitle": "Edit invoice",
+    "tenant": "Tenant",
+    "amount": "Amount",
+    "amountInvalid": "Enter an amount greater than zero.",
+    "currency": "Currency",
+    "markPaid": "Mark as paid",
+    "dueDate": "Due date",
+    "optional": "Optional",
+    "notes": "Notes",
+    "cancel": "Cancel",
+    "create": "Record invoice",
+    "save": "Save changes"
   }
 }

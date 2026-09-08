@@ -50,7 +50,14 @@
   },
   "actions": {
     "history": "السجل",
-    "register": "إضافة معيار"
+    "register": "إضافة معيار",
+    "more": "إجراءات إضافية",
+    "edit": "تعديل",
+    "adoptVersion": "اعتماد إصدار جديد"
+  },
+  "toast": {
+    "updated": "تم تحديث «{{title}}».",
+    "versionAdopted": "تم اعتماد الإصدار {{version}} لـ «{{title}}»."
   },
   "pagination": {
     "prev": "السابق",
@@ -79,6 +86,26 @@
       "denied": "ليس لديك إذن لتسجيل معيار.",
       "codeExists": "يوجد بالفعل معيار بهذا الرمز.",
       "generic": "فشل تسجيل المعيار. حاول مرة أخرى."
+    }
+  },
+  "editModal": {
+    "title": "تعديل المعيار",
+    "subtitle": "تحديث بيانات هذا العنصر الوصفية.",
+    "watchSourceLabel": "مصدر المراقبة",
+    "watchSourcePlaceholder": "مثال: iso.org",
+    "watchSourceHint": "أين يجب التحقق من وجود إصدار منشور أحدث، إذا كان هذا العنصر مُراقَبًا.",
+    "submit": "حفظ التغييرات"
+  },
+  "adoptModal": {
+    "title": "اعتماد إصدار جديد",
+    "currentVersion": "المُعتمد حاليًا: {{version}}",
+    "noCurrentVersion": "لم يُعتمد أي إصدار بعد.",
+    "versionLabel": "الإصدار الجديد",
+    "versionRequired": "الإصدار مطلوب.",
+    "submit": "اعتماد الإصدار",
+    "error": {
+      "denied": "ليس لديك إذن لاعتماد إصدار جديد.",
+      "generic": "فشل اعتماد الإصدار الجديد. حاول مرة أخرى."
     }
   }
 }
