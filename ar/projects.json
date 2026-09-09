@@ -131,6 +131,19 @@
       "emptyTitle": "لا توجد عمليات تشغيل منتجات بعد",
       "emptyBody": "تظهر عمليات تشغيل المنتجات هنا بمجرد أن تبدأ مهمة عملية التشغيل المدعومة بالمحرّك."
     },
+    "inquiry": {
+      "heading": "موعد الاستفسار",
+      "stage": "المرحلة",
+      "deadline": "الموعد النهائي",
+      "requestLabel": "طلب تمديد إلى",
+      "requestSubmit": "طلب التمديد",
+      "requesting": "جارٍ الطلب…",
+      "pendingReply": "طُلب التمديد إلى {{date}}. الرد:",
+      "replyGrantRequested": "الموافقة على التاريخ المطلوب",
+      "replyDecline": "رفض",
+      "otherDateLabel": "أو منح تاريخ آخر",
+      "replyGrantOther": "منح تاريخ آخر"
+    },
     "history": {
       "heading": "النشاط",
       "emptyTitle": "لا يوجد سجل بعد",
@@ -141,7 +154,8 @@
         "completed": "أكمل المهمة",
         "cancelled": "ألغى المهمة",
         "reopened": "أعاد فتح المهمة",
-        "roundStarted": "بدأت"
+        "roundStarted": "بدأت",
+        "gateResolved": "أنهى بوابة على"
       },
       "roundLabel": "الجولة {{round}}",
       "byActor": "— {{actor}}"

@@ -266,6 +266,7 @@
       "notesPlaceholder": "زمینهٔ اضافی که همراه گردش‌کار ارسال می‌شود (اختیاری)",
       "handOffLabel": "واگذاری اسناد پروژه",
       "handOffEmpty": "این پروژه هنوز سندی برای واگذاری ندارد.",
+      "handOffCount_one": "{{count}} سند انتخاب شد",
       "handOffCount_other": "{{count}} سند انتخاب شد"
     },
     "priority": {

@@ -111,7 +111,8 @@
       "noPriority": "—",
       "noDue": "—",
       "priorityFilterAll": "All priorities",
-      "bulkAssignSelected": "Assign {{count}} selected",
+      "bulkAssignSelected_one": "Assign {{count}} selected",
+      "bulkAssignSelected_other": "Assign {{count}} selected",
       "emptyTitle": "No tasks yet",
       "emptyBody": "Create a task to start tracking work on this project.",
       "add": "Add task",
@@ -127,6 +128,19 @@
       "emptyTitle": "No product runs yet",
       "emptyBody": "Product runs appear here once a task starts its governing engine run."
     },
+    "inquiry": {
+      "heading": "Inquiry deadline",
+      "stage": "Stage",
+      "deadline": "Deadline",
+      "requestLabel": "Request extension to",
+      "requestSubmit": "Request extension",
+      "requesting": "Requesting…",
+      "pendingReply": "Extension requested to {{date}}. Reply:",
+      "replyGrantRequested": "Grant requested date",
+      "replyDecline": "Decline",
+      "otherDateLabel": "Or grant another date",
+      "replyGrantOther": "Grant other date"
+    },
     "history": {
       "heading": "Activity",
       "emptyTitle": "No history yet",
@@ -137,7 +151,8 @@
         "completed": "completed task",
         "cancelled": "cancelled task",
         "reopened": "reopened task",
-        "roundStarted": "started"
+        "roundStarted": "started",
+        "gateResolved": "resolved gate on"
       },
       "roundLabel": "Round {{round}}",
       "byActor": "— {{actor}}"

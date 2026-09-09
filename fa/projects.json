@@ -128,6 +128,19 @@
       "emptyTitle": "هنوز اجرای محصولی وجود ندارد",
       "emptyBody": "اجراهای محصول پس از آنکه یک وظیفه اجرای موتور حاکم خود را آغاز کند، اینجا نمایش داده می‌شوند."
     },
+    "inquiry": {
+      "heading": "مهلت استعلام",
+      "stage": "مرحله",
+      "deadline": "مهلت",
+      "requestLabel": "درخواست تمدید تا",
+      "requestSubmit": "درخواست تمدید",
+      "requesting": "در حال ارسال…",
+      "pendingReply": "تمدید تا {{date}} درخواست شده. پاسخ:",
+      "replyGrantRequested": "پذیرش تاریخ درخواست‌شده",
+      "replyDecline": "رد",
+      "otherDateLabel": "یا اعطای تاریخ دیگر",
+      "replyGrantOther": "اعطای تاریخ دیگر"
+    },
     "history": {
       "heading": "فعالیت",
       "emptyTitle": "هنوز تاریخچه‌ای وجود ندارد",
@@ -138,7 +151,8 @@
         "completed": "وظیفه را تکمیل کرد",
         "cancelled": "وظیفه را لغو کرد",
         "reopened": "وظیفه را دوباره باز کرد",
-        "roundStarted": "آغاز شد"
+        "roundStarted": "آغاز شد",
+        "gateResolved": "دروازه را روی"
       },
       "roundLabel": "دور {{round}}",
       "byActor": "— {{actor}}"
