@@ -91,12 +91,28 @@
       "rolesLabel": "Roles",
       "rolesRequired": "Select at least one role.",
       "noRoles": "No roles available",
+      "passwordLabel": "Initial password",
+      "passwordPlaceholder": "At least {{min}} characters",
+      "passwordHint": "Optional. Set this so the member can sign in immediately without email — otherwise Eduba creates a shareable invite link.",
+      "passwordTooShort": "Password must be at least {{min}} characters.",
       "cancel": "Cancel",
       "submit": "Send invite",
       "error": {
         "emailExists": "A member with that email already exists.",
         "generic": "Couldn't send the invite. Please try again."
       }
+    },
+    "inviteLink": {
+      "title": "Invite link ready",
+      "subtitle": "Share this link with {{email}} so they can set a password and sign in.",
+      "emailSentNote": "An invite email was also sent to {{email}}.",
+      "noEmailNote": "No email was sent — SMTP isn't configured. Copy the link and share it with them directly.",
+      "linkLabel": "Invite link",
+      "expiresAt": "This link expires {{datetime}}.",
+      "copy": "Copy link",
+      "copied": "Copied to clipboard.",
+      "close": "Done",
+      "error": "Couldn't copy the link. Please try again."
     },
     "deactivate": {
       "title": "Deactivate {{name}}?",
@@ -170,6 +186,7 @@
     "toast": {
       "invited": "Invitation sent to {{email}}.",
       "invitedNoEmail": "{{email}} was added. No email was sent — SMTP isn't configured.",
+      "invitedActive": "{{email}} was added and can sign in immediately.",
       "roleChanged": "Updated {{name}}'s role.",
       "rolesChanged": "Updated {{name}}'s roles.",
       "deactivated_one": "{{name}} was deactivated. {{count}} session was revoked.",
