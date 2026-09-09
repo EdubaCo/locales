@@ -261,6 +261,8 @@
       "noProjects": "لا توجد مشاريع بعد",
       "dueDateLabel": "تاريخ الاستحقاق",
       "priorityLabel": "الأولوية",
+      "ownerUnitLabel": "الوحدة المسؤولة",
+      "ownerUnitPlaceholder": "بلا وحدة",
       "descriptionLabel": "الوصف",
       "descriptionPlaceholder": "ما موضوع هذه المهمة؟",
       "optional": "اختياري",
@@ -364,5 +366,28 @@
   "release": {
     "error": "تعذّر تحرير هذه الخطوة. حاول مرة أخرى.",
     "success": "أُعيدت الخطوة إلى المجموعة."
+  },
+  "bulkAssign": {
+    "title_one": "إسناد مهمة واحدة",
+    "title_two": "إسناد مهمتين",
+    "title_few": "إسناد {{count}} مهام",
+    "title_many": "إسناد {{count}} مهمة",
+    "title_other": "إسناد {{count}} مهمة",
+    "subtitle": "حدّد مسؤولًا و/أو مراجعًا واحدًا لجميع المهام المحددة.",
+    "submit_one": "إسناد مهمة واحدة",
+    "submit_two": "إسناد مهمتين",
+    "submit_few": "إسناد {{count}} مهام",
+    "submit_many": "إسناد {{count}} مهمة",
+    "submit_other": "إسناد {{count}} مهمة",
+    "error": "تعذّر تحديث الإسناد لمهمة واحدة أو أكثر. حاول مرة أخرى.",
+    "success_one": "أُعيدَ إسناد مهمة واحدة.",
+    "success_two": "أُعيدَ إسناد مهمتين.",
+    "success_few": "أُعيدَ إسناد {{count}} مهام.",
+    "success_many": "أُعيدَ إسناد {{count}} مهمة.",
+    "success_other": "أُعيدَ إسناد {{count}} مهمة."
+  },
+  "export": {
+    "success": "تم تصدير صندوق الوارد.",
+    "error": "تعذّر تصدير صندوق الوارد. حاول مرة أخرى."
   }
 }

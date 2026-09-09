@@ -257,6 +257,8 @@
       "noProjects": "هنوز پروژه‌ای وجود ندارد",
       "dueDateLabel": "تاریخ سررسید",
       "priorityLabel": "اولویت",
+      "ownerUnitLabel": "واحد مسئول",
+      "ownerUnitPlaceholder": "بدون واحد",
       "descriptionLabel": "توضیحات",
       "descriptionPlaceholder": "این وظیفه دربارهٔ چیست؟",
       "optional": "اختیاری",
@@ -356,5 +358,19 @@
   "release": {
     "error": "رهاسازی این مرحله ممکن نشد. دوباره تلاش کنید.",
     "success": "مرحله به استخر بازگردانده شد."
+  },
+  "bulkAssign": {
+    "title_one": "واگذاری {{count}} وظیفه",
+    "title_other": "واگذاری {{count}} وظیفه",
+    "subtitle": "یک مسئول و/یا بازبین برای همهٔ وظایف انتخاب‌شده تعیین کنید.",
+    "submit_one": "واگذاری {{count}} وظیفه",
+    "submit_other": "واگذاری {{count}} وظیفه",
+    "error": "به‌روزرسانی واگذاری برای یک یا چند وظیفه ممکن نشد. دوباره تلاش کنید.",
+    "success_one": "{{count}} وظیفه واگذار شد.",
+    "success_other": "{{count}} وظیفه واگذار شد."
+  },
+  "export": {
+    "success": "صندوق ورودی صادر شد.",
+    "error": "صادرکردن صندوق ورودی ممکن نشد. دوباره تلاش کنید."
   }
 }

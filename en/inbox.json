@@ -26,6 +26,7 @@
     "context": "Context",
     "sla": "SLA",
     "deadline": "Deadline",
+    "due": "Due",
     "step": "Current step",
     "assignees": "Assignees"
   },
@@ -34,6 +35,18 @@
     "yellow": "Due soon",
     "green": "On track",
     "none": "No deadline"
+  },
+  "due": {
+    "none": "—"
+  },
+  "priority": {
+    "low": "Low",
+    "normal": "Normal",
+    "high": "High",
+    "urgent": "Urgent"
+  },
+  "export": {
+    "button": "Export CSV"
   },
   "filters": {
     "workflow": "Workflow",
@@ -44,6 +57,9 @@
     "contextAll": "All contexts",
     "groupBy": "Group by",
     "groupNone": "No grouping",
+    "sort": "Sort by",
+    "sortSla": "Priority (SLA)",
+    "sortDueAt": "Due date",
     "clear": "Clear filters"
   },
   "groupBy": {
