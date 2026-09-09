@@ -180,7 +180,8 @@
       "erased": "{{name}}'s personal data was permanently erased.",
       "bulkImported_one": "Imported {{count}} member.",
       "bulkImported_other": "Imported {{count}} members.",
-      "error": "Something went wrong. Please try again."
+      "error": "Something went wrong. Please try again.",
+      "lastAdminGuard": "Can't complete this change — it would leave nobody able to manage users. Assign another member the ability to manage users first."
     }
   },
   "groups": {
