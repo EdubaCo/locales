@@ -127,11 +127,13 @@
         "other": "سایر"
       },
       "control": {
+        "start": "شروع",
         "branch": "انشعاب",
         "parallel": "موازی",
         "join": "ادغام",
         "wait": "انتظار (زمان‌سنج)",
-        "terminate": "پایان"
+        "terminate": "پایان",
+        "end": "پایان"
       },
       "certification": {
         "certified": "گواهی‌شده",

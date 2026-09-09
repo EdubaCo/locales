@@ -127,11 +127,13 @@
         "other": "Other"
       },
       "control": {
+        "start": "Start",
         "branch": "Branch",
         "parallel": "Parallel",
         "join": "Join",
         "wait": "Wait (timer)",
-        "terminate": "Terminate"
+        "terminate": "Terminate",
+        "end": "End"
       },
       "certification": {
         "certified": "Certified",

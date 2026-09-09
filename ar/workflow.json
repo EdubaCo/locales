@@ -127,11 +127,13 @@
         "other": "أخرى"
       },
       "control": {
+        "start": "بداية",
         "branch": "تفرّع",
         "parallel": "متوازٍ",
         "join": "دمج",
         "wait": "انتظار (مؤقّت)",
-        "terminate": "إنهاء"
+        "terminate": "إنهاء",
+        "end": "نهاية"
       },
       "certification": {
         "certified": "معتمد",

@@ -7,8 +7,27 @@ const EN_DIR = join(ROOT, 'en');
 
 const PLURAL_SUFFIXES = ['_zero', '_one', '_two', '_few', '_many', '_other'];
 
+/**
+ * Recursively walks a parsed JSON object and returns a flat map of dotted key
+ * paths (e.g. `detail.tasks.bulkAssignSelected_one`) to their leaf values.
+ * Only plain objects are descended into — arrays and primitives are leaves,
+ * so a namespace file can still hold arrays of strings without this walking
+ * into their indices.
+ */
+function flatten(obj, prefix = '') {
+  const out = {};
+  for (const [k, v] of Object.entries(obj)) {
+    const key = prefix ? `${prefix}.${k}` : k;
+    if (v !== null && typeof v === 'object' && !Array.isArray(v)) {
+      Object.assign(out, flatten(v, key));
+    } else {
+      out[key] = v;
+    }
+  }
+  return out;
+}
 function getKeys(p) {
-  return new Set(Object.keys(JSON.parse(readFileSync(p, 'utf8'))));
+  return new Set(Object.keys(flatten(JSON.parse(readFileSync(p, 'utf8')))));
 }
 function getNamespaces(dir) {
   return readdirSync(dir).filter((f) => f.endsWith('.json')).sort();
