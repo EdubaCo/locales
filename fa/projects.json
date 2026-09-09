@@ -93,13 +93,26 @@
       "completed": "تکمیل‌شده",
       "cancelled": "لغوشده"
     },
+    "taskPriority": {
+      "low": "کم",
+      "normal": "عادی",
+      "high": "زیاد",
+      "urgent": "فوری"
+    },
     "tasks": {
       "heading": "{{count}} وظیفه",
       "colTask": "وظیفه",
       "colStatus": "وضعیت",
+      "colPriority": "اولویت",
+      "colDue": "سررسید",
       "colAssignees": "مسئولان",
       "colUpdated": "به‌روزرسانی",
       "assignees": "{{count}} نفر تخصیص‌یافته",
+      "noPriority": "—",
+      "noDue": "—",
+      "priorityFilterAll": "همهٔ اولویت‌ها",
+      "bulkAssignSelected_one": "واگذاری {{count}} وظیفهٔ انتخاب‌شده",
+      "bulkAssignSelected_other": "واگذاری {{count}} وظیفهٔ انتخاب‌شده",
       "emptyTitle": "هنوز وظیفه‌ای وجود ندارد",
       "emptyBody": "برای شروع پیگیری کار روی این پروژه، یک وظیفه بسازید.",
       "add": "افزودن وظیفه",

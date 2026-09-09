@@ -257,6 +257,8 @@
       "noProjects": "No projects yet",
       "dueDateLabel": "Due date",
       "priorityLabel": "Priority",
+      "ownerUnitLabel": "Owning unit",
+      "ownerUnitPlaceholder": "No unit",
       "descriptionLabel": "Description",
       "descriptionPlaceholder": "What is this task about?",
       "optional": "Optional",
@@ -328,6 +330,16 @@
     "forbidden": "You don't have permission to assign this task.",
     "success": "Assignment updated."
   },
+  "bulkAssign": {
+    "title_one": "Assign {{count}} task",
+    "title_other": "Assign {{count}} tasks",
+    "subtitle": "Set one responsible and/or reviewer across every selected task.",
+    "submit_one": "Assign {{count}} task",
+    "submit_other": "Assign {{count}} tasks",
+    "error": "Couldn't update the assignment for one or more tasks. Please try again.",
+    "success_one": "{{count}} task reassigned.",
+    "success_other": "{{count}} tasks reassigned."
+  },
   "reassign": {
     "title": "Reassign step",
     "currentLabel": "Current",
@@ -357,5 +369,9 @@
   "release": {
     "error": "Couldn't release this step. Please try again.",
     "success": "Step released back to the pool."
+  },
+  "export": {
+    "success": "Inbox exported.",
+    "error": "Couldn't export the inbox. Please try again."
   }
 }
