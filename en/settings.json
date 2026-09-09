@@ -35,7 +35,9 @@
     "operations": "Operations",
     "finance": "Finance",
     "display": "Display",
-    "language": "Language & region"
+    "language": "Language & region",
+    "delegations": "Delegations",
+    "myDelegation": "Away & delegation"
   },
   "comingSoon": {
     "title": "{{section}} coming soon",
@@ -321,6 +323,85 @@
       "deleted": "Unit “{{name}}” deleted.",
       "membersSaved": "Members of “{{name}}” updated.",
       "hasChildren": "Move or delete its sub-units first.",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+  "delegations": {
+    "title": "Delegations",
+    "subtitle": "While a delegation is active the delegate inherits the delegator's roles — and every permission those roles grant.",
+    "createButton": "New delegation",
+    "searchPlaceholder": "Search delegations…",
+    "empty": "No delegations yet.",
+    "noMatches": "No delegations match your search.",
+    "error": "Delegations could not be loaded. Please try again.",
+    "noAccessTitle": "You don't have access to delegations",
+    "noAccessBody": "Managing delegations for other members requires the delegation-administration permission. You can still set up your own cover under Settings → Away & delegation.",
+    "unknownUser": "Unknown user",
+    "noRoles": "No roles",
+    "you": "(you)",
+    "table": {
+      "delegator": "Delegator",
+      "delegate": "Delegate",
+      "roles": "Delegated roles",
+      "window": "Window",
+      "windowValue": "{{from}} → {{to}}",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "expired": "Expired",
+      "revoked": "Revoked"
+    },
+    "actions": {
+      "revoke": "Revoke"
+    },
+    "create": {
+      "title": "New delegation",
+      "subtitle": "Hand a member's roles to a colleague for a fixed period.",
+      "selfTitle": "Set up cover while you're away",
+      "selfSubtitle": "Choose a colleague to act on your behalf, which of your roles they take on, and for how long.",
+      "delegatorLabel": "Delegator",
+      "delegateLabel": "Delegate",
+      "delegateRequired": "Choose who will act on the delegator's behalf.",
+      "rolesLabel": "Roles to delegate",
+      "rolesHint": "Only the delegator's own roles can be delegated.",
+      "rolesRequired": "Choose at least one role.",
+      "startsLabel": "From",
+      "endsLabel": "Until",
+      "windowInvalid": "The end date must be after the start date.",
+      "reasonLabel": "Reason",
+      "reasonPlaceholder": "Annual leave",
+      "optional": "Optional",
+      "pickPlaceholder": "Choose a member…",
+      "cancel": "Cancel",
+      "submit": "Create delegation",
+      "error": {
+        "scopeNotHeld": "The delegator doesn't hold all of the selected roles. Only roles they hold themselves can be delegated.",
+        "generic": "The delegation could not be created. Please try again."
+      }
+    },
+    "revoke": {
+      "title": "Revoke the delegation to {{name}}?",
+      "body": "The delegation ends now instead of running to its end date.",
+      "effectNote": "The delegate immediately loses the permissions the delegated roles granted them.",
+      "cancel": "Cancel",
+      "confirm": "Revoke delegation"
+    },
+    "self": {
+      "title": "Away & delegation",
+      "subtitle": "Hand your roles to a colleague while you're away. They inherit every permission those roles grant, for the period you choose.",
+      "awayButton": "I'm away",
+      "noRoles": "You hold no roles, so there is nothing to delegate.",
+      "grantedTitle": "Cover you've arranged",
+      "grantedEmpty": "You haven't delegated your roles to anyone.",
+      "receivedTitle": "Cover you're providing",
+      "receivedEmpty": "Nobody has delegated their roles to you."
+    },
+    "toast": {
+      "created": "Delegation created.",
+      "revoked": "Delegation revoked.",
       "error": "Something went wrong. Please try again."
     }
   },
