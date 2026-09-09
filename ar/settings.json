@@ -609,6 +609,12 @@
       "autoCreateButton": "إنشاء الأدوار المطابقة تلقائيًا",
       "autoCreateHint": "يُنشئ دورًا للمستأجر لكل دور غير مربوط في الحزمة ويربطها، بحيث تُفعَّل قواعد الحزمة وإسناداتها.",
       "autoCreateError": "تعذّر إنشاء الأدوار وربطها. يُرجى المحاولة مرة أخرى.",
+      "optionalRolesUnmappedWarning_zero": "لا توجد أدوار اختيارية غير مربوطة.",
+      "optionalRolesUnmappedWarning_one": "{{roles}} اختياري ولم يُربط بعد — ستظل قواعده وإسناداته معطّلة إلى أن يُربط.",
+      "optionalRolesUnmappedWarning_two": "{{roles}} اختياريان ولم يُربطا بعد — ستظل قواعدهما وإسناداتهما معطّلة إلى أن يُربطا.",
+      "optionalRolesUnmappedWarning_few": "{{roles}} اختيارية ولم تُربط بعد — ستظل قواعدها وإسناداتها معطّلة إلى أن تُربط.",
+      "optionalRolesUnmappedWarning_many": "{{roles}} اختياريًا ولم تُربط بعد — ستظل قواعدها وإسناداتها معطّلة إلى أن تُربط.",
+      "optionalRolesUnmappedWarning_other": "{{roles}} اختيارية ولم تُربط بعد — ستظل قواعدها وإسناداتها معطّلة إلى أن تُربط.",
       "conflictsHeading": "حل التعارضات",
       "conflictsBody": "تتضمّن حزمة أخرى مثبَّتة نفس الكتلة بناشر أو إصدار مختلف. اختر التعريف الذي سيحتفظ به هذا المستأجر.",
       "conflictDifferentPublisher": "ناشرون مختلفون",
@@ -620,7 +626,13 @@
       "activateBlockedConflicts": "حل كل تعارض قبل التفعيل.",
       "close": "إغلاق",
       "doneTitle": "تم تفعيل الحزمة",
-      "doneBody": "أصبحت {{packId}} متاحة الآن في لوحة مصمّم سير العمل."
+      "doneBody": "أصبحت {{packId}} متاحة الآن في لوحة مصمّم سير العمل.",
+      "doneOptionalRolesUnmapped_zero": "ملاحظة: لا توجد أدوار اختيارية غير مربوطة.",
+      "doneOptionalRolesUnmapped_one": "ملاحظة: {{roles}} لا يزال غير مربوط، لذا تبقى قواعده وإسناداته معطّلة.",
+      "doneOptionalRolesUnmapped_two": "ملاحظة: {{roles}} لا يزالان غير مربوطين، لذا تبقى قواعدهما وإسناداتهما معطّلة.",
+      "doneOptionalRolesUnmapped_few": "ملاحظة: {{roles}} لا تزال غير مربوطة، لذا تبقى قواعدها وإسناداتها معطّلة.",
+      "doneOptionalRolesUnmapped_many": "ملاحظة: {{roles}} لا تزال غير مربوطة، لذا تبقى قواعدها وإسناداتها معطّلة.",
+      "doneOptionalRolesUnmapped_other": "ملاحظة: {{roles}} لا تزال غير مربوطة، لذا تبقى قواعدها وإسناداتها معطّلة."
     },
     "error": {
       "verify": "تعذّر التحقّق من هذه الحزمة: {{detail}}",

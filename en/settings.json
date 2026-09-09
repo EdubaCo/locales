@@ -565,6 +565,8 @@
       "autoCreateButton": "Create matching roles automatically",
       "autoCreateHint": "Creates a tenant role for each unmapped pack role and maps them, so the pack's rules and assignments take effect.",
       "autoCreateError": "Couldn't create and map the roles. Please try again.",
+      "optionalRolesUnmappedWarning_one": "{{roles}} is optional and still unmapped — its policy rules and work assignments will stay inactive until it's mapped.",
+      "optionalRolesUnmappedWarning_other": "{{roles}} are optional and still unmapped — their policy rules and work assignments will stay inactive until they're mapped.",
       "conflictsHeading": "Resolve conflicts",
       "conflictsBody": "Another installed pack ships the same block under a different publisher or version. Choose which definition this tenant keeps.",
       "conflictDifferentPublisher": "Different publishers",
@@ -576,7 +578,9 @@
       "activateBlockedConflicts": "Resolve every conflict before activating.",
       "close": "Close",
       "doneTitle": "Pack activated",
-      "doneBody": "{{packId}} is now available in the workflow designer palette."
+      "doneBody": "{{packId}} is now available in the workflow designer palette.",
+      "doneOptionalRolesUnmapped_one": "Note: {{roles}} is still unmapped, so its rules and assignments remain inactive.",
+      "doneOptionalRolesUnmapped_other": "Note: {{roles}} are still unmapped, so their rules and assignments remain inactive."
     },
     "error": {
       "verify": "This pack couldn't be verified: {{detail}}",
