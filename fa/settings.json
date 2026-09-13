@@ -921,6 +921,73 @@
     "error": {
       "verify": "این بسته تأیید نشد: {{detail}}",
       "generic": "مشکلی پیش آمد. لطفاً دوباره تلاش کنید."
+    },
+    "publish": {
+      "publishCta": "انتشار یک بسته",
+      "historyCta": "بسته‌های منتشرشدهٔ من",
+      "cancel": "انصراف",
+      "assemble": {
+        "title": "انتشار یک بسته",
+        "subtitle": "زیرگردش‌کارهای متعلق به مستأجر که این بسته شامل می‌شود را انتخاب کنید و شناسهٔ بسته و نسخه را وارد کنید.",
+        "packIdLabel": "شناسهٔ بسته",
+        "versionLabel": "نسخه",
+        "subflowsHeading": "زیرگردش‌کارها",
+        "subflowsEmpty": "هنوز هیچ زیرگردش‌کار منتشرشدهٔ متعلق به مستأجری وجود ندارد.",
+        "next": "بعدی"
+      },
+      "roles": {
+        "title": "نقش‌ها و قواعد",
+        "subtitle": "نقش‌های مستأجر که این بسته شامل می‌شود را انتخاب کنید، به هر یک یک شناسهٔ نقش قابل‌انتقال بدهید، و مشخص کنید کدام‌یک از قواعد آن‌ها گنجانده شود.",
+        "packRoleIdPlaceholder": "شناسهٔ نقش بسته",
+        "requiredLabel": "الزامی",
+        "back": "بازگشت",
+        "publish": "انتشار پیش‌نویس"
+      },
+      "history": {
+        "title": "بسته‌های منتشرشدهٔ من",
+        "subtitle": "نسخه‌های پیش‌نویس و منتشرشده، با وضعیت فعلی آن‌ها.",
+        "empty": "هنوز هیچ بسته‌ای منتشر نکرده‌اید.",
+        "submitCta": "ارسال",
+        "newPack": "انتشار یک بسته",
+        "status": {
+          "draft": "پیش‌نویس",
+          "published": "منتشرشده",
+          "yanked": "پس‌گرفته‌شده"
+        },
+        "visibility": {
+          "private": "خصوصی",
+          "unlisted": "فهرست‌نشده",
+          "public": "عمومی"
+        },
+        "certification": {
+          "none": "ارسال‌نشده",
+          "pending": "در حال بررسی",
+          "certified": "تأییدشده",
+          "rejected": "ردشده"
+        }
+      },
+      "submit": {
+        "title": "ارسال برای فهرست‌شدن",
+        "visibilityLabel": "نمایانی",
+        "visibilityUnlisted": "فهرست‌نشده — فقط با پیوند مستقیم قابل نصب",
+        "visibilityPublic": "عمومی — در بازارچه فهرست می‌شود (نیازمند تأیید مدیر برنامه)",
+        "licenseLabel": "مجوز",
+        "licenseMit": "MIT",
+        "licenseGrantOnly": "فقط اعطای نصب",
+        "licenseCustom": "نشانی مجوز سفارشی",
+        "licenseCustomPlaceholder": "https://example.com/license",
+        "cancel": "انصراف",
+        "confirm": "ارسال"
+      },
+      "error": {
+        "tierLimit": "انتشار یک بستهٔ گردش‌کار نیازمند طرح حرفه‌ای یا بالاتر است.",
+        "forbidden": "شما اجازهٔ انتشار بسته‌ها را ندارید.",
+        "generic": "مشکلی پیش آمد: {{detail}}"
+      },
+      "toast": {
+        "published": "«{{packId}}» به‌عنوان پیش‌نویس منتشر شد.",
+        "submitted": "«{{packId}}» ارسال شد."
+      }
     }
   },
   "members": {
