@@ -520,6 +520,17 @@
       "imported": "“{{name}}” imported.",
       "activated": "Pack activated."
     },
+    "marketplace": {
+      "title": "Browse the pack marketplace",
+      "subtitle": "Install a pack with one click — the server verifies and imports it for you, no file to find or upload.",
+      "empty": "No marketplace packs are available yet.",
+      "tierOfficial": "Official — from {{publisher}}",
+      "tierCommunity": "Community — from {{publisher}}",
+      "certified": "Certified",
+      "installed": "Installed",
+      "installCta": "Install",
+      "uploadInstead": "Upload a pack.json file instead"
+    },
     "upload": {
       "title": "Import a workflow pack",
       "subtitle": "Upload a signed pack.json file from a certified publisher, then review what it would add before importing it into your tenant.",
