@@ -12,6 +12,9 @@
     "feedback": "ملاحظات التوثيق",
     "feedbackNewCount": "{{count}} ملاحظة جديدة",
     "feedbackNewCount_other": "{{count}} ملاحظات جديدة",
+    "packModeration": "مراجعة الحزم",
+    "packModerationPendingCount": "{{count}} طلب معلّق",
+    "packModerationPendingCount_other": "{{count}} طلبات معلّقة",
     "licenses": "التراخيص",
     "invoices": "الفواتير"
   },
@@ -607,6 +610,52 @@
       "resolved": "وُضِعت كمحلولة.",
       "dismissed": "تم الرفض.",
       "error": "تعذّر تحديث الملاحظة."
+    }
+  },
+  "packModeration": {
+    "title": "مراجعة الحزم",
+    "subtitle": "راجع طلبات نشر الحزم العامة في السوق قبل ظهورها للجميع.",
+    "empty": "لا توجد طلبات تطابق هذه التصفية.",
+    "error": "تعذّر تحميل قائمة المراجعة.",
+    "tab": {
+      "pending": "معلّقة",
+      "certified": "معتمدة",
+      "rejected": "مرفوضة",
+      "none": "غير مُرسلة"
+    },
+    "table": {
+      "pack": "الحزمة",
+      "publisher": "الناشر",
+      "visibility": "الظهور",
+      "submitted": "تاريخ الإرسال",
+      "status": "الحالة",
+      "actions": "الإجراءات"
+    },
+    "visibility": {
+      "private": "خاصة",
+      "unlisted": "غير مدرجة",
+      "public": "عامة"
+    },
+    "status": {
+      "none": "غير مُرسلة",
+      "pending": "معلّقة",
+      "certified": "معتمدة",
+      "rejected": "مرفوضة"
+    },
+    "rejectionReasonLabel": "سبب الرفض",
+    "certify": "اعتماد",
+    "reject": "رفض",
+    "rejectTitle": "رفض الطلب",
+    "rejectSubtitle": "سيرى الناشر هذا السبب في سجل النشر الخاص به.",
+    "reason": "السبب",
+    "reasonPlaceholder": "اشرح سبب رفض هذا الطلب…",
+    "reasonRequired": "السبب مطلوب.",
+    "cancel": "إلغاء",
+    "confirmReject": "رفض الطلب",
+    "toast": {
+      "certified": "تم اعتماد الحزمة.",
+      "rejected": "تم رفض الحزمة.",
+      "error": "تعذّر تحديث الطلب."
     }
   },
   "licenses": {

@@ -12,6 +12,9 @@
     "feedback": "بازخورد مستندات",
     "feedbackNewCount": "{{count}} ارسال جدید",
     "feedbackNewCount_other": "{{count}} ارسال جدید",
+    "packModeration": "بازبینی بسته‌ها",
+    "packModerationPendingCount": "{{count}} درخواست در انتظار",
+    "packModerationPendingCount_other": "{{count}} درخواست در انتظار",
     "licenses": "مجوزها",
     "invoices": "فاکتورها"
   },
@@ -607,6 +610,52 @@
       "resolved": "حل‌شده علامت‌گذاری شد.",
       "dismissed": "رد شد.",
       "error": "به‌روزرسانی ارسال ممکن نشد."
+    }
+  },
+  "packModeration": {
+    "title": "بازبینی بسته‌ها",
+    "subtitle": "پیش از انتشار عمومی، درخواست‌های بازارچهٔ بسته‌ها را بررسی کنید.",
+    "empty": "هیچ درخواستی با این فیلتر مطابقت ندارد.",
+    "error": "بارگیری صف بازبینی ممکن نشد.",
+    "tab": {
+      "pending": "در انتظار",
+      "certified": "تأییدشده",
+      "rejected": "ردشده",
+      "none": "ارسال‌نشده"
+    },
+    "table": {
+      "pack": "بسته",
+      "publisher": "ناشر",
+      "visibility": "نمایانی",
+      "submitted": "تاریخ ارسال",
+      "status": "وضعیت",
+      "actions": "عملیات"
+    },
+    "visibility": {
+      "private": "خصوصی",
+      "unlisted": "فهرست‌نشده",
+      "public": "عمومی"
+    },
+    "status": {
+      "none": "ارسال‌نشده",
+      "pending": "در انتظار",
+      "certified": "تأییدشده",
+      "rejected": "ردشده"
+    },
+    "rejectionReasonLabel": "دلیل رد",
+    "certify": "تأیید",
+    "reject": "رد",
+    "rejectTitle": "رد درخواست",
+    "rejectSubtitle": "ناشر این دلیل را در تاریخچهٔ انتشار خود خواهد دید.",
+    "reason": "دلیل",
+    "reasonPlaceholder": "توضیح دهید چرا این درخواست رد شد…",
+    "reasonRequired": "وارد کردن دلیل الزامی است.",
+    "cancel": "انصراف",
+    "confirmReject": "رد درخواست",
+    "toast": {
+      "certified": "بسته تأیید شد.",
+      "rejected": "بسته رد شد.",
+      "error": "به‌روزرسانی درخواست ممکن نشد."
     }
   },
   "licenses": {
