@@ -12,6 +12,9 @@
     "feedback": "Docs feedback",
     "feedbackNewCount": "{{count}} new submission",
     "feedbackNewCount_other": "{{count}} new submissions",
+    "packModeration": "Pack moderation",
+    "packModerationPendingCount": "{{count}} pending submission",
+    "packModerationPendingCount_other": "{{count}} pending submissions",
     "licenses": "Licenses",
     "invoices": "Invoices"
   },
@@ -606,6 +609,52 @@
       "triaged": "Marked as triaged.",
       "resolved": "Marked as resolved.",
       "dismissed": "Dismissed.",
+      "error": "Could not update the submission."
+    }
+  },
+  "packModeration": {
+    "title": "Pack moderation",
+    "subtitle": "Review public marketplace submissions before they go live.",
+    "empty": "No submissions match this filter.",
+    "error": "Could not load the moderation queue.",
+    "tab": {
+      "pending": "Pending",
+      "certified": "Certified",
+      "rejected": "Rejected",
+      "none": "Unsubmitted"
+    },
+    "table": {
+      "pack": "Pack",
+      "publisher": "Publisher",
+      "visibility": "Visibility",
+      "submitted": "Submitted",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "visibility": {
+      "private": "Private",
+      "unlisted": "Unlisted",
+      "public": "Public"
+    },
+    "status": {
+      "none": "Unsubmitted",
+      "pending": "Pending",
+      "certified": "Certified",
+      "rejected": "Rejected"
+    },
+    "rejectionReasonLabel": "Rejection reason",
+    "certify": "Certify",
+    "reject": "Reject",
+    "rejectTitle": "Reject submission",
+    "rejectSubtitle": "The publisher will see this reason on their publish history.",
+    "reason": "Reason",
+    "reasonPlaceholder": "Explain why this submission was rejected…",
+    "reasonRequired": "A reason is required.",
+    "cancel": "Cancel",
+    "confirmReject": "Reject submission",
+    "toast": {
+      "certified": "Pack certified.",
+      "rejected": "Pack rejected.",
       "error": "Could not update the submission."
     }
   },
