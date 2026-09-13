@@ -652,6 +652,73 @@
     "error": {
       "verify": "تعذّر التحقّق من هذه الحزمة: {{detail}}",
       "generic": "حدث خطأ ما. يُرجى المحاولة مرة أخرى."
+    },
+    "publish": {
+      "publishCta": "نشر حزمة",
+      "historyCta": "حزمي المنشورة",
+      "cancel": "إلغاء",
+      "assemble": {
+        "title": "نشر حزمة",
+        "subtitle": "اختر التدفقات الفرعية المملوكة للمستأجر التي تتضمّنها هذه الحزمة، وحدّد معرّف الحزمة والإصدار.",
+        "packIdLabel": "معرّف الحزمة",
+        "versionLabel": "الإصدار",
+        "subflowsHeading": "التدفقات الفرعية",
+        "subflowsEmpty": "لا توجد تدفقات فرعية منشورة مملوكة للمستأجر بعد.",
+        "next": "التالي"
+      },
+      "roles": {
+        "title": "الأدوار والقواعد",
+        "subtitle": "اختر أدوار المستأجر التي تتضمّنها هذه الحزمة، وسمِّ كل واحد بمعرّف دور قابل للنقل، واختر أيًا من قواعده يتم تضمينها.",
+        "packRoleIdPlaceholder": "معرّف دور الحزمة",
+        "requiredLabel": "مطلوب",
+        "back": "رجوع",
+        "publish": "نشر المسودة"
+      },
+      "history": {
+        "title": "حزمي المنشورة",
+        "subtitle": "إصدارات المسودة والمنشورة، مع حالتها الحالية.",
+        "empty": "لم تنشر أي حزمة بعد.",
+        "submitCta": "إرسال",
+        "newPack": "نشر حزمة",
+        "status": {
+          "draft": "مسودة",
+          "published": "منشورة",
+          "yanked": "مسحوبة"
+        },
+        "visibility": {
+          "private": "خاصة",
+          "unlisted": "غير مدرجة",
+          "public": "عامة"
+        },
+        "certification": {
+          "none": "لم تُرسل",
+          "pending": "قيد المراجعة",
+          "certified": "معتمدة",
+          "rejected": "مرفوضة"
+        }
+      },
+      "submit": {
+        "title": "إرسال للإدراج",
+        "visibilityLabel": "الظهور",
+        "visibilityUnlisted": "غير مدرجة — قابلة للتثبيت عبر رابط مباشر فقط",
+        "visibilityPublic": "عامة — مدرجة في السوق (تتطلب اعتماد مسؤول التطبيق)",
+        "licenseLabel": "الترخيص",
+        "licenseMit": "MIT",
+        "licenseGrantOnly": "منح التثبيت فقط",
+        "licenseCustom": "رابط ترخيص مخصص",
+        "licenseCustomPlaceholder": "https://example.com/license",
+        "cancel": "إلغاء",
+        "confirm": "إرسال"
+      },
+      "error": {
+        "tierLimit": "يتطلب نشر حزمة سير عمل خطة احترافية أو أعلى.",
+        "forbidden": "ليس لديك إذن لنشر الحزم.",
+        "generic": "حدث خطأ ما: {{detail}}"
+      },
+      "toast": {
+        "published": "تم نشر «{{packId}}» كمسودة.",
+        "submitted": "تم إرسال «{{packId}}»."
+      }
     }
   },
   "fieldHints": {

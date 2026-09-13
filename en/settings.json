@@ -600,6 +600,73 @@
     "error": {
       "verify": "This pack couldn't be verified: {{detail}}",
       "generic": "Something went wrong. Please try again."
+    },
+    "publish": {
+      "publishCta": "Publish a pack",
+      "historyCta": "My published packs",
+      "cancel": "Cancel",
+      "assemble": {
+        "title": "Publish a pack",
+        "subtitle": "Pick the tenant-owned subflows this pack ships, and give it a packId and version.",
+        "packIdLabel": "Pack ID",
+        "versionLabel": "Version",
+        "subflowsHeading": "Subflows",
+        "subflowsEmpty": "No published tenant-owned subflows yet.",
+        "next": "Next"
+      },
+      "roles": {
+        "title": "Roles and rules",
+        "subtitle": "Pick the tenant roles this pack ships, name each a portable role id, and choose which of their policy rules to include.",
+        "packRoleIdPlaceholder": "Pack role id",
+        "requiredLabel": "Required",
+        "back": "Back",
+        "publish": "Publish draft"
+      },
+      "history": {
+        "title": "My published packs",
+        "subtitle": "Draft and published versions, with their current status.",
+        "empty": "You haven't published a pack yet.",
+        "submitCta": "Submit",
+        "newPack": "Publish a pack",
+        "status": {
+          "draft": "Draft",
+          "published": "Published",
+          "yanked": "Yanked"
+        },
+        "visibility": {
+          "private": "Private",
+          "unlisted": "Unlisted",
+          "public": "Public"
+        },
+        "certification": {
+          "none": "Not submitted",
+          "pending": "Pending review",
+          "certified": "Certified",
+          "rejected": "Rejected"
+        }
+      },
+      "submit": {
+        "title": "Submit for listing",
+        "visibilityLabel": "Visibility",
+        "visibilityUnlisted": "Unlisted — installable by direct link only",
+        "visibilityPublic": "Public — listed in the marketplace (requires app-admin certification)",
+        "licenseLabel": "Licence",
+        "licenseMit": "MIT",
+        "licenseGrantOnly": "Install-grant only",
+        "licenseCustom": "Custom licence URL",
+        "licenseCustomPlaceholder": "https://example.com/license",
+        "cancel": "Cancel",
+        "confirm": "Submit"
+      },
+      "error": {
+        "tierLimit": "Publishing a workflow pack requires the professional plan or higher.",
+        "forbidden": "You don't have permission to publish packs.",
+        "generic": "Something went wrong: {{detail}}"
+      },
+      "toast": {
+        "published": "“{{packId}}” published as a draft.",
+        "submitted": "“{{packId}}” submitted."
+      }
     }
   },
   "fieldHints": {
