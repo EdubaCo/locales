@@ -1,31 +1,31 @@
 {
   "appName": "Eduba",
-  "appTagline": "پلتفرم خوداِستقرار و ماژولار ERP و گردش کار برای شرکت‌های کوچک و متوسط تولیدی و پیمانکاران EPC.",
+  "appTagline": "پلتفرم ERP و گردش‌کار ماژولار و خودمیزبان برای کسب‌وکارهای تولیدی کوچک و متوسط و پیمانکاران EPC.",
   "phase": "فاز ۰ — اسکلت",
   "nav": {
     "menu": "باز کردن منو",
     "myWork": "کارهای من",
     "projects": "پروژه‌ها",
-    "workflows": "گردش‌های کار",
+    "workflows": "گردش‌کارها",
     "subflows": "زیرگردش‌ها",
     "documents": "اسناد",
     "library": "کتابخانه",
     "settings": "تنظیمات",
     "notifications": "اعلان‌ها",
-    "inboundEmail": "ایمیل ورودی معلّق",
-    "toggleTheme": "تغییر حالت تیره",
+    "inboundEmail": "ایمیل‌های ورودی معلق",
+    "toggleTheme": "تغییر به حالت تیره یا روشن",
     "build": "ساخت",
     "content": "محتوا",
     "admin": "مدیریت",
     "pinnedProjects": "پروژه‌های سنجاق‌شده",
-    "noPinnedProjects": "هنوز پروژه‌ای سنجاق نشده است",
+    "noPinnedProjects": "هنوز پروژه‌ای سنجاق نکرده‌اید",
     "collapseGroup": "جمع کردن {{group}}",
     "expandGroup": "باز کردن {{group}}",
     "collapseSidebar": "جمع کردن نوار کناری",
     "expandSidebar": "باز کردن نوار کناری"
   },
   "breadcrumbs": {
-    "label": "مسیر راهبری",
+    "label": "مسیر صفحه",
     "run": "اجرا",
     "editor": "ویرایشگر",
     "preferences": "ترجیحات",
@@ -38,21 +38,21 @@
     "workspaceSwitcher": "تغییر فضای کاری",
     "workspaceCurrent": "فضای کاری فعلی",
     "help": "راهنما",
-    "userMenu": "منوی حساب",
-    "profile": "نمایه",
+    "userMenu": "منوی حساب کاربری",
+    "profile": "پروفایل",
     "preferences": "ترجیحات",
     "platformAdmin": "مدیریت پلتفرم",
     "signOut": "خروج",
-    "signOutFailed": "خروج ناموفق بود — همچنان وارد سیستم هستید. لطفاً دوباره تلاش کنید."
+    "signOutFailed": "خروج انجام نشد و هنوز وارد حساب خود هستید. دوباره تلاش کنید."
   },
   "errorBoundary": {
     "title": "مشکلی پیش آمد",
-    "description": "خطای غیرمنتظره‌ای رخ داد. این مشکل گزارش شده است. صفحه را دوباره بارگذاری کنید.",
-    "reload": "بارگذاری مجدد"
+    "description": "مشکلی غیرمنتظره پیش آمد و گزارش آن ثبت شد. صفحه را دوباره بارگذاری کنید.",
+    "reload": "بارگذاری دوباره"
   },
   "actions": {
     "save": "ذخیره",
-    "cancel": "لغو",
+    "cancel": "انصراف",
     "confirm": "تأیید",
     "delete": "حذف",
     "edit": "ویرایش",
@@ -64,7 +64,7 @@
   "status": {
     "loading": "در حال بارگذاری…",
     "error": "خطایی رخ داد",
-    "empty": "موردی یافت نشد",
+    "empty": "موردی پیدا نشد",
     "success": "موفق"
   }
 }

@@ -7,7 +7,7 @@ content is consumed back by the Eduba monorepo as a git submodule at `packages/s
 
 ```
 en/   # English source (21 namespaces — the reference for all other locales)
-ar/   # Arabic
+ar/   # Arabic (disabled, kept for re-enabling)
 fa/   # Persian (Farsi)
 ```
 

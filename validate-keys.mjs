@@ -5,6 +5,10 @@ import { join } from 'path';
 const ROOT = new URL('.', import.meta.url).pathname;
 const EN_DIR = join(ROOT, 'en');
 
+// Disabled, not removed: the files stay, but a new en key no longer has to be added to them.
+// Remove a code from this set to re-enable its parity check (and its use in the apps).
+const DISABLED_LOCALES = new Set(['ar']);
+
 const PLURAL_SUFFIXES = ['_zero', '_one', '_two', '_few', '_many', '_other'];
 
 /**
@@ -44,7 +48,7 @@ function isPluralVariant(key, enKeys) {
 let failed = false;
 const enNs = getNamespaces(EN_DIR);
 const locales = readdirSync(ROOT, { withFileTypes: true })
-  .filter((d) => d.isDirectory() && d.name !== 'en' && !d.name.startsWith('.'))
+  .filter((d) => d.isDirectory() && d.name !== 'en' && !d.name.startsWith('.') && !DISABLED_LOCALES.has(d.name))
   .map((d) => d.name).sort();
 
 for (const locale of locales) {
@@ -63,4 +67,4 @@ for (const locale of locales) {
 }
 
 if (failed) { console.error('\nKey parity check FAILED.'); process.exit(1); }
-console.log(`Key parity PASSED (${locales.length} locale(s), ${enNs.length} namespace(s)).`);
+console.log(`Key parity PASSED (${locales.length} locale(s), ${enNs.length} namespace(s); skipped disabled: ${[...DISABLED_LOCALES].join(', ') || 'none'}).`);
