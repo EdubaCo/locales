@@ -770,17 +770,42 @@
     "enableHint": "Workflow designer, document summarization, and chat assistant become available.",
     "provider": {
       "title": "Provider & model",
-      "sub": "Choose a hosted model and provide its key, or point at a self-hosted Ollama endpoint.",
+      "sub": "Choose a model (including compatible third-party services) and provide its key, or point at a self-hosted Ollama endpoint.",
       "model": "Model",
       "modelUnset": "Select a model",
       "modelRequired": "Select a model to enable AI.",
-      "apiKey": "Provider API key",
       "keyPlaceholder": "Enter the provider API key",
       "keySaved": "•••••••• (saved — leave blank to keep)",
       "keyHint": "Encrypted at rest and never shown again. Used server-side only.",
       "ollamaBaseUrl": "Ollama base URL",
       "ollamaHint": "Self-hosted Ollama endpoint — no key required; data stays in your network.",
-      "ollamaRequired": "A base URL is required for a self-hosted model."
+      "ollamaRequired": "A base URL is required for a self-hosted model.",
+      "modelUnsetInherited": "Use the platform default ({{model}})",
+      "inheritedHint": "This workspace has no model of its own, so the platform default ({{model}}) is used.",
+      "modelCustom": "Custom model…",
+      "endpointFixed": "Endpoint: {{url}}",
+      "protocol": "Provider protocol",
+      "protocolOption": {
+        "anthropic": "Anthropic (Messages API format)",
+        "openai": "OpenAI (Chat Completions format)",
+        "ollama": "Ollama (self-hosted)"
+      },
+      "modelId": "Model id",
+      "modelIdHint": "The exact model name your provider expects, for example “glm-5.3-flash”.",
+      "modelIdInvalid": "Enter the model id.",
+      "baseUrl": "Endpoint URL (optional)",
+      "baseUrlHint": "Leave empty to use the provider's own endpoint. Compatible services such as z.ai have their own https endpoint.",
+      "baseUrlInvalid": "Enter a public https address, without credentials or private network addresses.",
+      "structured": "Structured output",
+      "structuredOption": {
+        "schema": "Native JSON schema (Anthropic, OpenAI)",
+        "prompt": "Ask for JSON in the message (compatible third-party services)"
+      },
+      "keyFor": "{{provider}} API key",
+      "providerName": {
+        "anthropic": "Anthropic",
+        "openai": "OpenAI"
+      }
     }
   },
   "storage": {

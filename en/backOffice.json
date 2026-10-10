@@ -16,7 +16,9 @@
     "packModerationPendingCount": "{{count}} pending submission",
     "packModerationPendingCount_other": "{{count}} pending submissions",
     "licenses": "Licenses",
-    "invoices": "Invoices"
+    "invoices": "Invoices",
+    "groupPlatform": "Platform",
+    "ai": "AI default"
   },
   "plans": {
     "title": "Plan catalog",
@@ -767,5 +769,15 @@
     "cancel": "Cancel",
     "create": "Record invoice",
     "save": "Save changes"
+  },
+  "ai": {
+    "title": "AI default",
+    "sub": "The model, endpoint and key that every workspace without its own AI configuration falls back to.",
+    "section": "Platform default",
+    "sectionSub": "Used only by workspaces whose plan includes AI and that have not set a model of their own.",
+    "tenantsOptIn": "Each workspace still turns AI on from its own Settings → AI page.",
+    "save": "Save changes",
+    "saved": "AI default saved.",
+    "saveError": "Couldn't save your changes. Please try again."
   }
 }
