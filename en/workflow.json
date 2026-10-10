@@ -85,6 +85,17 @@
       "notEntitled": "AI features aren't included in your current plan.",
       "notConfigured": "No AI provider is configured for this workspace yet. Set one up in Settings → AI.",
       "forbidden": "You don't have permission to use the AI assistant."
+    },
+    "interview": {
+      "toggle": "Ask me questions first",
+      "toggleHint": "I'll ask a few short questions (up to 3 rounds) before drafting, so the draft needs fewer fixes.",
+      "round": "Questions: round {{round}} of {{max}}",
+      "restart": "Start over",
+      "understood": "What I understood",
+      "answerPlaceholder": "Your answer",
+      "skipHint": "Leave a question blank if you are not sure. I will make a careful assumption and list it under “Review before publishing”.",
+      "continue": "Continue",
+      "draftNow": "Draft now"
     }
   },
   "modeler": {
