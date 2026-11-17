@@ -150,10 +150,18 @@
         },
         "nav": {
           "pagesTab": "صفحه‌ها",
-          "outlineTab": "فهرست"
+          "outlineTab": "فهرست",
+          "pagesTitle": "پیمایش صفحه‌ها",
+          "pageLabel": "صفحهٔ {{page}}",
+          "pageCount_one": "{{count}} صفحه",
+          "pageCount_other": "{{count}} صفحه",
+          "outlineEmpty": "این PDF فهرست ندارد."
         },
         "state": {
           "loading": "در حال باز کردن PDF…"
+        },
+        "thumbnail": {
+          "alt": "تصویر کوچک صفحهٔ {{page}}"
         }
       },
       "spreadsheet": {
@@ -168,6 +176,9 @@
       },
       "error": {
         "load": "این فایل خوانده نشد."
+      },
+      "preview": {
+        "reading": "در حال خواندن فایل…"
       }
     }
   }

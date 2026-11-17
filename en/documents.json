@@ -150,10 +150,18 @@
         },
         "nav": {
           "pagesTab": "Pages",
-          "outlineTab": "Contents"
+          "outlineTab": "Contents",
+          "pagesTitle": "Page navigation",
+          "pageLabel": "Page {{page}}",
+          "pageCount_one": "{{count}} page",
+          "pageCount_other": "{{count}} pages",
+          "outlineEmpty": "This PDF has no outline."
         },
         "state": {
           "loading": "Opening the PDF…"
+        },
+        "thumbnail": {
+          "alt": "Page {{page}} thumbnail"
         }
       },
       "spreadsheet": {
@@ -168,6 +176,9 @@
       },
       "error": {
         "load": "This file couldn't be read."
+      },
+      "preview": {
+        "reading": "Reading the file…"
       }
     }
   }
