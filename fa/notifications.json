@@ -28,7 +28,16 @@
     "standards_newVersionDetected": "نسخهٔ جدید استاندارد",
     "node_assignmentFailed": "مرحله مسئول ندارد",
     "node_failed": "مرحله اجرا نشد",
-    "node_escalated": "مرحلهٔ ناموفقی به سطح بالاتر ارجاع شد"
+    "node_escalated": "مرحلهٔ ناموفقی به سطح بالاتر ارجاع شد",
+    "project_customerRevisionApplied": "اعمال بازنگری مشتری"
+  },
+  "reset": {
+    "summary": "{{actorName}} بازنگری تازهٔ مشتری را برای {{inputs}} در پروژهٔ «{{projectName}}» اعمال کرد. باید دوباره انجام شوند: {{tasks}}. دلیل: {{reason}}",
+    "ownEdits": "تغییراتی که خودتان در {{editedTasks}} داده بودید در تاریخچهٔ سند می‌ماند و بازنگری مشتری روی آن‌ها قرار گرفته است.",
+    "input": "{{name}} (از بازنگری {{prior}} به {{next}})",
+    "inputFirst": "{{name}} (بازنگری {{next}})",
+    "someone": "یکی از همکاران",
+    "listSeparator": "، "
   },
   "prefs": {
     "title": "ترجیحات اعلان‌ها",
