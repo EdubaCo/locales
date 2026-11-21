@@ -157,10 +157,18 @@
         "cancelled": "cancelled task",
         "reopened": "reopened task",
         "roundStarted": "started",
-        "gateResolved": "resolved gate on"
+        "gateResolved": "resolved gate on",
+        "customerRevisionApplied": "applied customer revision"
       },
       "roundLabel": "Round {{round}}",
-      "byActor": "— {{actor}}"
+      "byActor": "— {{actor}}",
+      "resetTasks_one": "{{count}} task affected",
+      "resetTasks_other": "{{count}} tasks affected",
+      "reentry": {
+        "newRun": "New delivery run",
+        "currentRound": "Current round",
+        "none": "No workflow"
+      }
     },
     "description": "Description",
     "noDescription": "No description yet.",
@@ -187,6 +195,57 @@
       "errorForbidden": "You don't have permission to reopen these tasks.",
       "success_one": "Reopened {{count}} task.",
       "success_other": "Reopened {{count}} tasks."
+    },
+    "customerRevision": {
+      "action": "Apply customer revision",
+      "actionHint": "A customer input changed: redo the work built on its earlier revision",
+      "title": "Apply customer revision",
+      "intro": "The selected tasks get the customer's new revision of each input and go back through the delivery loop. Nothing is deleted, and the reset is recorded with your reason.",
+      "inputsHeading": "Changed inputs",
+      "noInputs": "This project has no input documents yet. Upload the customer's new revision on the Documents tab first.",
+      "selectInput": "Select {{name}}",
+      "inputRevision": "v{{number}}",
+      "staleTasks_one": "{{count}} task works from an earlier revision",
+      "staleTasks_other": "{{count}} tasks work from an earlier revision",
+      "tasksHeading": "Affected tasks",
+      "tasksHint": "Tasks working from an earlier revision are selected. Add a task that never received the input, or clear one the change does not touch.",
+      "tasksPickInput": "Select a changed input to see the tasks it affects.",
+      "tasksNone": "No task works from an earlier revision of these inputs. Select the tasks to redo yourself.",
+      "selectTask": "Select {{name}}",
+      "computedBadge": "Earlier revision",
+      "effectHeading": "What happens",
+      "effectTasks_one": "{{count}} task gets the new revision of the input.",
+      "effectTasks_other": "{{count}} tasks get the new revision of the input.",
+      "effectCancel": "Work still running on these tasks stops. Finished work stays as it is.",
+      "effectAfc": "Their documents approved for construction (AFC) reopen for revision. Documents of other tasks stay AFC.",
+      "effectTransmittals_one": "{{count}} sent transmittal carried this work. It stays as sent; the next transmittal carries the redone work.",
+      "effectTransmittals_other": "{{count}} sent transmittals carried this work. They stay as sent; the next transmittal carries the redone work.",
+      "reentry": {
+        "newRun": "The delivery run has finished, so a new delivery run starts from Project Triage. The finished run and its transmittals stay in the project history.",
+        "currentRound": "The tasks rejoin the current round and Dept. Triage reopens them. If a transmittal is out for the customer's review, record the customer's outcome there: applying does not answer it.",
+        "none": "This project has no workflow, so nothing restarts. The change is recorded and the tasks are reworked by hand."
+      },
+      "reasonLabel": "Reason",
+      "reasonPlaceholder": "e.g. Customer transmittal BR-0412: datasheet rev D, range changed to 0–60 bar",
+      "reasonHint": "Required. Shown on the project timeline and on each affected task.",
+      "confirm": "Apply",
+      "previewError": "Couldn't work out what this would affect. Please try again.",
+      "error": {
+        "generic": "Couldn't apply the customer revision. Please try again.",
+        "forbidden": "You don't have permission to apply a customer revision to this project.",
+        "document_not_project_input": "One of the chosen documents is not an input of this project.",
+        "document_has_no_revision": "One of the chosen inputs has no uploaded revision yet.",
+        "task_not_in_project": "One of the selected tasks is not in this project.",
+        "no_affected_tasks": "Select at least one task.",
+        "engine_required": "The workflow engine is not reachable, so the delivery run cannot restart. Please try again later.",
+        "request_id_reused": "This request was already used for another project. Close the dialog and start again."
+      },
+      "pendingCancel_one": "Applied, but {{count}} running task has not stopped yet.",
+      "pendingCancel_other": "Applied, but {{count}} running tasks have not stopped yet.",
+      "retry": "Try again",
+      "close": "Close",
+      "success_one": "Customer revision applied to {{count}} task.",
+      "success_other": "Customer revision applied to {{count}} tasks."
     }
   }
 }

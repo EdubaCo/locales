@@ -257,6 +257,15 @@
       "dueDate": "Due date",
       "missing": "Pick someone for {{slots, list}} before you finish: later steps go to them.",
       "submit": "Save team and continue"
+    },
+    "resetNotice": {
+      "title": "Input superseded",
+      "body": "A customer revision replaced an input this task works from. The task's copy now has the new revision; reopen the task to redo the work.",
+      "input": "{{name}} v{{from}} → v{{to}}",
+      "inputNoPrior": "{{name}} v{{to}}",
+      "by": "by {{actor}}, {{date}}",
+      "on": "{{date}}",
+      "reason": "Reason: {{reason}}"
     }
   },
   "createTask": {
