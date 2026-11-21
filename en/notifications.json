@@ -28,7 +28,16 @@
     "standards_newVersionDetected": "Standard new version",
     "node_assignmentFailed": "Step has no assignee",
     "node_failed": "Step could not run",
-    "node_escalated": "Someone escalated a failed step"
+    "node_escalated": "Someone escalated a failed step",
+    "project_customerRevisionApplied": "Customer revision applied"
+  },
+  "reset": {
+    "summary": "{{actorName}} applied the customer’s new revision of {{inputs}} on {{projectName}}. To redo: {{tasks}}. Reason: {{reason}}",
+    "ownEdits": "Your own edits to {{editedTasks}} stay in the document history; the customer’s revision now sits on top of them.",
+    "input": "{{name}} (revision {{prior}} to {{next}})",
+    "inputFirst": "{{name}} (revision {{next}})",
+    "someone": "A colleague",
+    "listSeparator": ", "
   },
   "prefs": {
     "title": "Notification preferences",
