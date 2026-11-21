@@ -189,7 +189,8 @@
     "banner_other": "{{count}} tasks in this round can no longer finish, so this project cannot continue until they are reopened:",
     "reason": {
       "runFailed": "its run ended without completing",
-      "nodeFailed": "a step of it failed"
+      "nodeFailed": "a step of it failed",
+      "reset": "a customer revision replaced an input it was built on"
     }
   }
 }
