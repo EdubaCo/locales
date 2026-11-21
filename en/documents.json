@@ -43,7 +43,8 @@
     "share": "Share",
     "history": "History",
     "historyPending": "Revision history opens here once the history viewer ships.",
-    "attest": "Attest"
+    "attest": "Attest",
+    "applyCustomerRevision": "Apply customer revision"
   },
   "upload": {
     "titleNew": "Upload a document",
@@ -186,5 +187,7 @@
         "reading": "Reading the file…"
       }
     }
-  }
+  },
+  "staleInput_one": "{{count}} task works from an earlier revision",
+  "staleInput_other": "{{count}} tasks work from an earlier revision"
 }
