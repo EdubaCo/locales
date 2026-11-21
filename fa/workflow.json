@@ -202,7 +202,7 @@
       "selector": {
         "all": "همهٔ اسناد این وظیفه",
         "tag": "اسناد یک پوشه",
-        "feel": "اسنادی که با یک قاعدهٔ FEEL جور درمی‌آیند",
+        "feel": "اسنادی که با یک قاعدهٔ FEEL مطابقت دارند",
         "folder": "پوشه",
         "expression": "قاعدهٔ FEEL برای هر سند"
       },
@@ -390,7 +390,7 @@
       },
       "class": {
         "unreachable": "عنصر غیرقابل‌دسترس",
-        "disconnected-port": "درگاه ورودیِ الزامیِ وصل‌نشده",
+        "disconnected-port": "درگاه الزامیِ وصل‌نشده",
         "missing-config": "تنظیمات الزامی ناقص است",
         "version-incompatible": "نسخهٔ بلوک ناسازگار است",
         "invalid-feel": "عبارت FEEL نامعتبر",
@@ -456,7 +456,7 @@
         "engineDeployRejected": "موتور، انتشار را نپذیرفت: {{error}}",
         "subflowEmptyBody": "زیرگردش پیش از انتشار باید دست‌کم یک مرحله داشته باشد.",
         "subflowCompileFailed": "بررسی زیرگردش ممکن نشد: {{error}}",
-        "subflowEdgeTypeMismatch": "اتصال «{{from}}» به «{{to}}» جور نیست: نوع «{{sourceType}}» را می‌فرستد، اما نوع «{{destType}}» لازم است.",
+        "subflowEdgeTypeMismatch": "اتصال «{{from}}» به «{{to}}» ناسازگار است: نوع «{{sourceType}}» را منتقل می‌کند، اما نوع «{{destType}}» مورد انتظار است.",
         "subflowInputUnconsumed": "ورودی «{{port}}» در رابط به کار نرفته است: آن را به یکی از مرحله‌های داخل زیرگردش وصل کنید.",
         "subflowInputTypeMismatch": "ورودی «{{port}}» در رابط از نوع «{{type}}» است، اما «{{target}}» نوع «{{expected}}» می‌خواهد.",
         "subflowOutputUnproduced": "خروجی «{{port}}» در رابط هیچ‌وقت مقدار نمی‌گیرد: یکی از مرحله‌های داخل زیرگردش را به آن وصل کنید.",
