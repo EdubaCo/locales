@@ -30,7 +30,7 @@
     "headingMobile": "فضای کاری خود را پیدا کنید",
     "subheadingMobile": "برای ادامه، شناسه یا ایمیل کاری‌تان را وارد کنید.",
     "inputLabel": "شناسهٔ شرکت یا ایمیل کاری",
-    "inputPlaceholder": "acme   یا   you@acme.eng",
+    "inputPlaceholder": "acme یا you@acme.eng",
     "continue": "ادامه",
     "resolving": "در حال یافتن…",
     "continueTo": "رفتن به {{name}}",
@@ -38,11 +38,11 @@
   },
   "error": {
     "unknown": "فضای کاری‌ای با این شناسه یا دامنهٔ ایمیل پیدا نشد.",
-    "tryAnother": "شناسهٔ دیگری امتحان کنید، یا ",
+    "tryAnother": "شناسهٔ دیگری وارد کنید، یا ",
     "generic": "در جست‌وجوی فضای کاری‌تان مشکلی پیش آمد. لطفاً دوباره تلاش کنید."
   },
   "recent": {
-    "title": "اخیراً در این دستگاه",
+    "title": "فضاهای کاری اخیر در این دستگاه",
     "remove": "حذف {{name}} از فضاهای کاری اخیر"
   },
   "selfHosted": {
