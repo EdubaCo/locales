@@ -161,7 +161,7 @@
     "title": "Your action",
     "submit": "Submit",
     "submitting": "Submitting…",
-    "confirmOnly": "This step has no fields to fill in — submit to complete it.",
+    "confirmOnly": "This step needs no input. Add a note if you like, then submit to complete it.",
     "formUnavailable": "Couldn't load this step's form, so there's nothing safe to submit yet. Refresh to try again.",
     "conflict": "This task was already acted on — refresh to see the latest state.",
     "rejected": "The submitted values were rejected — check the fields and try again.",

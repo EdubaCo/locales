@@ -236,6 +236,7 @@
     },
     "staffing": {
       "intro": "Pick who does this task, who reviews it, and when it is due. The steps after this one go to the people you pick.",
+      "reopened": "This task was reopened, so its new round starts by confirming the team. The pickers start on the current team.",
       "slots": {
         "responsible": "Responsible",
         "reviewer": "Reviewer",
@@ -250,8 +251,10 @@
       "groups": "Groups",
       "gateRoutes": "Gets this gate in: {{steps, list}}",
       "nobody": "Nobody yet",
-      "filterRole": "Only people with the {{role}} role are listed, because this step asks for that role.",
+      "filterRole": "People with the {{role}} role are listed first, because this step asks for that role. You can still pick anyone.",
       "filterAll": "Everyone in the workspace is listed, because this step asks for no particular role.",
+      "suggested": "With the {{role}} role",
+      "others": "Everyone else",
       "routes": "Gets these steps: {{steps, list}}",
       "routesNone": "No step in this workflow goes to this choice, so you can leave it empty.",
       "dueDate": "Due date",
