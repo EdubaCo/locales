@@ -102,7 +102,47 @@
     "empty": "No events yet.",
     "emptyFiltered": "No events for the selected node.",
     "noPayload": "This event carries no payload.",
-    "loadMore": "Load more"
+    "loadMore": "Load more",
+    "events": {
+      "run": {
+        "started": "Run started",
+        "completed": "Run completed",
+        "failed": "Run failed",
+        "cancelled": "Run cancelled",
+        "suspended": "Run suspended",
+        "resumed": "Run resumed"
+      },
+      "node": {
+        "entered": "Step started",
+        "completed": "Step completed",
+        "failed": "Step failed",
+        "waiting": "Waiting for someone to act",
+        "waitEnded": "Response recorded",
+        "assignmentFailed": "No assignee found for the step",
+        "assignmentRecovered": "Assignee found for the step",
+        "escalated": "Failure reported to the run owners"
+      },
+      "token": {
+        "created": "Inbox item created",
+        "resolved": "Inbox item handled",
+        "expired": "Inbox item expired",
+        "cancelled": "Inbox item cancelled"
+      },
+      "standards": {
+        "runFlagged": "Newer standard version flagged"
+      },
+      "task": {
+        "comment": {
+          "created": "Comment posted"
+        },
+        "created": "Task created",
+        "reopened": "Task reopened"
+      },
+      "round": {
+        "started": "Round started"
+      },
+      "unknown": "Other event"
+    }
   },
   "context": {
     "title": "Context",
