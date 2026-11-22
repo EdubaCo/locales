@@ -158,7 +158,8 @@
         "reopened": "reopened task",
         "roundStarted": "started",
         "gateResolved": "resolved gate on",
-        "customerRevisionApplied": "applied customer revision"
+        "customerRevisionApplied": "applied customer revision",
+        "workflowRevisionMoved": "moved workflow version"
       },
       "roundLabel": "Round {{round}}",
       "byActor": "— {{actor}}",
@@ -170,7 +171,8 @@
         "newRun": "New delivery run",
         "currentRound": "Current round",
         "none": "No workflow"
-      }
+      },
+      "workflowRevision": "v{{from}} → v{{to}}"
     },
     "description": "Description",
     "noDescription": "No description yet.",
@@ -248,6 +250,16 @@
       "close": "Close",
       "success_one": "Customer revision applied to {{count}} task.",
       "success_other": "Customer revision applied to {{count}} tasks."
+    },
+    "workflowRevision": {
+      "notice": "A newer version of this project’s workflow is published: v{{to}}. This project runs v{{from}}.",
+      "hint": "Moving it changes only the next delivery run, the one a customer revision starts after AFC. Work already running stays on v{{from}}.",
+      "action": "Move to v{{to}}",
+      "title": "Move this project to workflow v{{to}}?",
+      "body": "The project’s next delivery run uses workflow v{{to}}. The run in progress and every task keep v{{from}}. The move is recorded in the project history.",
+      "confirm": "Move",
+      "error": "Couldn't move the project. Please try again.",
+      "success": "The project now uses workflow v{{to}} for its next delivery run."
     }
   }
 }

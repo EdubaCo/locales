@@ -481,5 +481,14 @@
         "description": "Shown on the task card and in notifications."
       }
     }
+  },
+  "packUpgrade": {
+    "badge": "Pack {{version}} available",
+    "action": "Upgrade",
+    "title": "Upgrade “{{name}}” to pack version {{version}}?",
+    "body": "The pack's version {{version}} of this workflow is published as its next version. New projects use it. Running work and existing projects stay on v{{current}}; a workflow admin can move a project from the project's page.",
+    "confirm": "Upgrade",
+    "cancel": "Cancel",
+    "error": "Couldn't upgrade the workflow. Please try again."
   }
 }
