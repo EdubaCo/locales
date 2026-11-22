@@ -6,7 +6,7 @@
   "stats": {
     "controlled": "اسناد کنترل‌شده",
     "controlledSub": "در همهٔ انواع",
-    "outdated": "قدیمی",
+    "outdated": "به‌روز نیست",
     "outdatedSub": "نسخهٔ جدیدتر منتشر شده",
     "procedures": "روش‌های اجرایی",
     "proceduresSub": "داخلی",
@@ -42,7 +42,7 @@
   "version": {
     "current": "پذیرفته‌شده: {{version}}",
     "none": "نسخه‌ای پذیرفته نشده",
-    "latest": "آخرین نسخهٔ شناخته‌شده: {{version}}",
+    "latest": "آخرین نسخهٔ موجود: {{version}}",
     "upToDate": "به‌روز",
     "outdated": "به‌روزرسانی موجود است",
     "update": "به‌روزرسانی",
