@@ -5,6 +5,7 @@
   "empty": "No documents in this scope.",
   "emptyFolder": "This folder is empty.",
   "emptySearch": "No documents match this search.",
+  "emptyProjectInputs": "No project input documents in this scope. Task files and issued revisions are listed below.",
   "fileCount": "{{count}} files",
   "searchPlaceholder": "Search documents…",
   "scope": {
@@ -189,5 +190,12 @@
     }
   },
   "staleInput_one": "{{count}} task works from an earlier revision",
-  "staleInput_other": "{{count}} tasks work from an earlier revision"
+  "staleInput_other": "{{count}} tasks work from an earlier revision",
+  "taskDocuments": {
+    "heading": "Task documents",
+    "hint": "These files belong to tasks. Issued revisions stay on the task until someone publishes them to the project.",
+    "task": "Task",
+    "issuedColumn": "Issued",
+    "issued": "Issued {{label}}"
+  }
 }

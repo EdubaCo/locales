@@ -164,6 +164,8 @@
       "byActor": "— {{actor}}",
       "resetTasks_one": "{{count}} task affected",
       "resetTasks_other": "{{count}} tasks affected",
+      "resetRevision": "v{{from}} → v{{to}}",
+      "resetRevisionNoPrior": "v{{to}}",
       "reentry": {
         "newRun": "New delivery run",
         "currentRound": "Current round",

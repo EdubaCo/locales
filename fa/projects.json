@@ -164,6 +164,8 @@
       "byActor": "— {{actor}}",
       "resetTasks_one": "یک وظیفهٔ متأثر",
       "resetTasks_other": "{{count}} وظیفهٔ متأثر",
+      "resetRevision": "نسخهٔ {{from}} ← نسخهٔ {{to}}",
+      "resetRevisionNoPrior": "نسخهٔ {{to}}",
       "reentry": {
         "newRun": "اجرای تحویل تازه",
         "currentRound": "دور جاری",
