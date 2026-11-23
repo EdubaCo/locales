@@ -14,7 +14,8 @@
   "menu": {
     "openPanel": "Contextual help",
     "fullDocs": "Full documentation",
-    "replayTour": "Replay product tour"
+    "replayTour": "Replay product tour",
+    "thirdPartyNotices": "Third-party notices"
   },
   "fieldHint": {
     "tooltipTrigger": "Help for {{label}}"
