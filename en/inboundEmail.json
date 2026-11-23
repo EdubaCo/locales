@@ -7,6 +7,7 @@
   "noSubject": "(no subject)",
   "reasonUnknown": "Unknown",
   "table": {
+    "connector": "Connector",
     "mailbox": "Mailbox",
     "from": "From",
     "subject": "Subject",
@@ -27,5 +28,16 @@
     "prev": "Previous",
     "next": "Next",
     "page": "Page {{page}}"
+  },
+  "defaultMailbox": "Default mailbox",
+  "deletedConnector": "Deleted connector",
+  "reasons": {
+    "unroutable": "No filing rule matched",
+    "no-attachments": "No attachments",
+    "denied": "Not allowed to file here",
+    "unexpected-multipart": "Attachment too large",
+    "upload-failed": "Storage was unavailable",
+    "unknown-recipient": "Unknown address",
+    "auto-reply": "Bounce or automatic reply"
   }
 }

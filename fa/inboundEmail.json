@@ -7,6 +7,7 @@
   "noSubject": "(بدون موضوع)",
   "reasonUnknown": "ناشناخته",
   "table": {
+    "connector": "کانکتور",
     "mailbox": "صندوق ایمیل",
     "from": "از",
     "subject": "موضوع",
@@ -27,5 +28,16 @@
     "prev": "قبلی",
     "next": "بعدی",
     "page": "صفحهٔ {{page}}"
+  },
+  "defaultMailbox": "صندوق پیش‌فرض",
+  "deletedConnector": "کانکتور حذف‌شده",
+  "reasons": {
+    "unroutable": "هیچ قاعدهٔ ثبتی جور نشد",
+    "no-attachments": "پیوست ندارد",
+    "denied": "اجازهٔ ثبت در این‌جا نیست",
+    "unexpected-multipart": "پیوست بیش از حد بزرگ است",
+    "upload-failed": "فضای ذخیره‌سازی در دسترس نبود",
+    "unknown-recipient": "آدرس ناشناخته",
+    "auto-reply": "برگشتی یا پاسخ خودکار"
   }
 }

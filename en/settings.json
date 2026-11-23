@@ -28,6 +28,7 @@
     "subflows": "Subflow library",
     "dataStorage": "Storage & backups",
     "dbConnector": "Database connector",
+    "connectors": "Connectors",
     "security": "Access & audit",
     "audit": "Audit logs",
     "securityEvents": "Security events",
@@ -1294,5 +1295,96 @@
     "bannerBody": "With your permission we record which screens you open and which actions you finish. We never record names, e-mails, file names or anything you type. You can change this at any time under Privacy in Settings.",
     "allow": "Yes, allow",
     "decline": "No thanks"
+  },
+  "connectors": {
+    "title": "Connectors",
+    "subtitle": "Mailboxes Eduba collects from. Each runs as a machine user and files the attachments it receives as documents.",
+    "addButton": "Add connector",
+    "mailboxNote": "Give each connector its own mailbox or folder that no person reads: Eduba marks mail as read when it collects it. To use an address people read, have your mail server redirect or copy its mail into that mailbox.",
+    "loadError": "Couldn't load connectors. Please try again.",
+    "empty": "No connectors yet.",
+    "unknownUser": "Unknown user",
+    "table": {
+      "name": "Name",
+      "mailbox": "Mailbox",
+      "runsAs": "Runs as",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "default": {
+      "name": "Default mailbox",
+      "hint": "Set up in Email settings",
+      "runsAs": "Connector role"
+    },
+    "status": {
+      "active": "Active",
+      "paused": "Paused",
+      "disabled": "Disabled"
+    },
+    "actions": {
+      "edit": "Edit",
+      "pause": "Pause",
+      "resume": "Resume",
+      "delete": "Delete"
+    },
+    "cancel": "Cancel",
+    "modal": {
+      "createTitle": "Add connector",
+      "editTitle": "Edit {{name}}",
+      "nameLabel": "Name",
+      "mailboxSection": "Mailbox",
+      "hostLabel": "IMAP server",
+      "portLabel": "Port",
+      "secureLabel": "Use TLS (port 993)",
+      "usernameLabel": "Username",
+      "folderLabel": "Folder",
+      "addressLabel": "Mailbox address",
+      "addressHint": "Mail to a machine user’s address is filed as that user. Mail to this address with an unknown +tag is parked.",
+      "signInSection": "Sign-in and identity",
+      "secretLabel": "Password secret",
+      "secretHint": "The mailbox password, from Settings → Secrets. Its allowed hosts must include this server.",
+      "noSecrets": "No secrets yet. Add the mailbox password in Settings → Secrets first.",
+      "runAsLabel": "Runs as",
+      "runAsHint": "The machine user that files mail addressed to no machine user.",
+      "noMachineUsers": "No machine users yet. Create one in Settings → Members first.",
+      "choose": "Choose…",
+      "rulesSection": "Filing rules",
+      "rulesHint": "Attachments go to the document of the first matching rule; {date} becomes the date received. Mail that matches no rule is parked for review.",
+      "ruleFrom": "From contains",
+      "ruleSubject": "Subject contains",
+      "ruleDocument": "Document key",
+      "removeRule": "Remove rule",
+      "addRule": "Add rule",
+      "advancedSection": "Advanced",
+      "headersLabel": "Delivery headers",
+      "headersHint": "Headers read as recipients besides To and Cc, separated by commas.",
+      "hostsLabel": "Allowed hosts",
+      "hostsHint": "Optional. Narrows the secret’s allowed hosts for this connector, one per line.",
+      "scheduleLabel": "Check every",
+      "scheduleHint": "A cron pattern. Leave empty to check every 5 minutes.",
+      "incomplete": "Fill in every field of the mailbox, the secret, the machine user and each rule’s document key.",
+      "create": "Add connector",
+      "save": "Save",
+      "error": {
+        "name_taken": "A connector with that name already exists.",
+        "mailbox_taken": "Another connector, or the default mailbox, already collects from this folder.",
+        "run_as_not_machine": "Choose an active machine user.",
+        "secret_not_found": "That secret no longer exists. Choose another one.",
+        "host_not_allowed": "The secret’s allowed hosts do not include this server.",
+        "generic": "Couldn't save the connector. Please try again."
+      }
+    },
+    "delete": {
+      "title": "Delete {{name}}?",
+      "body": "Eduba stops collecting from this mailbox. Documents already filed are kept."
+    },
+    "toast": {
+      "created": "{{name}} was added.",
+      "updated": "{{name}} was saved.",
+      "paused": "{{name}} was paused.",
+      "resumed": "{{name}} was resumed.",
+      "deleted": "{{name}} was deleted.",
+      "error": "Something went wrong. Please try again."
+    }
   }
 }
