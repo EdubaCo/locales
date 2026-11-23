@@ -103,6 +103,7 @@
       "unknownUploader": "فرد نامشخص",
       "sizeKb": "{{size}} KB",
       "downloadRevision": "دانلود این نسخه",
+      "viewRevision": "نمایش این نسخه",
       "downloadDenied": "اجازهٔ دانلود این نسخه را ندارید.",
       "downloadError": "این نسخه دانلود نشد. لطفاً دوباره تلاش کنید.",
       "source": {
@@ -206,6 +207,7 @@
     "documentsUpload": "بارگذاری",
     "documentsUploadRevision": "بازنگری جدید",
     "documentsDownload": "دانلود",
+    "documentsView": "نمایش",
     "documentsLineage": "از پروژه",
     "documentsLineageTitle": "هنگام ساخته شدن این وظیفه، از اسناد پروژه کپی شده است.",
     "unassignable": {
