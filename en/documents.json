@@ -34,7 +34,8 @@
     "upload": "Upload",
     "email": "Email",
     "attest": "Attested",
-    "generated": "Generated"
+    "generated": "Generated",
+    "connector": "Connector"
   },
   "actions": {
     "view": "View",

@@ -34,7 +34,8 @@
     "upload": "بارگذاری",
     "email": "ایمیل",
     "attest": "تأیید صحت",
-    "generated": "تولیدشده"
+    "generated": "تولیدشده",
+    "connector": "کانکتور"
   },
   "actions": {
     "view": "نمایش",

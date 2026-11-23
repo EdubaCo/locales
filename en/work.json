@@ -109,7 +109,8 @@
         "upload": "Uploaded",
         "email": "Email",
         "attest": "Attested",
-        "generated": "Generated"
+        "generated": "Generated",
+        "connector": "From a connector"
       }
     },
     "activity": {
