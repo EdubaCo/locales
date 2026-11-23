@@ -14,7 +14,8 @@
   "menu": {
     "openPanel": "راهنمای این صفحه",
     "fullDocs": "مستندات کامل",
-    "replayTour": "مشاهدهٔ دوبارهٔ تور راهنما"
+    "replayTour": "مشاهدهٔ دوبارهٔ تور راهنما",
+    "thirdPartyNotices": "پروانه‌های متن‌باز"
   },
   "fieldHint": {
     "tooltipTrigger": "راهنما برای {{label}}"
