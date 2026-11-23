@@ -73,7 +73,8 @@
     "status": {
       "active": "Active",
       "invited": "Pending invite",
-      "suspended": "Deactivated"
+      "suspended": "Deactivated",
+      "retired": "Retired"
     },
     "actions": {
       "resend": "Resend invite",
@@ -134,6 +135,48 @@
       "cancel": "Cancel",
       "confirm": "Permanently erase"
     },
+    "machine": {
+      "title": "Machine users",
+      "subtitle": "Accounts that connectors act as when they collect mail and files or deliver outputs. They hold roles and appear in the audit trail, but never sign in or receive tasks.",
+      "createButton": "Add machine user",
+      "empty": "No machine users yet.",
+      "table": {
+        "name": "Name",
+        "address": "Inbound address"
+      },
+      "status": {
+        "active": "Enabled",
+        "disabled": "Disabled",
+        "invited": "Pending invite",
+        "retired": "Retired"
+      },
+      "actions": {
+        "disable": "Disable",
+        "enable": "Enable",
+        "retire": "Retire"
+      },
+      "create": {
+        "title": "Add machine user",
+        "subtitle": "A connector acts as this user. It cannot sign in.",
+        "nameLabel": "Name",
+        "namePlaceholder": "ERP drawings robot",
+        "nameRequired": "Enter a name.",
+        "addressLabel": "Inbound address",
+        "addressHint": "Mail sent to this address is collected as this user. Use a plus-address on a connector mailbox, for example erp-inbox+drawings@company.com.",
+        "submit": "Add machine user"
+      },
+      "retire": {
+        "title": "Retire {{name}}?",
+        "body": "This is permanent: it loses all its roles and cannot be enabled again. Its name stays in the audit trail, so past actions still show who did them.",
+        "confirm": "Retire"
+      },
+      "toast": {
+        "created": "{{name}} was added.",
+        "disabled": "{{name}} was disabled.",
+        "enabled": "{{name}} was enabled.",
+        "retired": "{{name}} was retired."
+      }
+    },
     "bulkImport": {
       "title": "Bulk import members",
       "subtitle": "Upload or paste a CSV of people to add. Preview the result before anything is created.",
@@ -183,7 +226,8 @@
         "empty_unit_segment": "The org-unit path has an empty segment.",
         "unit_name_too_long": "An org-unit name is too long.",
         "unknown_role": "Role \"{{role}}\" does not exist in this workspace.",
-        "root_conflict": "Org-chart root \"{{root}}\" conflicts with the existing root."
+        "root_conflict": "Org-chart root \"{{root}}\" conflicts with the existing root.",
+        "machine_user": "This address belongs to a machine user."
       }
     },
     "toast": {
