@@ -39,7 +39,8 @@
     "display": "Display",
     "language": "Language & region",
     "delegations": "Delegations",
-    "myDelegation": "Away & delegation"
+    "myDelegation": "Away & delegation",
+    "privacy": "Privacy"
   },
   "comingSoon": {
     "title": "{{section}} coming soon",
@@ -1279,5 +1280,19 @@
       "inUse": "A connector still uses this secret. Remove it from the connector first.",
       "error": "Something went wrong. Please try again."
     }
+  },
+  "privacy": {
+    "title": "Privacy",
+    "sub": "Choose what this browser shares with the Eduba team to help improve the product.",
+    "off": "This service does not collect usage analytics.",
+    "browserDeclines": "Your browser asks sites not to track you (Do Not Track or Global Privacy Control), so usage analytics stay off.",
+    "analyticsTitle": "Usage analytics",
+    "analyticsSub": "Which screens you open and which actions you finish. Never names, e-mails, file names or anything you type.",
+    "replayTitle": "Session recordings",
+    "replaySub": "A replay of how you move through the app, with all text and everything you type hidden. Needs usage analytics.",
+    "bannerTitle": "Help improve Eduba?",
+    "bannerBody": "With your permission we record which screens you open and which actions you finish. We never record names, e-mails, file names or anything you type. You can change this at any time under Privacy in Settings.",
+    "allow": "Yes, allow",
+    "decline": "No thanks"
   }
 }
