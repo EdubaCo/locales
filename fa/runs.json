@@ -152,7 +152,9 @@
     "noDocuments": "سندی به این اجرا وصل نشده.",
     "documentRevision": "بازنگری {{revision}}",
     "documentPending": "هنوز بازنگری نهایی‌شده‌ای ندارد",
-    "transmittal": "Transmittal شمارهٔ {{number}}"
+    "transmittal": "Transmittal شمارهٔ {{number}}",
+    "opensTaskFiles": "در زبانهٔ فایل‌های وظیفه باز می‌شود",
+    "opensProjectDocuments": "در زبانهٔ اسناد پروژه باز می‌شود"
   },
   "stageComment": {
     "title": "آخرین نظر این مرحله",

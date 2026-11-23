@@ -152,7 +152,9 @@
     "noDocuments": "No documents linked to this run.",
     "documentRevision": "Revision {{revision}}",
     "documentPending": "No finalized revision yet",
-    "transmittal": "Transmittal {{number}}"
+    "transmittal": "Transmittal {{number}}",
+    "opensTaskFiles": "opens on the task's Files tab",
+    "opensProjectDocuments": "opens on the project's Documents tab"
   },
   "stageComment": {
     "title": "Latest stage comment",
