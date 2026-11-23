@@ -103,6 +103,7 @@
       "unknownUploader": "Unknown uploader",
       "sizeKb": "{{size}} KB",
       "downloadRevision": "Download this version",
+      "viewRevision": "View this version",
       "downloadDenied": "You don't have permission to download this version.",
       "downloadError": "Couldn't download this version. Please try again.",
       "source": {
@@ -206,6 +207,7 @@
     "documentsUpload": "Upload",
     "documentsUploadRevision": "New revision",
     "documentsDownload": "Download",
+    "documentsView": "View",
     "documentsLineage": "From project",
     "documentsLineageTitle": "Copied from the project's documents when this task was created.",
     "unassignable": {
