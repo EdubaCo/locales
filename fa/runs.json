@@ -151,7 +151,8 @@
     "documents": "اسناد مرتبط",
     "noDocuments": "سندی به این اجرا وصل نشده.",
     "documentRevision": "بازنگری {{revision}}",
-    "documentPending": "هنوز بازنگری نهایی‌شده‌ای ندارد"
+    "documentPending": "هنوز بازنگری نهایی‌شده‌ای ندارد",
+    "transmittal": "Transmittal شمارهٔ {{number}}"
   },
   "stageComment": {
     "title": "آخرین نظر این مرحله",
