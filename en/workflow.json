@@ -490,5 +490,20 @@
     "confirm": "Upgrade",
     "cancel": "Cancel",
     "error": "Couldn't upgrade the workflow. Please try again."
+  },
+  "packRules": {
+    "banner": "Pack version {{version}} has new or changed policy rules. Review them before they apply.",
+    "review": "Review rules",
+    "title": "Policy rules in pack version {{version}}",
+    "intro": "These rules come with the pack. Nothing changes until you apply them.",
+    "addHeading": "New rules",
+    "changeHeading": "Rules the pack changed",
+    "edited": "Edited",
+    "yours": "Your current rule",
+    "packCopy": "The pack's rule",
+    "usePack": "Replace with the pack's rule",
+    "apply": "Apply rules",
+    "cancel": "Cancel",
+    "error": "Couldn't apply the pack's rules. Please try again."
   }
 }
