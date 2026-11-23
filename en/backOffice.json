@@ -18,6 +18,7 @@
     "invoices": "Invoices",
     "groupPlatform": "Platform",
     "ai": "AI default",
+    "connectorNetwork": "Connector network",
     "accessRequests": "Access requests",
     "accessRequestsPendingCount_one": "{{count}} pending request",
     "accessRequestsPendingCount_other": "{{count}} pending requests"
@@ -736,6 +737,19 @@
     "tenantsOptIn": "Each workspace still turns AI on from its own Settings → AI page.",
     "save": "Save changes",
     "saved": "AI default saved.",
+    "saveError": "Couldn't save your changes. Please try again."
+  },
+  "connectorEgress": {
+    "title": "Connector network",
+    "sub": "Which servers on private networks connectors may reach.",
+    "section": "Private hosts",
+    "sectionSub": "Connectors never connect to a private, loopback or link-local address, such as a server on an office network, unless the server is listed here.",
+    "hostsLabel": "Allowed private hosts",
+    "hostsHint": "One per line: a name such as mail.lan.example.com, an address such as 10.0.0.25, host:port, or *.lan.example.com for every subdomain. The host must also be in the allowed hosts of the connector’s secret.",
+    "invalid": "Not a valid host: {{hosts}}",
+    "applies": "Changes reach every connector within 5 minutes.",
+    "save": "Save changes",
+    "saved": "Connector network saved.",
     "saveError": "Couldn't save your changes. Please try again."
   },
   "roles": {
