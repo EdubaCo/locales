@@ -31,6 +31,7 @@
     "security": "Access & audit",
     "audit": "Audit logs",
     "securityEvents": "Security events",
+    "secrets": "Secrets",
     "subscription": "Plan & usage",
     "referralCredits": "Referral & credits",
     "operations": "Operations",
@@ -1221,6 +1222,62 @@
       "en": "English",
       "ar": "العربية",
       "fa": "فارسی"
+    }
+  },
+  "secrets": {
+    "title": "Secrets",
+    "subtitle": "Credentials connectors use to sign in to other systems. Each is stored once and shared by every connector that needs it.",
+    "addButton": "Add secret",
+    "writeOnlyNote": "Secrets are write-only: once saved, nobody can read a value back, not even an admin. You can only replace it.",
+    "loadError": "Couldn't load secrets. Please try again.",
+    "empty": "No secrets yet.",
+    "table": {
+      "name": "Name",
+      "hosts": "Allowed hosts",
+      "changed": "Last changed",
+      "actions": "Actions"
+    },
+    "createdOn": "Added {{date}}",
+    "replacedOn": "Value replaced {{date}}",
+    "actions": {
+      "replace": "Replace value",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "cancel": "Cancel",
+    "modal": {
+      "createTitle": "Add secret",
+      "editTitle": "Edit {{name}}",
+      "replaceTitle": "Replace the value of {{name}}",
+      "nameLabel": "Name",
+      "nameHint": "Connectors refer to the secret by this name. Lowercase letters, digits, dot, dash or underscore.",
+      "nameInvalid": "Use 1–64 lowercase letters, digits, dot, dash or underscore, starting with a letter or digit.",
+      "descriptionLabel": "Description",
+      "valueLabel": "Value",
+      "newValueLabel": "New value",
+      "valueHint": "A password, token or API key. It is stored encrypted and is never shown again.",
+      "hostsLabel": "Allowed hosts",
+      "hostsHint": "One per line, such as erp.customer.com or erp.customer.com:8443, or *.customer.com for every subdomain. The secret is never sent anywhere else.",
+      "hostsInvalid": "Enter at least one host, such as erp.customer.com or *.customer.com.",
+      "createSubmit": "Add secret",
+      "editSubmit": "Save",
+      "replaceSubmit": "Replace value",
+      "error": {
+        "nameTaken": "A secret with that name already exists.",
+        "generic": "Couldn't save the secret. Please try again."
+      }
+    },
+    "delete": {
+      "title": "Delete {{name}}?",
+      "body": "Connectors that use it will no longer be able to sign in. A secret still used by a connector cannot be deleted."
+    },
+    "toast": {
+      "created": "{{name}} was added.",
+      "updated": "{{name}} was updated.",
+      "replaced": "The value of {{name}} was replaced.",
+      "deleted": "{{name}} was deleted.",
+      "inUse": "A connector still uses this secret. Remove it from the connector first.",
+      "error": "Something went wrong. Please try again."
     }
   }
 }
