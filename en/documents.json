@@ -225,7 +225,8 @@
     "dxf": {
       "fit": "Fit",
       "layers": "Layers",
-      "error": "Couldn't read this drawing. Download it and open it in a CAD app."
+      "error": "Couldn't read this drawing. Download it and open it in a CAD app.",
+      "rtlTextNote": "Persian or Arabic text in this drawing may show with unjoined letters, running left to right. To read it, download the file and open it in a CAD app."
     }
   },
   "staleInput_one": "{{count}} task works from an earlier revision",
