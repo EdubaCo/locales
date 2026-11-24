@@ -166,7 +166,8 @@
     "decision": "Decision",
     "fields": {
       "outcome": "Decision",
-      "comment": "Comment"
+      "comment": "Comment",
+      "failureOutcome": "Decision"
     },
     "outcome": {
       "approved": "Approved",

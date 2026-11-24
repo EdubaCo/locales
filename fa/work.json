@@ -166,7 +166,8 @@
     "decision": "تصمیم",
     "fields": {
       "outcome": "تصمیم",
-      "comment": "نظر"
+      "comment": "نظر",
+      "failureOutcome": "تصمیم"
     },
     "outcome": {
       "approved": "تأیید شد",
