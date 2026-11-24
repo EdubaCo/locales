@@ -151,7 +151,8 @@
     "documents": "Linked documents",
     "noDocuments": "No documents linked to this run.",
     "documentRevision": "Revision {{revision}}",
-    "documentPending": "No finalized revision yet"
+    "documentPending": "No finalized revision yet",
+    "transmittal": "Transmittal {{number}}"
   },
   "stageComment": {
     "title": "Latest stage comment",
