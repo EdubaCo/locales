@@ -186,8 +186,8 @@
       "fileLabel": "CSV file",
       "noFile": "No file selected",
       "pasteLabel": "Or paste CSV text",
-      "pastePlaceholder": "email,name,role,orgUnit\njane@acme.eng,Jane Doe,task_worker,Acme/Engineering",
-      "formatHint": "Columns: email (required), name, role, orgUnit (a \"/\"-separated reporting path).",
+      "pastePlaceholder": "email,name,role,orgUnit,groups\njane@acme.eng,Jane Doe,task_worker,Acme/Engineering,QA;Design",
+      "formatHint": "Columns: email (required), name, role, orgUnit (a \"/\"-separated reporting path), groups (names of existing groups, separated by \";\").",
       "previewButton": "Preview import",
       "backButton": "Edit CSV",
       "confirmButton": "Confirm import",
@@ -204,14 +204,17 @@
         "willPlace_one": "{{count}} placed in the org chart",
         "willPlace_other": "{{count}} placed in the org chart",
         "willSkip_one": "{{count}} row skipped",
-        "willSkip_other": "{{count}} rows skipped"
+        "willSkip_other": "{{count}} rows skipped",
+        "willJoin_one": "{{count}} group membership",
+        "willJoin_other": "{{count}} group memberships"
       },
       "table": {
         "line": "Line",
         "email": "Email",
         "role": "Role",
         "orgUnit": "Org unit",
-        "status": "Status"
+        "status": "Status",
+        "groups": "Groups"
       },
       "status": {
         "ok": "Ready"
@@ -230,7 +233,18 @@
         "unit_name_too_long": "An org-unit name is too long.",
         "unknown_role": "Role \"{{role}}\" does not exist in this workspace.",
         "root_conflict": "Org-chart root \"{{root}}\" conflicts with the existing root.",
-        "machine_user": "This address belongs to a machine user."
+        "machine_user": "This address belongs to a machine user.",
+        "unknown_group": "One of this row's groups ({{groups}}) does not exist in this workspace. Create it on the Groups page first."
+      },
+      "links": {
+        "intro_one": "{{count}} imported member still has to set a password. The import sends no email, so send each person their own link.",
+        "intro_other": "{{count}} imported members still have to set a password. The import sends no email, so send each person their own link.",
+        "note": "Each link works once and expires on {{date}}. You see these links only now; to get a new one later, use Resend invite in the member's menu.",
+        "label": "Invite links (name, email, link)",
+        "copyAll": "Copy all links",
+        "copied": "Copied to clipboard.",
+        "copyError": "Couldn't copy the links. Select the text above and copy it yourself.",
+        "done": "Done"
       }
     },
     "toast": {
@@ -1117,7 +1131,9 @@
     "readOnly": {
       "title": "View-only access",
       "body": "These settings are managed by a tenant admin. You can view them but not make changes."
-    }
+    },
+    "languageLabel": "Default language",
+    "languageHint": "Members who haven't picked a language of their own see the app in this one."
   },
   "branding": {
     "title": "Branding",
