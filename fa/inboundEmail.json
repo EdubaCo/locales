@@ -9,6 +9,7 @@
   "table": {
     "connector": "کانکتور",
     "mailbox": "صندوق ایمیل",
+    "message": "پیام",
     "from": "از",
     "subject": "موضوع",
     "received": "زمان دریافت",

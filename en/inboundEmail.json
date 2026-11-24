@@ -9,6 +9,7 @@
   "table": {
     "connector": "Connector",
     "mailbox": "Mailbox",
+    "message": "Message",
     "from": "From",
     "subject": "Subject",
     "received": "Received",
