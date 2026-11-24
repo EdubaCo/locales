@@ -145,7 +145,9 @@
         "searchPrevious": "Previous match",
         "searchNext": "Next match",
         "searchClose": "Close search",
-        "more": "More"
+        "more": "More",
+        "themeToLight": "Switch to light mode",
+        "themeToDark": "Switch to dark mode"
       },
       "pdf": {
         "toolbar": {
@@ -187,7 +189,43 @@
       },
       "preview": {
         "reading": "Reading the file…"
+      },
+      "model": {
+        "toolbar": {
+          "fit": "Fit",
+          "rotate": "Rotate",
+          "wireframe": "Wireframe",
+          "grid": "Grid",
+          "axes": "Axes"
+        },
+        "state": {
+          "loadingSummary": "Opening the model",
+          "loading": "Reading the 3D model…",
+          "loaded": "Model open",
+          "parseFailed": "Couldn't read this model"
+        },
+        "summary": {
+          "meshes_one": "{{count}} mesh",
+          "meshes_other": "{{count}} meshes",
+          "points_one": "{{count}} point cloud",
+          "points_other": "{{count}} point clouds"
+        },
+        "error": {
+          "unsupported": "{{type}} models can't be shown in the browser yet.",
+          "parseFailed": "Couldn't read this {{type}} model. The file may be damaged.",
+          "daeEmpty": "This DAE file has no scene to show."
+        }
+      },
+      "state": {
+        "error": {
+          "title": "Couldn't show this file"
+        }
       }
+    },
+    "dxf": {
+      "fit": "Fit",
+      "layers": "Layers",
+      "error": "Couldn't read this drawing. Download it and open it in a CAD app."
     }
   },
   "staleInput_one": "{{count}} task works from an earlier revision",

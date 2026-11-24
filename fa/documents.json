@@ -145,7 +145,9 @@
         "searchPrevious": "مورد قبلی",
         "searchNext": "مورد بعدی",
         "searchClose": "بستن جست‌وجو",
-        "more": "بیشتر"
+        "more": "بیشتر",
+        "themeToLight": "رفتن به حالت روشن",
+        "themeToDark": "رفتن به حالت تیره"
       },
       "pdf": {
         "toolbar": {
@@ -187,7 +189,43 @@
       },
       "preview": {
         "reading": "در حال خواندن فایل…"
+      },
+      "model": {
+        "toolbar": {
+          "fit": "نمای کامل",
+          "rotate": "چرخش خودکار",
+          "wireframe": "نمای سیمی",
+          "grid": "شبکه",
+          "axes": "محورها"
+        },
+        "state": {
+          "loadingSummary": "در حال باز کردن مدل",
+          "loading": "در حال خواندن مدل سه‌بعدی…",
+          "loaded": "مدل باز شد",
+          "parseFailed": "این مدل خوانده نشد"
+        },
+        "summary": {
+          "meshes_one": "{{count}} مش",
+          "meshes_other": "{{count}} مش",
+          "points_one": "{{count}} ابر نقطه",
+          "points_other": "{{count}} ابر نقطه"
+        },
+        "error": {
+          "unsupported": "مدل‌های {{type}} را هنوز نمی‌توان در مرورگر نمایش داد.",
+          "parseFailed": "این مدل {{type}} خوانده نشد؛ شاید فایل خراب باشد.",
+          "daeEmpty": "این فایل DAE صحنه‌ای برای نمایش ندارد."
+        }
+      },
+      "state": {
+        "error": {
+          "title": "این فایل نمایش داده نشد"
+        }
       }
+    },
+    "dxf": {
+      "fit": "نمای کامل",
+      "layers": "لایه‌ها",
+      "error": "این نقشه خوانده نشد. آن را دانلود کنید و با نرم‌افزار CAD باز کنید."
     }
   },
   "staleInput_one": "یک وظیفه هنوز با بازنگری قبلی کار می‌کند",
