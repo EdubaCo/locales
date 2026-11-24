@@ -46,7 +46,9 @@
     "namePlaceholder": "Workflow name",
     "nameLabel": "Name",
     "create": "Create",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "nameTaken": "A workflow named “{{name}}” already exists. Choose another name.",
+    "createFailed": "Couldn't create the workflow. Please try again."
   },
   "version": {
     "none": "—",
