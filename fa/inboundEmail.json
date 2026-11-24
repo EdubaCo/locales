@@ -33,6 +33,7 @@
   "deletedConnector": "کانکتور حذف‌شده",
   "reasons": {
     "unroutable": "هیچ قاعدهٔ ثبتی جور نشد",
+    "unclassified": "هوش مصنوعی مطمئن نبود کجا ثبت شود",
     "no-attachments": "پیوست ندارد",
     "denied": "اجازهٔ ثبت در این‌جا نیست",
     "unexpected-multipart": "پیوست بیش از حد بزرگ است",

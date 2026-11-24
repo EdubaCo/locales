@@ -33,6 +33,7 @@
   "deletedConnector": "Deleted connector",
   "reasons": {
     "unroutable": "No filing rule matched",
+    "unclassified": "AI was not sure where to file it",
     "no-attachments": "No attachments",
     "denied": "Not allowed to file here",
     "unexpected-multipart": "Attachment too large",
