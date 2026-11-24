@@ -580,7 +580,8 @@
     "error": {
       "invalidCredentials": "Invalid email or password.",
       "rateLimited": "Too many attempts. Try again shortly.",
-      "invalidCode": "Invalid or expired code."
+      "invalidCode": "Invalid or expired code.",
+      "generic": "Could not sign in. Try again in a moment."
     }
   },
   "adminSetup": {
