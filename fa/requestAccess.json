@@ -56,6 +56,7 @@
   "footer": {
     "copyright": "© {{year}} پلتفرم Eduba",
     "privacy": "حریم خصوصی",
-    "terms": "شرایط استفاده"
+    "terms": "شرایط استفاده",
+    "licenses": "پروانه‌ها"
   }
 }
