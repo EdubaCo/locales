@@ -234,7 +234,8 @@
         "unknown_role": "Role \"{{role}}\" does not exist in this workspace.",
         "root_conflict": "Org-chart root \"{{root}}\" conflicts with the existing root.",
         "machine_user": "This address belongs to a machine user.",
-        "unknown_group": "One of this row's groups ({{groups}}) does not exist in this workspace. Create it on the Groups page first."
+        "unknown_group": "One of this row's groups ({{groups}}) does not exist in this workspace. Create it on the Groups page first.",
+        "ambiguous_name": "One of this row's names matches more than one role, group or org unit. Use the identifier or the name as written."
       },
       "links": {
         "intro_one": "{{count}} imported member still has to set a password. The import sends no email, so send each person their own link.",
