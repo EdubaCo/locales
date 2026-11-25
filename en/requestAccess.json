@@ -45,7 +45,8 @@
   "errors": {
     "already": "You've already submitted a request. We'll be in touch soon.",
     "rateLimited": "Too many requests came from this network in a short time. Wait 15 minutes and try again.",
-    "generic": "Something went wrong. Please try again or email us at {{email}}."
+    "generic": "Something went wrong. Please try again or email us at {{email}}.",
+    "genericNoEmail": "Something went wrong. Please try again."
   },
   "success": {
     "title": "Request received",
