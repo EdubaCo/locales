@@ -66,5 +66,13 @@
     "error": "An error occurred",
     "empty": "No items found",
     "success": "Success"
+  },
+  "localizedName": {
+    "legend": "Name in other languages",
+    "hint": "Optional. An empty field shows the name as written.",
+    "field": {
+      "en": "Name in English",
+      "fa": "Name in Persian"
+    }
   }
 }
