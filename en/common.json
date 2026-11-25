@@ -37,8 +37,6 @@
   "topbar": {
     "home": "Home",
     "language": "Switch language",
-    "workspaceSwitcher": "Switch workspace",
-    "workspaceCurrent": "Current workspace",
     "help": "Help",
     "userMenu": "Account menu",
     "profile": "Profile",
