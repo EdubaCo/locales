@@ -75,5 +75,11 @@
       "en": "Name in English",
       "fa": "Name in Persian"
     }
+  },
+  "systemRole": {
+    "tenant_admin": "Workspace admin",
+    "workflow_admin": "Workflow admin",
+    "task_worker": "Task worker",
+    "run_watcher": "Run watcher"
   }
 }
