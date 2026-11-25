@@ -373,7 +373,10 @@
         "supervisorRole": "Supervisor's role",
         "checkerRole": "Checker's role",
         "approverRole": "Approver's role"
-      }
+      },
+      "workflowName": "Workflow name",
+      "translationsHint": "Saved as you type. Everyone sees it right away, without publishing.",
+      "translationsFailed": "Translations weren't saved. Try again."
     },
     "validation": {
       "title": "Validation",
