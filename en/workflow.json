@@ -376,7 +376,9 @@
       },
       "workflowName": "Workflow name",
       "translationsHint": "Saved as you type. Everyone sees it right away, without publishing.",
-      "translationsFailed": "Translations weren't saved. Try again."
+      "translationsFailed": "Translations weren't saved. Try again.",
+      "outcomeNames": "Decision outcomes",
+      "fieldNames": "Decision form fields"
     },
     "validation": {
       "title": "Validation",
