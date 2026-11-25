@@ -42,6 +42,7 @@
     "profile": "Profile",
     "preferences": "Preferences",
     "platformAdmin": "Platform admin",
+    "thirdPartyNotices": "Third-party notices",
     "signOut": "Sign out",
     "signOutFailed": "Sign out failed — you are still signed in. Please try again."
   },
