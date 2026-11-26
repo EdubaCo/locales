@@ -479,6 +479,13 @@
     "minimap": {
       "open": "Open minimap",
       "close": "Close minimap"
+    },
+    "tidyUp": "Tidy up",
+    "tidyUpHint": "Re-arrange the steps left to right. Undo puts them back.",
+    "relayoutOffer": {
+      "body": "This diagram was drawn for the old step size. Re-arrange it so names fit and no line crosses a step? You can undo it.",
+      "accept": "Re-arrange",
+      "dismiss": "Keep as is"
     }
   },
   "fieldHints": {
