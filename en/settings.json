@@ -1,4 +1,8 @@
 {
+  "saveBar": {
+    "unsaved": "You have unsaved changes.",
+    "discard": "Discard changes"
+  },
   "nav": {
     "back": "App",
     "backToApp": "Back to app",
