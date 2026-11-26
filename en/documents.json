@@ -129,6 +129,7 @@
   "viewer": {
     "download": "Download",
     "close": "Close viewer",
+    "expand": "Full screen",
     "revision": "Revision",
     "loading": "Opening the file…",
     "error": "Couldn't open this file.",
