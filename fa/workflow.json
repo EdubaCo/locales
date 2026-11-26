@@ -373,7 +373,10 @@
         "supervisorRole": "نقش سرپرست",
         "checkerRole": "نقش کنترل‌کننده",
         "approverRole": "نقش تأییدکننده"
-      }
+      },
+      "workflowName": "نام گردش‌کار",
+      "translationsHint": "همین‌طور که می‌نویسید ذخیره می‌شود و همه بدون انتشار آن را می‌بینند.",
+      "translationsFailed": "ترجمه‌ها ذخیره نشد. دوباره تلاش کنید."
     },
     "validation": {
       "title": "اعتبارسنجی",
