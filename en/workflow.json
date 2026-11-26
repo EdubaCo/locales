@@ -427,6 +427,7 @@
         "requiredPortUnwired": "Step '{{node}}' ({{block}}) has a required input port ({{ports}}) with no incoming connection.",
         "invalidFeelCondition": "Invalid FEEL condition: {{error}}",
         "feelConditionOffGateway": "A FEEL condition sits on a flow leaving '{{source}}', which is not an exclusive or inclusive gateway. A FEEL condition is evaluated before its gateway, so put branch conditions on the gateway's outgoing flows (ADR-0049).",
+        "gatewayExitUnnamed": "The path from '{{gateway}}' to '{{target}}' has no name. Name it so the diagram shows when this path is taken.",
         "subflowUnresolved": "Subflow '{{ref}}' could not be resolved to a published revision.",
         "subflowInputUnmapped": "Required input port '{{port}}' of subflow '{{ref}}' is not mapped.",
         "subflowPortUnknown": "Port '{{port}}' is mapped, but subflow '{{ref}}' has no input port with that name.",
