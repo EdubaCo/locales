@@ -77,6 +77,9 @@
     "viewAllSteps": "View all steps",
     "hideSteps": "Hide steps",
     "stepUpcoming": "Upcoming",
+    "stepsLabel": "Workflow steps",
+    "sentBack_one": "Sent back once",
+    "sentBack_other": "Sent back {{count}} times",
     "yourTurn": "Your turn",
     "yourTurnCallout": "Your turn — what to do now",
     "extraStepsHeading_one": "You have {{count}} more open step on this run",
@@ -90,6 +93,8 @@
     },
     "files": {
       "historyTitle": "Version history",
+      "issued": "Issued",
+      "issuedTitle": "The formal revision issued when the work was approved.",
       "historyEmpty": "No revisions yet.",
       "historyError": "Couldn't load this document's version history.",
       "revisionLabel": "v{{number}}",
@@ -216,6 +221,8 @@
     "documentsUploadRevision": "New revision",
     "documentsDownload": "Download",
     "documentsView": "View",
+    "downloadOnly": "Download only",
+    "downloadOnlyTitle": "The browser can't show this file. Download it to open it.",
     "documentsLineage": "From project",
     "documentsLineageTitle": "Copied from the project's documents when this task was created.",
     "unassignable": {
