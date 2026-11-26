@@ -1155,6 +1155,14 @@
     "taglineLabel": "Tagline",
     "taglinePlaceholder": "Engineering excellence, delivered.",
     "taglineHint": "Shown on the sign-in page.",
+    "taglineI18n": {
+      "legend": "Tagline in other languages",
+      "hint": "Optional. An empty field shows the tagline as written.",
+      "field": {
+        "en": "Tagline in English",
+        "fa": "Tagline in Persian"
+      }
+    },
     "faviconLabel": "Favicon",
     "faviconUpload": "Upload favicon",
     "faviconHint": "ICO or PNG · max 50 KB.",
@@ -1162,6 +1170,14 @@
     "footerLabel": "Email footer",
     "footerPlaceholder": "<p>Acme Engineering Corp · Confidential</p>",
     "footerHint": "Appended to notification emails. Basic HTML is allowed.",
+    "footerI18n": {
+      "legend": "Email footer in other languages",
+      "hint": "Optional. An empty field uses the footer as written.",
+      "field": {
+        "en": "Footer in English",
+        "fa": "Footer in Persian"
+      }
+    },
     "footerPreview": "Email footer preview",
     "assetUploaded": "Image uploaded.",
     "assetUploadError": "Couldn't upload the image. Please try again.",
