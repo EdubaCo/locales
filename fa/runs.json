@@ -74,7 +74,7 @@
     "definitionRefCopied": "کپی شد"
   },
   "nodes": {
-    "title": "گره‌ها",
+    "title": "مراحل",
     "empty": "هنوز فعالیتی برای گره‌ها ثبت نشده.",
     "gateHalf": {
       "enter": "{{step}} (شروع)",
@@ -142,6 +142,47 @@
         "started": "دور جدید شروع شد"
       },
       "unknown": "رویداد دیگر"
+    },
+    "sentence": {
+      "step": {
+        "node": {
+          "entered": "«{{step}}» شروع شد",
+          "completed": "«{{step}}» تمام شد",
+          "failed": "«{{step}}» ناموفق بود",
+          "waiting": "«{{step}}» منتظر اقدام است",
+          "waitEnded": "پاسخ «{{step}}» ثبت شد",
+          "assignmentFailed": "برای «{{step}}» مسئولی پیدا نشد",
+          "assignmentRecovered": "برای «{{step}}» دوباره مسئول مشخص شد",
+          "escalated": "مشکل «{{step}}» به مسئولان اجرا گزارش شد"
+        },
+        "token": {
+          "created": "«{{step}}» به کارتابل رسید",
+          "resolved": "به «{{step}}» رسیدگی شد",
+          "expired": "مهلت «{{step}}» پیش از اقدام تمام شد",
+          "cancelled": "«{{step}}» از کارتابل برداشته شد"
+        }
+      },
+      "actor": {
+        "node": {
+          "completed": "{{actor}} «{{step}}» را تمام کرد",
+          "waitEnded": "{{actor}} به «{{step}}» پاسخ داد",
+          "escalated": "{{actor}} مشکل «{{step}}» را به مسئولان اجرا گزارش داد"
+        },
+        "token": {
+          "resolved": "{{actor}} به «{{step}}» رسیدگی کرد"
+        },
+        "run": {
+          "started": "{{actor}} اجرا را شروع کرد",
+          "cancelled": "{{actor}} اجرا را لغو کرد"
+        },
+        "task": {
+          "comment": {
+            "created": "{{actor}} نظری ثبت کرد"
+          },
+          "created": "{{actor}} وظیفه را ایجاد کرد",
+          "reopened": "{{actor}} وظیفه را دوباره باز کرد"
+        }
+      }
     }
   },
   "context": {
@@ -235,5 +276,16 @@
       "nodeFailed": "یکی از مرحله‌های آن ناموفق بود",
       "reset": "مشتری یکی از ورودی‌های آن را با بازنگری جدید جایگزین کرده است"
     }
+  },
+  "diagram": {
+    "title": "اجرا کجاست",
+    "label": "نمودار گردش‌کار این اجرا",
+    "legend": {
+      "done": "انجام شد",
+      "active": "در انتظار",
+      "todo": "نرسیده"
+    },
+    "sentBack_one": "یک بار برگشت خورده",
+    "sentBack_other": "{{count}} بار برگشت خورده"
   }
 }

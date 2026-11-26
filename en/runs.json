@@ -74,7 +74,7 @@
     "definitionRefCopied": "Copied"
   },
   "nodes": {
-    "title": "Nodes",
+    "title": "Steps",
     "empty": "No node activity yet.",
     "gateHalf": {
       "enter": "{{step}} (opening)",
@@ -142,6 +142,47 @@
         "started": "Round started"
       },
       "unknown": "Other event"
+    },
+    "sentence": {
+      "step": {
+        "node": {
+          "entered": "{{step}} started",
+          "completed": "{{step}} finished",
+          "failed": "{{step}} failed",
+          "waiting": "{{step}} is waiting for someone to act",
+          "waitEnded": "A response was recorded on {{step}}",
+          "assignmentFailed": "Nobody could be assigned to {{step}}",
+          "assignmentRecovered": "{{step}} has an assignee again",
+          "escalated": "The failure of {{step}} was reported to the run's owners"
+        },
+        "token": {
+          "created": "{{step}} reached an inbox",
+          "resolved": "{{step}} was handled",
+          "expired": "{{step}} expired before anyone acted",
+          "cancelled": "{{step}} was withdrawn from the inbox"
+        }
+      },
+      "actor": {
+        "node": {
+          "completed": "{{actor}} finished {{step}}",
+          "waitEnded": "{{actor}} responded on {{step}}",
+          "escalated": "{{actor}} reported the failure of {{step}} to the run's owners"
+        },
+        "token": {
+          "resolved": "{{actor}} handled {{step}}"
+        },
+        "run": {
+          "started": "{{actor}} started the run",
+          "cancelled": "{{actor}} cancelled the run"
+        },
+        "task": {
+          "comment": {
+            "created": "{{actor}} posted a comment"
+          },
+          "created": "{{actor}} created the task",
+          "reopened": "{{actor}} reopened the task"
+        }
+      }
     }
   },
   "context": {
@@ -235,5 +276,16 @@
       "nodeFailed": "a step of it failed",
       "reset": "a customer revision replaced an input it was built on"
     }
+  },
+  "diagram": {
+    "title": "Where the run is",
+    "label": "Diagram of this run's workflow",
+    "legend": {
+      "done": "Done",
+      "active": "Waiting",
+      "todo": "Not reached"
+    },
+    "sentBack_one": "Sent back once",
+    "sentBack_other": "Sent back {{count}} times"
   }
 }
