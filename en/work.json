@@ -157,18 +157,26 @@
     "noOpenStep": "No action required",
     "noOpenStepBody": "There's no step waiting on you for this task right now.",
     "actionIntro": "Review the task and submit your decision. Your decision routes the task forward.",
+    "failure": {
+      "title": "This step failed",
+      "code": "Error code:",
+      "intro": "Retry the step, or abandon it. Abandoning ends this branch of the run."
+    },
     "youBadge": "You",
     "decision": "Decision",
     "fields": {
       "outcome": "Decision",
-      "comment": "Comment"
+      "comment": "Comment",
+      "failureOutcome": "Decision"
     },
     "outcome": {
       "approved": "Approved",
       "approved_minor": "Approved with comments",
       "commented": "Commented",
       "rejected": "Rejected — needs revision",
-      "skipped": "Skipped"
+      "skipped": "Skipped",
+      "retry": "Retry",
+      "abandon": "Abandon"
     },
     "comment": "Comment",
     "commentPlaceholder": "Add a note for the next reviewer…",
