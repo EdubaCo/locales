@@ -26,10 +26,21 @@
     "size": "Size",
     "modified": "Modified",
     "source": "Source",
-    "actions": "Actions"
+    "actions": "Actions",
+    "status": "Status"
   },
   "version": "v{{number}}",
   "noRevision": "No revisions yet",
+  "status": {
+    "issued": "Issued",
+    "working": "Working",
+    "input": "Project input",
+    "afc": "AFC"
+  },
+  "scopeTree": {
+    "heading": "Projects",
+    "all": "All projects"
+  },
   "source": {
     "upload": "Upload",
     "email": "Email",
@@ -46,7 +57,9 @@
     "history": "History",
     "historyPending": "Revision history opens here once the history viewer ships.",
     "attest": "Attest",
-    "applyCustomerRevision": "Apply customer revision"
+    "applyCustomerRevision": "Apply customer revision",
+    "downloadOnly": "Download only",
+    "downloadOnlyTitle": "The browser can't show this file. Download it to open it."
   },
   "upload": {
     "titleNew": "Upload a document",
@@ -235,8 +248,6 @@
   "taskDocuments": {
     "heading": "Task documents",
     "hint": "These files belong to tasks. Issued revisions stay on the task until someone publishes them to the project.",
-    "task": "Task",
-    "issuedColumn": "Issued",
-    "issued": "Issued {{label}}"
+    "task": "Task"
   }
 }
