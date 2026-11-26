@@ -102,7 +102,9 @@
     "stats": {
       "label": "Task summary",
       "open": "Open tasks",
-      "done": "Done"
+      "done": "Done",
+      "overdue": "Overdue",
+      "waiting": "Waiting on you"
     },
     "tasks": {
       "heading": "{{count}} tasks",

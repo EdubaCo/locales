@@ -77,6 +77,9 @@
     "viewAllSteps": "نمایش همهٔ مرحله‌ها",
     "hideSteps": "پنهان کردن مرحله‌ها",
     "stepUpcoming": "پیش رو",
+    "stepsLabel": "مرحله‌های گردش‌کار",
+    "sentBack_one": "یک بار برگشت داده شد",
+    "sentBack_other": "{{count}} بار برگشت داده شد",
     "yourTurn": "نوبت شماست",
     "yourTurnCallout": "نوبت شماست؛ اقدام بعدی شما",
     "extraStepsHeading_one": "یک مرحلهٔ باز دیگر هم در این اجرا دارید",
@@ -90,6 +93,8 @@
     },
     "files": {
       "historyTitle": "تاریخچهٔ بازنگری‌ها",
+      "issued": "صادرشده",
+      "issuedTitle": "بازنگری رسمی که با تأیید کار صادر شد.",
       "historyEmpty": "هنوز بازنگری‌ای ثبت نشده.",
       "historyError": "تاریخچهٔ بازنگری‌های این سند بارگذاری نشد.",
       "revisionLabel": "نسخهٔ {{number}}",
@@ -216,6 +221,8 @@
     "documentsUploadRevision": "بازنگری جدید",
     "documentsDownload": "دانلود",
     "documentsView": "نمایش",
+    "downloadOnly": "فقط دانلود",
+    "downloadOnlyTitle": "این فایل در مرورگر نمایش داده نمی‌شود. برای باز کردنش آن را دانلود کنید.",
     "documentsLineage": "از پروژه",
     "documentsLineageTitle": "هنگام ساخته شدن این وظیفه، از اسناد پروژه کپی شده است.",
     "unassignable": {
