@@ -158,6 +158,7 @@
       "confirm": "Publish",
       "cancel": "Cancel",
       "publishing": "Publishing…",
+      "published": "Published as revision {{number}}.",
       "error": "Publish failed — fix the validation errors and try again."
     },
     "palette": {
