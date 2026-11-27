@@ -114,7 +114,7 @@
       "colDue": "سررسید",
       "colAssignees": "مسئولان",
       "colUpdated": "به‌روزرسانی",
-      "assignees": "{{count}} نفر مسئول",
+      "noActiveUser": "کاربر فعالی ندارد",
       "noPriority": "—",
       "noDue": "—",
       "priorityFilterAll": "همهٔ اولویت‌ها",
