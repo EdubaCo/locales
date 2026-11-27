@@ -368,6 +368,7 @@
       "workflowNotPublished": "That workflow is no longer published — publish it before creating a task.",
       "workflowNotFound": "That workflow could not be found.",
       "forbidden": "You don't have permission to assign this task that way.",
+      "assigneeNotActive": "One of the people you picked isn't active, so they can't take this task. Pick someone else.",
       "validation": "Please check the highlighted fields.",
       "generic": "Couldn't create the task. Please try again."
     },
@@ -379,6 +380,11 @@
     "reassign": "Reassign step…",
     "claim": "Claim",
     "release": "Release"
+  },
+  "memberStatus": {
+    "invited": "Invited",
+    "suspended": "Suspended",
+    "retired": "Retired"
   },
   "assign": {
     "title": "Assign task",
