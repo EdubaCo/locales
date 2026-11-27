@@ -584,6 +584,8 @@
     "importCta": "Import pack",
     "finishSetup": "Finish setup",
     "mapRoles": "Map roles",
+    "unmappedBadge_one": "{{count}} role not mapped",
+    "unmappedBadge_other": "{{count}} roles not mapped",
     "toast": {
       "imported": "“{{name}}” imported.",
       "activated": "Pack activated."
@@ -648,6 +650,7 @@
       "autoCreateButton": "Create matching roles automatically",
       "autoCreateHint": "Creates a role for each unmapped pack role and maps it, so the pack's rules and assignments take effect. Adding people to these roles is done by someone who can manage users.",
       "autoCreateError": "Couldn't create and map the roles. Please try again.",
+      "noTargets": "This workspace has no roles or groups to map to yet. Create the matching roles automatically, or add roles in Settings.",
       "optionalRolesUnmappedWarning_one": "{{roles}} is optional and still unmapped — its policy rules and work assignments will stay inactive until it's mapped.",
       "optionalRolesUnmappedWarning_other": "{{roles}} are optional and still unmapped — their policy rules and work assignments will stay inactive until they're mapped.",
       "conflictsHeading": "Resolve conflicts",
