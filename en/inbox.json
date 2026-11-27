@@ -65,7 +65,8 @@
     "clear": "Clear filters",
     "button": "Filter",
     "search": "Filter this list",
-    "workflowUnnamed": "Workflow {{n, number}}"
+    "workflowUnnamed": "Workflow {{n, number}}",
+    "involved": "Created by me or I'm responsible"
   },
   "groupBy": {
     "project": "Project",
@@ -80,6 +81,10 @@
   "watchOnly": {
     "badge": "Watch only",
     "label": "You can watch this task but cannot act on it — it is claimed by someone else."
+  },
+  "involved": {
+    "badge": "Following",
+    "label": "You created this task or are responsible for it. It is waiting on someone else, so you can follow it but not act on it."
   },
   "standardsFlag": {
     "badge": "Standard update",
