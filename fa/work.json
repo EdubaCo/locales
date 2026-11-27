@@ -178,7 +178,7 @@
       "approved": "تأیید شد",
       "approved_minor": "تأیید با ملاحظات",
       "commented": "فقط نظر",
-      "rejected": "رد شد؛ نیاز به بازنگری دارد",
+      "rejected": "رد شد",
       "skipped": "صرف‌نظر شد",
       "retry": "تلاش دوباره",
       "abandon": "رها کردن"
@@ -201,6 +201,8 @@
     "submitErrorEngine": "این مرحله زیرگردشی را فراخوانی می‌کند که موتور هنوز نمی‌تواند اجرا کند. با مدیر گردش‌کار تماس بگیرید.",
     "submittedTitle": "ثبت شد",
     "submittedBody": "تصمیم شما ثبت شد و وظیفه به مرحلهٔ بعد رفت.",
+    "submittedClosedTitle": "تصمیم ثبت شد",
+    "submittedClosedBody": "وظیفه بسته شد و مرحلهٔ دیگری ندارد.",
     "workflowPosition": "جایگاه در گردش‌کار",
     "nodesDone": "{{done}} از {{total}} مرحله",
     "nodesFailed": "{{count}} مرحلهٔ ناموفق",
