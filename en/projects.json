@@ -114,7 +114,7 @@
       "colDue": "Due",
       "colAssignees": "Assignees",
       "colUpdated": "Updated",
-      "assignees": "{{count}} assigned",
+      "noActiveUser": "no active user",
       "noPriority": "—",
       "noDue": "—",
       "priorityFilterAll": "All priorities",
