@@ -354,7 +354,15 @@
       "groupMembers_other": "{{count}} members",
       "clear": "Clear",
       "optional": "Optional",
-      "unstaffedWarning": "Some steps of this workflow go to the task's responsible, and it has no Assign team step. Until someone is set as responsible, those steps wait for nobody. You can still create the task and assign it later."
+      "unstaffedWarning": "Some steps of this workflow go to the task's responsible, and it has no Assign team step. Until someone is set as responsible, those steps wait for nobody. You can still create the task and assign it later.",
+      "firstStepNote": "The first step, “{{step}}”, goes to {{who}}, as the workflow sets it, not to {{person}}.",
+      "firstStepSlot": "{{person}} is recorded as the task's responsible and gets the steps that follow the responsible.",
+      "firstStepNoSlot": "{{person}} is recorded as the task's responsible; no step of this workflow follows the responsible.",
+      "firstStepWho": {
+        "role": "the {{name}} role",
+        "group": "the {{name}} group",
+        "user": "{{name}}"
+      }
     },
     "buttons": {
       "back": "Back",
