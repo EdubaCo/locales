@@ -210,9 +210,9 @@
       },
       "condition": "Condition (FEEL)",
       "conditionHint": {
-        "values": "Work takes this path when the condition is true. The step before the gateway sets {{variable}} to one of {{values}}.",
-        "variable": "Work takes this path when the condition is true. The step before the gateway sets {{variable}}.",
-        "generic": "Work takes this path when the condition is true, for example outcome = \"approved\" after a review step."
+        "values": "Work takes this path when the condition is true. The step before the gateway sets <v>{{variable}}</v> to one of <v>{{values}}</v>.",
+        "variable": "Work takes this path when the condition is true. The step before the gateway sets <v>{{variable}}</v>.",
+        "generic": "Work takes this path when the condition is true, for example <v>outcome = \"approved\"</v> after a review step."
       },
       "mappings": "Mappings (FEEL)",
       "mappingDirection": "Direction",
