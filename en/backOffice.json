@@ -12,6 +12,7 @@
     "feedback": "Docs feedback",
     "feedbackNewCount": "{{count}} new submission",
     "feedbackNewCount_other": "{{count}} new submissions",
+    "emailLog": "Outgoing email",
     "packModeration": "Pack moderation",
     "packModerationPendingCount": "{{count}} pending submission",
     "packModerationPendingCount_other": "{{count}} pending submissions",
@@ -640,6 +641,49 @@
       "error": "Could not update the submission."
     }
   },
+  "emailLog": {
+    "title": "Outgoing email",
+    "subtitle": "Every message the app handed to the mail server, with its status and any error.",
+    "note": "“Sent” means the mail server accepted the message, not that it reached the inbox. “Bounced” means a permanent delivery failure was reported afterwards.",
+    "empty": "No email matches these filters.",
+    "error": "Could not load the email log.",
+    "tab": {
+      "all": "All",
+      "sent": "Sent",
+      "failed": "Failed",
+      "bounced": "Bounced"
+    },
+    "status": {
+      "sent": "Sent",
+      "failed": "Failed",
+      "bounced": "Bounced"
+    },
+    "kind": {
+      "invite": "Invite",
+      "invite_resend": "Invite (resent)",
+      "password_reset": "Password reset",
+      "magic_link": "Sign-in link",
+      "notification": "Notification"
+    },
+    "filter": {
+      "recipient": "Search by recipient",
+      "recipientPlaceholder": "Search by recipient…",
+      "apply": "Apply",
+      "clear": "Clear",
+      "kind": "Kind",
+      "allKinds": "All kinds",
+      "tenant": "Workspace",
+      "allTenants": "All workspaces"
+    },
+    "col": {
+      "time": "Time",
+      "status": "Status",
+      "recipient": "Recipient",
+      "kind": "Kind",
+      "tenant": "Workspace",
+      "detail": "Detail"
+    }
+  },
   "packModeration": {
     "title": "Pack moderation",
     "subtitle": "Review public marketplace submissions before they go live.",
@@ -810,5 +854,10 @@
       "rejected": "Request rejected.",
       "error": "Something went wrong. Please try again."
     }
+  },
+  "pager": {
+    "range": "{{first}}–{{last}} of {{total}}",
+    "previous": "Previous page",
+    "next": "Next page"
   }
 }
