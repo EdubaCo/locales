@@ -120,7 +120,7 @@
     "empty": {
       "title": "Start this workflow",
       "firstStep": "Add the first step",
-      "firstStepHint": "Pick a block and drop it on the canvas.",
+      "firstStepHint": "Opens the list of blocks. Click one to add it, or drag it onto the canvas.",
       "describe": "Describe it",
       "describeHint": "The assistant drafts the steps for you to check."
     },
@@ -209,6 +209,11 @@
         "expression": "FEEL rule over each document"
       },
       "condition": "Condition (FEEL)",
+      "conditionHint": {
+        "values": "Work takes this path when the condition is true. The step before the gateway sets {{variable}} to one of {{values}}.",
+        "variable": "Work takes this path when the condition is true. The step before the gateway sets {{variable}}.",
+        "generic": "Work takes this path when the condition is true, for example outcome = \"approved\" after a review step."
+      },
       "mappings": "Mappings (FEEL)",
       "mappingDirection": "Direction",
       "mappingIn": "Input",
@@ -428,6 +433,7 @@
         "invalidFeelCondition": "Invalid FEEL condition: {{error}}",
         "feelConditionOffGateway": "A FEEL condition sits on a flow leaving '{{source}}', which is not an exclusive or inclusive gateway. A FEEL condition is evaluated before its gateway, so put branch conditions on the gateway's outgoing flows (ADR-0049).",
         "gatewayExitUnnamed": "The path from '{{gateway}}' to '{{target}}' has no name. Name it so the diagram shows when this path is taken.",
+        "gatewayExitNoCondition": "The path from '{{gateway}}' to '{{target}}' has no condition and is not the gateway's default path, so you do not decide when work takes it. Give it a condition, or make it the default path.",
         "subflowUnresolved": "Subflow '{{ref}}' could not be resolved to a published revision.",
         "subflowInputUnmapped": "Required input port '{{port}}' of subflow '{{ref}}' is not mapped.",
         "subflowPortUnknown": "Port '{{port}}' is mapped, but subflow '{{ref}}' has no input port with that name.",
