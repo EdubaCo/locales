@@ -178,7 +178,7 @@
       "approved": "Approved",
       "approved_minor": "Approved with comments",
       "commented": "Commented",
-      "rejected": "Rejected — needs revision",
+      "rejected": "Rejected",
       "skipped": "Skipped",
       "retry": "Retry",
       "abandon": "Abandon"
@@ -201,6 +201,8 @@
     "submitErrorEngine": "This step calls a subflow the engine cannot run yet — contact your workflow admin.",
     "submittedTitle": "Submitted",
     "submittedBody": "Your decision has been recorded and the task has advanced.",
+    "submittedClosedTitle": "Decision recorded",
+    "submittedClosedBody": "The task is now closed; no further steps will follow.",
     "workflowPosition": "Workflow position",
     "nodesDone": "{{done}} of {{total}} steps",
     "nodesFailed": "{{count}} step failed",
